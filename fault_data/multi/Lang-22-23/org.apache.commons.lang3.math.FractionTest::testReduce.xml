@@ -1,0 +1,236 @@
+<coverage branch-rate="0.06593406593406594" branches-covered="30" branches-valid="455" complexity="3.4785714285714286" line-rate="0.07669616519174041" lines-covered="52" lines-valid="678" timestamp="1623774259957" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="3.0350877192982457" line-rate="0.0" name="org.apache.commons.lang3">
+			<classes>
+				<class branch-rate="0.0" complexity="3.388888888888889" filename="org/apache/commons/lang3/ObjectUtils.java" line-rate="0.0" name="org.apache.commons.lang3.ObjectUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.388888888888889" filename="org/apache/commons/lang3/ObjectUtils.java" line-rate="0.0" name="org.apache.commons.lang3.ObjectUtils$Null">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.871794871794872" filename="org/apache/commons/lang3/Validate.java" line-rate="0.0" name="org.apache.commons.lang3.Validate">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="0.0" name="org.apache.commons.lang3.exception">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/lang3/exception/CloneFailedException.java" line-rate="0.0" name="org.apache.commons.lang3.exception.CloneFailedException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.1595744680851064" complexity="5.176470588235294" line-rate="0.19923371647509577" name="org.apache.commons.lang3.math">
+			<classes>
+				<class branch-rate="0.1595744680851064" complexity="5.176470588235294" filename="org/apache/commons/lang3/math/Fraction.java" line-rate="0.19923371647509577" name="org.apache.commons.lang3.math.Fraction">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="48" />
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="72" />
+								<line branch="false" hits="1" number="76" />
+								<line branch="false" hits="1" number="80" />
+								<line branch="false" hits="1" number="84" />
+								<line branch="false" hits="1" number="88" />
+								<line branch="false" hits="1" number="92" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(II)V">
+							<lines>
+								<line branch="false" hits="21" number="107" />
+								<line branch="false" hits="21" number="111" />
+								<line branch="false" hits="21" number="115" />
+								<line branch="false" hits="21" number="125" />
+								<line branch="false" hits="21" number="126" />
+								<line branch="false" hits="21" number="127" />
+								<line branch="false" hits="21" number="128" />
+							</lines>
+						</method>
+						<method branch-rate="0.625" line-rate="0.6666666666666666" name="equals" signature="(Ljava/lang/Object;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="839">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="842">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="845" />
+								<line branch="true" condition-coverage="75% (3/4)" hits="2" number="846">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDenominator" signature="()I">
+							<lines>
+								<line branch="false" hits="11" number="378" />
+							</lines>
+						</method>
+						<method branch-rate="0.625" line-rate="0.75" name="getFraction" signature="(II)Lorg/apache/commons/lang3/math/Fraction;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="9" number="143">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="9" number="146">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (2/4)" hits="2" number="147">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="151" />
+								<line branch="false" hits="2" number="152" />
+								<line branch="false" hits="9" number="154" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getNumerator" signature="()I">
+							<lines>
+								<line branch="false" hits="12" number="369" />
+							</lines>
+						</method>
+						<method branch-rate="0.5833333333333334" line-rate="0.8333333333333334" name="greatestCommonDivisor" signature="(II)I">
+							<lines>
+								<line branch="true" condition-coverage="75% (3/4)" hits="6" number="579">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="580" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="586">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="587">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="589" />
+								<line branch="true" condition-coverage="33% (2/6)" hits="5" number="590">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="0%" number="2" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="593">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="598">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="10" number="604">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="10" number="608">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="609" />
+								<line branch="false" hits="5" number="611" />
+								<line branch="false" hits="10" number="614" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="10" number="617">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="618" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="reduce" signature="()Lorg/apache/commons/lang3/math/Fraction;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="8" number="471">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="472">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="474" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="6" number="475">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="476" />
+								<line branch="false" hits="1" number="478" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.9347826086956523" line-rate="0.0" name="org.apache.commons.lang3.text">
+			<classes>
+				<class branch-rate="0.0" complexity="4.578947368421052" filename="org/apache/commons/lang3/text/ExtendedMessageFormat.java" line-rate="0.0" name="org.apache.commons.lang3.text.ExtendedMessageFormat">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/lang3/text/FormatFactory.java" line-rate="1.0" name="org.apache.commons.lang3.text.FormatFactory">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher$CharMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher$CharSetMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher$NoMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher$StringMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher$TrimMatcher">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,149 @@
+--- Overwrite: testObjectCycle
+837c837
+<        
+---
+> 
+840c840
+<         validateEmptyToStringStyleRegistry();
+---
+>         validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionHierarchy
+323c323
+<         
+---
+> 
+335c335
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testSelfInstanceTwoVarsReflectionObjectCycle
+534d533
+<         assertTrue(ToStringStyle.getRegistry().isEmpty());
+536c535
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionArrayCycle
+382c382
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionLongArrayArray
+243c243
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionArrayArrayCycle
+421c421
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionFloatArray
+213c213
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionDoubleArrayArray
+288c288
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionBooleanArray
+222c222
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionyteArray
+186c186
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionDoubleArray
+204c204
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionIntArrayArray
+252c252
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionLongArray
+159c159
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionhortArrayArray
+261c261
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionObjectArray
+150c150
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionObjectCycle
+552c552
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionBooleanArrayArray
+298c298
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testSimpleReflectionObjectCycle
+509d508
+<         assertTrue(ToStringStyle.getRegistry().isEmpty());
+511c510
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionByteArrayArray
+270c270
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionArrayCycleLevel2
+399c399
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionArrayAndObjectCycle
+579c579
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionCharArrayArray
+279c279
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionShortArray
+177c177
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testSelfInstanceVarReflectionObjectCycle
+520d519
+<         assertTrue(ToStringStyle.getRegistry().isEmpty());
+522c521
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionIntArray
+168c168
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionCharArray
+195c195
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();
+--- Overwrite: testReflectionFloatArrayArray
+233c233
+<         this.validateEmptyToStringStyleRegistry();
+---
+>         this.validateNullToStringStyleRegistry();

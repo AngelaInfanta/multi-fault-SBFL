@@ -1,0 +1,574 @@
+<coverage branch-rate="0.009848484848484848" branches-covered="26" branches-valid="2640" complexity="3.956661316211878" line-rate="0.03822405174948545" lines-covered="130" lines-valid="3401" timestamp="1623771475344" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.004522840343735866" complexity="4.810945273631841" line-rate="0.021860095389507155" name="org.apache.commons.lang3">
+			<classes>
+				<class branch-rate="9.433962264150943E-4" complexity="4.219730941704036" filename="org/apache/commons/lang3/ArrayUtils.java" line-rate="0.0170316301703163" name="org.apache.commons.lang3.ArrayUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="49" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="57" />
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="69" />
+								<line branch="false" hits="1" number="73" />
+								<line branch="false" hits="1" number="77" />
+								<line branch="false" hits="1" number="81" />
+								<line branch="false" hits="1" number="85" />
+								<line branch="false" hits="1" number="89" />
+								<line branch="false" hits="1" number="93" />
+								<line branch="false" hits="1" number="97" />
+								<line branch="false" hits="1" number="101" />
+								<line branch="false" hits="1" number="105" />
+								<line branch="false" hits="1" number="109" />
+								<line branch="false" hits="1" number="113" />
+								<line branch="false" hits="1" number="117" />
+								<line branch="false" hits="1" number="121" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="clone" signature="([Ljava/lang/Object;)[Ljava/lang/Object;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="10" number="320">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="10" number="323" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.6" filename="org/apache/commons/lang3/StringEscapeUtils.java" line-rate="0.5" name="org.apache.commons.lang3.StringEscapeUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="72" />
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="109" />
+								<line branch="false" hits="1" number="124" />
+								<line branch="false" hits="1" number="140" />
+								<line branch="false" hits="1" number="183" />
+								<line branch="false" hits="1" number="206" />
+								<line branch="false" hits="1" number="217" />
+								<line branch="false" hits="1" number="233" />
+								<line branch="false" hits="1" number="250" />
+								<line branch="false" hits="1" number="266" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="escapeCsv" signature="(Ljava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="556" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.5" complexity="1.6" filename="org/apache/commons/lang3/StringEscapeUtils.java" line-rate="0.6363636363636364" name="org.apache.commons.lang3.StringEscapeUtils$CsvEscaper">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="149" />
+								<line branch="false" hits="1" number="150" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="145" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.5" name="translate" signature="(Ljava/lang/CharSequence;ILjava/io/Writer;)I">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="156">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="160">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="161" />
+								<line branch="false" hits="1" number="167" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/lang3/StringEscapeUtils.java" line-rate="0.23076923076923078" name="org.apache.commons.lang3.StringEscapeUtils$CsvUnescaper">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="272" />
+								<line branch="false" hits="1" number="273" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="268" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.006145741878841089" complexity="5.908536585365853" filename="org/apache/commons/lang3/StringUtils.java" line-rate="0.008921330089213302" name="org.apache.commons.lang3.StringUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="147" />
+							</lines>
+						</method>
+						<method branch-rate="0.3888888888888889" line-rate="0.5882352941176471" name="containsNone" signature="(Ljava/lang/CharSequence;[C)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="1725">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="1728" />
+								<line branch="false" hits="1" number="1729" />
+								<line branch="false" hits="1" number="1730" />
+								<line branch="false" hits="1" number="1731" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="1732">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="1733" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="10" number="1734">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="8" number="1735">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="1751" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.125" complexity="3.5" line-rate="0.39267015706806285" name="org.apache.commons.lang3.text.translate">
+			<classes>
+				<class branch-rate="0.0" complexity="2.5" filename="org/apache/commons/lang3/text/translate/AggregateTranslator.java" line-rate="0.375" name="org.apache.commons.lang3.text.translate.AggregateTranslator">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="([Lorg/apache/commons/lang3/text/translate/CharSequenceTranslator;)V">
+							<lines>
+								<line branch="false" hits="10" number="40" />
+								<line branch="false" hits="10" number="41" />
+								<line branch="false" hits="10" number="42" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.5" complexity="3.4" filename="org/apache/commons/lang3/text/translate/CharSequenceTranslator.java" line-rate="0.5666666666666667" name="org.apache.commons.lang3.text.translate.CharSequenceTranslator">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="39" number="32" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.42857142857142855" name="translate" signature="(Ljava/lang/CharSequence;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="54">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="59" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.5294117647058824" name="translate" signature="(Ljava/lang/CharSequence;Ljava/io/Writer;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="76">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="79">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="82" />
+								<line branch="false" hits="1" number="83" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="84">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="85" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="86">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="94">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="95" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="with" signature="([Lorg/apache/commons/lang3/text/translate/CharSequenceTranslator;)Lorg/apache/commons/lang3/text/translate/CharSequenceTranslator;">
+							<lines>
+								<line branch="false" hits="2" number="108" />
+								<line branch="false" hits="2" number="109" />
+								<line branch="false" hits="2" number="110" />
+								<line branch="false" hits="2" number="111" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/lang3/text/translate/CodePointTranslator.java" line-rate="0.16666666666666666" name="org.apache.commons.lang3.text.translate.CodePointTranslator">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="2" number="29" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0909090909090908" filename="org/apache/commons/lang3/text/translate/EntityArrays.java" line-rate="0.9615384615384616" name="org.apache.commons.lang3.text.translate.EntityArrays">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="35" />
+								<line branch="false" hits="1" number="139" />
+								<line branch="false" hits="1" number="148" />
+								<line branch="false" hits="1" number="350" />
+								<line branch="false" hits="1" number="359" />
+								<line branch="false" hits="1" number="371" />
+								<line branch="false" hits="1" number="378" />
+								<line branch="false" hits="1" number="387" />
+								<line branch="false" hits="1" number="396" />
+								<line branch="false" hits="1" number="409" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="APOS_ESCAPE" signature="()[[Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="377" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="APOS_UNESCAPE" signature="()[[Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="386" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="BASIC_ESCAPE" signature="()[[Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="3" number="358" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="BASIC_UNESCAPE" signature="()[[Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="3" number="370" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="HTML40_EXTENDED_ESCAPE" signature="()[[Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="147" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="HTML40_EXTENDED_UNESCAPE" signature="()[[Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="349" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="ISO8859_1_ESCAPE" signature="()[[Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="2" number="34" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="ISO8859_1_UNESCAPE" signature="()[[Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="2" number="138" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="JAVA_CTRL_CHARS_ESCAPE" signature="()[[Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="2" number="395" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="JAVA_CTRL_CHARS_UNESCAPE" signature="()[[Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="408" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="invert" signature="([[Ljava/lang/String;)[[Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="5" number="417" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="262" number="418">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="257" number="419" />
+								<line branch="false" hits="257" number="420" />
+								<line branch="false" hits="5" number="422" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.5" complexity="5.0" filename="org/apache/commons/lang3/text/translate/LookupTranslator.java" line-rate="0.6" name="org.apache.commons.lang3.text.translate.LookupTranslator">
+					<methods>
+						<method branch-rate="0.875" line-rate="1.0" name="&lt;init&gt;" signature="([[Ljava/lang/CharSequence;)V">
+							<lines>
+								<line branch="false" hits="20" number="40" />
+								<line branch="false" hits="20" number="41" />
+								<line branch="false" hits="20" number="42" />
+								<line branch="false" hits="20" number="43" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="20" number="44">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="757" number="45">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="737" number="46" />
+								<line branch="false" hits="737" number="47" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="737" number="48">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="31" number="49" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="737" number="51">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="27" number="52" />
+								<line branch="false" hits="20" number="56" />
+								<line branch="false" hits="20" number="57" />
+								<line branch="false" hits="20" number="58" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.020833333333333332" complexity="10.666666666666666" filename="org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java" line-rate="0.10256410256410256" name="org.apache.commons.lang3.text.translate.NumericEntityUnescaper">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8" name="&lt;init&gt;" signature="([Lorg/apache/commons/lang3/text/translate/NumericEntityUnescaper$OPTION;)V">
+							<lines>
+								<line branch="false" hits="3" number="56" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="57">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="60" />
+								<line branch="false" hits="3" number="62" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="10.666666666666666" filename="org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java" line-rate="1.0" name="org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="5" number="35" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="8.0" filename="org/apache/commons/lang3/text/translate/OctalUnescaper.java" line-rate="0.15384615384615385" name="org.apache.commons.lang3.text.translate.OctalUnescaper">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="36" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="34" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5714285714285716" filename="org/apache/commons/lang3/text/translate/UnicodeEscaper.java" line-rate="0.23076923076923078" name="org.apache.commons.lang3.text.translate.UnicodeEscaper">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(IIZ)V">
+							<lines>
+								<line branch="false" hits="2" number="51" />
+								<line branch="false" hits="2" number="52" />
+								<line branch="false" hits="2" number="53" />
+								<line branch="false" hits="2" number="54" />
+								<line branch="false" hits="2" number="55" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="outsideOf" signature="(II)Lorg/apache/commons/lang3/text/translate/UnicodeEscaper;">
+							<lines>
+								<line branch="false" hits="2" number="85" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="13.0" filename="org/apache/commons/lang3/text/translate/UnicodeUnescaper.java" line-rate="0.058823529411764705" name="org.apache.commons.lang3.text.translate.UnicodeUnescaper">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="30" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.2032085561497325" line-rate="0.0" name="org.apache.commons.lang3.time">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/lang3/time/DateParser.java" line-rate="1.0" name="org.apache.commons.lang3.time.DateParser">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/lang3/time/DatePrinter.java" line-rate="1.0" name="org.apache.commons.lang3.time.DatePrinter">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.054054054054054" filename="org/apache/commons/lang3/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateFormat">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.054054054054054" filename="org/apache/commons/lang3/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateFormat$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateParser">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateParser$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateParser$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateParser$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateParser$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateParser$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateParser$CopyQuotedStrategy">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateParser$KeyValue">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateParser$NumberStrategy">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="1.0" name="org.apache.commons.lang3.time.FastDateParser$Strategy">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateParser$TextStrategy">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.3" filename="org/apache/commons/lang3/time/FastDateParser.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDateParser$TimeZoneStrategy">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$CharacterLiteral">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="1.0" name="org.apache.commons.lang3.time.FastDatePrinter$NumberRule">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$PaddedNumberField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="1.0" name="org.apache.commons.lang3.time.FastDatePrinter$Rule">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$StringLiteral">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$TextField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$TimeZoneDisplayKey">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$TimeZoneNameRule">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$TimeZoneNumberRule">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$TwelveHourField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$TwentyFourHourField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$TwoDigitMonthField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$TwoDigitNumberField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$TwoDigitYearField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$UnpaddedMonthField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2266666666666666" filename="org/apache/commons/lang3/time/FastDatePrinter.java" line-rate="0.0" name="org.apache.commons.lang3.time.FastDatePrinter$UnpaddedNumberField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/apache/commons/lang3/time/FormatCache.java" line-rate="0.0" name="org.apache.commons.lang3.time.FormatCache">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/apache/commons/lang3/time/FormatCache.java" line-rate="0.0" name="org.apache.commons.lang3.time.FormatCache$MultipartKey">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

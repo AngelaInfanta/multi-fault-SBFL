@@ -1,0 +1,15 @@
+--- Overwrite: testJoin_ArrayChar
+223a224
+>         assertEquals("null", StringUtils.join(NULL_TO_STRING_LIST,'/', 0, 1));
+--- Overwrite: testJoin_Objectarray
+206c206,211
+<         assertEquals(null, StringUtils.join(null));
+---
+> //        assertEquals(null, StringUtils.join(null)); // generates warning
+>         assertEquals(null, StringUtils.join((Object[]) null)); // equivalent explicit cast
+>         // test additional varargs calls
+>         assertEquals("", StringUtils.join()); // empty array
+>         assertEquals("", StringUtils.join((Object) null)); // => new Object[]{null}
+> 
+208a214
+>         assertEquals("null", StringUtils.join(NULL_TO_STRING_LIST));

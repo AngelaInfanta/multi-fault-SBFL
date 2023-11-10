@@ -1,0 +1,8 @@
+--- Overwrite: testBadEndpoints
+331a332,337
+>         try {  // no bracket
+>             solver.solve(f, 1, 1.5, 1.2);
+>             fail("Expecting IllegalArgumentException - non-bracketing");
+>         } catch (IllegalArgumentException ex) {
+>             // expected
+>         }

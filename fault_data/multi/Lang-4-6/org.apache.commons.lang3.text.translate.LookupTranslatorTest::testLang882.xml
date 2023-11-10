@@ -1,0 +1,138 @@
+<coverage branch-rate="0.0037297969332780773" branches-covered="9" branches-valid="2413" complexity="4.70575221238938" line-rate="0.008164714235001775" lines-covered="23" lines-valid="2817" timestamp="1623770920017" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="4.803827751196172" line-rate="0.0" name="org.apache.commons.lang3">
+			<classes>
+				<class branch-rate="0.0" complexity="4.228699551569507" filename="org/apache/commons/lang3/ArrayUtils.java" line-rate="0.0" name="org.apache.commons.lang3.ArrayUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.6" filename="org/apache/commons/lang3/StringEscapeUtils.java" line-rate="0.0" name="org.apache.commons.lang3.StringEscapeUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/lang3/StringEscapeUtils.java" line-rate="0.0" name="org.apache.commons.lang3.StringEscapeUtils$CsvEscaper">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/lang3/StringEscapeUtils.java" line-rate="0.0" name="org.apache.commons.lang3.StringEscapeUtils$CsvUnescaper">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.783333333333333" filename="org/apache/commons/lang3/StringUtils.java" line-rate="0.0" name="org.apache.commons.lang3.StringUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0703125" complexity="3.5" line-rate="0.12041884816753927" name="org.apache.commons.lang3.text.translate">
+			<classes>
+				<class branch-rate="0.0" complexity="2.5" filename="org/apache/commons/lang3/text/translate/AggregateTranslator.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.AggregateTranslator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/apache/commons/lang3/text/translate/CharSequenceTranslator.java" line-rate="0.03333333333333333" name="org.apache.commons.lang3.text.translate.CharSequenceTranslator">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="32" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/lang3/text/translate/CodePointTranslator.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.CodePointTranslator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0909090909090908" filename="org/apache/commons/lang3/text/translate/EntityArrays.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.EntityArrays">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.6428571428571429" complexity="5.0" filename="org/apache/commons/lang3/text/translate/LookupTranslator.java" line-rate="0.88" name="org.apache.commons.lang3.text.translate.LookupTranslator">
+					<methods>
+						<method branch-rate="0.625" line-rate="1.0" name="&lt;init&gt;" signature="([[Ljava/lang/CharSequence;)V">
+							<lines>
+								<line branch="false" hits="1" number="40" />
+								<line branch="false" hits="1" number="41" />
+								<line branch="false" hits="1" number="42" />
+								<line branch="false" hits="1" number="43" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="44">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="45">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="46" />
+								<line branch="false" hits="1" number="47" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="48">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="49" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="51">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="57" />
+								<line branch="false" hits="1" number="58" />
+							</lines>
+						</method>
+						<method branch-rate="0.6666666666666666" line-rate="0.7" name="translate" signature="(Ljava/lang/CharSequence;ILjava/io/Writer;)I">
+							<lines>
+								<line branch="false" hits="1" number="65" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="66">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="70">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="71" />
+								<line branch="false" hits="1" number="72" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="73">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="78" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="10.666666666666666" filename="org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.NumericEntityUnescaper">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="10.666666666666666" filename="org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.NumericEntityUnescaper$OPTION">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="8.0" filename="org/apache/commons/lang3/text/translate/OctalUnescaper.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.OctalUnescaper">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5714285714285716" filename="org/apache/commons/lang3/text/translate/UnicodeEscaper.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.UnicodeEscaper">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="13.0" filename="org/apache/commons/lang3/text/translate/UnicodeUnescaper.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.UnicodeUnescaper">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,37 @@
+--- Insert: testValidDefine
+960a961,980
+>   public void testValidDefine() {
+>     assertTrue(testValidDefineValue("1"));
+>     assertTrue(testValidDefineValue("-3"));
+>     assertTrue(testValidDefineValue("true"));
+>     assertTrue(testValidDefineValue("false"));
+>     assertTrue(testValidDefineValue("'foo'"));
+>     
+>     assertFalse(testValidDefineValue("x"));
+>     assertFalse(testValidDefineValue("null"));
+>     assertFalse(testValidDefineValue("undefined"));
+>     assertFalse(testValidDefineValue("NaN"));
+>     
+>     assertTrue(testValidDefineValue("!true"));
+>     assertTrue(testValidDefineValue("-true"));
+>     assertTrue(testValidDefineValue("1 & 8"));
+>     assertTrue(testValidDefineValue("1 + 8"));
+>     assertTrue(testValidDefineValue("'a' + 'b'"));
+> 
+>     assertFalse(testValidDefineValue("1 & foo"));
+>   }
+--- Insert: testOverridingString1
+283a284,288
+>   public void testOverridingString1() {
+>     test(
+>         "/** @define {string} */ var DEF_OVERRIDE_STRING = 'x' + 'y';",
+>         "var DEF_OVERRIDE_STRING=\"x\" + \"y\"");
+>   }  
+--- Insert: testOverridingString3
+288a289,294
+>   public void testOverridingString3() {
+>     overrides.put("DEF_OVERRIDE_STRING", Node.newString("foo"));
+>     test(
+>         "/** @define {string} */ var DEF_OVERRIDE_STRING = 'x' + 'y';",
+>         "var DEF_OVERRIDE_STRING=\"foo\"");
+>   }

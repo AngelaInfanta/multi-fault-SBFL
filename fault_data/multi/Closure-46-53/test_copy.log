@@ -1,0 +1,28 @@
+--- Overwrite: testRecordTypeLeastSuperType2
+2719c2719
+<     JSType subRecordType = builder.build();
+---
+>     JSType otherRecordType = builder.build();
+2721,2726c2721,2723
+<     JSType leastSupertype = recordType.getLeastSupertype(subRecordType);
+< 
+<     builder = new RecordTypeBuilder(registry);
+<     builder.addProperty("b", STRING_TYPE, null);
+< 
+<     assertTypeEquals(leastSupertype, builder.build());
+---
+>     assertTypeEquals(
+>         registry.createUnionType(recordType, otherRecordType),
+>         recordType.getLeastSupertype(otherRecordType));
+--- Overwrite: testRecordTypeLeastSuperType3
+2731c2731
+<     JSType subRecordType = builder.build();
+---
+>     JSType otherRecordType = builder.build();
+2733,2734c2733,2735
+<     JSType leastSupertype = recordType.getLeastSupertype(subRecordType);
+<     assertTypeEquals(leastSupertype, OBJECT_TYPE);
+---
+>     assertTypeEquals(
+>         registry.createUnionType(recordType, otherRecordType),
+>         recordType.getLeastSupertype(otherRecordType));

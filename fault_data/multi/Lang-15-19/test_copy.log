@@ -1,0 +1,29 @@
+--- Overwrite: testGetTypeArguments
+501a502,506
+> 
+>         typeVarAssigns = TypeUtils.getTypeArguments(Other.class, This.class);
+>         Assert.assertEquals(2, typeVarAssigns.size());
+>         Assert.assertEquals(String.class, typeVarAssigns.get(This.class.getTypeParameters()[0]));
+>         Assert.assertEquals(Other.class.getTypeParameters()[0], typeVarAssigns.get(This.class.getTypeParameters()[1]));
+--- Overwrite: testIsAssignable
+344c344,345
+<         Assert.assertTrue("WRONG!", TypeUtils.isAssignable(dingType, disType));
+---
+>         Assert.assertFalse(String.format("type %s not assignable to %s!", dingType, disType),
+>                 TypeUtils.isAssignable(dingType, disType));
+377c378
+<         lo = new Integer(0);
+---
+>         lo = Integer.valueOf(0);
+381c382
+<         // lngW = new Integer( 0 );
+---
+>         // lngW = Integer.valueOf( 0 );
+383c384
+<         in = new Integer(0);
+---
+>         in = Integer.valueOf(0);
+398c399
+<         // longComparable = new Integer( 0 );
+---
+>         // longComparable = Integer.valueOf( 0 );

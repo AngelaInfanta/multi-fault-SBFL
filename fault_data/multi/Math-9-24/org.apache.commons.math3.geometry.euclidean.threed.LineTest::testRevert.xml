@@ -1,0 +1,518 @@
+<coverage branch-rate="0.0023219814241486067" branches-covered="3" branches-valid="1292" complexity="3.3669467787114846" line-rate="0.043700787401574806" lines-covered="111" lines-valid="2540" timestamp="1624294474804" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.5625" line-rate="0.0" name="org.apache.commons.math3.analysis">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/analysis/DifferentiableUnivariateFunction.java" line-rate="1.0" name="org.apache.commons.math3.analysis.DifferentiableUnivariateFunction">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$10">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$11">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$12">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$13">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$14">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$14$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$15">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$3$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$6">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$6$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$7">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$8">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$9">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math3/analysis/FunctionUtils.java" line-rate="0.0" name="org.apache.commons.math3.analysis.FunctionUtils$9$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/analysis/MultivariateFunction.java" line-rate="1.0" name="org.apache.commons.math3.analysis.MultivariateFunction">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/analysis/UnivariateFunction.java" line-rate="1.0" name="org.apache.commons.math3.analysis.UnivariateFunction">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math3.analysis.differentiation">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/analysis/differentiation/UnivariateDifferentiable.java" line-rate="1.0" name="org.apache.commons.math3.analysis.differentiation.UnivariateDifferentiable">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.0" line-rate="0.0" name="org.apache.commons.math3.analysis.function">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/analysis/function/Sin.java" line-rate="0.0" name="org.apache.commons.math3.analysis.function.Sin">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.0" filename="org/apache/commons/math3/analysis/function/StepFunction.java" line-rate="0.0" name="org.apache.commons.math3.analysis.function.StepFunction">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.1020408163265305" line-rate="0.0" name="org.apache.commons.math3.exception">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/DimensionMismatchException.java" line-rate="0.0" name="org.apache.commons.math3.exception.DimensionMismatchException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/MathArithmeticException.java" line-rate="0.0" name="org.apache.commons.math3.exception.MathArithmeticException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/MathIllegalArgumentException.java" line-rate="0.0" name="org.apache.commons.math3.exception.MathIllegalArgumentException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/MathIllegalNumberException.java" line-rate="0.0" name="org.apache.commons.math3.exception.MathIllegalNumberException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/MathIllegalStateException.java" line-rate="0.0" name="org.apache.commons.math3.exception.MathIllegalStateException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/MathInternalError.java" line-rate="0.0" name="org.apache.commons.math3.exception.MathInternalError">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/MaxCountExceededException.java" line-rate="0.0" name="org.apache.commons.math3.exception.MaxCountExceededException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/NoDataException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NoDataException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math3/exception/NonMonotonicSequenceException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NonMonotonicSequenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/NotPositiveException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NotPositiveException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/NotStrictlyPositiveException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NotStrictlyPositiveException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/NullArgumentException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NullArgumentException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.25" filename="org/apache/commons/math3/exception/NumberIsTooLargeException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NumberIsTooLargeException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.25" filename="org/apache/commons/math3/exception/NumberIsTooSmallException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NumberIsTooSmallException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/TooManyEvaluationsException.java" line-rate="0.0" name="org.apache.commons.math3.exception.TooManyEvaluationsException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math3.exception.util">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/util/ExceptionContextProvider.java" line-rate="1.0" name="org.apache.commons.math3.exception.util.ExceptionContextProvider">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/util/Localizable.java" line-rate="1.0" name="org.apache.commons.math3.exception.util.Localizable">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math3.geometry">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/geometry/Space.java" line-rate="1.0" name="org.apache.commons.math3.geometry.Space">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/geometry/Vector.java" line-rate="1.0" name="org.apache.commons.math3.geometry.Vector">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.015151515151515152" complexity="1.7777777777777777" line-rate="0.2275132275132275" name="org.apache.commons.math3.geometry.euclidean.threed">
+			<classes>
+				<class branch-rate="0.0625" complexity="1.8823529411764706" filename="org/apache/commons/math3/geometry/euclidean/threed/Line.java" line-rate="0.22448979591836735" name="org.apache.commons.math3.geometry.euclidean.threed.Line">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;)V">
+							<lines>
+								<line branch="false" hits="2" number="56" />
+								<line branch="false" hits="2" number="57" />
+								<line branch="false" hits="2" number="58" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDirection" signature="()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;">
+							<lines>
+								<line branch="false" hits="2" number="101" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8571428571428571" name="reset" signature="(Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;)V">
+							<lines>
+								<line branch="false" hits="2" number="76" />
+								<line branch="false" hits="2" number="77" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="78">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="81" />
+								<line branch="false" hits="2" number="82" />
+								<line branch="false" hits="2" number="83" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="0.3333333333333333" name="revert" signature="()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;">
+							<lines>
+								<line branch="false" hits="1" number="90" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7391304347826086" filename="org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java" line-rate="0.22857142857142856" name="org.apache.commons.math3.geometry.euclidean.threed.Vector3D">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="41" />
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="47" />
+								<line branch="false" hits="1" number="50" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="59" />
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="71" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(DDD)V">
+							<lines>
+								<line branch="false" hits="16" number="95" />
+								<line branch="false" hits="16" number="96" />
+								<line branch="false" hits="16" number="97" />
+								<line branch="false" hits="16" number="98" />
+								<line branch="false" hits="16" number="99" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(DLorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;)V">
+							<lines>
+								<line branch="false" hits="2" number="137" />
+								<line branch="false" hits="2" number="138" />
+								<line branch="false" hits="2" number="139" />
+								<line branch="false" hits="2" number="140" />
+								<line branch="false" hits="2" number="141" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(DLorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;DLorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;)V">
+							<lines>
+								<line branch="false" hits="2" number="151" />
+								<line branch="false" hits="2" number="152" />
+								<line branch="false" hits="2" number="153" />
+								<line branch="false" hits="2" number="154" />
+								<line branch="false" hits="2" number="155" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="dotProduct" signature="(Lorg/apache/commons/math3/geometry/Vector;)D">
+							<lines>
+								<line branch="false" hits="2" number="453" />
+								<line branch="false" hits="2" number="454" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getNormSq" signature="()D">
+							<lines>
+								<line branch="false" hits="2" number="249" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="negate" signature="()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;">
+							<lines>
+								<line branch="false" hits="1" number="374" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="subtract" signature="(Lorg/apache/commons/math3/geometry/Vector;)Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;">
+							<lines>
+								<line branch="false" hits="3" number="286" />
+								<line branch="false" hits="3" number="287" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="toArray" signature="()[D">
+							<lines>
+								<line branch="false" hits="2" number="222" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math3.geometry.partitioning">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/geometry/partitioning/Embedding.java" line-rate="1.0" name="org.apache.commons.math3.geometry.partitioning.Embedding">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="0.0" name="org.apache.commons.math3.optimization">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/optimization/BaseOptimizer.java" line-rate="1.0" name="org.apache.commons.math3.optimization.BaseOptimizer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/optimization/ConvergenceChecker.java" line-rate="1.0" name="org.apache.commons.math3.optimization.ConvergenceChecker">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="org/apache/commons/math3/optimization/GoalType.java" line-rate="0.0" name="org.apache.commons.math3.optimization.GoalType">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.3333333333333335" line-rate="0.0" name="org.apache.commons.math3.optimization.univariate">
+			<classes>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java" line-rate="0.0" name="org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/optimization/univariate/BaseUnivariateOptimizer.java" line-rate="1.0" name="org.apache.commons.math3.optimization.univariate.BaseUnivariateOptimizer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="11.75" filename="org/apache/commons/math3/optimization/univariate/BrentOptimizer.java" line-rate="0.0" name="org.apache.commons.math3.optimization.univariate.BrentOptimizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="org/apache/commons/math3/optimization/univariate/UnivariateOptimizer.java" line-rate="1.0" name="org.apache.commons.math3.optimization.univariate.UnivariateOptimizer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java" line-rate="0.0" name="org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0018552875695732839" complexity="6.108695652173913" line-rate="0.03497942386831276" name="org.apache.commons.math3.util">
+			<classes>
+				<class branch-rate="0.0" complexity="8.105263157894736" filename="org/apache/commons/math3/util/FastMath.java" line-rate="0.008971704623878536" name="org.apache.commons.math3.util.FastMath">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="113" />
+								<line branch="false" hits="1" number="126" />
+								<line branch="false" hits="1" number="139" />
+								<line branch="false" hits="1" number="158" />
+								<line branch="false" hits="1" number="177" />
+								<line branch="false" hits="1" number="196" />
+								<line branch="false" hits="1" number="216" />
+								<line branch="false" hits="1" number="235" />
+								<line branch="false" hits="1" number="254" />
+								<line branch="false" hits="1" number="275" />
+								<line branch="false" hits="1" number="283" />
+								<line branch="false" hits="1" number="286" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="sqrt" signature="(D)D">
+							<lines>
+								<line branch="false" hits="2" number="375" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="8.105263157894736" filename="org/apache/commons/math3/util/FastMath.java" line-rate="0.0" name="org.apache.commons.math3.util.FastMath$CodyWaite">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="8.105263157894736" filename="org/apache/commons/math3/util/FastMath.java" line-rate="0.0" name="org.apache.commons.math3.util.FastMath$ExpFracTable">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="8.105263157894736" filename="org/apache/commons/math3/util/FastMath.java" line-rate="0.0" name="org.apache.commons.math3.util.FastMath$ExpIntTable">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="8.105263157894736" filename="org/apache/commons/math3/util/FastMath.java" line-rate="0.0" name="org.apache.commons.math3.util.FastMath$lnMant">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4166666666666667" filename="org/apache/commons/math3/util/Incrementor.java" line-rate="0.0" name="org.apache.commons.math3.util.Incrementor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.4166666666666667" filename="org/apache/commons/math3/util/Incrementor.java" line-rate="0.0" name="org.apache.commons.math3.util.Incrementor$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.4166666666666667" filename="org/apache/commons/math3/util/Incrementor.java" line-rate="1.0" name="org.apache.commons.math3.util.Incrementor$MaxCountExceededCallback">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.011235955056179775" complexity="4.793103448275862" filename="org/apache/commons/math3/util/MathArrays.java" line-rate="0.16516516516516516" name="org.apache.commons.math3.util.MathArrays">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.9565217391304348" name="linearCombination" signature="(DDDD)D">
+							<lines>
+								<line branch="false" hits="6" number="674" />
+								<line branch="false" hits="6" number="675" />
+								<line branch="false" hits="6" number="676" />
+								<line branch="false" hits="6" number="677" />
+								<line branch="false" hits="6" number="678" />
+								<line branch="false" hits="6" number="679" />
+								<line branch="false" hits="6" number="682" />
+								<line branch="false" hits="6" number="683" />
+								<line branch="false" hits="6" number="686" />
+								<line branch="false" hits="6" number="687" />
+								<line branch="false" hits="6" number="688" />
+								<line branch="false" hits="6" number="689" />
+								<line branch="false" hits="6" number="690" />
+								<line branch="false" hits="6" number="691" />
+								<line branch="false" hits="6" number="694" />
+								<line branch="false" hits="6" number="695" />
+								<line branch="false" hits="6" number="698" />
+								<line branch="false" hits="6" number="699" />
+								<line branch="false" hits="6" number="700" />
+								<line branch="false" hits="6" number="704" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="706">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="712" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.9705882352941176" name="linearCombination" signature="(DDDDDD)D">
+							<lines>
+								<line branch="false" hits="2" number="754" />
+								<line branch="false" hits="2" number="755" />
+								<line branch="false" hits="2" number="756" />
+								<line branch="false" hits="2" number="757" />
+								<line branch="false" hits="2" number="758" />
+								<line branch="false" hits="2" number="759" />
+								<line branch="false" hits="2" number="762" />
+								<line branch="false" hits="2" number="763" />
+								<line branch="false" hits="2" number="766" />
+								<line branch="false" hits="2" number="767" />
+								<line branch="false" hits="2" number="768" />
+								<line branch="false" hits="2" number="769" />
+								<line branch="false" hits="2" number="770" />
+								<line branch="false" hits="2" number="771" />
+								<line branch="false" hits="2" number="774" />
+								<line branch="false" hits="2" number="775" />
+								<line branch="false" hits="2" number="778" />
+								<line branch="false" hits="2" number="779" />
+								<line branch="false" hits="2" number="780" />
+								<line branch="false" hits="2" number="781" />
+								<line branch="false" hits="2" number="782" />
+								<line branch="false" hits="2" number="783" />
+								<line branch="false" hits="2" number="786" />
+								<line branch="false" hits="2" number="787" />
+								<line branch="false" hits="2" number="790" />
+								<line branch="false" hits="2" number="791" />
+								<line branch="false" hits="2" number="792" />
+								<line branch="false" hits="2" number="795" />
+								<line branch="false" hits="2" number="796" />
+								<line branch="false" hits="2" number="797" />
+								<line branch="false" hits="2" number="801" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="803">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="809" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.793103448275862" filename="org/apache/commons/math3/util/MathArrays.java" line-rate="0.0" name="org.apache.commons.math3.util.MathArrays$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.793103448275862" filename="org/apache/commons/math3/util/MathArrays.java" line-rate="0.0" name="org.apache.commons.math3.util.MathArrays$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.793103448275862" filename="org/apache/commons/math3/util/MathArrays.java" line-rate="0.0" name="org.apache.commons.math3.util.MathArrays$OrderDirection">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.380952380952381" filename="org/apache/commons/math3/util/Precision.java" line-rate="0.0" name="org.apache.commons.math3.util.Precision">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

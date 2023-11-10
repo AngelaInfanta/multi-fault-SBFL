@@ -1,0 +1,5 @@
+--- Overwrite: testReciprocalZero
+334c334
+<         Assert.assertEquals(Complex.ZERO.reciprocal(), Complex.NaN);
+---
+>         Assert.assertEquals(Complex.ZERO.reciprocal(), Complex.INF);

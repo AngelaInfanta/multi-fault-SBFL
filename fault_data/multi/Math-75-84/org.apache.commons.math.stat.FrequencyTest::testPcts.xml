@@ -1,0 +1,264 @@
+<coverage branch-rate="0.12903225806451613" branches-covered="16" branches-valid="124" complexity="1.8454545454545455" line-rate="0.1387434554973822" lines-covered="53" lines-valid="382" timestamp="1624316502721" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.1935483870967742" line-rate="0.0" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.0" name="org.apache.commons.math.ConvergenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/FunctionEvaluationException.java" line-rate="0.0" name="org.apache.commons.math.FunctionEvaluationException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math/MathException.java" line-rate="0.0" name="org.apache.commons.math.MathException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/MaxEvaluationsExceededException.java" line-rate="0.0" name="org.apache.commons.math.MaxEvaluationsExceededException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/MaxIterationsExceededException.java" line-rate="0.0" name="org.apache.commons.math.MaxIterationsExceededException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math.analysis">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/MultivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.MultivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.1" line-rate="0.0" name="org.apache.commons.math.optimization">
+			<classes>
+				<class branch-rate="1.0" complexity="0.0" filename="org/apache/commons/math/optimization/GoalType.java" line-rate="0.0" name="org.apache.commons.math.optimization.GoalType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/optimization/MultivariateRealOptimizer.java" line-rate="1.0" name="org.apache.commons.math.optimization.MultivariateRealOptimizer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/optimization/OptimizationException.java" line-rate="0.0" name="org.apache.commons.math.optimization.OptimizationException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/optimization/RealConvergenceChecker.java" line-rate="1.0" name="org.apache.commons.math.optimization.RealConvergenceChecker">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.2" filename="org/apache/commons/math/optimization/RealPointValuePair.java" line-rate="0.0" name="org.apache.commons.math.optimization.RealPointValuePair">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="org/apache/commons/math/optimization/SimpleScalarValueChecker.java" line-rate="0.0" name="org.apache.commons.math.optimization.SimpleScalarValueChecker">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.8260869565217392" line-rate="0.0" name="org.apache.commons.math.optimization.direct">
+			<classes>
+				<class branch-rate="0.0" complexity="2.8421052631578947" filename="org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java" line-rate="0.0" name="org.apache.commons.math.optimization.direct.DirectSearchOptimizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.8421052631578947" filename="org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java" line-rate="0.0" name="org.apache.commons.math.optimization.direct.DirectSearchOptimizer$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.75" filename="org/apache/commons/math/optimization/direct/MultiDirectional.java" line-rate="0.0" name="org.apache.commons.math.optimization.direct.MultiDirectional">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.3333333333333333" complexity="2.2285714285714286" line-rate="0.40458015267175573" name="org.apache.commons.math.stat">
+			<classes>
+				<class branch-rate="0.3333333333333333" complexity="2.2285714285714286" filename="org/apache/commons/math/stat/Frequency.java" line-rate="0.3953488372093023" name="org.apache.commons.math.stat.Frequency">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="59" />
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="61" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="addValue" signature="(I)V">
+							<lines>
+								<line branch="false" hits="4" number="158" />
+								<line branch="false" hits="4" number="159" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="addValue" signature="(J)V">
+							<lines>
+								<line branch="false" hits="4" number="176" />
+								<line branch="false" hits="4" number="177" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.7272727272727273" name="addValue" signature="(Ljava/lang/Comparable;)V">
+							<lines>
+								<line branch="false" hits="8" number="133" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="8" number="134">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="138" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="8" number="139">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="140" />
+								<line branch="false" hits="5" number="142" />
+								<line branch="false" hits="8" number="149" />
+								<line branch="false" hits="8" number="150" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.7777777777777778" name="getCount" signature="(Ljava/lang/Comparable;)J">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="243">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="246" />
+								<line branch="false" hits="3" number="248" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="249">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="250" />
+								<line branch="false" hits="3" number="254" />
+								<line branch="false" hits="3" number="255" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getCumFreq" signature="(J)J">
+							<lines>
+								<line branch="false" hits="1" number="443" />
+							</lines>
+						</method>
+						<method branch-rate="0.4375" line-rate="0.5384615384615384" name="getCumFreq" signature="(Ljava/lang/Comparable;)J">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="381">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="384">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="385" />
+								<line branch="false" hits="1" number="387" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="388">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="389" />
+								<line branch="false" hits="1" number="391" />
+								<line branch="false" hits="1" number="394" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="395">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="396" />
+								<line branch="false" hits="1" number="400" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="402">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="406">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="407" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="getCumPct" signature="(Ljava/lang/Comparable;)D">
+							<lines>
+								<line branch="false" hits="1" number="490" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="491">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="494" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getPct" signature="(I)D">
+							<lines>
+								<line branch="false" hits="1" number="330" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getPct" signature="(J)D">
+							<lines>
+								<line branch="false" hits="1" number="341" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="getPct" signature="(Ljava/lang/Comparable;)D">
+							<lines>
+								<line branch="false" hits="3" number="315" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="316">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="319" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getPct" signature="(Ljava/lang/Object;)D">
+							<lines>
+								<line branch="false" hits="1" number="302" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getSumFreq" signature="()J">
+							<lines>
+								<line branch="false" hits="7" number="214" />
+								<line branch="false" hits="7" number="215" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="28" number="216">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="21" number="217" />
+								<line branch="false" hits="7" number="219" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2285714285714286" filename="org/apache/commons/math/stat/Frequency.java" line-rate="1.0" name="org.apache.commons.math.stat.Frequency$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2285714285714286" filename="org/apache/commons/math/stat/Frequency.java" line-rate="1.0" name="org.apache.commons.math.stat.Frequency$NaturalComparator">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/apache/commons/math/stat/Frequency$1;)V">
+							<lines>
+								<line branch="false" hits="4" number="540" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="compare" signature="(Ljava/lang/Comparable;Ljava/lang/Comparable;)I">
+							<lines>
+								<line branch="false" hits="2" number="560" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

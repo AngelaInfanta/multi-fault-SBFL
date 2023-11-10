@@ -1,0 +1,3 @@
+org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegratorTest::polynomial
+org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMinimizeMaximize
+org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMath283

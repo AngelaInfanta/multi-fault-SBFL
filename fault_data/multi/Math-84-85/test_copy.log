@@ -1,0 +1,85 @@
+--- Overwrite: testMinimizeMaximize
+73a74
+>   @Test
+96c97
+<       optimizer.setConvergenceChecker(new SimpleScalarValueChecker(1.0e-10, 1.0e-30));
+---
+>       optimizer.setConvergenceChecker(new SimpleScalarValueChecker(1.0e-11, 1.0e-30));
+103,107c104,108
+<       assertEquals(xM,        optimum.getPoint()[0], 4.0e-6);
+<       assertEquals(yP,        optimum.getPoint()[1], 3.0e-6);
+<       assertEquals(valueXmYp, optimum.getValue(),    8.0e-13);
+<       assertTrue(optimizer.getEvaluations() > 120);
+<       assertTrue(optimizer.getEvaluations() < 150);
+---
+>       Assert.assertEquals(xM,        optimum.getPoint()[0], 4.0e-6);
+>       Assert.assertEquals(yP,        optimum.getPoint()[1], 3.0e-6);
+>       Assert.assertEquals(valueXmYp, optimum.getValue(),    8.0e-13);
+>       Assert.assertTrue(optimizer.getEvaluations() > 120);
+>       Assert.assertTrue(optimizer.getEvaluations() < 150);
+110,114c111,115
+<       assertEquals(xP,        optimum.getPoint()[0], 2.0e-8);
+<       assertEquals(yM,        optimum.getPoint()[1], 3.0e-6);
+<       assertEquals(valueXpYm, optimum.getValue(),    2.0e-12);              
+<       assertTrue(optimizer.getEvaluations() > 120);
+<       assertTrue(optimizer.getEvaluations() < 150);
+---
+>       Assert.assertEquals(xP,        optimum.getPoint()[0], 2.0e-8);
+>       Assert.assertEquals(yM,        optimum.getPoint()[1], 3.0e-6);
+>       Assert.assertEquals(valueXpYm, optimum.getValue(),    2.0e-12);              
+>       Assert.assertTrue(optimizer.getEvaluations() > 120);
+>       Assert.assertTrue(optimizer.getEvaluations() < 150);
+118,122c119,123
+<       assertEquals(xM,        optimum.getPoint()[0], 7.0e-7);
+<       assertEquals(yM,        optimum.getPoint()[1], 3.0e-7);
+<       assertEquals(valueXmYm, optimum.getValue(),    2.0e-14);
+<       assertTrue(optimizer.getEvaluations() > 120);
+<       assertTrue(optimizer.getEvaluations() < 150);
+---
+>       Assert.assertEquals(xM,        optimum.getPoint()[0], 7.0e-7);
+>       Assert.assertEquals(yM,        optimum.getPoint()[1], 3.0e-7);
+>       Assert.assertEquals(valueXmYm, optimum.getValue(),    2.0e-14);
+>       Assert.assertTrue(optimizer.getEvaluations() > 120);
+>       Assert.assertTrue(optimizer.getEvaluations() < 150);
+123a125
+>       optimizer.setConvergenceChecker(new SimpleScalarValueChecker(1.0e-15, 1.0e-30));
+125,129c127,131
+<       assertEquals(xP,        optimum.getPoint()[0], 2.0e-8);
+<       assertEquals(yP,        optimum.getPoint()[1], 3.0e-6);
+<       assertEquals(valueXpYp, optimum.getValue(),    2.0e-12);
+<       assertTrue(optimizer.getEvaluations() > 120);
+<       assertTrue(optimizer.getEvaluations() < 150);
+---
+>       Assert.assertEquals(xP,        optimum.getPoint()[0], 2.0e-8);
+>       Assert.assertEquals(yP,        optimum.getPoint()[1], 3.0e-6);
+>       Assert.assertEquals(valueXpYp, optimum.getValue(),    2.0e-12);
+>       Assert.assertTrue(optimizer.getEvaluations() > 180);
+>       Assert.assertTrue(optimizer.getEvaluations() < 220);
+--- Insert: testMath283
+197a198,223
+>   @Test
+>   public void testMath283()
+>       throws FunctionEvaluationException, OptimizationException {
+>       // fails because MultiDirectional.iterateSimplex is looping forever
+>       // the while(true) should be replaced with a convergence check
+>       MultiDirectional multiDirectional = new MultiDirectional();
+>       multiDirectional.setMaxIterations(100);
+>       multiDirectional.setMaxEvaluations(1000);
+> 
+>       final Gaussian2D function = new Gaussian2D(0.0, 0.0, 1.0);
+> 
+>       RealPointValuePair estimate = multiDirectional.optimize(function,
+>                                     GoalType.MAXIMIZE, function.getMaximumPosition());
+> 
+>       final double EPSILON = 1e-5;
+> 
+>       final double expectedMaximum = function.getMaximum();
+>       final double actualMaximum = estimate.getValue();
+>       Assert.assertEquals(expectedMaximum, actualMaximum, EPSILON);
+> 
+>       final double[] expectedPosition = function.getMaximumPosition();
+>       final double[] actualPosition = estimate.getPoint();
+>       Assert.assertEquals(expectedPosition[0], actualPosition[0], EPSILON );
+>       Assert.assertEquals(expectedPosition[1], actualPosition[1], EPSILON );
+>       
+>   }

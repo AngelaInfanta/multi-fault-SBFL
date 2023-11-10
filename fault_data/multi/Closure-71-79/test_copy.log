@@ -1,0 +1,14 @@
+--- Overwrite: testNoPrivateAccessForProperties6
+408c408
+<     }, null, PRIVATE_OVERRIDE);
+---
+>     }, null, BAD_PRIVATE_PROPERTY_ACCESS);
+--- Insert: testNoPrivateAccessForProperties8
+723a724,730
+>   public void testNoPrivateAccessForProperties8() {
+>     test(new String[] {
+>       "/** @constructor */ function Foo() { /** @private */ this.bar_ = 3; }",
+>       "/** @constructor \n * @extends {Foo} */ " +
+>       "function SubFoo() { /** @private */ this.bar_ = 3; };"
+>     }, null, PRIVATE_OVERRIDE);
+>   }

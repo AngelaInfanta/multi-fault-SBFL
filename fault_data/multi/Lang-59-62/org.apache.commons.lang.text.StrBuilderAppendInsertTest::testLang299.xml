@@ -1,0 +1,123 @@
+<coverage branch-rate="0.007246376811594203" branches-covered="5" branches-valid="690" complexity="2.9132231404958677" line-rate="0.009700889248181084" lines-covered="12" lines-valid="1237" timestamp="1623790829422" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="2.7916666666666665" line-rate="0.0" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.0" complexity="2.7058823529411766" filename="org/apache/commons/lang/Entities.java" line-rate="0.0" name="org.apache.commons.lang.Entities">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.7058823529411766" filename="org/apache/commons/lang/Entities.java" line-rate="0.0" name="org.apache.commons.lang.Entities$ArrayEntityMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.7058823529411766" filename="org/apache/commons/lang/Entities.java" line-rate="0.0" name="org.apache.commons.lang.Entities$BinaryEntityMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.7058823529411766" filename="org/apache/commons/lang/Entities.java" line-rate="1.0" name="org.apache.commons.lang.Entities$EntityMap">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.7058823529411766" filename="org/apache/commons/lang/Entities.java" line-rate="0.0" name="org.apache.commons.lang.Entities$HashEntityMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.7058823529411766" filename="org/apache/commons/lang/Entities.java" line-rate="0.0" name="org.apache.commons.lang.Entities$LookupEntityMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.7058823529411766" filename="org/apache/commons/lang/Entities.java" line-rate="0.0" name="org.apache.commons.lang.Entities$MapIntMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.7058823529411766" filename="org/apache/commons/lang/Entities.java" line-rate="0.0" name="org.apache.commons.lang.Entities$PrimitiveEntityMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.7058823529411766" filename="org/apache/commons/lang/Entities.java" line-rate="0.0" name="org.apache.commons.lang.Entities$TreeEntityMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/apache/commons/lang/IntHashMap.java" line-rate="0.0" name="org.apache.commons.lang.IntHashMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.0" filename="org/apache/commons/lang/IntHashMap.java" line-rate="0.0" name="org.apache.commons.lang.IntHashMap$Entry">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.008960573476702509" complexity="2.943298969072165" line-rate="0.013318534961154272" name="org.apache.commons.lang.text">
+			<classes>
+				<class branch-rate="0.011467889908256881" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.02" name="org.apache.commons.lang.text.StrBuilder">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8" name="&lt;init&gt;" signature="(I)V">
+							<lines>
+								<line branch="false" hits="1" number="107" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="108">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="1" number="112" />
+							</lines>
+						</method>
+						<method branch-rate="0.375" line-rate="0.5" name="appendFixedWidthPadRight" signature="(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="879">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="880" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="881">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="882" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="883">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="884" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.4" name="ensureCapacity" signature="(I)Lorg/apache/commons/lang/text/StrBuilder;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="228">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="233" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderReader">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderTokenizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderWriter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/lang/text/StrTokenizer.java" line-rate="0.0" name="org.apache.commons.lang.text.StrTokenizer">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

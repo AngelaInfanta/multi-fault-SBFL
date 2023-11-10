@@ -1,0 +1,10 @@
+--- Overwrite: testDigitLimitConstructor
+156a157,159
+>         
+>         // MATH-996
+>         assertFraction(1, 2, new BigFraction(0.5000000001, 10));
+--- Overwrite: testDigitLimitConstructor
+131a132,134
+> 
+>         // MATH-996
+>         assertFraction(1, 2, new Fraction(0.5000000001, 10));

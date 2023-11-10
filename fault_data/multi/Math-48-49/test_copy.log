@@ -1,0 +1,5 @@
+--- Overwrite: testIssue631
+44c44
+<     @Test(expected=TooManyEvaluationsException.class)
+---
+>     @Test(expected=ConvergenceException.class)

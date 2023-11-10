@@ -1,0 +1,577 @@
+<coverage branch-rate="0.0010504201680672268" branches-covered="2" branches-valid="1904" complexity="2.1039933444259566" line-rate="0.006264355815410315" lines-covered="30" lines-valid="4789" timestamp="1624313667669" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.1290322580645162" line-rate="0.049723756906077346" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.0" name="org.apache.commons.math.ConvergenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergingAlgorithm.java" line-rate="1.0" name="org.apache.commons.math.ConvergingAlgorithm">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergingAlgorithmImpl.java" line-rate="0.36" name="org.apache.commons.math.ConvergingAlgorithmImpl">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(ID)V">
+							<lines>
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="62" />
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="69" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/FunctionEvaluationException.java" line-rate="0.0" name="org.apache.commons.math.FunctionEvaluationException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math/MathException.java" line-rate="0.0" name="org.apache.commons.math.MathException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1363636363636365" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1363636363636365" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1363636363636365" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$10">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1363636363636365" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1363636363636365" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1363636363636365" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1363636363636365" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1363636363636365" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$6">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1363636363636365" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$7">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1363636363636365" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$8">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1363636363636365" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$9">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/MaxIterationsExceededException.java" line-rate="0.0" name="org.apache.commons.math.MaxIterationsExceededException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.0151515151515151" line-rate="0.0" name="org.apache.commons.math.analysis">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/BinaryFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.BinaryFunction">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/BinaryFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.BinaryFunction$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/BinaryFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.BinaryFunction$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/BinaryFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.BinaryFunction$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/BinaryFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.BinaryFunction$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/BinaryFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.BinaryFunction$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/BinaryFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.BinaryFunction$6">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/BinaryFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.BinaryFunction$7">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/BinaryFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.BinaryFunction$8">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/BivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.BivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$10">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$11">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$12">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$13">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$14">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$15">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$16">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$17">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$18">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$19">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$20">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$21">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$22">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$23">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$24">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$25">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$26">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$27">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$28">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$29">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$30">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$31">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$32">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$33">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$34">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$35">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$36">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$37">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$6">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$7">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$8">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0196078431372548" filename="org/apache/commons/math/analysis/ComposableFunction.java" line-rate="0.0" name="org.apache.commons.math.analysis.ComposableFunction$9">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/DifferentiableUnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.DifferentiableUnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/MultivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.MultivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.UnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.04" complexity="1.9210526315789473" line-rate="0.19811320754716982" name="org.apache.commons.math.analysis.solvers">
+			<classes>
+				<class branch-rate="0.16666666666666666" complexity="1.8333333333333333" filename="org/apache/commons/math/analysis/solvers/BisectionSolver.java" line-rate="0.43478260869565216" name="org.apache.commons.math.analysis.solvers.BisectionSolver">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="solve" signature="(DD)D">
+							<lines>
+								<line branch="false" hits="1" number="66" />
+							</lines>
+						</method>
+						<method branch-rate="0.16666666666666666" line-rate="0.375" name="solve" signature="(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DD)D">
+							<lines>
+								<line branch="false" hits="1" number="79" />
+								<line branch="false" hits="1" number="80" />
+								<line branch="false" hits="1" number="85" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="86">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="87" />
+								<line branch="false" hits="1" number="88" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="solve" signature="(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D">
+							<lines>
+								<line branch="false" hits="1" number="72" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/solvers/UnivariateRealSolver.java" line-rate="1.0" name="org.apache.commons.math.analysis.solvers.UnivariateRealSolver">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.045454545454545456" complexity="1.875" filename="org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java" line-rate="0.2" name="org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(ID)V">
+							<lines>
+								<line branch="false" hits="1" number="41" />
+								<line branch="false" hits="1" number="93" />
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="95" />
+								<line branch="false" hits="1" number="96" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="clearResult" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="165" />
+								<line branch="false" hits="1" number="166" />
+								<line branch="false" hits="1" number="167" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="verifyInterval" signature="(DD)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="208">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="213" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.2857142857142856" filename="org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java" line-rate="0.03225806451612903" name="org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="midpoint" signature="(DD)D">
+							<lines>
+								<line branch="false" hits="1" number="223" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.2857142857142856" filename="org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java" line-rate="0.0" name="org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils$LazyHolder">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.237603305785124" line-rate="0.0" name="org.apache.commons.math.linear">
+			<classes>
+				<class branch-rate="0.0" complexity="3.041095890410959" filename="org/apache/commons/math/linear/AbstractFieldMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractFieldMatrix">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.041095890410959" filename="org/apache/commons/math/linear/AbstractFieldMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractFieldMatrix$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.041095890410959" filename="org/apache/commons/math/linear/AbstractFieldMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractFieldMatrix$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.041095890410959" filename="org/apache/commons/math/linear/AbstractFieldMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractFieldMatrix$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3823529411764706" filename="org/apache/commons/math/linear/AbstractRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealVector">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3823529411764706" filename="org/apache/commons/math/linear/AbstractRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealVector$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3823529411764706" filename="org/apache/commons/math/linear/AbstractRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealVector$EntryImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3823529411764706" filename="org/apache/commons/math/linear/AbstractRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealVector$SparseEntryIterator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/AnyMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.AnyMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.1470588235294117" filename="org/apache/commons/math/linear/Array2DRowFieldMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.Array2DRowFieldMatrix">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.1470588235294117" filename="org/apache/commons/math/linear/Array2DRowRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.Array2DRowRealMatrix">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.1941747572815533" filename="org/apache/commons/math/linear/ArrayRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.ArrayRealVector">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/BigMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.BigMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.096153846153846" filename="org/apache/commons/math/linear/BlockFieldMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.BlockFieldMatrix">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.111111111111111" filename="org/apache/commons/math/linear/BlockRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.BlockRealMatrix">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/FieldMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.FieldMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/FieldMatrixPreservingVisitor.java" line-rate="1.0" name="org.apache.commons.math.linear.FieldMatrixPreservingVisitor">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/FieldVector.java" line-rate="1.0" name="org.apache.commons.math.linear.FieldVector">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/InvalidMatrixException.java" line-rate="0.0" name="org.apache.commons.math.linear.InvalidMatrixException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/MatrixIndexException.java" line-rate="0.0" name="org.apache.commons.math.linear.MatrixIndexException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.276595744680851" filename="org/apache/commons/math/linear/MatrixUtils.java" line-rate="0.0" name="org.apache.commons.math.linear.MatrixUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.276595744680851" filename="org/apache/commons/math/linear/MatrixUtils.java" line-rate="0.0" name="org.apache.commons.math.linear.MatrixUtils$BigFractionMatrixConverter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.276595744680851" filename="org/apache/commons/math/linear/MatrixUtils.java" line-rate="0.0" name="org.apache.commons.math.linear.MatrixUtils$FractionMatrixConverter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/NonSquareMatrixException.java" line-rate="0.0" name="org.apache.commons.math.linear.NonSquareMatrixException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/math/linear/OpenMapRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.OpenMapRealMatrix">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3285714285714287" filename="org/apache/commons/math/linear/OpenMapRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.OpenMapRealVector">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3285714285714287" filename="org/apache/commons/math/linear/OpenMapRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.OpenMapRealVector$OpenMapEntry">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3285714285714287" filename="org/apache/commons/math/linear/OpenMapRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.OpenMapRealVector$OpenMapSparseIterator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.RealMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealMatrixChangingVisitor.java" line-rate="1.0" name="org.apache.commons.math.linear.RealMatrixChangingVisitor">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealMatrixPreservingVisitor.java" line-rate="1.0" name="org.apache.commons.math.linear.RealMatrixPreservingVisitor">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealVector.java" line-rate="1.0" name="org.apache.commons.math.linear.RealVector">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.RealVector$Entry">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0588235294117645" filename="org/apache/commons/math/linear/RealVectorFormat.java" line-rate="0.0" name="org.apache.commons.math.linear.RealVectorFormat">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="org/apache/commons/math/linear/SparseRealMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.SparseRealMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="org/apache/commons/math/linear/SparseRealVector.java" line-rate="1.0" name="org.apache.commons.math.linear.SparseRealVector">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.189189189189189" line-rate="0.0" name="org.apache.commons.math.util">
+			<classes>
+				<class branch-rate="0.0" complexity="2.875" filename="org/apache/commons/math/util/CompositeFormat.java" line-rate="0.0" name="org.apache.commons.math.util.CompositeFormat">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.2758620689655173" filename="org/apache/commons/math/util/OpenIntToDoubleHashMap.java" line-rate="0.0" name="org.apache.commons.math.util.OpenIntToDoubleHashMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.2758620689655173" filename="org/apache/commons/math/util/OpenIntToDoubleHashMap.java" line-rate="1.0" name="org.apache.commons.math.util.OpenIntToDoubleHashMap$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.2758620689655173" filename="org/apache/commons/math/util/OpenIntToDoubleHashMap.java" line-rate="0.0" name="org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

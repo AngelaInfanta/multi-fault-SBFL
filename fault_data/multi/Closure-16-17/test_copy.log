@@ -1,0 +1,34 @@
+--- Insert: testIssue772
+2197a2198,2220
+>   public void testIssue772() throws Exception {
+>     CompilerOptions options = createCompilerOptions();
+>     options.closurePass = true;
+>     options.checkTypes = true;
+>     test(
+>         options,
+>         "/** @const */ var a = {};" +
+>         "/** @const */ a.b = {};" +
+>         "/** @const */ a.b.c = {};" +
+>         "goog.scope(function() {" +
+>         "  var b = a.b;" +
+>         "  var c = b.c;" +
+>         "  /** @typedef {string} */" +
+>         "  c.MyType;" +
+>         "  /** @param {c.MyType} x The variable. */" +
+>         "  c.myFunc = function(x) {};" +
+>         "});",
+>         "/** @const */ var a = {};" +
+>         "/** @const */ a.b = {};" +
+>         "/** @const */ a.b.c = {};" +
+>         "a.b.c.MyType;" +
+>         "a.b.c.myFunc = function(x) {};");
+>   }
+--- Insert: testIssue772
+657a658,664
+>   public void testIssue772() {
+>     testTypes(
+>         "var b = a.b;" +
+>         "var c = b.c;",
+>         "/** @param {c.MyType} x */ types.actual;" +
+>         "/** @param {a.b.c.MyType} x */ types.expected;");
+>   }

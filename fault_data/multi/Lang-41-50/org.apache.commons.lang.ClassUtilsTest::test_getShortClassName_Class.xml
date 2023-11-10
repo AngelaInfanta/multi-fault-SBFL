@@ -1,0 +1,169 @@
+<coverage branch-rate="0.025252525252525252" branches-covered="10" branches-valid="396" complexity="3.0569105691056913" line-rate="0.06287425149700598" lines-covered="42" lines-valid="668" timestamp="1624287170519" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.06097560975609756" complexity="5.666666666666667" line-rate="0.1990521327014218" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.06097560975609756" complexity="5.666666666666667" filename="org/apache/commons/lang/ClassUtils.java" line-rate="0.1990521327014218" name="org.apache.commons.lang.ClassUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="9" number="68" />
+								<line branch="false" hits="1" number="69" />
+								<line branch="false" hits="1" number="70" />
+								<line branch="false" hits="1" number="71" />
+								<line branch="false" hits="1" number="72" />
+								<line branch="false" hits="1" number="73" />
+								<line branch="false" hits="1" number="74" />
+								<line branch="false" hits="1" number="75" />
+								<line branch="false" hits="1" number="76" />
+								<line branch="false" hits="1" number="82" />
+								<line branch="false" hits="1" number="84" />
+								<line branch="false" hits="9" number="85" />
+								<line branch="false" hits="9" number="86" />
+								<line branch="false" hits="9" number="87" />
+								<line branch="false" hits="8" number="88" />
+								<line branch="false" hits="9" number="90" />
+								<line branch="false" hits="1" number="96" />
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="99" />
+								<line branch="false" hits="1" number="100" />
+								<line branch="false" hits="1" number="101" />
+								<line branch="false" hits="1" number="102" />
+								<line branch="false" hits="1" number="103" />
+								<line branch="false" hits="1" number="104" />
+								<line branch="false" hits="1" number="105" />
+								<line branch="false" hits="1" number="106" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getShortClassName" signature="(Ljava/lang/Class;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="4" number="143">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="144" />
+								<line branch="false" hits="3" number="146" />
+							</lines>
+						</method>
+						<method branch-rate="0.8" line-rate="0.8333333333333334" name="getShortClassName" signature="(Ljava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="158">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="161">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="164" />
+								<line branch="false" hits="3" number="165" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="75" number="166">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="72" number="167">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="168" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="64" number="169">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="170" />
+								<line branch="false" hits="3" number="173" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.4242424242424243" line-rate="0.0" name="org.apache.commons.lang.time">
+			<classes>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$CharacterLiteral">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="1.0" name="org.apache.commons.lang.time.FastDateFormat$NumberRule">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$PaddedNumberField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$Pair">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="1.0" name="org.apache.commons.lang.time.FastDateFormat$Rule">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$StringLiteral">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TextField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TimeZoneDisplayKey">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TimeZoneNameRule">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TimeZoneNumberRule">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TwelveHourField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TwentyFourHourField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TwoDigitMonthField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TwoDigitNumberField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TwoDigitYearField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$UnpaddedMonthField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$UnpaddedNumberField">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

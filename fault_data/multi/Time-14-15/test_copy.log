@@ -1,0 +1,64 @@
+--- Insert: testPlusMonths_int_negativeFromLeap
+657a658,663
+>     public void testPlusMonths_int_negativeFromLeap() {
+>         MonthDay test = new MonthDay(2, 29, ISOChronology.getInstanceUTC());
+>         MonthDay result = test.plusMonths(-1);
+>         MonthDay expected = new MonthDay(1, 29, ISOChronology.getInstance());
+>         assertEquals(expected, result);
+>     }
+--- Insert: testMinusDays_int_negativeFromLeap
+663a664,669
+>     public void testMinusDays_int_negativeFromLeap() {
+>         MonthDay test = new MonthDay(2, 29, ISOChronology.getInstanceUTC());
+>         MonthDay result = test.minusDays(-1);
+>         MonthDay expected = new MonthDay(3, 1, ISOChronology.getInstance());
+>         assertEquals(expected, result);
+>     }
+--- Insert: testPlusMonths_int_fromLeap
+669a670,675
+>     public void testPlusMonths_int_fromLeap() {
+>         MonthDay test = new MonthDay(2, 29, ISOChronology.getInstanceUTC());
+>         MonthDay result = test.plusMonths(1);
+>         MonthDay expected = new MonthDay(3, 29, ISOChronology.getInstance());
+>         assertEquals(expected, result);
+>     }
+--- Insert: testPlusMonths_int_negativeEndOfMonthAdjust
+675a676,681
+>     public void testPlusMonths_int_negativeEndOfMonthAdjust() {
+>         MonthDay test = new MonthDay(3, 31, ISOChronology.getInstanceUTC());
+>         MonthDay result = test.plusMonths(-1);
+>         MonthDay expected = new MonthDay(2, 29, ISOChronology.getInstance());
+>         assertEquals(expected, result);
+>     }
+--- Insert: testMinusMonths_int_endOfMonthAdjust
+681a682,687
+>     public void testMinusMonths_int_endOfMonthAdjust() {
+>         MonthDay test = new MonthDay(3, 31, ISOChronology.getInstanceUTC());
+>         MonthDay result = test.minusMonths(1);
+>         MonthDay expected = new MonthDay(2, 29, ISOChronology.getInstance());
+>         assertEquals(expected, result);
+>     }
+--- Insert: testMinusMonths_int_negativeFromLeap
+687a688,693
+>     public void testMinusMonths_int_negativeFromLeap() {
+>         MonthDay test = new MonthDay(2, 29, ISOChronology.getInstanceUTC());
+>         MonthDay result = test.minusMonths(-1);
+>         MonthDay expected = new MonthDay(3, 29, ISOChronology.getInstance());
+>         assertEquals(expected, result);
+>     }
+--- Insert: testMinusMonths_int_fromLeap
+693a694,699
+>     public void testMinusMonths_int_fromLeap() {
+>         MonthDay test = new MonthDay(2, 29, ISOChronology.getInstanceUTC());
+>         MonthDay result = test.minusMonths(1);
+>         MonthDay expected = new MonthDay(1, 29, ISOChronology.getInstance());
+>         assertEquals(expected, result);
+>     }
+--- Insert: testPlusDays_int_fromLeap
+699a700,705
+>     public void testPlusDays_int_fromLeap() {
+>         MonthDay test = new MonthDay(2, 29, ISOChronology.getInstanceUTC());
+>         MonthDay result = test.plusDays(1);
+>         MonthDay expected = new MonthDay(3, 1, ISOChronology.getInstance());
+>         assertEquals(expected, result);
+>     }

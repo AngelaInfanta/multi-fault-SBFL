@@ -1,0 +1,137 @@
+<coverage branch-rate="0.019817073170731708" branches-covered="13" branches-valid="656" complexity="3.318407960199005" line-rate="0.022922636103151862" lines-covered="24" lines-valid="1047" timestamp="1623862053936" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.12745098039215685" complexity="3.793103448275862" line-rate="0.1875" name="org.apache.commons.math.complex">
+			<classes>
+				<class branch-rate="0.12745098039215685" complexity="3.793103448275862" filename="org/apache/commons/math/complex/Complex.java" line-rate="0.1875" name="org.apache.commons.math.complex.Complex">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="48" />
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="57" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(DD)V">
+							<lines>
+								<line branch="false" hits="27" number="76" />
+								<line branch="false" hits="27" number="77" />
+								<line branch="false" hits="27" number="78" />
+								<line branch="false" hits="27" number="79" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createComplex" signature="(DD)Lorg/apache/commons/math/complex/Complex;">
+							<lines>
+								<line branch="false" hits="1" number="875" />
+							</lines>
+						</method>
+						<method branch-rate="0.4" line-rate="0.5833333333333334" name="equals" signature="(Ljava/lang/Object;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="248">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="250">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="254" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="255">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="25% (1/4)" hits="1" number="258">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="266" />
+								<line branch="false" hits="1" number="269" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getReal" signature="()D">
+							<lines>
+								<line branch="false" hits="1" number="302" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="hashCode" signature="()I">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="280">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="283" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="isNaN" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="5" number="313">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6" name="multiply" signature="(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="358">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (4/8)" hits="1" number="361">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="366" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.238372093023256" line-rate="0.0" name="org.apache.commons.math.linear">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/BigMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.BigMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.39344262295082" filename="org/apache/commons/math/linear/BigMatrixImpl.java" line-rate="0.0" name="org.apache.commons.math.linear.BigMatrixImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/InvalidMatrixException.java" line-rate="0.0" name="org.apache.commons.math.linear.InvalidMatrixException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/MatrixIndexException.java" line-rate="0.0" name="org.apache.commons.math.linear.MatrixIndexException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.RealMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.787234042553192" filename="org/apache/commons/math/linear/RealMatrixImpl.java" line-rate="0.0" name="org.apache.commons.math.linear.RealMatrixImpl">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

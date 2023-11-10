@@ -1,0 +1,5 @@
+--- Insert: testExpressionInForIn
+360a361,363
+>   public void testExpressionInForIn() {
+>     assertLiveBeforeX("var a = [0]; X:for (a[1] in foo) { }", "a");
+>   }

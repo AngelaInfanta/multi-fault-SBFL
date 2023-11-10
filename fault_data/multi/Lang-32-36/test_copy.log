@@ -1,0 +1,5 @@
+--- Overwrite: testReflectionObjectCycle
+523a524
+>         assertNull(HashCodeBuilder.getRegistry());
+524a526
+>         assertNull(HashCodeBuilder.getRegistry());

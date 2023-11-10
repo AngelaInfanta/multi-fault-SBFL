@@ -1,0 +1,20 @@
+--- Overwrite: testRootEndpoints
+316c316
+<         
+---
+> 
+319c319
+<         assertEquals(result, Math.PI, solver.getAbsoluteAccuracy());
+---
+>         assertEquals(Math.PI, result, solver.getAbsoluteAccuracy());
+322c322,329
+<         assertEquals(result, Math.PI, solver.getAbsoluteAccuracy());
+---
+>         assertEquals(Math.PI, result, solver.getAbsoluteAccuracy());
+> 
+>         result = solver.solve(f, Math.PI, 4, 3.5);
+>         assertEquals(Math.PI, result, solver.getAbsoluteAccuracy());
+> 
+>         result = solver.solve(f, 3, Math.PI, 3.07);
+>         assertEquals(Math.PI, result, solver.getAbsoluteAccuracy());
+> 

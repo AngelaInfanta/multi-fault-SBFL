@@ -1,0 +1,2 @@
+org.apache.commons.math.util.FastMathTest::testMinMaxFloat
+org.apache.commons.math.util.MultidimensionalCounterTest::testIterationConsistency

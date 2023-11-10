@@ -1,0 +1,277 @@
+<coverage branch-rate="0.20192307692307693" branches-covered="21" branches-valid="104" complexity="1.9230769230769231" line-rate="0.2689393939393939" lines-covered="71" lines-valid="264" timestamp="1623863128599" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.16666666666666666" complexity="1.25" line-rate="0.5681818181818182" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.5" name="org.apache.commons.math.ConvergenceException">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="43" />
+								<line branch="false" hits="1" number="44" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/Throwable;)V">
+							<lines>
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.16666666666666666" complexity="1.375" filename="org/apache/commons/math/MathException.java" line-rate="0.5833333333333334" name="org.apache.commons.math.MathException">
+					<methods>
+						<method branch-rate="1.0" line-rate="0.75" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="42" />
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="48" />
+								<line branch="false" hits="1" number="49" />
+								<line branch="false" hits="1" number="50" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/Throwable;)V">
+							<lines>
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="99" />
+								<line branch="false" hits="1" number="100" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getCause" signature="()Ljava/lang/Throwable;">
+							<lines>
+								<line branch="false" hits="1" number="108" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="printStackTrace" signature="(Ljava/io/PrintStream;)V">
+							<lines>
+								<line branch="false" hits="1" number="124" />
+								<line branch="false" hits="1" number="125" />
+								<line branch="false" hits="1" number="126" />
+								<line branch="false" hits="1" number="128" />
+								<line branch="false" hits="1" number="129" />
+								<line branch="false" hits="1" number="130" />
+							</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="0.7142857142857143" name="printStackTrace" signature="(Ljava/io/PrintWriter;)V">
+							<lines>
+								<line branch="false" hits="1" number="138" />
+								<line branch="false" hits="1" number="139" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="1" number="140">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="144" />
+								<line branch="false" hits="1" number="145" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math.analysis">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.UnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.041666666666666664" complexity="1.9230769230769231" line-rate="0.25396825396825395" name="org.apache.commons.math.distribution">
+			<classes>
+				<class branch-rate="0.0" complexity="3.0" filename="org/apache/commons/math/distribution/AbstractContinuousDistribution.java" line-rate="0.1111111111111111" name="org.apache.commons.math.distribution.AbstractContinuousDistribution">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="45" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.0" filename="org/apache/commons/math/distribution/AbstractContinuousDistribution.java" line-rate="0.0" name="org.apache.commons.math.distribution.AbstractContinuousDistribution$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/math/distribution/AbstractDistribution.java" line-rate="0.4" name="org.apache.commons.math.distribution.AbstractDistribution">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="37" />
+								<line branch="false" hits="1" number="38" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/ContinuousDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.ContinuousDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/Distribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.Distribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/NormalDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.NormalDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.07142857142857142" complexity="1.9090909090909092" filename="org/apache/commons/math/distribution/NormalDistributionImpl.java" line-rate="0.3333333333333333" name="org.apache.commons.math.distribution.NormalDistributionImpl">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(DD)V">
+							<lines>
+								<line branch="false" hits="1" number="37" />
+								<line branch="false" hits="1" number="40" />
+								<line branch="false" hits="1" number="48" />
+								<line branch="false" hits="1" number="49" />
+								<line branch="false" hits="1" number="50" />
+								<line branch="false" hits="1" number="51" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="cumulativeProbability" signature="(D)D">
+							<lines>
+								<line branch="false" hits="17" number="105" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setMean" signature="(D)V">
+							<lines>
+								<line branch="false" hits="2" number="74" />
+								<line branch="false" hits="2" number="75" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="setStandardDeviation" signature="(D)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="91">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="95" />
+								<line branch="false" hits="2" number="96" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.4523809523809524" complexity="3.2" line-rate="0.5769230769230769" name="org.apache.commons.math.special">
+			<classes>
+				<class branch-rate="1.0" complexity="1.5" filename="org/apache/commons/math/special/Erf.java" line-rate="0.6666666666666666" name="org.apache.commons.math.special.Erf">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="erf" signature="(D)D">
+							<lines>
+								<line branch="false" hits="17" number="52" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="16" number="53">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="54" />
+								<line branch="false" hits="16" number="56" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.425" complexity="3.625" filename="org/apache/commons/math/special/Gamma.java" line-rate="0.6046511627906976" name="org.apache.commons.math.special.Gamma">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="36" />
+								<line branch="false" hits="1" number="56" />
+							</lines>
+						</method>
+						<method branch-rate="0.6666666666666666" line-rate="0.9" name="logGamma" signature="(D)D">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="14" number="86">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="14" number="89" />
+								<line branch="false" hits="14" number="91" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="210" number="92">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="196" number="93" />
+								<line branch="false" hits="14" number="95" />
+								<line branch="false" hits="14" number="97" />
+								<line branch="false" hits="14" number="98" />
+								<line branch="false" hits="14" number="102" />
+							</lines>
+						</method>
+						<method branch-rate="0.65" line-rate="0.8823529411764706" name="regularizedGammaP" signature="(DDDI)D">
+							<lines>
+								<line branch="true" condition-coverage="50% (4/8)" hits="17" number="154">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="17" number="156">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="157" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="15" number="158">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="15" number="164" />
+								<line branch="false" hits="15" number="165" />
+								<line branch="false" hits="15" number="166" />
+								<line branch="true" condition-coverage="100% (4/4)" hits="19905" number="167">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="19890" number="169" />
+								<line branch="false" hits="19890" number="170" />
+								<line branch="false" hits="19890" number="173" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="15" number="175">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="176" />
+								<line branch="false" hits="14" number="179" />
+								<line branch="false" hits="16" number="183" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.625" filename="org/apache/commons/math/special/Gamma.java" line-rate="0.0" name="org.apache.commons.math.special.Gamma$1">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.6363636363636365" line-rate="0.0" name="org.apache.commons.math.stat.regression">
+			<classes>
+				<class branch-rate="0.0" complexity="1.6363636363636365" filename="org/apache/commons/math/stat/regression/SimpleRegression.java" line-rate="0.0" name="org.apache.commons.math.stat.regression.SimpleRegression">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.2857142857142856" line-rate="0.0" name="org.apache.commons.math.util">
+			<classes>
+				<class branch-rate="0.0" complexity="2.2857142857142856" filename="org/apache/commons/math/util/ContinuedFraction.java" line-rate="0.0" name="org.apache.commons.math.util.ContinuedFraction">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

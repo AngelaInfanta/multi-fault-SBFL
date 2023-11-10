@@ -1,0 +1,173 @@
+<coverage branch-rate="0.020134228187919462" branches-covered="24" branches-valid="1192" complexity="5.038277511961723" line-rate="0.028591851322373123" lines-covered="40" lines-valid="1399" timestamp="1624290965651" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="5.254777070063694" line-rate="0.0" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.0" complexity="5.863636363636363" filename="org/apache/commons/lang/ClassUtils.java" line-rate="0.0" name="org.apache.commons.lang.ClassUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/lang/NullArgumentException.java" line-rate="0.0" name="org.apache.commons.lang.NullArgumentException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.17910447761194" filename="org/apache/commons/lang/StringUtils.java" line-rate="0.0" name="org.apache.commons.lang.StringUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.5" line-rate="0.0" name="org.apache.commons.lang.enums">
+			<classes>
+				<class branch-rate="0.0" complexity="3.8823529411764706" filename="org/apache/commons/lang/enums/Enum.java" line-rate="0.0" name="org.apache.commons.lang.enums.Enum">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.8823529411764706" filename="org/apache/commons/lang/enums/Enum.java" line-rate="0.0" name="org.apache.commons.lang.enums.Enum$Entry">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2" filename="org/apache/commons/lang/enums/ValuedEnum.java" line-rate="0.0" name="org.apache.commons.lang.enums.ValuedEnum">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.13714285714285715" complexity="5.033333333333333" line-rate="0.19230769230769232" name="org.apache.commons.lang.time">
+			<classes>
+				<class branch-rate="0.13872832369942195" complexity="5.033333333333333" filename="org/apache/commons/lang/time/DateUtils.java" line-rate="0.20304568527918782" name="org.apache.commons.lang.time.DateUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="72" />
+							</lines>
+						</method>
+						<method branch-rate="0.3770491803278688" line-rate="0.5689655172413793" name="modify" signature="(Ljava/util/Calendar;IZ)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="620">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="624">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="634" />
+								<line branch="false" hits="1" number="635" />
+								<line branch="false" hits="1" number="636" />
+								<line branch="false" hits="1" number="639" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="640">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="648" />
+								<line branch="true" condition-coverage="50% (3/6)" hits="1" number="649">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="657" />
+								<line branch="true" condition-coverage="50% (3/6)" hits="1" number="658">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="659" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="663">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="664" />
+								<line branch="false" hits="1" number="665" />
+								<line branch="false" hits="1" number="669" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="670">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="5" number="671">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="672">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="674">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="675">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="688" />
+								<line branch="false" hits="1" number="691" />
+								<line branch="false" hits="2" number="695" />
+								<line branch="false" hits="2" number="696" />
+								<line branch="true" condition-coverage="33% (1/3)" hits="2" number="698">
+									<conditions>
+										<condition coverage="33%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="728">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="729" />
+								<line branch="false" hits="2" number="730" />
+								<line branch="false" hits="2" number="732" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="734">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="737">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="738" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8333333333333334" name="round" signature="(Ljava/util/Date;I)Ljava/util/Date;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="436">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="439" />
+								<line branch="false" hits="1" number="440" />
+								<line branch="false" hits="1" number="441" />
+								<line branch="false" hits="1" number="442" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.033333333333333" filename="org/apache/commons/lang/time/DateUtils.java" line-rate="0.0" name="org.apache.commons.lang.time.DateUtils$DateIterator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

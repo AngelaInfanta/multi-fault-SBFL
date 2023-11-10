@@ -1,0 +1,90 @@
+<coverage branch-rate="0.13333333333333333" branches-covered="12" branches-valid="90" complexity="4.095238095238095" line-rate="0.14285714285714285" lines-covered="19" lines-valid="133" timestamp="1623789643388" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.1875" complexity="5.444444444444445" line-rate="0.25" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.1875" complexity="5.444444444444445" filename="org/apache/commons/lang/LocaleUtils.java" line-rate="0.25" name="org.apache.commons.lang.LocaleUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="47" />
+								<line branch="false" hits="1" number="49" />
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="availableLocaleList" signature="()Ljava/util/List;">
+							<lines>
+								<line branch="false" hits="1" number="192" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isAvailableLocale" signature="(Ljava/util/Locale;)Z">
+							<lines>
+								<line branch="false" hits="1" number="223" />
+							</lines>
+						</method>
+						<method branch-rate="0.375" line-rate="0.5454545454545454" name="toLocale" signature="(Ljava/lang/String;)Ljava/util/Locale;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="95">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="98" />
+								<line branch="true" condition-coverage="50% (3/6)" hits="1" number="99">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="102" />
+								<line branch="false" hits="1" number="103" />
+								<line branch="true" condition-coverage="50% (4/8)" hits="1" number="104">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="107">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="110">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="113" />
+								<line branch="false" hits="1" number="114" />
+								<line branch="true" condition-coverage="25% (2/8)" hits="1" number="115">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="0%" number="2" type="jump" />
+										<condition coverage="0%" number="3" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="116" />
+								</lines>
+						</method>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.0833333333333335" line-rate="0.0" name="org.apache.commons.lang.time">
+			<classes>
+				<class branch-rate="0.0" complexity="3.0833333333333335" filename="org/apache/commons/lang/time/StopWatch.java" line-rate="0.0" name="org.apache.commons.lang.time.StopWatch">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

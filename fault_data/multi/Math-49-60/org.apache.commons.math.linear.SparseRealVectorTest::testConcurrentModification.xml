@@ -1,0 +1,1126 @@
+<coverage branch-rate="0.058093994778067884" branches-covered="89" branches-valid="1532" complexity="2.5444617784711387" line-rate="0.11984171848501979" lines-covered="424" lines-valid="3538" timestamp="1624309903829" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.2" line-rate="0.0" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.0" name="org.apache.commons.math.ConvergenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="org/apache/commons/math/MathException.java" line-rate="0.0" name="org.apache.commons.math.MathException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/MaxIterationsExceededException.java" line-rate="0.0" name="org.apache.commons.math.MaxIterationsExceededException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math.analysis">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/BivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.BivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.UnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.813953488372093" line-rate="0.0" name="org.apache.commons.math.distribution">
+			<classes>
+				<class branch-rate="0.0" complexity="2.4545454545454546" filename="org/apache/commons/math/distribution/AbstractContinuousDistribution.java" line-rate="0.0" name="org.apache.commons.math.distribution.AbstractContinuousDistribution">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4545454545454546" filename="org/apache/commons/math/distribution/AbstractContinuousDistribution.java" line-rate="0.0" name="org.apache.commons.math.distribution.AbstractContinuousDistribution$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/math/distribution/AbstractDistribution.java" line-rate="0.0" name="org.apache.commons.math.distribution.AbstractDistribution">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/ContinuousDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.ContinuousDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/DiscreteDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.DiscreteDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/Distribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.Distribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/IntegerDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.IntegerDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/NormalDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.NormalDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3076923076923075" filename="org/apache/commons/math/distribution/NormalDistributionImpl.java" line-rate="0.0" name="org.apache.commons.math.distribution.NormalDistributionImpl">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.0512820512820513" line-rate="0.0" name="org.apache.commons.math.exception">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/exception/DimensionMismatchException.java" line-rate="0.0" name="org.apache.commons.math.exception.DimensionMismatchException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/exception/MathArithmeticException.java" line-rate="0.0" name="org.apache.commons.math.exception.MathArithmeticException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/exception/MathIllegalArgumentException.java" line-rate="0.0" name="org.apache.commons.math.exception.MathIllegalArgumentException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/exception/MathIllegalNumberException.java" line-rate="0.0" name="org.apache.commons.math.exception.MathIllegalNumberException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/exception/MathThrowable.java" line-rate="1.0" name="org.apache.commons.math.exception.MathThrowable">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/exception/NotStrictlyPositiveException.java" line-rate="0.0" name="org.apache.commons.math.exception.NotStrictlyPositiveException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.25" filename="org/apache/commons/math/exception/NumberIsTooLargeException.java" line-rate="0.0" name="org.apache.commons.math.exception.NumberIsTooLargeException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.25" filename="org/apache/commons/math/exception/NumberIsTooSmallException.java" line-rate="0.0" name="org.apache.commons.math.exception.NumberIsTooSmallException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/exception/OutOfRangeException.java" line-rate="0.0" name="org.apache.commons.math.exception.OutOfRangeException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math.exception.util">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/exception/util/Localizable.java" line-rate="1.0" name="org.apache.commons.math.exception.util.Localizable">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.017543859649122806" complexity="1.9746478873239437" line-rate="0.02802241793434748" name="org.apache.commons.math.linear">
+			<classes>
+				<class branch-rate="0.0" complexity="2.7205882352941178" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.7205882352941178" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.7205882352941178" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.7205882352941178" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.7205882352941178" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.7205882352941178" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.029411764705882353" complexity="2.1" filename="org/apache/commons/math/linear/AbstractRealVector.java" line-rate="0.03783783783783784" name="org.apache.commons.math.linear.AbstractRealVector">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="3" number="544" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="checkIndex" signature="(I)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="8" number="76">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="81" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="checkVectorDimensions" signature="(I)V">
+							<lines>
+								<line branch="false" hits="1" number="63" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="64">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="67" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="copy" signature="()Lorg/apache/commons/math/linear/RealVector;">
+							<lines>
+								<line branch="false" hits="3" number="42" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.1" filename="org/apache/commons/math/linear/AbstractRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealVector$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1" filename="org/apache/commons/math/linear/AbstractRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealVector$EntryImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.1" filename="org/apache/commons/math/linear/AbstractRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealVector$SparseEntryIterator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/AnyMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.AnyMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.870967741935484" filename="org/apache/commons/math/linear/Array2DRowRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.Array2DRowRealMatrix">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.9375" filename="org/apache/commons/math/linear/OpenMapRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.OpenMapRealMatrix">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.046052631578947366" complexity="2.3043478260869565" filename="org/apache/commons/math/linear/OpenMapRealVector.java" line-rate="0.07756232686980609" name="org.apache.commons.math.linear.OpenMapRealVector">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(ID)V">
+							<lines>
+								<line branch="false" hits="2" number="74" />
+								<line branch="false" hits="2" number="75" />
+								<line branch="false" hits="2" number="76" />
+								<line branch="false" hits="2" number="77" />
+								<line branch="false" hits="2" number="78" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/apache/commons/math/linear/OpenMapRealVector;)V">
+							<lines>
+								<line branch="false" hits="1" number="179" />
+								<line branch="false" hits="1" number="180" />
+								<line branch="false" hits="1" number="181" />
+								<line branch="false" hits="1" number="182" />
+								<line branch="false" hits="1" number="183" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="access$000" signature="(Lorg/apache/commons/math/linear/OpenMapRealVector;)Lorg/apache/commons/math/util/OpenIntToDoubleHashMap;">
+							<lines>
+								<line branch="false" hits="1" number="33" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8571428571428571" name="ebeMultiply" signature="(Lorg/apache/commons/math/linear/RealVector;)Lorg/apache/commons/math/linear/OpenMapRealVector;">
+							<lines>
+								<line branch="false" hits="1" number="368" />
+								<line branch="false" hits="1" number="369" />
+								<line branch="false" hits="1" number="370" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="371">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="372" />
+								<line branch="false" hits="1" number="373" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDimension" signature="()I">
+							<lines>
+								<line branch="false" hits="11" number="422" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getEntries" signature="()Lorg/apache/commons/math/util/OpenIntToDoubleHashMap;">
+							<lines>
+								<line branch="false" hits="1" number="208" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getEntry" signature="(I)D">
+							<lines>
+								<line branch="false" hits="1" number="479" />
+								<line branch="false" hits="1" number="480" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isDefaultValue" signature="(D)Z">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="7" number="220">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setEntry" signature="(ID)V">
+							<lines>
+								<line branch="false" hits="7" number="663" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="7" number="664">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="665" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="4" number="666">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="667" />
+								<line branch="false" hits="7" number="669" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3043478260869565" filename="org/apache/commons/math/linear/OpenMapRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.OpenMapRealVector$OpenMapEntry">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3043478260869565" filename="org/apache/commons/math/linear/OpenMapRealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.OpenMapRealVector$OpenMapSparseIterator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.RealMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealVector.java" line-rate="1.0" name="org.apache.commons.math.linear.RealVector">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealVector.java" line-rate="0.0" name="org.apache.commons.math.linear.RealVector$Entry">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="org/apache/commons/math/linear/SparseRealMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.SparseRealMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="org/apache/commons/math/linear/SparseRealVector.java" line-rate="1.0" name="org.apache.commons.math.linear.SparseRealVector">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.152542372881356" line-rate="0.0" name="org.apache.commons.math.random">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/random/RandomData.java" line-rate="1.0" name="org.apache.commons.math.random.RandomData">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.888888888888889" filename="org/apache/commons/math/random/RandomDataImpl.java" line-rate="0.0" name="org.apache.commons.math.random.RandomDataImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/random/RandomGenerator.java" line-rate="1.0" name="org.apache.commons.math.random.RandomGenerator">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.6666666666666665" line-rate="0.0" name="org.apache.commons.math.special">
+			<classes>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math/special/Erf.java" line-rate="0.0" name="org.apache.commons.math.special.Erf">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.1" filename="org/apache/commons/math/special/Gamma.java" line-rate="0.0" name="org.apache.commons.math.special.Gamma">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.1" filename="org/apache/commons/math/special/Gamma.java" line-rate="0.0" name="org.apache.commons.math.special.Gamma$1">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.1031331592689295" complexity="5.826923076923077" line-rate="0.21731843575418994" name="org.apache.commons.math.util">
+			<classes>
+				<class branch-rate="0.0" complexity="3.5714285714285716" filename="org/apache/commons/math/util/ContinuedFraction.java" line-rate="0.0" name="org.apache.commons.math.util.ContinuedFraction">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.07822085889570553" complexity="7.147058823529412" filename="org/apache/commons/math/util/FastMath.java" line-rate="0.19109102646868947" name="org.apache.commons.math.util.FastMath">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="35" />
+								<line branch="false" hits="1" number="40" />
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="50" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="85" />
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="108" />
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="1" number="114" />
+								<line branch="false" hits="1" number="117" />
+								<line branch="false" hits="1" number="120" />
+								<line branch="false" hits="1" number="123" />
+								<line branch="false" hits="1" number="126" />
+								<line branch="false" hits="1" number="147" />
+								<line branch="false" hits="1" number="155" />
+								<line branch="false" hits="1" number="158" />
+								<line branch="false" hits="1" number="169" />
+								<line branch="false" hits="20" number="170" />
+								<line branch="false" hits="19" number="171" />
+								<line branch="false" hits="1" number="174" />
+								<line branch="false" hits="1" number="175" />
+								<line branch="false" hits="751" number="178" />
+								<line branch="false" hits="750" number="179" />
+								<line branch="false" hits="750" number="180" />
+								<line branch="false" hits="750" number="181" />
+								<line branch="false" hits="750" number="183" />
+								<line branch="false" hits="749" number="185" />
+								<line branch="false" hits="749" number="186" />
+								<line branch="false" hits="749" number="187" />
+								<line branch="false" hits="1026" number="192" />
+								<line branch="false" hits="1025" number="193" />
+								<line branch="false" hits="1025" number="194" />
+								<line branch="false" hits="1025" number="195" />
+								<line branch="false" hits="1025" number="199" />
+								<line branch="false" hits="1024" number="200" />
+								<line branch="false" hits="1024" number="201" />
+								<line branch="false" hits="1" number="205" />
+								<line branch="false" hits="1" number="206" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="abs" signature="(D)D">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="3265">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="buildSinCosTables" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="1758" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="8" number="1761">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="1762" />
+								<line branch="false" hits="7" number="1764" />
+								<line branch="false" hits="7" number="1765" />
+								<line branch="false" hits="7" number="1766" />
+								<line branch="false" hits="7" number="1768" />
+								<line branch="false" hits="7" number="1769" />
+								<line branch="false" hits="7" number="1770" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="8" number="1774">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="1775" />
+								<line branch="false" hits="7" number="1776" />
+								<line branch="false" hits="7" number="1777" />
+								<line branch="false" hits="7" number="1778" />
+								<line branch="false" hits="7" number="1779" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="7" number="1781">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="1783" />
+								<line branch="false" hits="3" number="1784" />
+								<line branch="false" hits="3" number="1785" />
+								<line branch="false" hits="3" number="1786" />
+								<line branch="false" hits="3" number="1789" />
+								<line branch="false" hits="3" number="1790" />
+								<line branch="false" hits="3" number="1791" />
+								<line branch="false" hits="3" number="1794" />
+								<line branch="false" hits="3" number="1795" />
+								<line branch="false" hits="3" number="1796" />
+								<line branch="false" hits="3" number="1797" />
+								<line branch="false" hits="3" number="1798" />
+								<line branch="false" hits="3" number="1799" />
+								<line branch="false" hits="3" number="1800" />
+								<line branch="false" hits="4" number="1802" />
+								<line branch="false" hits="4" number="1803" />
+								<line branch="false" hits="4" number="1804" />
+								<line branch="false" hits="4" number="1805" />
+								<line branch="false" hits="4" number="1806" />
+								<line branch="false" hits="4" number="1807" />
+								<line branch="false" hits="4" number="1808" />
+								<line branch="false" hits="4" number="1809" />
+								<line branch="false" hits="4" number="1812" />
+								<line branch="false" hits="4" number="1813" />
+								<line branch="false" hits="4" number="1814" />
+								<line branch="false" hits="4" number="1815" />
+								<line branch="false" hits="4" number="1816" />
+								<line branch="false" hits="4" number="1819" />
+								<line branch="false" hits="4" number="1820" />
+								<line branch="false" hits="4" number="1821" />
+								<line branch="false" hits="4" number="1822" />
+								<line branch="false" hits="4" number="1823" />
+								<line branch="false" hits="4" number="1824" />
+								<line branch="false" hits="4" number="1825" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="15" number="1830">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="14" number="1831" />
+								<line branch="false" hits="14" number="1832" />
+								<line branch="false" hits="14" number="1833" />
+								<line branch="false" hits="14" number="1835" />
+								<line branch="false" hits="14" number="1836" />
+								<line branch="false" hits="14" number="1838" />
+								<line branch="false" hits="14" number="1840" />
+								<line branch="false" hits="14" number="1841" />
+								<line branch="false" hits="14" number="1843" />
+								<line branch="false" hits="14" number="1845" />
+								<line branch="false" hits="14" number="1846" />
+								<line branch="false" hits="1" number="1849" />
+							</lines>
+						</method>
+						<method branch-rate="0.3333333333333333" line-rate="0.4444444444444444" name="ceil" signature="(D)D">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="3368">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="3372" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="3373">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="3374" />
+								</lines>
+						</method>
+						<method branch-rate="0.8333333333333334" line-rate="1.0" name="expint" signature="(I[D)D">
+							<lines>
+								<line branch="false" hits="750" number="1109" />
+								<line branch="false" hits="750" number="1110" />
+								<line branch="false" hits="750" number="1111" />
+								<line branch="false" hits="750" number="1120" />
+								<line branch="false" hits="750" number="1121" />
+								<line branch="false" hits="750" number="1123" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="7227" number="1125">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="6477" number="1126">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3457" number="1127" />
+								<line branch="false" hits="3457" number="1128" />
+								<line branch="false" hits="6477" number="1131" />
+								<line branch="false" hits="6477" number="1132" />
+								<line branch="false" hits="6477" number="1134" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="750" number="1137">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="750" number="1138" />
+								<line branch="false" hits="750" number="1139" />
+								<line branch="false" hits="750" number="1141" />
+								<line branch="false" hits="750" number="1144" />
+							</lines>
+						</method>
+						<method branch-rate="0.4166666666666667" line-rate="0.6" name="floor" signature="(D)D">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="3341">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (2/4)" hits="2" number="3345">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="3349" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="2" number="3350">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="3354">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="3358" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="quadMult" signature="([D[D[D)V">
+							<lines>
+								<line branch="false" hits="9934" number="1054" />
+								<line branch="false" hits="9934" number="1055" />
+								<line branch="false" hits="9934" number="1056" />
+								<line branch="false" hits="9934" number="1059" />
+								<line branch="false" hits="9934" number="1060" />
+								<line branch="false" hits="9934" number="1061" />
+								<line branch="false" hits="9934" number="1063" />
+								<line branch="false" hits="9934" number="1064" />
+								<line branch="false" hits="9934" number="1067" />
+								<line branch="false" hits="9934" number="1068" />
+								<line branch="false" hits="9934" number="1070" />
+								<line branch="false" hits="9934" number="1071" />
+								<line branch="false" hits="9934" number="1072" />
+								<line branch="false" hits="9934" number="1073" />
+								<line branch="false" hits="9934" number="1074" />
+								<line branch="false" hits="9934" number="1075" />
+								<line branch="false" hits="9934" number="1078" />
+								<line branch="false" hits="9934" number="1079" />
+								<line branch="false" hits="9934" number="1080" />
+								<line branch="false" hits="9934" number="1082" />
+								<line branch="false" hits="9934" number="1083" />
+								<line branch="false" hits="9934" number="1084" />
+								<line branch="false" hits="9934" number="1085" />
+								<line branch="false" hits="9934" number="1086" />
+								<line branch="false" hits="9934" number="1087" />
+								<line branch="false" hits="9934" number="1090" />
+								<line branch="false" hits="9934" number="1091" />
+								<line branch="false" hits="9934" number="1092" />
+								<line branch="false" hits="9934" number="1094" />
+								<line branch="false" hits="9934" number="1095" />
+								<line branch="false" hits="9934" number="1096" />
+								<line branch="false" hits="9934" number="1097" />
+								<line branch="false" hits="9934" number="1098" />
+								<line branch="false" hits="9934" number="1099" />
+								<line branch="false" hits="9934" number="1100" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="resplit" signature="([D)V">
+							<lines>
+								<line branch="false" hits="140223" number="961" />
+								<line branch="false" hits="140223" number="962" />
+								<line branch="true" condition-coverage="100% (4/4)" hits="140223" number="964">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="138994" number="965" />
+								<line branch="false" hits="138994" number="966" />
+								<line branch="false" hits="138994" number="967" />
+								<line branch="false" hits="138994" number="968" />
+								<line branch="false" hits="1229" number="969" />
+								<line branch="false" hits="1229" number="970" />
+								<line branch="false" hits="1229" number="971" />
+								<line branch="false" hits="140223" number="973" />
+							</lines>
+						</method>
+						<method branch-rate="0.875" line-rate="1.0" name="slowCos" signature="(D[D)D">
+							<lines>
+								<line branch="false" hits="7" number="1720" />
+								<line branch="false" hits="7" number="1721" />
+								<line branch="false" hits="7" number="1722" />
+								<line branch="false" hits="7" number="1723" />
+								<line branch="false" hits="7" number="1724" />
+								<line branch="false" hits="7" number="1725" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="147" number="1727">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="140" number="1728" />
+								<line branch="false" hits="140" number="1729" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="140" number="1731">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="70" number="1732" />
+								<line branch="false" hits="70" number="1735" />
+								<line branch="false" hits="70" number="1736" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="70" number="1738">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="35" number="1739" />
+								<line branch="false" hits="35" number="1740" />
+								<line branch="false" hits="70" number="1743" />
+								<line branch="false" hits="70" number="1744" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="1747">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="1748" />
+								<line branch="false" hits="7" number="1749" />
+								<line branch="false" hits="7" number="1752" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="slowLog" signature="(D)[D">
+							<lines>
+								<line branch="false" hits="1024" number="1627" />
+								<line branch="false" hits="1024" number="1628" />
+								<line branch="false" hits="1024" number="1629" />
+								<line branch="false" hits="1024" number="1630" />
+								<line branch="false" hits="1024" number="1632" />
+								<line branch="false" hits="1024" number="1635" />
+								<line branch="false" hits="1024" number="1636" />
+								<line branch="false" hits="1024" number="1637" />
+								<line branch="false" hits="1024" number="1638" />
+								<line branch="false" hits="1024" number="1639" />
+								<line branch="false" hits="1024" number="1640" />
+								<line branch="false" hits="1024" number="1641" />
+								<line branch="false" hits="1024" number="1642" />
+								<line branch="false" hits="1024" number="1645" />
+								<line branch="false" hits="1024" number="1651" />
+								<line branch="false" hits="1024" number="1652" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="16384" number="1654">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="15360" number="1655" />
+								<line branch="false" hits="15360" number="1656" />
+								<line branch="false" hits="15360" number="1657" />
+								<line branch="false" hits="15360" number="1658" />
+								<line branch="false" hits="15360" number="1659" />
+								<line branch="false" hits="15360" number="1660" />
+								<line branch="false" hits="1024" number="1663" />
+								<line branch="false" hits="1024" number="1664" />
+								<line branch="false" hits="1024" number="1665" />
+								<line branch="false" hits="1024" number="1667" />
+							</lines>
+						</method>
+						<method branch-rate="0.875" line-rate="1.0" name="slowSin" signature="(D[D)D">
+							<lines>
+								<line branch="false" hits="7" number="1677" />
+								<line branch="false" hits="7" number="1678" />
+								<line branch="false" hits="7" number="1679" />
+								<line branch="false" hits="7" number="1680" />
+								<line branch="false" hits="7" number="1681" />
+								<line branch="false" hits="7" number="1682" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="147" number="1684">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="140" number="1685" />
+								<line branch="false" hits="140" number="1686" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="140" number="1688">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="70" number="1689" />
+								<line branch="false" hits="70" number="1692" />
+								<line branch="false" hits="70" number="1693" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="70" number="1695">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="35" number="1696" />
+								<line branch="false" hits="35" number="1697" />
+								<line branch="false" hits="70" number="1700" />
+								<line branch="false" hits="70" number="1701" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="1704">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="1705" />
+								<line branch="false" hits="7" number="1706" />
+								<line branch="false" hits="7" number="1709" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="1.0" name="slowexp" signature="(D[D)D">
+							<lines>
+								<line branch="false" hits="1025" number="911" />
+								<line branch="false" hits="1025" number="912" />
+								<line branch="false" hits="1025" number="913" />
+								<line branch="false" hits="1025" number="914" />
+								<line branch="false" hits="1025" number="915" />
+								<line branch="false" hits="1025" number="916" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="21525" number="918">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="20500" number="919" />
+								<line branch="false" hits="20500" number="920" />
+								<line branch="false" hits="20500" number="921" />
+								<line branch="false" hits="20500" number="923" />
+								<line branch="false" hits="20500" number="924" />
+								<line branch="false" hits="20500" number="926" />
+								<line branch="false" hits="20500" number="927" />
+								<line branch="false" hits="20500" number="928" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1025" number="931">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1025" number="932" />
+								<line branch="false" hits="1025" number="933" />
+								<line branch="false" hits="1025" number="936" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="split" signature="(D[D)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="92991" number="945">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="92991" number="946" />
+								<line branch="false" hits="92991" number="947" />
+								<line branch="false" hits="92991" number="948" />
+								<line branch="false" hits="92991" number="949" />
+								<line branch="false" hits="92991" number="954" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="splitAdd" signature="([D[D[D)V">
+							<lines>
+								<line branch="false" hits="36011" number="994" />
+								<line branch="false" hits="36011" number="995" />
+								<line branch="false" hits="36011" number="997" />
+								<line branch="false" hits="36011" number="998" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="splitMult" signature="([D[D[D)V">
+							<lines>
+								<line branch="false" hits="78987" number="981" />
+								<line branch="false" hits="78987" number="982" />
+								<line branch="false" hits="78987" number="985" />
+								<line branch="false" hits="78987" number="986" />
+							</lines>
+						</method>
+						<method branch-rate="0.8333333333333334" line-rate="0.8666666666666667" name="splitReciprocal" signature="([D[D)V">
+							<lines>
+								<line branch="false" hits="22427" number="1019" />
+								<line branch="false" hits="22427" number="1020" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="22427" number="1022">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="22427" number="1027" />
+								<line branch="false" hits="22427" number="1028" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="22427" number="1030">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="220" number="1031" />
+								<line branch="false" hits="22427" number="1035" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="67281" number="1037">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="44854" number="1039" />
+								<line branch="false" hits="44854" number="1042" />
+								<line branch="false" hits="44854" number="1044" />
+								<line branch="false" hits="22427" number="1046" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.27941176470588236" complexity="3.2758620689655173" filename="org/apache/commons/math/util/OpenIntToDoubleHashMap.java" line-rate="0.4620253164556962" name="org.apache.commons.math.util.OpenIntToDoubleHashMap">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(D)V">
+							<lines>
+								<line branch="false" hits="2" number="103" />
+								<line branch="false" hits="2" number="104" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(ID)V">
+							<lines>
+								<line branch="false" hits="2" number="120" />
+								<line branch="false" hits="2" number="121" />
+								<line branch="false" hits="2" number="122" />
+								<line branch="false" hits="2" number="123" />
+								<line branch="false" hits="2" number="124" />
+								<line branch="false" hits="2" number="125" />
+								<line branch="false" hits="2" number="126" />
+								<line branch="false" hits="2" number="127" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/apache/commons/math/util/OpenIntToDoubleHashMap;)V">
+							<lines>
+								<line branch="false" hits="1" number="133" />
+								<line branch="false" hits="1" number="134" />
+								<line branch="false" hits="1" number="135" />
+								<line branch="false" hits="1" number="136" />
+								<line branch="false" hits="1" number="137" />
+								<line branch="false" hits="1" number="138" />
+								<line branch="false" hits="1" number="139" />
+								<line branch="false" hits="1" number="140" />
+								<line branch="false" hits="1" number="141" />
+								<line branch="false" hits="1" number="142" />
+								<line branch="false" hits="1" number="143" />
+								<line branch="false" hits="1" number="144" />
+								<line branch="false" hits="1" number="145" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="access$400" signature="(Lorg/apache/commons/math/util/OpenIntToDoubleHashMap;)[B">
+							<lines>
+								<line branch="false" hits="13" number="40" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.7142857142857143" name="computeCapacity" signature="(I)I">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="153">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="156" />
+								<line branch="false" hits="2" number="157" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="158">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="159" />
+								</lines>
+						</method>
+						<method branch-rate="0.375" line-rate="0.46153846153846156" name="containsKey" signature="(I)Z">
+							<lines>
+								<line branch="false" hits="4" number="210" />
+								<line branch="false" hits="4" number="211" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="4" number="212">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="213" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="216">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="217" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="containsKey" signature="(II)Z">
+							<lines>
+								<line branch="true" condition-coverage="100% (6/6)" hits="6" number="385">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+										<condition coverage="100%" number="2" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="doRemove" signature="(I)D">
+							<lines>
+								<line branch="false" hits="1" number="394" />
+								<line branch="false" hits="1" number="395" />
+								<line branch="false" hits="1" number="396" />
+								<line branch="false" hits="1" number="397" />
+								<line branch="false" hits="1" number="398" />
+								<line branch="false" hits="1" number="399" />
+								<line branch="false" hits="1" number="400" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="findInsertionIndex" signature="(I)I">
+							<lines>
+								<line branch="false" hits="3" number="259" />
+							</lines>
+						</method>
+						<method branch-rate="0.045454545454545456" line-rate="0.15384615384615385" name="findInsertionIndex" signature="([I[BII)I">
+							<lines>
+								<line branch="false" hits="3" number="272" />
+								<line branch="false" hits="3" number="273" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="274">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="275" />
+								</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="0.38461538461538464" name="get" signature="(I)D">
+							<lines>
+								<line branch="false" hits="1" number="180" />
+								<line branch="false" hits="1" number="181" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="182">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="186">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="187" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hashOf" signature="(I)I">
+							<lines>
+								<line branch="false" hits="9" number="478" />
+								<line branch="false" hits="9" number="479" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="iterator" signature="()Lorg/apache/commons/math/util/OpenIntToDoubleHashMap$Iterator;">
+							<lines>
+								<line branch="false" hits="1" number="241" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="put" signature="(ID)D">
+							<lines>
+								<line branch="false" hits="3" number="410" />
+								<line branch="false" hits="3" number="411" />
+								<line branch="false" hits="3" number="412" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="413">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="418" />
+								<line branch="false" hits="3" number="419" />
+								<line branch="false" hits="3" number="420" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="421">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="422" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="423">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="426" />
+								<line branch="false" hits="3" number="428" />
+							</lines>
+						</method>
+						<method branch-rate="0.125" line-rate="0.3076923076923077" name="remove" signature="(I)D">
+							<lines>
+								<line branch="false" hits="1" number="354" />
+								<line branch="false" hits="1" number="355" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="356">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="357" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="shouldGrowTable" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="469">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.2758620689655173" filename="org/apache/commons/math/util/OpenIntToDoubleHashMap.java" line-rate="1.0" name="org.apache.commons.math.util.OpenIntToDoubleHashMap$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.5625" complexity="3.2758620689655173" filename="org/apache/commons/math/util/OpenIntToDoubleHashMap.java" line-rate="0.6896551724137931" name="org.apache.commons.math.util.OpenIntToDoubleHashMap$Iterator">
+					<methods>
+						<method branch-rate="1.0" line-rate="0.8571428571428571" name="&lt;init&gt;" signature="(Lorg/apache/commons/math/util/OpenIntToDoubleHashMap;)V">
+							<lines>
+								<line branch="false" hits="1" number="498" />
+								<line branch="false" hits="1" number="501" />
+								<line branch="false" hits="1" number="504" />
+								<line branch="false" hits="1" number="506" />
+								<line branch="false" hits="1" number="509" />
+								<line branch="false" hits="1" number="511" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/apache/commons/math/util/OpenIntToDoubleHashMap;Lorg/apache/commons/math/util/OpenIntToDoubleHashMap$1;)V">
+							<lines>
+								<line branch="false" hits="1" number="484" />
+							</lines>
+						</method>
+						<method branch-rate="0.6666666666666666" line-rate="0.6" name="advance" signature="()V">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="563">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="564" />
+								<line branch="false" hits="2" number="568" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="572">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="580" />
+								<line branch="false" hits="2" number="582" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="hasNext" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="518">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6" name="key" signature="()I">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="529">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="532">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="535" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6" name="value" signature="()D">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="546">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="549">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="552" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

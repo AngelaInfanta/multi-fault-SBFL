@@ -1,0 +1,86 @@
+--- Overwrite: testBasicFunctions
+984a985
+>         ArrayRealVector v5 = new ArrayRealVector(vec5);
+989,991c990,1000
+<         //octave =  sqrt(sumsq(v1))
+<         double d_getNorm = v1.getNorm();
+<         assertEquals("compare values  ", 3.7416573867739413,d_getNorm);
+---
+>         // emacs calc: [-4, 0, 3, 1, -6, 3] A --> 8.4261497731763586307
+>         double d_getNorm = v5.getNorm();
+>         assertEquals("compare values  ", 8.4261497731763586307, d_getNorm);
+> 
+>         // emacs calc: [-4, 0, 3, 1, -6, 3] vN --> 17
+>         double d_getL1Norm = v5.getL1Norm();
+>         assertEquals("compare values  ", 17.0, d_getL1Norm);
+> 
+>         // emacs calc: [-4, 0, 3, 1, -6, 3] vn --> 6
+>         double d_getLInfNorm = v5.getLInfNorm();
+>         assertEquals("compare values  ", 6.0, d_getLInfNorm);
+993,997d1001
+<         double d_getL1Norm = v1.getL1Norm();
+<         assertEquals("compare values  ",6.0, d_getL1Norm);
+< 
+<         double d_getLInfNorm = v1.getLInfNorm();
+<         assertEquals("compare values  ",6.0, d_getLInfNorm);
+1006a1011,1014
+>         //octave =  sqrt(sumsq(v1-v2))
+>         double dist_3 = v1.getDistance((RealVector) v2);
+>         assertEquals("compare values  ", v1.subtract(v2).getNorm(),dist_3 );
+> 
+1013a1022,1024
+>         double d_getL1Distance_3 = v1. getL1Distance((RealVector) v2);
+>         assertEquals("compare values  ",9d, d_getL1Distance_3 );
+> 
+1020a1032,1034
+>         double d_getLInfDistance_3 = v1. getLInfDistance((RealVector) v2);
+>         assertEquals("compare values  ",3d, d_getLInfDistance_3 );
+> 
+1048a1063,1066
+>         RealVector  v_ebeMultiply_3 = v1.ebeMultiply((RealVector) v2);
+>         double[] result_ebeMultiply_3 = {4d, 10d, 18d};
+>         assertClose("compare vect" ,v_ebeMultiply_3.getData(),result_ebeMultiply_3,normTolerance);
+> 
+1057a1076,1079
+>         RealVector  v_ebeDivide_3 = v1.ebeDivide((RealVector) v2);
+>         double[] result_ebeDivide_3 = {0.25d, 0.4d, 0.5d};
+>         assertClose("compare vect" ,v_ebeDivide_3.getData(),result_ebeDivide_3,normTolerance);
+> 
+1071a1094,1096
+>         RealMatrix m_outerProduct_3 = v1.outerProduct((RealVector) v2);
+>         assertEquals("compare val ",4d, m_outerProduct_3.getEntry(0,0));
+> 
+1103a1129,1132
+> 
+>         RealVector v_projection_3 = v1.projection(v2.getData());
+>         double[] result_projection_3 = {1.662337662337662, 2.0779220779220777, 2.493506493506493};
+>         assertClose("compare vect", v_projection_3.getData(), result_projection_3, normTolerance);
+--- Overwrite: testBasicFunctions
+938a939
+>         OpenMapRealVector v5 = new OpenMapRealVector(vec5);
+943,951c944,954
+<         //octave =  sqrt(sumsq(v1))
+<         double d_getNorm = v1.getNorm();
+<         assertEquals("compare values  ", 3.7416573867739413,d_getNorm);
+< 
+<         double d_getL1Norm = v1.getL1Norm();
+<         assertEquals("compare values  ",6.0, d_getL1Norm);
+< 
+<         double d_getLInfNorm = v1.getLInfNorm();
+<         assertEquals("compare values  ",6.0, d_getLInfNorm);
+---
+>         // emacs calc: [-4, 0, 3, 1, -6, 3] A --> 8.4261497731763586307
+>         double d_getNorm = v5.getNorm();
+>         assertEquals("compare values  ", 8.4261497731763586307, d_getNorm);
+> 
+>         // emacs calc: [-4, 0, 3, 1, -6, 3] vN --> 17
+>         double d_getL1Norm = v5.getL1Norm();
+>         assertEquals("compare values  ", 17.0, d_getL1Norm);
+> 
+>         // emacs calc: [-4, 0, 3, 1, -6, 3] vn --> 6
+>         double d_getLInfNorm = v5.getLInfNorm();
+>         assertEquals("compare values  ", 6.0, d_getLInfNorm);
+1039c1042
+<         OpenMapRealVector v_unitize = (OpenMapRealVector)v1.copy();
+---
+>         OpenMapRealVector v_unitize = v1.copy();

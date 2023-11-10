@@ -1,0 +1,581 @@
+<coverage branch-rate="0.28040540540540543" branches-covered="83" branches-valid="296" complexity="2.675925925925926" line-rate="0.3527204502814259" lines-covered="188" lines-valid="533" timestamp="1623788990972" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="5.444444444444445" line-rate="0.0" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.0" complexity="5.444444444444445" filename="org/apache/commons/lang/LocaleUtils.java" line-rate="0.0" name="org.apache.commons.lang.LocaleUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.3577586206896552" complexity="2.4242424242424243" line-rate="0.4113785557986871" name="org.apache.commons.lang.time">
+			<classes>
+				<class branch-rate="0.4407894736842105" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.49049429657794674" name="org.apache.commons.lang.time.FastDateFormat">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="1" number="112" />
+								<line branch="false" hits="1" number="113" />
+								<line branch="false" hits="1" number="114" />
+								<line branch="false" hits="1" number="115" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8461538461538461" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/util/TimeZone;Ljava/util/Locale;)V">
+							<lines>
+								<line branch="false" hits="2" number="539" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="540">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="543" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="545">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="546">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="547" />
+								<line branch="false" hits="2" number="549" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="551">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="552">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="555" />
+								<line branch="false" hits="2" number="556" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDateTimeInstance" signature="(II)Lorg/apache/commons/lang/time/FastDateFormat;">
+							<lines>
+								<line branch="false" hits="2" number="408" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDateTimeInstance" signature="(IILjava/util/Locale;)Lorg/apache/commons/lang/time/FastDateFormat;">
+							<lines>
+								<line branch="false" hits="1" number="425" />
+							</lines>
+						</method>
+						<method branch-rate="0.875" line-rate="0.8235294117647058" name="getDateTimeInstance" signature="(IILjava/util/TimeZone;Ljava/util/Locale;)Lorg/apache/commons/lang/time/FastDateFormat;">
+							<lines>
+								<line branch="false" hits="3" number="461" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="462">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="465">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="466" />
+								<line branch="false" hits="3" number="469" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="470">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="471">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="472" />
+								<line branch="false" hits="2" number="476" />
+								<line branch="false" hits="2" number="478" />
+								<line branch="false" hits="2" number="479" />
+								<line branch="false" hits="2" number="480" />
+								<line branch="false" hits="2" number="484" />
+								<line branch="false" hits="3" number="486" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="getInstance" signature="(Ljava/lang/String;Ljava/util/TimeZone;Ljava/util/Locale;)Lorg/apache/commons/lang/time/FastDateFormat;">
+							<lines>
+								<line branch="false" hits="2" number="213" />
+								<line branch="false" hits="2" number="214" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="215">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="216" />
+								<line branch="false" hits="2" number="217" />
+								<line branch="false" hits="2" number="218" />
+								<line branch="false" hits="2" number="220" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLocale" signature="()Ljava/util/Locale;">
+							<lines>
+								<line branch="false" hits="3" number="955" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="hashCode" signature="()I">
+							<lines>
+								<line branch="false" hits="4" number="1002" />
+								<line branch="false" hits="4" number="1003" />
+								<line branch="false" hits="4" number="1004" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="1005">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="1006" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="1007">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="1008" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="init" signature="()V">
+							<lines>
+								<line branch="false" hits="2" number="562" />
+								<line branch="false" hits="2" number="563" />
+								<line branch="false" hits="2" number="565" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="566">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="30" number="567" />
+								<line branch="false" hits="2" number="570" />
+								<line branch="false" hits="2" number="571" />
+							</lines>
+						</method>
+						<method branch-rate="0.4878048780487805" line-rate="0.5974025974025974" name="parsePattern" signature="()Ljava/util/List;">
+							<lines>
+								<line branch="false" hits="2" number="582" />
+								<line branch="false" hits="2" number="583" />
+								<line branch="false" hits="2" number="585" />
+								<line branch="false" hits="2" number="586" />
+								<line branch="false" hits="2" number="587" />
+								<line branch="false" hits="2" number="588" />
+								<line branch="false" hits="2" number="589" />
+								<line branch="false" hits="2" number="590" />
+								<line branch="false" hits="2" number="592" />
+								<line branch="false" hits="2" number="593" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="32" number="595">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="30" number="596" />
+								<line branch="false" hits="30" number="597" />
+								<line branch="false" hits="30" number="598" />
+								<line branch="false" hits="30" number="600" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="30" number="601">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="30" number="606" />
+								<line branch="true" condition-coverage="52% (11/21)" hits="30" number="608">
+									<conditions>
+										<condition coverage="52%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="613">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="614" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="620">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="621" />
+								<line branch="false" hits="2" number="631" />
+								<line branch="false" hits="2" number="632" />
+								<line branch="false" hits="1" number="634" />
+								<line branch="false" hits="1" number="635" />
+								<line branch="false" hits="1" number="637" />
+								<line branch="false" hits="1" number="638" />
+								<line branch="false" hits="2" number="640" />
+								<line branch="false" hits="2" number="641" />
+								<line branch="false" hits="1" number="643" />
+								<line branch="false" hits="1" number="644" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="649">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="650" />
+								<line branch="false" hits="1" number="664" />
+								<line branch="false" hits="1" number="665" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="673">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="676" />
+								<line branch="false" hits="2" number="678" />
+								<line branch="false" hits="14" number="687" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="14" number="688">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="9" number="689" />
+								<line branch="false" hits="5" number="691" />
+								<line branch="false" hits="5" number="693" />
+								<line branch="false" hits="30" number="698" />
+								<line branch="false" hits="2" number="701" />
+							</lines>
+						</method>
+						<method branch-rate="0.84375" line-rate="0.9259259259259259" name="parseToken" signature="(Ljava/lang/String;[I)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="30" number="712" />
+								<line branch="false" hits="30" number="714" />
+								<line branch="false" hits="30" number="715" />
+								<line branch="false" hits="30" number="717" />
+								<line branch="true" condition-coverage="87% (7/8)" hits="30" number="718">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+										<condition coverage="100%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="16" number="721" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="38" number="723">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="36" number="724" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="36" number="725">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="22" number="726" />
+								<line branch="false" hits="22" number="727" />
+								<line branch="false" hits="22" number="731" />
+								<line branch="false" hits="14" number="734" />
+								<line branch="false" hits="14" number="736" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="62" number="738">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="38" number="739" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="38" number="741">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (2/4)" hits="2" number="742">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="747">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="90% (9/10)" hits="36" number="749">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+										<condition coverage="100%" number="2" type="jump" />
+										<condition coverage="100%" number="3" type="jump" />
+										<condition coverage="50%" number="4" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="14" number="751" />
+								<line branch="false" hits="14" number="752" />
+								<line branch="false" hits="22" number="754" />
+								<line branch="false" hits="30" number="759" />
+								<line branch="false" hits="30" number="760" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="selectNumberRule" signature="(II)Lorg/apache/commons/lang/time/FastDateFormat$NumberRule;">
+							<lines>
+								<line branch="true" condition-coverage="100% (3/3)" hits="9" number="771">
+									<conditions>
+										<condition coverage="100%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="773" />
+								<line branch="false" hits="4" number="775" />
+								<line branch="false" hits="2" number="777" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.6666666666666666" name="org.apache.commons.lang.time.FastDateFormat$CharacterLiteral">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(C)V">
+							<lines>
+								<line branch="false" hits="9" number="1082" />
+								<line branch="false" hits="9" number="1083" />
+								<line branch="false" hits="9" number="1084" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="estimateLength" signature="()I">
+							<lines>
+								<line branch="false" hits="9" number="1090" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="1.0" name="org.apache.commons.lang.time.FastDateFormat$NumberRule">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.08333333333333333" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.2727272727272727" name="org.apache.commons.lang.time.FastDateFormat$PaddedNumberField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8333333333333334" name="&lt;init&gt;" signature="(II)V">
+							<lines>
+								<line branch="false" hits="2" number="1273" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="1274">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="1278" />
+								<line branch="false" hits="2" number="1279" />
+								<line branch="false" hits="2" number="1280" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="estimateLength" signature="()I">
+							<lines>
+								<line branch="false" hits="2" number="1286" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.4" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.75" name="org.apache.commons.lang.time.FastDateFormat$Pair">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/Object;Ljava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="4" number="1709" />
+								<line branch="false" hits="4" number="1710" />
+								<line branch="false" hits="4" number="1711" />
+								<line branch="false" hits="4" number="1712" />
+							</lines>
+						</method>
+						<method branch-rate="0.375" line-rate="0.6666666666666666" name="equals" signature="(Ljava/lang/Object;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="1718">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="1722">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="1726" />
+								<line branch="true" condition-coverage="33% (4/12)" hits="1" number="1728">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+										<condition coverage="0%" number="4" type="jump" />
+										<condition coverage="50%" number="5" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="hashCode" signature="()I">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="7" number="1739">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="1.0" name="org.apache.commons.lang.time.FastDateFormat$Rule">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.6666666666666666" name="org.apache.commons.lang.time.FastDateFormat$StringLiteral">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="5" number="1113" />
+								<line branch="false" hits="5" number="1114" />
+								<line branch="false" hits="5" number="1115" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="estimateLength" signature="()I">
+							<lines>
+								<line branch="false" hits="5" number="1121" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.8461538461538461" name="org.apache.commons.lang.time.FastDateFormat$TextField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(I[Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="5" number="1146" />
+								<line branch="false" hits="5" number="1147" />
+								<line branch="false" hits="5" number="1148" />
+								<line branch="false" hits="5" number="1149" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="estimateLength" signature="()I">
+							<lines>
+								<line branch="false" hits="5" number="1155" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="5" number="1156">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="44" number="1157" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="44" number="1158">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="9" number="1159" />
+								<line branch="false" hits="44" number="1161" />
+								<line branch="false" hits="5" number="1162" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TimeZoneDisplayKey">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.1875" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.48" name="org.apache.commons.lang.time.FastDateFormat$TimeZoneNameRule">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8181818181818182" name="&lt;init&gt;" signature="(Ljava/util/TimeZone;ZLjava/util/Locale;I)V">
+							<lines>
+								<line branch="false" hits="2" number="1539" />
+								<line branch="false" hits="2" number="1540" />
+								<line branch="false" hits="2" number="1541" />
+								<line branch="false" hits="2" number="1542" />
+								<line branch="false" hits="2" number="1543" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="1545">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="1549" />
+								<line branch="false" hits="2" number="1550" />
+								<line branch="false" hits="2" number="1552" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6" name="estimateLength" signature="()I">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="1558">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="1560">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="1561" />
+								</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TimeZoneNumberRule">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.36363636363636365" name="org.apache.commons.lang.time.FastDateFormat$TwelveHourField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/apache/commons/lang/time/FastDateFormat$NumberRule;)V">
+							<lines>
+								<line branch="false" hits="1" number="1448" />
+								<line branch="false" hits="1" number="1449" />
+								<line branch="false" hits="1" number="1450" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="estimateLength" signature="()I">
+							<lines>
+								<line branch="false" hits="1" number="1456" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TwentyFourHourField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TwoDigitMonthField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.36363636363636365" name="org.apache.commons.lang.time.FastDateFormat$TwoDigitNumberField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(I)V">
+							<lines>
+								<line branch="false" hits="4" number="1333" />
+								<line branch="false" hits="4" number="1334" />
+								<line branch="false" hits="4" number="1335" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="estimateLength" signature="()I">
+							<lines>
+								<line branch="false" hits="4" number="1341" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$TwoDigitYearField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.0" name="org.apache.commons.lang.time.FastDateFormat$UnpaddedMonthField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4242424242424243" filename="org/apache/commons/lang/time/FastDateFormat.java" line-rate="0.35714285714285715" name="org.apache.commons.lang.time.FastDateFormat$UnpaddedNumberField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="1177" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(I)V">
+							<lines>
+								<line branch="false" hits="4" number="1186" />
+								<line branch="false" hits="4" number="1187" />
+								<line branch="false" hits="4" number="1188" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="estimateLength" signature="()I">
+							<lines>
+								<line branch="false" hits="3" number="1194" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

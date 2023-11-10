@@ -1,0 +1,325 @@
+<coverage branch-rate="0.0018018018018018018" branches-covered="2" branches-valid="1110" complexity="1.847266881028939" line-rate="0.014012143858010275" lines-covered="30" lines-valid="2141" timestamp="1624314163404" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.1690140845070423" line-rate="0.06428571428571428" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.0" name="org.apache.commons.math.ConvergenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergingAlgorithm.java" line-rate="1.0" name="org.apache.commons.math.ConvergingAlgorithm">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergingAlgorithmImpl.java" line-rate="0.36" name="org.apache.commons.math.ConvergingAlgorithmImpl">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(ID)V">
+							<lines>
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="69" />
+								<line branch="false" hits="1" number="70" />
+								<line branch="false" hits="1" number="71" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math/MathException.java" line-rate="0.0" name="org.apache.commons.math.MathException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1935483870967742" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1935483870967742" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1935483870967742" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1935483870967742" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1935483870967742" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1935483870967742" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1935483870967742" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$6">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1935483870967742" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$7">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1935483870967742" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$8">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1935483870967742" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$9">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/MaxIterationsExceededException.java" line-rate="0.0" name="org.apache.commons.math.MaxIterationsExceededException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math.analysis">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/DifferentiableUnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.DifferentiableUnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.UnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.04" complexity="1.9210526315789473" line-rate="0.19811320754716982" name="org.apache.commons.math.analysis.solvers">
+			<classes>
+				<class branch-rate="0.16666666666666666" complexity="1.8333333333333333" filename="org/apache/commons/math/analysis/solvers/BisectionSolver.java" line-rate="0.43478260869565216" name="org.apache.commons.math.analysis.solvers.BisectionSolver">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="55" />
+								<line branch="false" hits="1" number="56" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="solve" signature="(DD)D">
+							<lines>
+								<line branch="false" hits="1" number="69" />
+							</lines>
+						</method>
+						<method branch-rate="0.16666666666666666" line-rate="0.375" name="solve" signature="(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DD)D">
+							<lines>
+								<line branch="false" hits="1" number="82" />
+								<line branch="false" hits="1" number="83" />
+								<line branch="false" hits="1" number="88" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="89">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="90" />
+								<line branch="false" hits="1" number="91" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="solve" signature="(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D">
+							<lines>
+								<line branch="false" hits="1" number="75" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/solvers/UnivariateRealSolver.java" line-rate="1.0" name="org.apache.commons.math.analysis.solvers.UnivariateRealSolver">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.045454545454545456" complexity="1.875" filename="org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java" line-rate="0.2" name="org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(ID)V">
+							<lines>
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="96" />
+								<line branch="false" hits="1" number="97" />
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="99" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="clearResult" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="168" />
+								<line branch="false" hits="1" number="169" />
+								<line branch="false" hits="1" number="170" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="verifyInterval" signature="(DD)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="211">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="216" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.2857142857142856" filename="org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java" line-rate="0.03225806451612903" name="org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="midpoint" signature="(DD)D">
+							<lines>
+								<line branch="false" hits="1" number="218" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.2857142857142856" filename="org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java" line-rate="0.0" name="org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils$LazyHolder">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.8687350835322196" line-rate="0.0" name="org.apache.commons.math.linear">
+			<classes>
+				<class branch-rate="0.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6486486486486487" filename="org/apache/commons/math/linear/AbstractRealMatrix.java" line-rate="0.0" name="org.apache.commons.math.linear.AbstractRealMatrix$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/AnyMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.AnyMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/InvalidMatrixException.java" line-rate="0.0" name="org.apache.commons.math.linear.InvalidMatrixException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/MatrixIndexException.java" line-rate="0.0" name="org.apache.commons.math.linear.MatrixIndexException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/NonSquareMatrixException.java" line-rate="0.0" name="org.apache.commons.math.linear.NonSquareMatrixException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.RealMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealMatrixChangingVisitor.java" line-rate="1.0" name="org.apache.commons.math.linear.RealMatrixChangingVisitor">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.1470588235294117" filename="org/apache/commons/math/linear/RealMatrixImpl.java" line-rate="0.0" name="org.apache.commons.math.linear.RealMatrixImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealMatrixPreservingVisitor.java" line-rate="1.0" name="org.apache.commons.math.linear.RealMatrixPreservingVisitor">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealVector.java" line-rate="1.0" name="org.apache.commons.math.linear.RealVector">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0588235294117645" filename="org/apache/commons/math/linear/RealVectorFormat.java" line-rate="0.0" name="org.apache.commons.math.linear.RealVectorFormat">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.1615384615384614" filename="org/apache/commons/math/linear/RealVectorImpl.java" line-rate="0.0" name="org.apache.commons.math.linear.RealVectorImpl">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.1428571428571428" line-rate="0.0" name="org.apache.commons.math.optimization">
+			<classes>
+				<class branch-rate="1.0" complexity="0.0" filename="org/apache/commons/math/optimization/GoalType.java" line-rate="0.0" name="org.apache.commons.math.optimization.GoalType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/optimization/OptimizationException.java" line-rate="0.0" name="org.apache.commons.math.optimization.OptimizationException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.2" filename="org/apache/commons/math/optimization/RealPointValuePair.java" line-rate="0.0" name="org.apache.commons.math.optimization.RealPointValuePair">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.2987012987012987" line-rate="0.0" name="org.apache.commons.math.optimization.linear">
+			<classes>
+				<class branch-rate="0.0" complexity="1.4285714285714286" filename="org/apache/commons/math/optimization/linear/AbstractLinearOptimizer.java" line-rate="0.0" name="org.apache.commons.math.optimization.linear.AbstractLinearOptimizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8181818181818181" filename="org/apache/commons/math/optimization/linear/LinearConstraint.java" line-rate="0.0" name="org.apache.commons.math.optimization.linear.LinearConstraint">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7" filename="org/apache/commons/math/optimization/linear/LinearObjectiveFunction.java" line-rate="0.0" name="org.apache.commons.math.optimization.linear.LinearObjectiveFunction">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/optimization/linear/LinearOptimizer.java" line-rate="1.0" name="org.apache.commons.math.optimization.linear.LinearOptimizer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/optimization/linear/NoFeasibleSolutionException.java" line-rate="0.0" name="org.apache.commons.math.optimization.linear.NoFeasibleSolutionException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3333333333333335" filename="org/apache/commons/math/optimization/linear/Relationship.java" line-rate="0.0" name="org.apache.commons.math.optimization.linear.Relationship">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3333333333333335" filename="org/apache/commons/math/optimization/linear/Relationship.java" line-rate="0.0" name="org.apache.commons.math.optimization.linear.Relationship$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.7777777777777777" filename="org/apache/commons/math/optimization/linear/SimplexSolver.java" line-rate="0.0" name="org.apache.commons.math.optimization.linear.SimplexSolver">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6774193548387095" filename="org/apache/commons/math/optimization/linear/SimplexTableau.java" line-rate="0.0" name="org.apache.commons.math.optimization.linear.SimplexTableau">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/optimization/linear/UnboundedSolutionException.java" line-rate="0.0" name="org.apache.commons.math.optimization.linear.UnboundedSolutionException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.875" line-rate="0.0" name="org.apache.commons.math.util">
+			<classes>
+				<class branch-rate="0.0" complexity="2.875" filename="org/apache/commons/math/util/CompositeFormat.java" line-rate="0.0" name="org.apache.commons.math.util.CompositeFormat">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="0.0" filename="org/apache/commons/math/util/MathUtils.java" line-rate="0.0" name="org.apache.commons.math.util.MathUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

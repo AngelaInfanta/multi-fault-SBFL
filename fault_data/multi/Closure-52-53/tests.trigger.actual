@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.CodePrinterTest::testNumericKeys
+com.google.javascript.jscomp.InlineObjectLiteralsTest::testBug545

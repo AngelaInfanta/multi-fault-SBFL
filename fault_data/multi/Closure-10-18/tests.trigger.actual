@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.IntegrationTest::testDependencySorting
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821

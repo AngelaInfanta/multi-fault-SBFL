@@ -1,0 +1,7 @@
+com.google.javascript.jscomp.CheckSideEffectsTest::testJSDocComments
+com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfThrowsException
+com.google.javascript.jscomp.CollapsePropertiesTest::testTwinReferenceCancelsChildCollapsing
+com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInNestedAssign
+com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInCommaOperator
+com.google.javascript.jscomp.ControlFlowAnalysisTest::testInstanceOf
+com.google.javascript.jscomp.DisambiguatePropertiesTest::testSupertypeReferenceOfSubtypeProperty

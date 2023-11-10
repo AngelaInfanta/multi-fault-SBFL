@@ -1,0 +1,46 @@
+--- Overwrite: testStaticFunction6
+84c84
+<     testFailure("function a() { return function() { this = 8; } }");
+---
+>     testSame("function a() { return function() { this = 8; } }");
+--- Overwrite: testStaticFunction7
+88c88
+<     testFailure("var a = function() { return function() { this = 8; } }");
+---
+>     testSame("var a = function() { return function() { this = 8; } }");
+--- Insert: testStaticFunction8
+160a161,163
+>   public void testStaticFunction8() {
+>     testFailure("var a = function() { return this.foo; };");
+>   }
+--- Insert: testGlobalThis7
+163a164,166
+>   public void testGlobalThis7() {
+>     testFailure("var a = this.foo;");
+>   }
+--- Overwrite: testStaticMethod2
+140c140
+<     testFailure("a.b = function() { return function() { this.m2 = 5; } }");
+---
+>     testSame("a.b = function() { return function() { this.m2 = 5; } }");
+--- Overwrite: testStaticMethod3
+144c144
+<     testFailure("a.b.c = function() { return function() { this.m2 = 5; } }");
+---
+>     testSame("a.b.c = function() { return function() { this.m2 = 5; } }");
+--- Insert: testInnerFunction1
+166a167,169
+>   public void testInnerFunction1() {
+>     testFailure("function f() { function g() { return this.x; } }");
+>   }
+--- Insert: testInnerFunction2
+169a170,172
+>   public void testInnerFunction2() {
+>     testFailure("function f() { var g = function() { return this.x; } }");
+>   }
+--- Insert: testInnerFunction3
+172a173,176
+>   public void testInnerFunction3() {
+>     testFailure(
+>         "function f() { var x = {}; x.y = function() { return this.x; } }");
+>   }

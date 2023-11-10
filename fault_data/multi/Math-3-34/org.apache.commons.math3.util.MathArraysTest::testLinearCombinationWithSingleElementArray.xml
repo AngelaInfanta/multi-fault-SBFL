@@ -1,0 +1,177 @@
+<coverage branch-rate="0.011673151750972763" branches-covered="3" branches-valid="257" complexity="2.1549295774647885" line-rate="0.030508474576271188" lines-covered="18" lines-valid="590" timestamp="1624275960641" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.1020408163265305" line-rate="0.0" name="org.apache.commons.math3.exception">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/DimensionMismatchException.java" line-rate="0.0" name="org.apache.commons.math3.exception.DimensionMismatchException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/MathArithmeticException.java" line-rate="0.0" name="org.apache.commons.math3.exception.MathArithmeticException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/MathIllegalArgumentException.java" line-rate="0.0" name="org.apache.commons.math3.exception.MathIllegalArgumentException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/MathIllegalNumberException.java" line-rate="0.0" name="org.apache.commons.math3.exception.MathIllegalNumberException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/MathIllegalStateException.java" line-rate="0.0" name="org.apache.commons.math3.exception.MathIllegalStateException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/MathInternalError.java" line-rate="0.0" name="org.apache.commons.math3.exception.MathInternalError">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/NoDataException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NoDataException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math3/exception/NonMonotonicSequenceException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NonMonotonicSequenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/NotPositiveException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NotPositiveException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/NotStrictlyPositiveException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NotStrictlyPositiveException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/NullArgumentException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NullArgumentException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.25" filename="org/apache/commons/math3/exception/NumberIsTooLargeException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NumberIsTooLargeException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.25" filename="org/apache/commons/math3/exception/NumberIsTooSmallException.java" line-rate="0.0" name="org.apache.commons.math3.exception.NumberIsTooSmallException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/OutOfRangeException.java" line-rate="0.0" name="org.apache.commons.math3.exception.OutOfRangeException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math3.exception.util">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/util/ExceptionContextProvider.java" line-rate="1.0" name="org.apache.commons.math3.exception.util.ExceptionContextProvider">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/exception/util/Localizable.java" line-rate="1.0" name="org.apache.commons.math3.exception.util.Localizable">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.0" line-rate="0.0" name="org.apache.commons.math3.genetics">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/genetics/AbstractListChromosome.java" line-rate="0.0" name="org.apache.commons.math3.genetics.AbstractListChromosome">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/apache/commons/math3/genetics/BinaryChromosome.java" line-rate="0.0" name="org.apache.commons.math3.genetics.BinaryChromosome">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/math3/genetics/Chromosome.java" line-rate="0.0" name="org.apache.commons.math3.genetics.Chromosome">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/genetics/Fitness.java" line-rate="1.0" name="org.apache.commons.math3.genetics.Fitness">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/math3/genetics/GeneticAlgorithm.java" line-rate="0.0" name="org.apache.commons.math3.genetics.GeneticAlgorithm">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/genetics/InvalidRepresentationException.java" line-rate="0.0" name="org.apache.commons.math3.genetics.InvalidRepresentationException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5384615384615383" filename="org/apache/commons/math3/genetics/ListPopulation.java" line-rate="0.0" name="org.apache.commons.math3.genetics.ListPopulation">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/genetics/Population.java" line-rate="1.0" name="org.apache.commons.math3.genetics.Population">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.0769230769230769" line-rate="0.0" name="org.apache.commons.math3.random">
+			<classes>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math3/random/JDKRandomGenerator.java" line-rate="0.0" name="org.apache.commons.math3.random.JDKRandomGenerator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math3/random/RandomGenerator.java" line-rate="1.0" name="org.apache.commons.math3.random.RandomGenerator">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.016574585635359115" complexity="4.793103448275862" line-rate="0.05217391304347826" name="org.apache.commons.math3.util">
+			<classes>
+				<class branch-rate="0.016853932584269662" complexity="4.793103448275862" filename="org/apache/commons/math3/util/MathArrays.java" line-rate="0.05405405405405406" name="org.apache.commons.math3.util.MathArrays">
+					<methods>
+						<method branch-rate="0.3" line-rate="0.5142857142857142" name="linearCombination" signature="([D[D)D">
+							<lines>
+								<line branch="false" hits="1" number="581" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="582">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="586" />
+								<line branch="false" hits="1" number="587" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="589">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="590" />
+								<line branch="false" hits="1" number="591" />
+								<line branch="false" hits="1" number="592" />
+								<line branch="false" hits="1" number="593" />
+								<line branch="false" hits="1" number="595" />
+								<line branch="false" hits="1" number="596" />
+								<line branch="false" hits="1" number="597" />
+								<line branch="false" hits="1" number="598" />
+								<line branch="false" hits="1" number="599" />
+								<line branch="false" hits="1" number="600" />
+								<line branch="false" hits="1" number="604" />
+								<line branch="false" hits="1" number="608" />
+								<line branch="false" hits="1" number="609" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.793103448275862" filename="org/apache/commons/math3/util/MathArrays.java" line-rate="0.0" name="org.apache.commons.math3.util.MathArrays$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.793103448275862" filename="org/apache/commons/math3/util/MathArrays.java" line-rate="0.0" name="org.apache.commons.math3.util.MathArrays$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.793103448275862" filename="org/apache/commons/math3/util/MathArrays.java" line-rate="0.0" name="org.apache.commons.math3.util.MathArrays$OrderDirection">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,97 @@
+<coverage branch-rate="0.10067114093959731" branches-covered="15" branches-valid="149" complexity="4.566666666666666" line-rate="0.13440860215053763" lines-covered="25" lines-valid="186" timestamp="1624291004187" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.10067114093959731" complexity="4.566666666666666" line-rate="0.13440860215053763" name="org.apache.commons.lang.time">
+			<classes>
+				<class branch-rate="0.10204081632653061" complexity="4.566666666666666" filename="org/apache/commons/lang/time/DateUtils.java" line-rate="0.14285714285714285" name="org.apache.commons.lang.time.DateUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="72" />
+							</lines>
+						</method>
+						<method branch-rate="0.4" line-rate="0.5" name="modify" signature="(Ljava/util/Calendar;IZ)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="8" number="620">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="641" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="22" number="642">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="38" number="643">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="24" number="644">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="75% (3/4)" hits="8" number="646">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="647">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="660" />
+								<line branch="false" hits="8" number="663" />
+								<line branch="false" hits="14" number="667" />
+								<line branch="false" hits="14" number="668" />
+								<line branch="true" condition-coverage="33% (1/3)" hits="14" number="670">
+									<conditions>
+										<condition coverage="33%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="14" number="700">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="14" number="701" />
+								<line branch="false" hits="14" number="702" />
+								<line branch="false" hits="14" number="704" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="14" number="706">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="14" number="709" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8333333333333334" name="round" signature="(Ljava/util/Date;I)Ljava/util/Date;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="8" number="436">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="439" />
+								<line branch="false" hits="8" number="440" />
+								<line branch="false" hits="8" number="441" />
+								<line branch="false" hits="8" number="442" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.566666666666666" filename="org/apache/commons/lang/time/DateUtils.java" line-rate="0.0" name="org.apache.commons.lang.time.DateUtils$DateIterator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

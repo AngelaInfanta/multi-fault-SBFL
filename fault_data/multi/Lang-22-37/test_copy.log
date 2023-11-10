@@ -1,0 +1,14 @@
+--- Overwrite: testReducedFactory_int_int
+344a345,349
+> 
+>         // LANG-662
+>         f = Fraction.getReducedFraction(Integer.MIN_VALUE, 2);
+>         assertEquals(Integer.MIN_VALUE / 2, f.getNumerator());
+>         assertEquals(1, f.getDenominator());
+--- Overwrite: testReduce
+662a663,667
+> 
+>         f = Fraction.getFraction(Integer.MIN_VALUE, 2);
+>         result = f.reduce();
+>         assertEquals(Integer.MIN_VALUE / 2, result.getNumerator());
+>         assertEquals(1, result.getDenominator());

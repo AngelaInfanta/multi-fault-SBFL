@@ -1,0 +1,10 @@
+--- Overwrite: testCreateNumber
+223a224,226
+> 
+>         // LANG-521
+>         assertEquals("createNumber(String) LANG-521 failed", new Float("2."), NumberUtils.createNumber("2."));
+--- Overwrite: testIsNumber
+1148a1149,1151
+>         // LANG-521
+>         val = "2.";
+>         assertTrue("isNumber(String) LANG-521 failed", NumberUtils.isNumber(val));

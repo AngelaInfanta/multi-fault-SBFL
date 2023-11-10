@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.CommandLineRunnerTest::testVersionFlag2
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldArithmetic

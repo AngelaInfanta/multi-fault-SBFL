@@ -1,0 +1,16 @@
+--- Overwrite: testQuinticMin
+63,64c63
+<         UnivariateRealOptimizer underlying = new BrentOptimizer();
+<         underlying.setConvergenceChecker(new BrentOptimizer.BrentConvergenceChecker(1e-9, 1e-14));
+---
+>         UnivariateRealOptimizer underlying = new BrentOptimizer(1e-9, 1e-14);
+73c72
+<         assertEquals(-0.2719561271, optimum.getPoint(), 1e-9);
+---
+>         assertEquals(-0.2719561293, optimum.getPoint(), 1e-9);
+80,81c79,80
+<         assertTrue(optimizer.getEvaluations() >= 110);
+<         assertTrue(optimizer.getEvaluations() <= 150);
+---
+>         assertTrue(optimizer.getEvaluations() >= 50);
+>         assertTrue(optimizer.getEvaluations() <= 100);

@@ -1,0 +1,125 @@
+<coverage branch-rate="0.005917159763313609" branches-covered="9" branches-valid="1521" complexity="6.004444444444444" line-rate="0.017431725740848343" lines-covered="30" lines-valid="1721" timestamp="1624264928024" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.003451251078515962" complexity="5.758426966292135" line-rate="0.003711952487008166" name="org.apache.commons.lang3">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/lang3/SerializationException.java" line-rate="0.0" name="org.apache.commons.lang3.SerializationException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.625" filename="org/apache/commons/lang3/SerializationUtils.java" line-rate="0.0" name="org.apache.commons.lang3.SerializationUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.625" filename="org/apache/commons/lang3/SerializationUtils.java" line-rate="0.0" name="org.apache.commons.lang3.SerializationUtils$ClassLoaderAwareObjectInputStream">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0034934497816593887" complexity="5.927710843373494" filename="org/apache/commons/lang3/StringUtils.java" line-rate="0.003996802557953637" name="org.apache.commons.lang3.StringUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="148" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="isBlank" signature="(Ljava/lang/CharSequence;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="6" number="224">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="227">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="228">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="229" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="5.927710843373494" filename="org/apache/commons/lang3/StringUtils.java" line-rate="0.0" name="org.apache.commons.lang3.StringUtils$InitStripAccents">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.013812154696132596" complexity="6.9361702127659575" line-rate="0.06684491978609626" name="org.apache.commons.lang3.math">
+			<classes>
+				<class branch-rate="0.013812154696132596" complexity="6.9361702127659575" filename="org/apache/commons/lang3/math/NumberUtils.java" line-rate="0.06684491978609626" name="org.apache.commons.lang3.math.NumberUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="33" />
+								<line branch="false" hits="1" number="35" />
+								<line branch="false" hits="1" number="37" />
+								<line branch="false" hits="1" number="39" />
+								<line branch="false" hits="1" number="41" />
+								<line branch="false" hits="1" number="43" />
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="47" />
+								<line branch="false" hits="1" number="49" />
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="55" />
+								<line branch="false" hits="1" number="57" />
+								<line branch="false" hits="1" number="59" />
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="67" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="createInteger" signature="(Ljava/lang/String;)Ljava/lang/Integer;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="660">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="664" />
+							</lines>
+						</method>
+						<method branch-rate="0.045454545454545456" line-rate="0.07142857142857142" name="createNumber" signature="(Ljava/lang/String;)Ljava/lang/Number;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="445">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="448">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="451">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="12% (1/8)" hits="6" number="458">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+										<condition coverage="0%" number="2" type="jump" />
+										<condition coverage="0%" number="3" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="459" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,5 @@
+--- Overwrite: testGcd
+292a293,295
+> 
+>         assertEquals(3 * (1<<15), MathUtils.gcd(3 * (1<<20), 9 * (1<<15)));
+> 

@@ -1,0 +1,4 @@
+org.apache.commons.lang3.math.FractionTest::testReducedFactory_int_int
+org.apache.commons.lang3.math.FractionTest::testReduce
+org.apache.commons.lang3.reflect.TypeUtilsTest::testGetTypeArguments
+org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable

@@ -1,0 +1,4 @@
+--- Overwrite: testEscapeJavaScript
+186a187,188
+>         assertEquals("document.getElementById(\\\"test\\\").value = \\'<script>alert(\\'aaa\\');<\\/script>\\';", 
+>                 StringEscapeUtils.escapeJavaScript("document.getElementById(\"test\").value = '<script>alert('aaa');</script>';"));

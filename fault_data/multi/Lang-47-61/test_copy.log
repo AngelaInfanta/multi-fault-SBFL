@@ -1,0 +1,14 @@
+--- Insert: testLang412Left
+1742a1743,1747
+>     public void testLang412Left() {
+>         StrBuilder sb = new StrBuilder();
+>         sb.appendFixedWidthPadLeft(null, 10, '*');
+>         assertEquals( "Failed to invoke appendFixedWidthPadLeft correctly", "**********", sb.toString());
+>     }
+--- Insert: testLang412Right
+1747a1748,1752
+>     public void testLang412Right() {
+>         StrBuilder sb = new StrBuilder();
+>         sb.appendFixedWidthPadRight(null, 10, '*');
+>         assertEquals( "Failed to invoke appendFixedWidthPadRight correctly", "**********", sb.toString());
+>     }

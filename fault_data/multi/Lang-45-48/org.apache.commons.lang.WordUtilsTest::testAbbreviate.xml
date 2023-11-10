@@ -1,0 +1,106 @@
+<coverage branch-rate="0.01694915254237288" branches-covered="21" branches-valid="1239" complexity="5.461928934010152" line-rate="0.017241379310344827" lines-covered="24" lines-valid="1392" timestamp="1623785106358" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.02056807051909892" complexity="5.291666666666667" line-rate="0.020600858369098713" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.00544069640914037" complexity="5.279220779220779" filename="org/apache/commons/lang/StringUtils.java" line-rate="0.0038948393378773127" name="org.apache.commons.lang.StringUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="defaultString" signature="(Ljava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="12" number="4864">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.375" line-rate="0.6" name="indexOf" signature="(Ljava/lang/String;Ljava/lang/String;I)I">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="15" number="850">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="25% (1/4)" hits="15" number="854">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="15" number="857" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.1568627450980392" complexity="5.428571428571429" filename="org/apache/commons/lang/WordUtils.java" line-rate="0.14492753623188406" name="org.apache.commons.lang.WordUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="abbreviate" signature="(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="17" number="606">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="607" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="16" number="609">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="610" />
+								<line branch="true" condition-coverage="100% (4/4)" hits="15" number="615">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="616" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="15" number="619">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="620" />
+								<line branch="false" hits="15" number="623" />
+								<line branch="false" hits="15" number="624" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="15" number="625">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="9" number="626" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="8" number="628">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="629" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="6" number="631">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="632" />
+								<line branch="false" hits="1" number="633" />
+								<line branch="false" hits="5" number="635" />
+								<line branch="false" hits="5" number="636" />
+								<line branch="false" hits="14" number="638" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="6.448275862068965" line-rate="0.0" name="org.apache.commons.lang.builder">
+			<classes>
+				<class branch-rate="0.0" complexity="6.448275862068965" filename="org/apache/commons/lang/builder/EqualsBuilder.java" line-rate="0.0" name="org.apache.commons.lang.builder.EqualsBuilder">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,7 @@
+--- Overwrite: testIsBooleanResult
+1487a1488
+>     assertTrue(NodeUtil.isBooleanResult(getNode("delete a")));
+--- Overwrite: testLocalValue1
+1153a1154,1155
+> 
+>     assertTrue(testLocalValue("delete a.b"));

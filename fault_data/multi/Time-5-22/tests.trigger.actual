@@ -1,0 +1,5 @@
+org.joda.time.TestDuration_Basics::testToPeriod_fixedZone
+org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2
+org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone

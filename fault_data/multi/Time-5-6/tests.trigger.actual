@@ -1,0 +1,8 @@
+org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2
+org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+org.joda.time.chrono.TestGJDate::test_cutoverPreZero
+org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToNegative_crossCutover
+org.joda.time.chrono.TestGJDate::test_plusYears_positiveToZero_crossCutover
+org.joda.time.chrono.TestGJDate::test_plusYears_positiveToNegative_crossCutover
+org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToZero_crossCutover

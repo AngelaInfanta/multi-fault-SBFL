@@ -1,0 +1,3290 @@
+<coverage branch-rate="0.094921875" branches-covered="243" branches-valid="2560" complexity="2.0175892395240558" line-rate="0.16998950682056663" lines-covered="972" lines-valid="5718" timestamp="1624287390815" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.07926829268292683" complexity="1.937219730941704" line-rate="0.13772090188909203" name="org.joda.time">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/Chronology.java" line-rate="1.0" name="org.joda.time.Chronology">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="6" number="63" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.616" filename="org/joda/time/DateTime.java" line-rate="0.0" name="org.joda.time.DateTime">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.616" filename="org/joda/time/DateTime.java" line-rate="0.0" name="org.joda.time.DateTime$Property">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/DateTimeField.java" line-rate="1.0" name="org.joda.time.DateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="76" number="33" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.6216216216216215" filename="org/joda/time/DateTimeFieldType.java" line-rate="0.9433962264150944" name="org.joda.time.DateTimeFieldType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="73" />
+								<line branch="false" hits="1" number="76" />
+								<line branch="false" hits="1" number="79" />
+								<line branch="false" hits="1" number="82" />
+								<line branch="false" hits="1" number="85" />
+								<line branch="false" hits="1" number="88" />
+								<line branch="false" hits="1" number="91" />
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="97" />
+								<line branch="false" hits="1" number="100" />
+								<line branch="false" hits="1" number="103" />
+								<line branch="false" hits="1" number="106" />
+								<line branch="false" hits="1" number="110" />
+								<line branch="false" hits="1" number="113" />
+								<line branch="false" hits="1" number="116" />
+								<line branch="false" hits="1" number="119" />
+								<line branch="false" hits="1" number="122" />
+								<line branch="false" hits="1" number="125" />
+								<line branch="false" hits="1" number="128" />
+								<line branch="false" hits="1" number="131" />
+								<line branch="false" hits="1" number="134" />
+								<line branch="false" hits="1" number="137" />
+								<line branch="false" hits="1" number="140" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="23" number="153" />
+								<line branch="false" hits="23" number="154" />
+								<line branch="false" hits="23" number="155" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="centuryOfEra" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="2" number="354" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="clockhourOfDay" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="227" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="clockhourOfHalfday" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="245" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="dayOfMonth" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="5" number="273" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="dayOfWeek" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="264" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="dayOfYear" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="3" number="282" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="era" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="3" number="363" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getName" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="12" number="378" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="halfdayOfDay" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="254" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hourOfDay" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="218" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hourOfHalfday" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="236" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="millisOfDay" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="173" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="millisOfSecond" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="164" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="minuteOfDay" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="209" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="minuteOfHour" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="200" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="monthOfYear" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="4" number="318" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="secondOfDay" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="191" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="secondOfMinute" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="182" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="weekOfWeekyear" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="291" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="weekyear" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="1" number="300" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="weekyearOfCentury" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="3" number="309" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="year" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="7" number="327" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="yearOfCentury" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="2" number="345" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="yearOfEra" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="3" number="336" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6216216216216215" filename="org/joda/time/DateTimeFieldType.java" line-rate="0.109375" name="org.joda.time.DateTimeFieldType$StandardDateTimeFieldType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;BLorg/joda/time/DurationFieldType;Lorg/joda/time/DurationFieldType;)V">
+							<lines>
+								<line branch="false" hits="23" number="444" />
+								<line branch="false" hits="23" number="445" />
+								<line branch="false" hits="23" number="446" />
+								<line branch="false" hits="23" number="447" />
+								<line branch="false" hits="23" number="448" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDurationType" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="20" number="452" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationType" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="6" number="457" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.07142857142857142" complexity="2.2" filename="org/joda/time/DateTimeUtils.java" line-rate="0.2980769230769231" name="org.joda.time.DateTimeUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="41" />
+								<line branch="false" hits="1" number="43" />
+								<line branch="false" hits="1" number="49" />
+								<line branch="false" hits="1" number="50" />
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="55" />
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="57" />
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="59" />
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="62" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="checkPermission" signature="()V">
+							<lines>
+								<line branch="false" hits="2" number="161" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="162">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="165" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getChronology" signature="(Lorg/joda/time/Chronology;)Lorg/joda/time/Chronology;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="23" number="284">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="285" />
+								<line branch="false" hits="17" number="287" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="0.75" name="put" signature="(Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="8" number="65" />
+								<line branch="false" hits="8" number="68" />
+								<line branch="false" hits="8" number="69" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setCurrentMillisFixed" signature="(J)V">
+							<lines>
+								<line branch="false" hits="1" number="114" />
+								<line branch="false" hits="1" number="115" />
+								<line branch="false" hits="1" number="116" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setCurrentMillisSystem" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="100" />
+								<line branch="false" hits="1" number="101" />
+								<line branch="false" hits="1" number="102" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2" filename="org/joda/time/DateTimeUtils.java" line-rate="0.75" name="org.joda.time.DateTimeUtils$FixedMillisProvider">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(J)V">
+							<lines>
+								<line branch="false" hits="1" number="547" />
+								<line branch="false" hits="1" number="548" />
+								<line branch="false" hits="1" number="549" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2" filename="org/joda/time/DateTimeUtils.java" line-rate="1.0" name="org.joda.time.DateTimeUtils$MillisProvider">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2" filename="org/joda/time/DateTimeUtils.java" line-rate="0.0" name="org.joda.time.DateTimeUtils$OffsetMillisProvider">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.2" filename="org/joda/time/DateTimeUtils.java" line-rate="0.5" name="org.joda.time.DateTimeUtils$SystemMillisProvider">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="526" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.12637362637362637" complexity="3.6363636363636362" filename="org/joda/time/DateTimeZone.java" line-rate="0.19822485207100593" name="org.joda.time.DateTimeZone">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="116" />
+								<line branch="false" hits="1" number="117" />
+								<line branch="false" hits="1" number="118" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="19" number="714" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="19" number="715">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="19" number="718" />
+								<line branch="false" hits="19" number="719" />
+							</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="0.35714285714285715" name="forID" signature="(Ljava/lang/String;)Lorg/joda/time/DateTimeZone;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="11" number="205">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="11" number="208">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="11" number="211" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="11" number="212">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="11" number="213" />
+								</lines>
+						</method>
+						<method branch-rate="0.6" line-rate="0.8" name="getDefault" signature="()Lorg/joda/time/DateTimeZone;">
+							<lines>
+								<line branch="false" hits="7" number="134" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="7" number="135">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="136" />
+								<line branch="false" hits="1" number="137" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="138">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="139" />
+								<line branch="false" hits="1" number="142" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="143">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="144" />
+								<line branch="false" hits="1" number="148" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="149">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="154" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="155">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="158" />
+								<line branch="false" hits="1" number="160" />
+								<line branch="false" hits="7" number="162" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.5833333333333334" name="getDefaultNameProvider" signature="()Lorg/joda/time/tz/NameProvider;">
+							<lines>
+								<line branch="false" hits="1" number="554" />
+								<line branch="false" hits="1" number="556" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="557">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="566" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="568">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="569" />
+								<line branch="false" hits="1" number="572" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.5294117647058824" name="getDefaultProvider" signature="()Lorg/joda/time/tz/Provider;">
+							<lines>
+								<line branch="false" hits="1" number="471" />
+								<line branch="false" hits="1" number="474" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="475">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="484" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="486">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="488" />
+								<line branch="false" hits="1" number="491" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="494">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="498" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getID" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="14" number="731" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hashCode" signature="()I">
+							<lines>
+								<line branch="false" hits="4" number="1273" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.7777777777777778" name="setDefault" signature="(Lorg/joda/time/DateTimeZone;)V">
+							<lines>
+								<line branch="false" hits="2" number="175" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="176">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="179">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="182" />
+								<line branch="false" hits="2" number="183" />
+								<line branch="false" hits="2" number="184" />
+								<line branch="false" hits="2" number="185" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="setNameProvider0" signature="(Lorg/joda/time/tz/NameProvider;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="539">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="540" />
+								<line branch="false" hits="1" number="542" />
+								<line branch="false" hits="1" number="543" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="setProvider0" signature="(Lorg/joda/time/tz/Provider;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="443">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="444" />
+								<line branch="false" hits="1" number="446" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="447">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="451">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="454">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="457" />
+								<line branch="false" hits="1" number="458" />
+								<line branch="false" hits="1" number="459" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.6363636363636362" filename="org/joda/time/DateTimeZone.java" line-rate="0.0" name="org.joda.time.DateTimeZone$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.6363636363636362" filename="org/joda/time/DateTimeZone.java" line-rate="0.0" name="org.joda.time.DateTimeZone$Stub">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.2" filename="org/joda/time/DurationField.java" line-rate="0.14285714285714285" name="org.joda.time.DurationField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="35" number="30" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.409090909090909" filename="org/joda/time/DurationFieldType.java" line-rate="0.9" name="org.joda.time.DurationFieldType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="62" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="70" />
+								<line branch="false" hits="1" number="72" />
+								<line branch="false" hits="1" number="74" />
+								<line branch="false" hits="1" number="76" />
+								<line branch="false" hits="1" number="78" />
+								<line branch="false" hits="1" number="80" />
+								<line branch="false" hits="1" number="82" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="12" number="94" />
+								<line branch="false" hits="12" number="95" />
+								<line branch="false" hits="12" number="96" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="centuries" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="3" number="196" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="days" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="10" number="151" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="eras" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="11" number="205" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="halfdays" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="4" number="141" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hours" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="6" number="132" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="millis" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="4" number="105" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="minutes" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="4" number="123" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="months" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="2" number="178" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="seconds" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="4" number="114" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="weeks" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="3" number="160" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="weekyears" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="3" number="169" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="years" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="5" number="187" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.125" complexity="3.409090909090909" filename="org/joda/time/DurationFieldType.java" line-rate="0.2631578947368421" name="org.joda.time.DurationFieldType$StandardDurationFieldType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;B)V">
+							<lines>
+								<line branch="false" hits="12" number="259" />
+								<line branch="false" hits="12" number="260" />
+								<line branch="false" hits="12" number="261" />
+							</lines>
+						</method>
+						<method branch-rate="0.3076923076923077" line-rate="0.4" name="getField" signature="(Lorg/joda/time/Chronology;)Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="17" number="282" />
+								<line branch="true" condition-coverage="30% (4/13)" hits="17" number="284">
+									<conditions>
+										<condition coverage="30%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="286" />
+								<line branch="false" hits="8" number="292" />
+								<line branch="false" hits="2" number="294" />
+								<line branch="false" hits="5" number="298" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hashCode" signature="()I">
+							<lines>
+								<line branch="false" hits="160" number="278" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4210526315789473" filename="org/joda/time/IllegalFieldValueException.java" line-rate="0.0" name="org.joda.time.IllegalFieldValueException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5" filename="org/joda/time/IllegalInstantException.java" line-rate="0.0" name="org.joda.time.IllegalInstantException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.35" filename="org/joda/time/Instant.java" line-rate="0.0" name="org.joda.time.Instant">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/JodaTimePermission.java" line-rate="0.0" name="org.joda.time.JodaTimePermission">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.9652173913043478" filename="org/joda/time/LocalDate.java" line-rate="0.0" name="org.joda.time.LocalDate">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.9652173913043478" filename="org/joda/time/LocalDate.java" line-rate="0.0" name="org.joda.time.LocalDate$Property">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.20754716981132076" complexity="2.8444444444444446" filename="org/joda/time/Partial.java" line-rate="0.11946902654867257" name="org.joda.time.Partial">
+					<methods>
+						<method branch-rate="1.0" line-rate="0.5" name="&lt;init&gt;" signature="([Lorg/joda/time/DateTimeFieldType;[I)V">
+							<lines>
+								<line branch="false" hits="6" number="175" />
+								</lines>
+						</method>
+						<method branch-rate="0.6470588235294118" line-rate="0.6341463414634146" name="&lt;init&gt;" signature="([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V">
+							<lines>
+								<line branch="false" hits="6" number="190" />
+								<line branch="false" hits="6" number="191" />
+								<line branch="false" hits="6" number="192" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="193">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="196">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="199">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="202">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="24" number="207">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="18" number="208">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="212" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="15" number="213">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="15" number="214" />
+								<line branch="false" hits="15" number="215" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="15" number="216">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="9" number="217" />
+								<line branch="true" condition-coverage="100% (6/6)" hits="9" number="218">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+										<condition coverage="100%" number="2" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="219" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="5" number="221">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="222">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="228">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="229" />
+								<line branch="false" hits="1" number="232" />
+								<line branch="false" hits="1" number="233" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="234">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="235" />
+								<line branch="false" hits="9" number="245" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.8444444444444446" filename="org/joda/time/Partial.java" line-rate="0.0" name="org.joda.time.Partial$Property">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/ReadableDateTime.java" line-rate="1.0" name="org.joda.time.ReadableDateTime">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/ReadableInstant.java" line-rate="1.0" name="org.joda.time.ReadableInstant">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/ReadableInterval.java" line-rate="1.0" name="org.joda.time.ReadableInterval">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/ReadablePartial.java" line-rate="1.0" name="org.joda.time.ReadablePartial">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/ReadablePeriod.java" line-rate="1.0" name="org.joda.time.ReadablePeriod">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.7526881720430108" line-rate="0.008968609865470852" name="org.joda.time.base">
+			<classes>
+				<class branch-rate="0.0" complexity="1.2916666666666667" filename="org/joda/time/base/AbstractDateTime.java" line-rate="0.0" name="org.joda.time.base.AbstractDateTime">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6551724137931034" filename="org/joda/time/base/AbstractInstant.java" line-rate="0.0" name="org.joda.time.base.AbstractInstant">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0952380952380953" filename="org/joda/time/base/AbstractPartial.java" line-rate="0.024691358024691357" name="org.joda.time.base.AbstractPartial">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="6" number="54" />
+								<line branch="false" hits="6" number="55" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/base/BaseDateTime.java" line-rate="0.0" name="org.joda.time.base.BaseDateTime">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/base/BaseLocal.java" line-rate="0.0" name="org.joda.time.base.BaseLocal">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.12783505154639174" complexity="2.0" line-rate="0.2106280193236715" name="org.joda.time.chrono">
+			<classes>
+				<class branch-rate="0.49038461538461536" complexity="2.8979591836734695" filename="org/joda/time/chrono/AssembledChronology.java" line-rate="0.8712871287128713" name="org.joda.time.chrono.AssembledChronology">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/Chronology;Ljava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="6" number="99" />
+								<line branch="false" hits="6" number="100" />
+								<line branch="false" hits="6" number="101" />
+								<line branch="false" hits="6" number="102" />
+								<line branch="false" hits="6" number="103" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="centuries" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="5" number="280" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="centuryOfEra" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="284" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="clockhourOfDay" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="200" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="clockhourOfHalfday" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="212" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="dayOfMonth" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="8" number="228" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="dayOfWeek" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="224" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="dayOfYear" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="232" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="days" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="14" number="220" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="era" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="292" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="eras" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="12" number="288" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getBase" signature="()Lorg/joda/time/Chronology;">
+							<lines>
+								<line branch="false" hits="5" number="308" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getParam" signature="()Ljava/lang/Object;">
+							<lines>
+								<line branch="false" hits="74" number="315" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="getZone" signature="()Lorg/joda/time/DateTimeZone;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="107">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="108" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="halfdayOfDay" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="216" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="halfdays" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="5" number="204" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hourOfDay" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="10" number="196" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hourOfHalfday" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="208" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hours" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="5" number="192" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="millis" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="5" number="156" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="millisOfDay" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="10" number="164" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="millisOfSecond" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="8" number="160" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="minuteOfDay" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="188" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="minuteOfHour" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="8" number="184" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="minutes" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="5" number="180" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="monthOfYear" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="8" number="260" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="months" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="9" number="256" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="secondOfDay" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="176" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="secondOfMinute" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="8" number="172" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="seconds" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="5" number="168" />
+							</lines>
+						</method>
+						<method branch-rate="0.5555555555555556" line-rate="1.0" name="setFields" signature="()V">
+							<lines>
+								<line branch="false" hits="6" number="319" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="6" number="320">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="321" />
+								<line branch="false" hits="6" number="323" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="327">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="328">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="329">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="330">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="331">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="332">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="333">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="334">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="335">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="336">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="337">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="338">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="343">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="344">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="345">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="346">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="347">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="348">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="349">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="350">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="351">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="352">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="353">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="354">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="355">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="356">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="357">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="358">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="359">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="360">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="361">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="362">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="363">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="364">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="365">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="6" number="369">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="370" />
+								<line branch="true" condition-coverage="68% (11/16)" hits="5" number="372">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+										<condition coverage="100%" number="4" type="jump" />
+										<condition coverage="100%" number="5" type="jump" />
+										<condition coverage="50%" number="6" type="jump" />
+										<condition coverage="50%" number="7" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="385" />
+								<line branch="false" hits="6" number="386" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="weekOfWeekyear" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="240" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="weeks" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="9" number="236" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="weekyear" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="248" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="weekyearOfCentury" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="252" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="weekyears" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="7" number="244" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="year" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="11" number="268" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="yearOfCentury" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="276" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="yearOfEra" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="5" number="272" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="years" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="17" number="264" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.5" complexity="2.8979591836734695" filename="org/joda/time/chrono/AssembledChronology.java" line-rate="0.9866666666666667" name="org.joda.time.chrono.AssembledChronology$Fields">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="6" number="436" />
+								<line branch="false" hits="6" number="437" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.9859154929577465" name="copyFieldsFrom" signature="(Lorg/joda/time/Chronology;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="445">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="446" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="448">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="449" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="451">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="452" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="454">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="455" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="457">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="458" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="460">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="461" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="463">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="464" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="466">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="467" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="469">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="470" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="472">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="473" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="475">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="476" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="478">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="485">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="486" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="488">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="489" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="491">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="492" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="494">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="495" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="497">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="498" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="500">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="501" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="503">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="504" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="506">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="507" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="509">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="510" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="512">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="513" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="515">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="516" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="518">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="519" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="521">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="522" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="524">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="525" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="527">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="528" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="530">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="531" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="533">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="534" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="536">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="537" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="539">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="540" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="542">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="543" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="545">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="546" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="548">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="549" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="551">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="552" />
+								<line branch="false" hits="5" number="555" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="isSupported" signature="(Lorg/joda/time/DateTimeField;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="115" number="562">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="isSupported" signature="(Lorg/joda/time/DurationField;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="60" number="558">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.48" filename="org/joda/time/chrono/BaseChronology.java" line-rate="0.02830188679245283" name="org.joda.time.chrono.BaseChronology">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="6" number="54" />
+								<line branch="false" hits="6" number="55" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="eras" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="6" number="660" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.05172413793103448" complexity="1.7592592592592593" filename="org/joda/time/chrono/BasicChronology.java" line-rate="0.35294117647058826" name="org.joda.time.chrono.BasicChronology">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="76" />
+								<line branch="false" hits="1" number="77" />
+								<line branch="false" hits="1" number="79" />
+								<line branch="false" hits="1" number="81" />
+								<line branch="false" hits="1" number="83" />
+								<line branch="false" hits="1" number="85" />
+								<line branch="false" hits="1" number="87" />
+								<line branch="false" hits="1" number="90" />
+								<line branch="false" hits="1" number="93" />
+								<line branch="false" hits="1" number="96" />
+								<line branch="false" hits="1" number="99" />
+								<line branch="false" hits="1" number="102" />
+								<line branch="false" hits="1" number="105" />
+								<line branch="false" hits="1" number="108" />
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="1" number="114" />
+								<line branch="false" hits="1" number="117" />
+								<line branch="false" hits="1" number="120" />
+								<line branch="false" hits="1" number="121" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8333333333333334" name="&lt;init&gt;" signature="(Lorg/joda/time/Chronology;Ljava/lang/Object;I)V">
+							<lines>
+								<line branch="false" hits="2" number="126" />
+								<line branch="false" hits="2" number="131" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="2" number="133">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="138" />
+								<line branch="false" hits="2" number="139" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="access$100" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="50" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="assemble" signature="(Lorg/joda/time/chrono/AssembledChronology$Fields;)V">
+							<lines>
+								<line branch="false" hits="1" number="250" />
+								<line branch="false" hits="1" number="251" />
+								<line branch="false" hits="1" number="252" />
+								<line branch="false" hits="1" number="253" />
+								<line branch="false" hits="1" number="254" />
+								<line branch="false" hits="1" number="255" />
+								<line branch="false" hits="1" number="256" />
+								<line branch="false" hits="1" number="258" />
+								<line branch="false" hits="1" number="259" />
+								<line branch="false" hits="1" number="260" />
+								<line branch="false" hits="1" number="261" />
+								<line branch="false" hits="1" number="262" />
+								<line branch="false" hits="1" number="263" />
+								<line branch="false" hits="1" number="264" />
+								<line branch="false" hits="1" number="265" />
+								<line branch="false" hits="1" number="266" />
+								<line branch="false" hits="1" number="267" />
+								<line branch="false" hits="1" number="268" />
+								<line branch="false" hits="1" number="273" />
+								<line branch="false" hits="1" number="274" />
+								<line branch="false" hits="1" number="277" />
+								<line branch="false" hits="1" number="279" />
+								<line branch="false" hits="1" number="281" />
+								<line branch="false" hits="1" number="283" />
+								<line branch="false" hits="1" number="285" />
+								<line branch="false" hits="1" number="288" />
+								<line branch="false" hits="1" number="289" />
+								<line branch="false" hits="1" number="290" />
+								<line branch="false" hits="1" number="291" />
+								<line branch="false" hits="1" number="292" />
+								<line branch="false" hits="1" number="293" />
+								<line branch="false" hits="1" number="294" />
+								<line branch="false" hits="1" number="296" />
+								<line branch="false" hits="1" number="298" />
+								<line branch="false" hits="1" number="303" />
+								<line branch="false" hits="1" number="304" />
+								<line branch="false" hits="1" number="305" />
+								<line branch="false" hits="1" number="306" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMaxMonth" signature="()I">
+							<lines>
+								<line branch="false" hits="1" number="699" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="getZone" signature="()Lorg/joda/time/DateTimeZone;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="143">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="146" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.7592592592592593" filename="org/joda/time/chrono/BasicChronology.java" line-rate="0.4" name="org.joda.time.chrono.BasicChronology$HalfdayField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="759" />
+								<line branch="false" hits="1" number="760" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.7592592592592593" filename="org/joda/time/chrono/BasicChronology.java" line-rate="0.0" name="org.joda.time.chrono.BasicChronology$YearInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/joda/time/chrono/BasicDayOfMonthDateTimeField.java" line-rate="0.14814814814814814" name="org.joda.time.chrono.BasicDayOfMonthDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/chrono/BasicChronology;Lorg/joda/time/DurationField;)V">
+							<lines>
+								<line branch="false" hits="1" number="42" />
+								<line branch="false" hits="1" number="43" />
+								<line branch="false" hits="1" number="44" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="52" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7" filename="org/joda/time/chrono/BasicDayOfYearDateTimeField.java" line-rate="0.18181818181818182" name="org.joda.time.chrono.BasicDayOfYearDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/chrono/BasicChronology;Lorg/joda/time/DurationField;)V">
+							<lines>
+								<line branch="false" hits="1" number="42" />
+								<line branch="false" hits="1" number="43" />
+								<line branch="false" hits="1" number="44" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="57" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4" filename="org/joda/time/chrono/BasicFixedMonthChronology.java" line-rate="0.0" name="org.joda.time.chrono.BasicFixedMonthChronology">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.875" filename="org/joda/time/chrono/BasicGJChronology.java" line-rate="0.3076923076923077" name="org.joda.time.chrono.BasicGJChronology">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="42" />
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="57" />
+								<line branch="false" hits="12" number="58" />
+								<line branch="false" hits="11" number="59" />
+								<line branch="false" hits="11" number="61" />
+								<line branch="false" hits="11" number="62" />
+								<line branch="false" hits="11" number="64" />
+								<line branch="false" hits="11" number="66" />
+								<line branch="false" hits="11" number="67" />
+								<line branch="false" hits="1" number="69" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/Chronology;Ljava/lang/Object;I)V">
+							<lines>
+								<line branch="false" hits="2" number="75" />
+								<line branch="false" hits="2" number="76" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.8333333333333335" filename="org/joda/time/chrono/BasicMonthOfYearDateTimeField.java" line-rate="0.06363636363636363" name="org.joda.time.chrono.BasicMonthOfYearDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/chrono/BasicChronology;I)V">
+							<lines>
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="55" />
+								<line branch="false" hits="1" number="56" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLeapDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="335" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="316" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1875" filename="org/joda/time/chrono/BasicSingleEraDateTimeField.java" line-rate="0.0" name="org.joda.time.chrono.BasicSingleEraDateTimeField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4615384615384615" filename="org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField.java" line-rate="0.16666666666666666" name="org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/chrono/BasicChronology;Lorg/joda/time/DurationField;)V">
+							<lines>
+								<line branch="false" hits="1" number="43" />
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="45" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="59" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8235294117647058" filename="org/joda/time/chrono/BasicWeekyearDateTimeField.java" line-rate="0.08771929824561403" name="org.joda.time.chrono.BasicWeekyearDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/chrono/BasicChronology;)V">
+							<lines>
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="46" />
+								<line branch="false" hits="1" number="47" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLeapDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="221" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="209" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="org/joda/time/chrono/BasicYearDateTimeField.java" line-rate="0.16216216216216217" name="org.joda.time.chrono.BasicYearDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/chrono/BasicChronology;)V">
+							<lines>
+								<line branch="false" hits="1" number="46" />
+								<line branch="false" hits="1" number="47" />
+								<line branch="false" hits="1" number="48" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLeapDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="112" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMaximumValue" signature="()I">
+							<lines>
+								<line branch="false" hits="3" number="120" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="96" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.090909090909091" filename="org/joda/time/chrono/BuddhistChronology.java" line-rate="0.0" name="org.joda.time.chrono.BuddhistChronology">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.076923076923077" filename="org/joda/time/chrono/CopticChronology.java" line-rate="0.0" name="org.joda.time.chrono.CopticChronology">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6710526315789473" filename="org/joda/time/chrono/GJChronology.java" line-rate="0.0" name="org.joda.time.chrono.GJChronology">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6710526315789473" filename="org/joda/time/chrono/GJChronology.java" line-rate="0.0" name="org.joda.time.chrono.GJChronology$CutoverField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6710526315789473" filename="org/joda/time/chrono/GJChronology.java" line-rate="0.0" name="org.joda.time.chrono.GJChronology$ImpreciseCutoverField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6710526315789473" filename="org/joda/time/chrono/GJChronology.java" line-rate="0.0" name="org.joda.time.chrono.GJChronology$LinkedDurationField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/chrono/GJDayOfWeekDateTimeField.java" line-rate="0.3076923076923077" name="org.joda.time.chrono.GJDayOfWeekDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/chrono/BasicChronology;Lorg/joda/time/DurationField;)V">
+							<lines>
+								<line branch="false" hits="1" number="46" />
+								<line branch="false" hits="1" number="47" />
+								<line branch="false" hits="1" number="48" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="95" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4705882352941178" filename="org/joda/time/chrono/GJEraDateTimeField.java" line-rate="0.16666666666666666" name="org.joda.time.chrono.GJEraDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/chrono/BasicChronology;)V">
+							<lines>
+								<line branch="false" hits="1" number="47" />
+								<line branch="false" hits="1" number="48" />
+								<line branch="false" hits="1" number="49" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="128" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="132" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/chrono/GJMonthOfYearDateTimeField.java" line-rate="0.2857142857142857" name="org.joda.time.chrono.GJMonthOfYearDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/chrono/BasicChronology;)V">
+							<lines>
+								<line branch="false" hits="1" number="38" />
+								<line branch="false" hits="1" number="39" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.125" filename="org/joda/time/chrono/GJYearOfEraDateTimeField.java" line-rate="0.25" name="org.joda.time.chrono.GJYearOfEraDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeField;Lorg/joda/time/chrono/BasicChronology;)V">
+							<lines>
+								<line branch="false" hits="1" number="42" />
+								<line branch="false" hits="1" number="43" />
+								<line branch="false" hits="1" number="44" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMaximumValue" signature="()I">
+							<lines>
+								<line branch="false" hits="2" number="104" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMinimumValue" signature="()I">
+							<lines>
+								<line branch="false" hits="2" number="100" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="4" number="48" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.32142857142857145" complexity="1.9411764705882353" filename="org/joda/time/chrono/GregorianChronology.java" line-rate="0.5636363636363636" name="org.joda.time.chrono.GregorianChronology">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="71" />
+								<line branch="false" hits="1" number="72" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/Chronology;Ljava/lang/Object;I)V">
+							<lines>
+								<line branch="false" hits="2" number="148" />
+								<line branch="false" hits="2" number="149" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="assemble" signature="(Lorg/joda/time/chrono/AssembledChronology$Fields;)V">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="191">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="192" />
+								<line branch="false" hits="2" number="194" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getAverageMillisPerMonth" signature="()J">
+							<lines>
+								<line branch="false" hits="1" number="237" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getAverageMillisPerYear" signature="()J">
+							<lines>
+								<line branch="false" hits="2" number="229" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getInstance" signature="(Lorg/joda/time/DateTimeZone;)Lorg/joda/time/chrono/GregorianChronology;">
+							<lines>
+								<line branch="false" hits="2" number="100" />
+							</lines>
+						</method>
+						<method branch-rate="0.875" line-rate="0.8421052631578947" name="getInstance" signature="(Lorg/joda/time/DateTimeZone;I)Lorg/joda/time/chrono/GregorianChronology;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="111">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="115" />
+								<line branch="false" hits="3" number="116" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="117">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="118" />
+								<line branch="false" hits="2" number="119" />
+								<line branch="false" hits="3" number="122" />
+								<line branch="false" hits="3" number="126" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="127">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="128">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="129" />
+								<line branch="false" hits="1" number="131" />
+								<line branch="false" hits="1" number="132" />
+								<line branch="false" hits="2" number="135" />
+								<line branch="false" hits="3" number="137" />
+								<line branch="false" hits="3" number="138" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getInstanceUTC" signature="()Lorg/joda/time/chrono/GregorianChronology;">
+							<lines>
+								<line branch="false" hits="4" number="81" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMaxYear" signature="()I">
+							<lines>
+								<line branch="false" hits="3" number="225" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getZone" signature="()Lorg/joda/time/DateTimeZone;">
+							<lines>
+								<line branch="false" hits="1" number="45" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="withUTC" signature="()Lorg/joda/time/Chronology;">
+							<lines>
+								<line branch="false" hits="1" number="171" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.35" complexity="1.9333333333333333" filename="org/joda/time/chrono/ISOChronology.java" line-rate="0.6041666666666666" name="org.joda.time.chrono.ISOChronology">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="68" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/Chronology;)V">
+							<lines>
+								<line branch="false" hits="2" number="122" />
+								<line branch="false" hits="2" number="123" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="assemble" signature="(Lorg/joda/time/chrono/AssembledChronology$Fields;)V">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="169">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="171" />
+								<line branch="false" hits="1" number="173" />
+								<line branch="false" hits="1" number="175" />
+								<line branch="false" hits="1" number="177" />
+								<line branch="false" hits="2" number="180" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getInstance" signature="()Lorg/joda/time/chrono/ISOChronology;">
+							<lines>
+								<line branch="false" hits="6" number="86" />
+							</lines>
+						</method>
+						<method branch-rate="0.625" line-rate="0.9285714285714286" name="getInstance" signature="(Lorg/joda/time/DateTimeZone;)Lorg/joda/time/chrono/ISOChronology;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="96">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="99" />
+								<line branch="false" hits="6" number="100" />
+								<line branch="true" condition-coverage="75% (3/4)" hits="6" number="101">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="102" />
+								<line branch="false" hits="1" number="104" />
+								<line branch="false" hits="1" number="105" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="106">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="107" />
+								<line branch="false" hits="1" number="108" />
+								<line branch="false" hits="1" number="110" />
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="1" number="112" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getInstanceUTC" signature="()Lorg/joda/time/chrono/ISOChronology;">
+							<lines>
+								<line branch="false" hits="1" number="77" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="withUTC" signature="()Lorg/joda/time/Chronology;">
+							<lines>
+								<line branch="false" hits="7" number="133" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.9333333333333333" filename="org/joda/time/chrono/ISOChronology.java" line-rate="0.0" name="org.joda.time.chrono.ISOChronology$Stub">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.125" filename="org/joda/time/chrono/ISOYearOfEraDateTimeField.java" line-rate="0.2727272727272727" name="org.joda.time.chrono.ISOYearOfEraDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="42" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="48" />
+								<line branch="false" hits="1" number="49" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMaximumValue" signature="()I">
+							<lines>
+								<line branch="false" hits="1" number="98" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMinimumValue" signature="()I">
+							<lines>
+								<line branch="false" hits="1" number="94" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="1" number="53" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.894736842105263" filename="org/joda/time/chrono/JulianChronology.java" line-rate="0.0" name="org.joda.time.chrono.JulianChronology">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8333333333333333" filename="org/joda/time/chrono/LimitChronology.java" line-rate="0.0" name="org.joda.time.chrono.LimitChronology">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.8333333333333333" filename="org/joda/time/chrono/LimitChronology.java" line-rate="0.0" name="org.joda.time.chrono.LimitChronology$LimitDateTimeField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.8333333333333333" filename="org/joda/time/chrono/LimitChronology.java" line-rate="0.0" name="org.joda.time.chrono.LimitChronology$LimitDurationField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8333333333333333" filename="org/joda/time/chrono/LimitChronology.java" line-rate="0.0" name="org.joda.time.chrono.LimitChronology$LimitException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.39473684210526316" complexity="2.1044776119402986" filename="org/joda/time/chrono/ZonedChronology.java" line-rate="0.6590909090909091" name="org.joda.time.chrono.ZonedChronology">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/Chronology;Lorg/joda/time/DateTimeZone;)V">
+							<lines>
+								<line branch="false" hits="2" number="81" />
+								<line branch="false" hits="2" number="82" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="assemble" signature="(Lorg/joda/time/chrono/AssembledChronology$Fields;)V">
+							<lines>
+								<line branch="false" hits="2" number="150" />
+								<line branch="false" hits="2" number="154" />
+								<line branch="false" hits="2" number="155" />
+								<line branch="false" hits="2" number="156" />
+								<line branch="false" hits="2" number="157" />
+								<line branch="false" hits="2" number="158" />
+								<line branch="false" hits="2" number="159" />
+								<line branch="false" hits="2" number="160" />
+								<line branch="false" hits="2" number="162" />
+								<line branch="false" hits="2" number="163" />
+								<line branch="false" hits="2" number="164" />
+								<line branch="false" hits="2" number="165" />
+								<line branch="false" hits="2" number="166" />
+								<line branch="false" hits="2" number="170" />
+								<line branch="false" hits="2" number="171" />
+								<line branch="false" hits="2" number="172" />
+								<line branch="false" hits="2" number="173" />
+								<line branch="false" hits="2" number="174" />
+								<line branch="false" hits="2" number="175" />
+								<line branch="false" hits="2" number="176" />
+								<line branch="false" hits="2" number="177" />
+								<line branch="false" hits="2" number="178" />
+								<line branch="false" hits="2" number="179" />
+								<line branch="false" hits="2" number="180" />
+								<line branch="false" hits="2" number="181" />
+								<line branch="false" hits="2" number="183" />
+								<line branch="false" hits="2" number="184" />
+								<line branch="false" hits="2" number="185" />
+								<line branch="false" hits="2" number="186" />
+								<line branch="false" hits="2" number="187" />
+								<line branch="false" hits="2" number="188" />
+								<line branch="false" hits="2" number="189" />
+								<line branch="false" hits="2" number="190" />
+								<line branch="false" hits="2" number="191" />
+								<line branch="false" hits="2" number="192" />
+								<line branch="false" hits="2" number="193" />
+								<line branch="false" hits="2" number="194" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.7142857142857143" name="convertField" signature="(Lorg/joda/time/DateTimeField;Ljava/util/HashMap;)Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="46" number="209">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="46" number="212">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="46" number="215" />
+								<line branch="false" hits="46" number="220" />
+								<line branch="false" hits="46" number="221" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="convertField" signature="(Lorg/joda/time/DurationField;Ljava/util/HashMap;)Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="true" condition-coverage="100% (4/4)" hits="162" number="197">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="54" number="198" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="108" number="200">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="86" number="201" />
+								<line branch="false" hits="22" number="203" />
+								<line branch="false" hits="22" number="204" />
+								<line branch="false" hits="22" number="205" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.625" name="getInstance" signature="(Lorg/joda/time/Chronology;Lorg/joda/time/DateTimeZone;)Lorg/joda/time/chrono/ZonedChronology;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="55">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="58" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="59">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="62">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="65" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getZone" signature="()Lorg/joda/time/DateTimeZone;">
+							<lines>
+								<line branch="false" hits="74" number="85" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="1.0" name="useTimeArithmetic" signature="(Lorg/joda/time/DurationField;)Z">
+							<lines>
+								<line branch="true" condition-coverage="75% (3/4)" hits="68" number="71">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.029411764705882353" complexity="2.1044776119402986" filename="org/joda/time/chrono/ZonedChronology.java" line-rate="0.08737864077669903" name="org.joda.time.chrono.ZonedChronology$ZonedDateTimeField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.9" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeField;Lorg/joda/time/DateTimeZone;Lorg/joda/time/DurationField;Lorg/joda/time/DurationField;Lorg/joda/time/DurationField;)V">
+							<lines>
+								<line branch="false" hits="46" number="404" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="46" number="405">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="46" number="408" />
+								<line branch="false" hits="46" number="409" />
+								<line branch="false" hits="46" number="410" />
+								<line branch="false" hits="46" number="411" />
+								<line branch="false" hits="46" number="412" />
+								<line branch="false" hits="46" number="413" />
+								<line branch="false" hits="46" number="414" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.03125" complexity="2.1044776119402986" filename="org/joda/time/chrono/ZonedChronology.java" line-rate="0.17073170731707318" name="org.joda.time.chrono.ZonedChronology$ZonedDurationField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8571428571428571" name="&lt;init&gt;" signature="(Lorg/joda/time/DurationField;Lorg/joda/time/DateTimeZone;)V">
+							<lines>
+								<line branch="false" hits="22" number="281" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="22" number="282">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="22" number="285" />
+								<line branch="false" hits="22" number="286" />
+								<line branch="false" hits="22" number="287" />
+								<line branch="false" hits="22" number="288" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getUnitMillis" signature="()J">
+							<lines>
+								<line branch="false" hits="44" number="295" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.1038961038961039" complexity="1.6833333333333333" line-rate="0.18296892980437285" name="org.joda.time.field">
+			<classes>
+				<class branch-rate="0.013888888888888888" complexity="2.0980392156862746" filename="org/joda/time/field/BaseDateTimeField.java" line-rate="0.04093567251461988" name="org.joda.time.field.BaseDateTimeField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeFieldType;)V">
+							<lines>
+								<line branch="false" hits="76" number="50" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="76" number="51">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="76" number="54" />
+								<line branch="false" hits="76" number="55" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLeapDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="40" number="726" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getType" signature="()Lorg/joda/time/DateTimeFieldType;">
+							<lines>
+								<line branch="false" hits="48" number="58" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isSupported" signature="()Z">
+							<lines>
+								<line branch="false" hits="220" number="69" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.8333333333333334" complexity="1.5" filename="org/joda/time/field/BaseDurationField.java" line-rate="0.6086956521739131" name="org.joda.time.field.BaseDurationField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8" name="&lt;init&gt;" signature="(Lorg/joda/time/DurationFieldType;)V">
+							<lines>
+								<line branch="false" hits="33" number="47" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="33" number="48">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="33" number="51" />
+								<line branch="false" hits="33" number="52" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="compareTo" signature="(Ljava/lang/Object;)I">
+							<lines>
+								<line branch="false" hits="10" number="38" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="compareTo" signature="(Lorg/joda/time/DurationField;)I">
+							<lines>
+								<line branch="false" hits="10" number="146" />
+								<line branch="false" hits="10" number="147" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="10" number="149">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="150" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="8" number="152">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="153" />
+								<line branch="false" hits="5" number="155" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getType" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="172" number="55" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isSupported" signature="()Z">
+							<lines>
+								<line branch="false" hits="179" number="66" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.5" complexity="1.4" filename="org/joda/time/field/DecoratedDateTimeField.java" line-rate="0.5" name="org.joda.time.field.DecoratedDateTimeField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.7142857142857143" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeField;Lorg/joda/time/DateTimeFieldType;)V">
+							<lines>
+								<line branch="false" hits="13" number="55" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="13" number="56">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="13" number="59">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="13" number="62" />
+								<line branch="false" hits="13" number="63" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="14" number="87" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="9" number="91" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getWrappedField" signature="()Lorg/joda/time/DateTimeField;">
+							<lines>
+								<line branch="false" hits="14" number="71" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.5" complexity="1.4" filename="org/joda/time/field/DecoratedDurationField.java" line-rate="0.375" name="org.joda.time.field.DecoratedDurationField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.7142857142857143" name="&lt;init&gt;" signature="(Lorg/joda/time/DurationField;Lorg/joda/time/DurationFieldType;)V">
+							<lines>
+								<line branch="false" hits="2" number="52" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="53">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="56">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="59" />
+								<line branch="false" hits="2" number="60" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getWrappedField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="20" number="69" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0925925925925926" filename="org/joda/time/field/DelegatedDateTimeField.java" line-rate="0.0" name="org.joda.time.field.DelegatedDateTimeField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.3333333333333333" complexity="1.6842105263157894" filename="org/joda/time/field/DividedDateTimeField.java" line-rate="0.3508771929824561" name="org.joda.time.field.DividedDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeField;Lorg/joda/time/DateTimeFieldType;I)V">
+							<lines>
+								<line branch="false" hits="2" number="58" />
+								<line branch="false" hits="2" number="59" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.875" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeField;Lorg/joda/time/DurationField;Lorg/joda/time/DateTimeFieldType;I)V">
+							<lines>
+								<line branch="false" hits="2" number="72" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="73">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="76" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="77">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="80" />
+								<line branch="false" hits="2" number="83" />
+								<line branch="false" hits="2" number="84" />
+								<line branch="false" hits="2" number="85" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="86">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="87" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="88">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="89" />
+								<line branch="false" hits="2" number="90" />
+								<line branch="false" hits="2" number="91" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="4" number="211" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="128">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="129" />
+								<line branch="false" hits="1" number="131" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.764705882352941" filename="org/joda/time/field/FieldUtils.java" line-rate="0.0" name="org.joda.time.field.FieldUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.2727272727272727" filename="org/joda/time/field/ImpreciseDateTimeField.java" line-rate="0.2777777777777778" name="org.joda.time.field.ImpreciseDateTimeField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeFieldType;J)V">
+							<lines>
+								<line branch="false" hits="3" number="56" />
+								<line branch="false" hits="3" number="57" />
+								<line branch="false" hits="3" number="58" />
+								<line branch="false" hits="3" number="59" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="16" number="138" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2727272727272727" filename="org/joda/time/field/ImpreciseDateTimeField.java" line-rate="0.3076923076923077" name="org.joda.time.field.ImpreciseDateTimeField$LinkedDurationField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/field/ImpreciseDateTimeField;Lorg/joda/time/DurationFieldType;)V">
+							<lines>
+								<line branch="false" hits="3" number="152" />
+								<line branch="false" hits="3" number="153" />
+								<line branch="false" hits="3" number="154" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getUnitMillis" signature="()J">
+							<lines>
+								<line branch="false" hits="32" number="161" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.2608695652173914" filename="org/joda/time/field/MillisDurationField.java" line-rate="0.23529411764705882" name="org.joda.time.field.MillisDurationField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="38" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="45" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getType" signature="()Lorg/joda/time/DurationFieldType;">
+							<lines>
+								<line branch="false" hits="2" number="49" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getUnitMillis" signature="()J">
+							<lines>
+								<line branch="false" hits="20" number="80" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hashCode" signature="()I">
+							<lines>
+								<line branch="false" hits="12" number="155" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isPrecise" signature="()Z">
+							<lines>
+								<line branch="false" hits="2" number="71" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isSupported" signature="()Z">
+							<lines>
+								<line branch="false" hits="11" number="62" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.5" complexity="1.25" filename="org/joda/time/field/OffsetDateTimeField.java" line-rate="0.40540540540540543" name="org.joda.time.field.OffsetDateTimeField">
+					<methods>
+						<method branch-rate="0.5" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeField;I)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="47">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="48" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeField;Lorg/joda/time/DateTimeFieldType;I)V">
+							<lines>
+								<line branch="false" hits="2" number="59" />
+								<line branch="false" hits="2" number="60" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.7272727272727273" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeField;Lorg/joda/time/DateTimeFieldType;III)V">
+							<lines>
+								<line branch="false" hits="3" number="74" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="76">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="80" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="82">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="83" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="87">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="88" />
+								<line branch="false" hits="3" number="92" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLeapDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="2" number="166" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMaximumValue" signature="()I">
+							<lines>
+								<line branch="false" hits="1" number="184" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMinimumValue" signature="()I">
+							<lines>
+								<line branch="false" hits="1" number="175" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.3333333333333333" complexity="1.8571428571428572" filename="org/joda/time/field/PreciseDateTimeField.java" line-rate="0.4" name="org.joda.time.field.PreciseDateTimeField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.7777777777777778" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeFieldType;Lorg/joda/time/DurationField;Lorg/joda/time/DurationField;)V">
+							<lines>
+								<line branch="false" hits="9" number="58" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="9" number="60">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="9" number="64" />
+								<line branch="false" hits="9" number="65" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="9" number="66">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="9" number="70" />
+								<line branch="false" hits="9" number="71" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="22" number="123" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.2" complexity="2.0" filename="org/joda/time/field/PreciseDurationDateTimeField.java" line-rate="0.34615384615384615" name="org.joda.time.field.PreciseDurationDateTimeField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.75" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeFieldType;Lorg/joda/time/DurationField;)V">
+							<lines>
+								<line branch="false" hits="13" number="49" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="13" number="51">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="13" number="55" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="13" number="56">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="13" number="60" />
+								<line branch="false" hits="13" number="61" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="30" number="142" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMinimumValue" signature="()I">
+							<lines>
+								<line branch="false" hits="2" number="151" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getUnitMillis" signature="()J">
+							<lines>
+								<line branch="false" hits="9" number="155" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4545454545454546" filename="org/joda/time/field/PreciseDurationField.java" line-rate="0.375" name="org.joda.time.field.PreciseDurationField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/DurationFieldType;J)V">
+							<lines>
+								<line branch="false" hits="6" number="43" />
+								<line branch="false" hits="6" number="44" />
+								<line branch="false" hits="6" number="45" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getUnitMillis" signature="()J">
+							<lines>
+								<line branch="false" hits="66" number="63" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hashCode" signature="()I">
+							<lines>
+								<line branch="false" hits="136" number="142" />
+								<line branch="false" hits="136" number="143" />
+								<line branch="false" hits="136" number="144" />
+								<line branch="false" hits="136" number="145" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isPrecise" signature="()Z">
+							<lines>
+								<line branch="false" hits="20" number="54" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.1" complexity="1.45" filename="org/joda/time/field/RemainderDateTimeField.java" line-rate="0.3958333333333333" name="org.joda.time.field.RemainderDateTimeField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8571428571428571" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeField;Lorg/joda/time/DurationField;Lorg/joda/time/DateTimeFieldType;I)V">
+							<lines>
+								<line branch="false" hits="1" number="82" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="83">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="86" />
+								<line branch="false" hits="1" number="87" />
+								<line branch="false" hits="1" number="88" />
+								<line branch="false" hits="1" number="89" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/field/DividedDateTimeField;)V">
+							<lines>
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="99" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/field/DividedDateTimeField;Lorg/joda/time/DateTimeFieldType;)V">
+							<lines>
+								<line branch="false" hits="2" number="109" />
+								<line branch="false" hits="2" number="110" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/field/DividedDateTimeField;Lorg/joda/time/DurationField;Lorg/joda/time/DateTimeFieldType;)V">
+							<lines>
+								<line branch="false" hits="3" number="122" />
+								<line branch="false" hits="3" number="123" />
+								<line branch="false" hits="3" number="124" />
+								<line branch="false" hits="3" number="125" />
+								<line branch="false" hits="3" number="126" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="4" number="173" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMaximumValue" signature="()I">
+							<lines>
+								<line branch="false" hits="4" number="199" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMinimumValue" signature="()I">
+							<lines>
+								<line branch="false" hits="4" number="189" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="4" number="180" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.14285714285714285" complexity="1.5294117647058822" filename="org/joda/time/field/ScaledDurationField.java" line-rate="0.2777777777777778" name="org.joda.time.field.ScaledDurationField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8" name="&lt;init&gt;" signature="(Lorg/joda/time/DurationField;Lorg/joda/time/DurationFieldType;I)V">
+							<lines>
+								<line branch="false" hits="2" number="47" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="2" number="48">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="51" />
+								<line branch="false" hits="2" number="52" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getUnitMillis" signature="()J">
+							<lines>
+								<line branch="false" hits="4" number="109" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hashCode" signature="()I">
+							<lines>
+								<line branch="false" hits="16" number="147" />
+								<line branch="false" hits="16" number="148" />
+								<line branch="false" hits="16" number="149" />
+								<line branch="false" hits="16" number="150" />
+								<line branch="false" hits="16" number="151" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/joda/time/field/SkipDateTimeField.java" line-rate="0.0" name="org.joda.time.field.SkipDateTimeField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6666666666666667" filename="org/joda/time/field/SkipUndoDateTimeField.java" line-rate="0.0" name="org.joda.time.field.SkipUndoDateTimeField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8333333333333333" filename="org/joda/time/field/UnsupportedDateTimeField.java" line-rate="0.0" name="org.joda.time.field.UnsupportedDateTimeField">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.3333333333333333" complexity="1.8" filename="org/joda/time/field/UnsupportedDurationField.java" line-rate="0.30952380952380953" name="org.joda.time.field.UnsupportedDurationField">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/DurationFieldType;)V">
+							<lines>
+								<line branch="false" hits="1" number="70" />
+								<line branch="false" hits="1" number="71" />
+								<line branch="false" hits="1" number="72" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getInstance" signature="(Lorg/joda/time/DurationFieldType;)Lorg/joda/time/field/UnsupportedDurationField;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="8" number="49">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="50" />
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="7" number="53" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="8" number="55">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="57" />
+								<line branch="false" hits="8" number="59" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getUnitMillis" signature="()J">
+							<lines>
+								<line branch="false" hits="4" number="218" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isSupported" signature="()Z">
+							<lines>
+								<line branch="false" hits="13" number="92" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.16666666666666666" complexity="1.1538461538461537" filename="org/joda/time/field/ZeroIsMaxDateTimeField.java" line-rate="0.1111111111111111" name="org.joda.time.field.ZeroIsMaxDateTimeField">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.75" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeField;Lorg/joda/time/DateTimeFieldType;)V">
+							<lines>
+								<line branch="false" hits="2" number="46" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="47">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="50" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLeapDurationField" signature="()Lorg/joda/time/DurationField;">
+							<lines>
+								<line branch="false" hits="4" number="102" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.06628787878787878" complexity="3.7185185185185183" line-rate="0.1628415300546448" name="org.joda.time.tz">
+			<classes>
+				<class branch-rate="0.07142857142857142" complexity="2.3529411764705883" filename="org/joda/time/tz/CachedDateTimeZone.java" line-rate="0.24074074074074073" name="org.joda.time.tz.CachedDateTimeZone">
+					<methods>
+						<method branch-rate="1.0" line-rate="0.4" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="39" />
+								<line branch="false" hits="1" number="42" />
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="48" />
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="62" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/DateTimeZone;)V">
+							<lines>
+								<line branch="false" hits="6" number="84" />
+								<line branch="false" hits="6" number="87" />
+								<line branch="false" hits="6" number="88" />
+								<line branch="false" hits="6" number="89" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="forZone" signature="(Lorg/joda/time/DateTimeZone;)Lorg/joda/time/tz/CachedDateTimeZone;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="68">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="71" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hashCode" signature="()I">
+							<lines>
+								<line branch="false" hits="4" number="123" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3529411764705883" filename="org/joda/time/tz/CachedDateTimeZone.java" line-rate="0.0" name="org.joda.time.tz.CachedDateTimeZone$Info">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.075" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.14184397163120568" name="org.joda.time.tz.DateTimeZoneBuilder">
+					<methods>
+						<method branch-rate="0.16666666666666666" line-rate="0.25" name="readFrom" signature="(Ljava/io/DataInput;Ljava/lang/String;)Lorg/joda/time/DateTimeZone;">
+							<lines>
+								<line branch="true" condition-coverage="25% (1/4)" hits="6" number="110">
+									<conditions>
+										<condition coverage="25%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="119" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="readFrom" signature="(Ljava/io/InputStream;Ljava/lang/String;)Lorg/joda/time/DateTimeZone;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="95">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="98" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="readMillis" signature="(Ljava/io/DataInput;)J">
+							<lines>
+								<line branch="false" hits="2559" number="183" />
+								<line branch="true" condition-coverage="100% (4/4)" hits="2559" number="184">
+									<conditions>
+										<condition coverage="100%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1702" number="187" />
+								<line branch="false" hits="1702" number="188" />
+								<line branch="false" hits="834" number="192" />
+								<line branch="false" hits="834" number="193" />
+								<line branch="false" hits="834" number="194" />
+								<line branch="false" hits="834" number="195" />
+								<line branch="false" hits="834" number="196" />
+								<line branch="false" hits="17" number="200" />
+								<line branch="false" hits="17" number="201" />
+								<line branch="false" hits="17" number="202" />
+								<line branch="false" hits="17" number="203" />
+								<line branch="false" hits="17" number="204" />
+								<line branch="false" hits="17" number="205" />
+								<line branch="false" hits="6" number="209" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.07792207792207792" name="org.joda.time.tz.DateTimeZoneBuilder$DSTZone">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;ILorg/joda/time/tz/DateTimeZoneBuilder$Recurrence;Lorg/joda/time/tz/DateTimeZoneBuilder$Recurrence;)V">
+							<lines>
+								<line branch="false" hits="6" number="1179" />
+								<line branch="false" hits="6" number="1180" />
+								<line branch="false" hits="6" number="1181" />
+								<line branch="false" hits="6" number="1182" />
+								<line branch="false" hits="6" number="1183" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="readFrom" signature="(Ljava/io/DataInput;Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;">
+							<lines>
+								<line branch="false" hits="6" number="1169" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.04285714285714286" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.08695652173913043" name="org.joda.time.tz.DateTimeZoneBuilder$OfYear">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.9" name="&lt;init&gt;" signature="(CIIIZI)V">
+							<lines>
+								<line branch="false" hits="12" number="504" />
+								<line branch="true" condition-coverage="50% (3/6)" hits="12" number="505">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="0%" number="2" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="12" number="509" />
+								<line branch="false" hits="12" number="510" />
+								<line branch="false" hits="12" number="511" />
+								<line branch="false" hits="12" number="512" />
+								<line branch="false" hits="12" number="513" />
+								<line branch="false" hits="12" number="514" />
+								<line branch="false" hits="12" number="515" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="readFrom" signature="(Ljava/io/DataInput;)Lorg/joda/time/tz/DateTimeZoneBuilder$OfYear;">
+							<lines>
+								<line branch="false" hits="12" number="482" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.038461538461538464" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.13793103448275862" name="org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;[J[I[I[Ljava/lang/String;Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;)V">
+							<lines>
+								<line branch="false" hits="6" number="1503" />
+								<line branch="false" hits="6" number="1504" />
+								<line branch="false" hits="6" number="1505" />
+								<line branch="false" hits="6" number="1506" />
+								<line branch="false" hits="6" number="1507" />
+								<line branch="false" hits="6" number="1508" />
+								<line branch="false" hits="6" number="1509" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.875" name="readFrom" signature="(Ljava/io/DataInput;Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone;">
+							<lines>
+								<line branch="false" hits="6" number="1344" />
+								<line branch="false" hits="6" number="1345" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="38" number="1346">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="32" number="1347" />
+								<line branch="false" hits="6" number="1350" />
+								<line branch="false" hits="6" number="1351" />
+								<line branch="false" hits="6" number="1352" />
+								<line branch="false" hits="6" number="1353" />
+								<line branch="false" hits="6" number="1354" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="849" number="1356">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="843" number="1357" />
+								<line branch="false" hits="843" number="1358" />
+								<line branch="false" hits="843" number="1359" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="843" number="1362">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="843" number="1363" />
+								<line branch="false" hits="843" number="1367" />
+								<line branch="false" hits="843" number="1370" />
+								<line branch="false" hits="6" number="1373" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="1374">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="1375" />
+								<line branch="false" hits="6" number="1378" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.2608695652173913" name="org.joda.time.tz.DateTimeZoneBuilder$Recurrence">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/joda/time/tz/DateTimeZoneBuilder$OfYear;Ljava/lang/String;I)V">
+							<lines>
+								<line branch="false" hits="12" number="747" />
+								<line branch="false" hits="12" number="748" />
+								<line branch="false" hits="12" number="749" />
+								<line branch="false" hits="12" number="750" />
+								<line branch="false" hits="12" number="751" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="readFrom" signature="(Ljava/io/DataInput;)Lorg/joda/time/tz/DateTimeZoneBuilder$Recurrence;">
+							<lines>
+								<line branch="false" hits="12" number="740" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.0" name="org.joda.time.tz.DateTimeZoneBuilder$Rule">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.0" name="org.joda.time.tz.DateTimeZoneBuilder$RuleSet">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.0" name="org.joda.time.tz.DateTimeZoneBuilder$Transition">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.8" filename="org/joda/time/tz/DefaultNameProvider.java" line-rate="0.11764705882352941" name="org.joda.time.tz.DefaultNameProvider">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="37" />
+								<line branch="false" hits="1" number="39" />
+								<line branch="false" hits="1" number="40" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createCache" signature="()Ljava/util/HashMap;">
+							<lines>
+								<line branch="false" hits="1" number="99" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0625" complexity="1.9090909090909092" filename="org/joda/time/tz/FixedDateTimeZone.java" line-rate="0.34782608695652173" name="org.joda.time.tz.FixedDateTimeZone">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;II)V">
+							<lines>
+								<line branch="false" hits="1" number="38" />
+								<line branch="false" hits="1" number="39" />
+								<line branch="false" hits="1" number="40" />
+								<line branch="false" hits="1" number="41" />
+								<line branch="false" hits="1" number="42" />
+							</lines>
+						</method>
+						<method branch-rate="0.1" line-rate="0.3333333333333333" name="equals" signature="(Ljava/lang/Object;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="88">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="89" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hashCode" signature="()I">
+							<lines>
+								<line branch="false" hits="4" number="102" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/tz/NameProvider.java" line-rate="1.0" name="org.joda.time.tz.NameProvider">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/tz/Provider.java" line-rate="1.0" name="org.joda.time.tz.Provider">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.47368421052631576" complexity="4.2727272727272725" filename="org/joda/time/tz/ZoneInfoProvider.java" line-rate="0.6" name="org.joda.time.tz.ZoneInfoProvider">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="82" />
+								<line branch="false" hits="1" number="83" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.9166666666666666" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/ClassLoader;Z)V">
+							<lines>
+								<line branch="false" hits="1" number="106" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="107">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="110">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="1" number="114" />
+								<line branch="false" hits="1" number="115" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="117">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="118" />
+								<line branch="false" hits="1" number="121" />
+								<line branch="false" hits="1" number="123" />
+								<line branch="false" hits="1" number="124" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getAvailableIDs" signature="()Ljava/util/Set;">
+							<lines>
+								<line branch="false" hits="1" number="173" />
+							</lines>
+						</method>
+						<method branch-rate="0.6" line-rate="0.7142857142857143" name="getZone" signature="(Ljava/lang/String;)Lorg/joda/time/DateTimeZone;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="12" number="135">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="12" number="139" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="12" number="140">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="12" number="144">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="146" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="149">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="151" />
+								<line branch="false" hits="6" number="152" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="153">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="154" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.5714285714285714" name="loadZoneData" signature="(Ljava/lang/String;)Lorg/joda/time/DateTimeZone;">
+							<lines>
+								<line branch="false" hits="6" number="223" />
+								<line branch="false" hits="6" number="225" />
+								<line branch="false" hits="6" number="226" />
+								<line branch="false" hits="6" number="227" />
+								<line branch="false" hits="6" number="228" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="235">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="236" />
+								<line branch="false" hits="12" number="239" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="0.7" name="loadZoneInfoMap" signature="(Ljava/io/InputStream;)Ljava/util/Map;">
+							<lines>
+								<line branch="false" hits="1" number="251" />
+								<line branch="false" hits="1" number="252" />
+								<line branch="false" hits="1" number="254" />
+								<line branch="false" hits="1" number="257" />
+								<line branch="false" hits="1" number="259" />
+								<line branch="false" hits="1" number="261" />
+								<line branch="false" hits="1" number="262" />
+							</lines>
+						</method>
+						<method branch-rate="0.375" line-rate="0.6" name="openResource" signature="(Ljava/lang/String;)Ljava/io/InputStream;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="195">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="198" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="199">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="200" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="204">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="213" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="0.8181818181818182" name="readZoneInfoMap" signature="(Ljava/io/DataInputStream;Ljava/util/Map;)V">
+							<lines>
+								<line branch="false" hits="1" number="273" />
+								<line branch="false" hits="1" number="274" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="579" number="275">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="578" number="276" />
+								<line branch="false" hits="1" number="280" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="579" number="281">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="578" number="283" />
+								<line branch="false" hits="578" number="286" />
+								<line branch="false" hits="1" number="288" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

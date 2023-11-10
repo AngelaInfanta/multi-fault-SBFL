@@ -1,0 +1,150 @@
+<coverage branch-rate="0.006825938566552901" branches-covered="4" branches-valid="586" complexity="2.817351598173516" line-rate="0.036420395421436005" lines-covered="35" lines-valid="961" timestamp="1624289303100" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.006825938566552901" complexity="2.817351598173516" line-rate="0.036420395421436005" name="org.apache.commons.lang.text">
+			<classes>
+				<class branch-rate="0.009174311926605505" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.021630615640599003" name="org.apache.commons.lang.text.StrBuilder">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="99" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8" name="&lt;init&gt;" signature="(I)V">
+							<lines>
+								<line branch="false" hits="1" number="107" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="108">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="1" number="112" />
+							</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="0.3333333333333333" name="appendFixedWidthPadRight" signature="(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="879">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="880" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="881">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="882" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.4" name="ensureCapacity" signature="(I)Lorg/apache/commons/lang/text/StrBuilder;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="228">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="233" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getNullText" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="158" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderReader">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderTokenizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderWriter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.3235294117647059" name="org.apache.commons.lang.text.StrMatcher">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="37" />
+								<line branch="false" hits="1" number="41" />
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="50" />
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="62" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="70" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="10" number="216" />
+								<line branch="false" hits="10" number="217" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.75" name="org.apache.commons.lang.text.StrMatcher$CharMatcher">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(C)V">
+							<lines>
+								<line branch="false" hits="5" number="293" />
+								<line branch="false" hits="5" number="294" />
+								<line branch="false" hits="5" number="295" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.8" name="org.apache.commons.lang.text.StrMatcher$CharSetMatcher">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="([C)V">
+							<lines>
+								<line branch="false" hits="2" number="260" />
+								<line branch="false" hits="2" number="261" />
+								<line branch="false" hits="2" number="262" />
+								<line branch="false" hits="2" number="263" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.6666666666666666" name="org.apache.commons.lang.text.StrMatcher$NoMatcher">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="362" />
+								<line branch="false" hits="1" number="363" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$StringMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.6666666666666666" name="org.apache.commons.lang.text.StrMatcher$TrimMatcher">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="389" />
+								<line branch="false" hits="1" number="390" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/lang/text/StrTokenizer.java" line-rate="0.0" name="org.apache.commons.lang.text.StrTokenizer">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

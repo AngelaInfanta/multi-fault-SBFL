@@ -1,0 +1,4 @@
+com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine1
+com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine2
+com.google.javascript.jscomp.TypeCheckTest::testIssue301
+com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes

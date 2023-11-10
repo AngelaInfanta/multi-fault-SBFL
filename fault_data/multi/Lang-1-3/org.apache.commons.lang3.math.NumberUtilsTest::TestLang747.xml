@@ -1,0 +1,126 @@
+<coverage branch-rate="0.0076384468491406746" branches-covered="12" branches-valid="1571" complexity="5.803418803418803" line-rate="0.022054556006964595" lines-covered="38" lines-valid="1723" timestamp="1624256571956" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0032336297493936943" complexity="5.725806451612903" line-rate="0.003700962250185048" name="org.apache.commons.lang3">
+			<classes>
+				<class branch-rate="0.0032336297493936943" complexity="5.725806451612903" filename="org/apache/commons/lang3/StringUtils.java" line-rate="0.003700962250185048" name="org.apache.commons.lang3.StringUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="181" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="isBlank" signature="(Ljava/lang/CharSequence;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="6" number="257">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="260">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="261">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="262" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.023952095808383235" complexity="6.104166666666667" line-rate="0.08870967741935484" name="org.apache.commons.lang3.math">
+			<classes>
+				<class branch-rate="0.023952095808383235" complexity="6.104166666666667" filename="org/apache/commons/lang3/math/NumberUtils.java" line-rate="0.08870967741935484" name="org.apache.commons.lang3.math.NumberUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="34" />
+								<line branch="false" hits="1" number="36" />
+								<line branch="false" hits="1" number="38" />
+								<line branch="false" hits="1" number="40" />
+								<line branch="false" hits="1" number="42" />
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="46" />
+								<line branch="false" hits="1" number="48" />
+								<line branch="false" hits="1" number="50" />
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="62" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="68" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="createInteger" signature="(Ljava/lang/String;)Ljava/lang/Integer;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="676">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="680" />
+							</lines>
+						</method>
+						<method branch-rate="0.07954545454545454" line-rate="0.16049382716049382" name="createNumber" signature="(Ljava/lang/String;)Ljava/lang/Number;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="451">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="454">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="458" />
+								<line branch="false" hits="6" number="459" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="460">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="461">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="462" />
+								<line branch="false" hits="6" number="463" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="466">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="467" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="468">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="471">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="474" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

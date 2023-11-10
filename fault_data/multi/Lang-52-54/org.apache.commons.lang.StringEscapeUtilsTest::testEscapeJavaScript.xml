@@ -1,0 +1,114 @@
+<coverage branch-rate="0.09740259740259741" branches-covered="15" branches-valid="154" complexity="3.1016949152542375" line-rate="0.0944055944055944" lines-covered="27" lines-valid="286" timestamp="1623789301125" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.10135135135135136" complexity="4.933333333333334" line-rate="0.10756972111553785" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.0" complexity="5.444444444444445" filename="org/apache/commons/lang/LocaleUtils.java" line-rate="0.0" name="org.apache.commons.lang.LocaleUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.17857142857142858" complexity="4.714285714285714" filename="org/apache/commons/lang/StringEscapeUtils.java" line-rate="0.15428571428571428" name="org.apache.commons.lang.StringEscapeUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="0.5" name="escapeJavaScript" signature="(Ljava/io/Writer;Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="2" number="138" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="escapeJavaScript" signature="(Ljava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="3" number="122" />
+							</lines>
+						</method>
+						<method branch-rate="0.4642857142857143" line-rate="0.425531914893617" name="escapeJavaStyleString" signature="(Ljava/io/Writer;Ljava/lang/String;Z)V">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="4" number="172">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="173" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="175">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="179" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="97" number="180">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="95" number="181" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="95" number="184">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="95" number="186">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="95" number="188">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="95" number="190">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="75% (3/4)" hits="95" number="221">
+									<conditions>
+										<condition coverage="75%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="223">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="224" />
+								<line branch="false" hits="5" number="226" />
+								<line branch="false" hits="5" number="227" />
+								<line branch="false" hits="4" number="229" />
+								<line branch="false" hits="4" number="230" />
+								<line branch="false" hits="4" number="231" />
+								<line branch="false" hits="86" number="237" />
+								<line branch="false" hits="2" number="242" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="0.625" name="escapeJavaStyleString" signature="(Ljava/lang/String;Z)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="149">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="150" />
+								<line branch="false" hits="2" number="153" />
+								<line branch="false" hits="2" number="154" />
+								<line branch="false" hits="2" number="155" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.206896551724138" line-rate="0.0" name="org.apache.commons.lang.exception">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/lang/exception/Nestable.java" line-rate="1.0" name="org.apache.commons.lang.exception.Nestable">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3529411764705883" filename="org/apache/commons/lang/exception/NestableRuntimeException.java" line-rate="0.0" name="org.apache.commons.lang.exception.NestableRuntimeException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

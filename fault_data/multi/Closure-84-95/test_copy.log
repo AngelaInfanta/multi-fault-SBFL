@@ -1,0 +1,7 @@
+--- Overwrite: testDestructuringAssignForbidden4
+608c608,610
+<     parseError("[x, y] = foo();", "destructuring assignment forbidden");
+---
+>     parseError("[x, y] = foo();",
+>         "destructuring assignment forbidden",
+>         "invalid assignment target");

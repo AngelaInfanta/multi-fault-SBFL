@@ -1,0 +1,18 @@
+--- Overwrite: testIsBooleanResult
+1485a1486
+>     assertTrue(NodeUtil.isBooleanResult(getNode("delete a")));
+1492,1495c1493,1497
+<     assertFalse(NodeUtil.isBooleanResult(getNode("true && false")));
+<     assertFalse(NodeUtil.isBooleanResult(getNode("true || false")));
+<     assertFalse(NodeUtil.isBooleanResult(getNode("a ? true : false")));
+<     assertFalse(NodeUtil.isBooleanResult(getNode("a,true")));
+---
+>     assertTrue(NodeUtil.isBooleanResult(getNode("true && false")));
+>     assertTrue(NodeUtil.isBooleanResult(getNode("true || false")));
+>     assertTrue(NodeUtil.isBooleanResult(getNode("a ? true : false")));
+>     assertTrue(NodeUtil.isBooleanResult(getNode("a,true")));
+>     assertTrue(NodeUtil.isBooleanResult(getNode("a=true")));
+--- Overwrite: testLocalValue1
+1151a1152,1153
+> 
+>     assertTrue(testLocalValue("delete a.b"));

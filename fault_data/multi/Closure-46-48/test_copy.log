@@ -1,0 +1,60 @@
+--- Overwrite: testRecordTypeLeastSuperType2
+2719c2719
+<     JSType subRecordType = builder.build();
+---
+>     JSType otherRecordType = builder.build();
+2721,2726c2721,2723
+<     JSType leastSupertype = recordType.getLeastSupertype(subRecordType);
+< 
+<     builder = new RecordTypeBuilder(registry);
+<     builder.addProperty("b", STRING_TYPE, null);
+< 
+<     assertTypeEquals(leastSupertype, builder.build());
+---
+>     assertTypeEquals(
+>         registry.createUnionType(recordType, otherRecordType),
+>         recordType.getLeastSupertype(otherRecordType));
+--- Overwrite: testRecordTypeLeastSuperType3
+2731c2731
+<     JSType subRecordType = builder.build();
+---
+>     JSType otherRecordType = builder.build();
+2733,2734c2733,2735
+<     JSType leastSupertype = recordType.getLeastSupertype(subRecordType);
+<     assertTypeEquals(leastSupertype, OBJECT_TYPE);
+---
+>     assertTypeEquals(
+>         registry.createUnionType(recordType, otherRecordType),
+>         recordType.getLeastSupertype(otherRecordType));
+--- Insert: testSupAndInf
+74a75,104
+>   public void testSupAndInf() {
+>     JSType recordA = new RecordTypeBuilder(registry)
+>         .addProperty("a", NUMBER_TYPE, null)
+>         .addProperty("b", NUMBER_TYPE, null)
+>         .build();
+>     JSType recordC = new RecordTypeBuilder(registry)
+>         .addProperty("b", NUMBER_TYPE, null)
+>         .addProperty("c", NUMBER_TYPE, null)
+>         .build();
+>     ProxyObjectType proxyRecordA = new ProxyObjectType(registry, recordA);
+>     ProxyObjectType proxyRecordC = new ProxyObjectType(registry, recordC);
+> 
+>     JSType aInfC = new RecordTypeBuilder(registry)
+>         .addProperty("a", NUMBER_TYPE, null)
+>         .addProperty("b", NUMBER_TYPE, null)
+>         .addProperty("c", NUMBER_TYPE, null)
+>         .build();
+> 
+>     JSType aSupC = registry.createUnionType(recordA, recordC);
+> 
+>     Asserts.assertTypeEquals(
+>         aInfC, recordA.getGreatestSubtype(recordC));
+>     Asserts.assertTypeEquals(
+>         aSupC, recordA.getLeastSupertype(recordC));
+> 
+>     Asserts.assertTypeEquals(
+>         aInfC, proxyRecordA.getGreatestSubtype(proxyRecordC));
+>     Asserts.assertTypeEquals(
+>         aSupC, proxyRecordA.getLeastSupertype(proxyRecordC));
+>   }

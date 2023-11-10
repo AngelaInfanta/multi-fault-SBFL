@@ -1,0 +1,41 @@
+--- Overwrite: testForOffsetHoursMinutes_int_int
+304,306c304,307
+<         assertEquals(DateTimeZone.forID("+03:15"), DateTimeZone.forOffsetHoursMinutes(3, 15));
+<         assertEquals(DateTimeZone.forID("-02:00"), DateTimeZone.forOffsetHoursMinutes(-2, 0));
+<         assertEquals(DateTimeZone.forID("-02:30"), DateTimeZone.forOffsetHoursMinutes(-2, 30));
+---
+>         assertEquals(DateTimeZone.forID("+23:59"), DateTimeZone.forOffsetHoursMinutes(23, 59));
+>         
+>         assertEquals(DateTimeZone.forID("+02:15"), DateTimeZone.forOffsetHoursMinutes(2, 15));
+>         assertEquals(DateTimeZone.forID("+02:00"), DateTimeZone.forOffsetHoursMinutes(2, 0));
+308c309
+<             DateTimeZone.forOffsetHoursMinutes(2, 60);
+---
+>             DateTimeZone.forOffsetHoursMinutes(2, -15);
+310a312,321
+>         
+>         assertEquals(DateTimeZone.forID("+00:15"), DateTimeZone.forOffsetHoursMinutes(0, 15));
+>         assertEquals(DateTimeZone.forID("+00:00"), DateTimeZone.forOffsetHoursMinutes(0, 0));
+>         assertEquals(DateTimeZone.forID("-00:15"), DateTimeZone.forOffsetHoursMinutes(0, -15));
+>         
+>         assertEquals(DateTimeZone.forID("-02:00"), DateTimeZone.forOffsetHoursMinutes(-2, 0));
+>         assertEquals(DateTimeZone.forID("-02:15"), DateTimeZone.forOffsetHoursMinutes(-2, -15));
+>         assertEquals(DateTimeZone.forID("-02:15"), DateTimeZone.forOffsetHoursMinutes(-2, 15));
+>         
+>         assertEquals(DateTimeZone.forID("-23:59"), DateTimeZone.forOffsetHoursMinutes(-23, 59));
+312c323
+<             DateTimeZone.forOffsetHoursMinutes(-2, 60);
+---
+>             DateTimeZone.forOffsetHoursMinutes(2, 60);
+316c327
+<             DateTimeZone.forOffsetHoursMinutes(2, -1);
+---
+>             DateTimeZone.forOffsetHoursMinutes(-2, 60);
+320c331
+<             DateTimeZone.forOffsetHoursMinutes(-2, -1);
+---
+>             DateTimeZone.forOffsetHoursMinutes(24, 0);
+324c335
+<             DateTimeZone.forOffsetHoursMinutes(999999, 0);
+---
+>             DateTimeZone.forOffsetHoursMinutes(-24, 0);

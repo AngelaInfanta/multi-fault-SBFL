@@ -1,0 +1,8 @@
+--- Insert: testInlineFunctions31
+1720a1721,1726
+>   public void testInlineFunctions31() {
+>     // Don't introduce a duplicate label in the same scope
+>     test("function foo(){ lab:{4;} }" +
+>         "lab:{foo();}",
+>         "lab:{{JSCompiler_inline_label_0:{4}}}");
+>   }

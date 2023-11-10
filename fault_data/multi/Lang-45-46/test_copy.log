@@ -1,0 +1,3 @@
+--- Overwrite: testAbbreviate
+389a390
+>         assertEquals("0123456789", WordUtils.abbreviate("0123456789", 15, 20, null));

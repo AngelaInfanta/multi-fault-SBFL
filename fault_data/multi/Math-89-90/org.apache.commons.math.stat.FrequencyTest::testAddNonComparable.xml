@@ -1,0 +1,63 @@
+<coverage branch-rate="0.0625" branches-covered="2" branches-valid="32" complexity="2.0357142857142856" line-rate="0.1509433962264151" lines-covered="16" lines-valid="106" timestamp="1623857822420" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0625" complexity="2.0357142857142856" line-rate="0.1509433962264151" name="org.apache.commons.math.stat">
+			<classes>
+				<class branch-rate="0.0625" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="0.15384615384615385" name="org.apache.commons.math.stat.Frequency">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="57" />
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="59" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="addValue" signature="(I)V">
+							<lines>
+								<line branch="false" hits="1" number="144" />
+								<line branch="false" hits="1" number="145" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8181818181818182" name="addValue" signature="(Ljava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="3" number="121" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="122">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="126" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="127">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="128" />
+								<line branch="false" hits="2" number="132" />
+								<line branch="false" hits="2" number="134" />
+								<line branch="false" hits="1" number="135" />
+								<line branch="false" hits="1" number="136" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="clear" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="176" />
+								<line branch="false" hits="1" number="177" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="1.0" name="org.apache.commons.math.stat.Frequency$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="0.0" name="org.apache.commons.math.stat.Frequency$NaturalComparator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

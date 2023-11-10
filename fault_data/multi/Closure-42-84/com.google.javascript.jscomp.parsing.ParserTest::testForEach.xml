@@ -1,0 +1,3300 @@
+<coverage branch-rate="0.09824689554419284" branches-covered="269" branches-valid="2738" complexity="3.0372010628875112" line-rate="0.2639157532774554" lines-covered="1228" lines-valid="4653" timestamp="1624442353165" version="2.0.3">
+	<sources>
+		<source>src</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.19220055710306408" complexity="5.391666666666667" line-rate="0.3844984802431611" name="com.google.javascript.jscomp.parsing">
+			<classes>
+				<class branch-rate="1.0" complexity="0.0" filename="com/google/javascript/jscomp/parsing/Annotation.java" line-rate="1.0" name="com.google.javascript.jscomp.parsing.Annotation">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="44" number="27" />
+								<line branch="false" hits="1" number="28" />
+								<line branch="false" hits="1" number="29" />
+								<line branch="false" hits="1" number="30" />
+								<line branch="false" hits="1" number="31" />
+								<line branch="false" hits="1" number="32" />
+								<line branch="false" hits="1" number="33" />
+								<line branch="false" hits="1" number="34" />
+								<line branch="false" hits="1" number="35" />
+								<line branch="false" hits="1" number="36" />
+								<line branch="false" hits="1" number="37" />
+								<line branch="false" hits="1" number="38" />
+								<line branch="false" hits="1" number="39" />
+								<line branch="false" hits="1" number="40" />
+								<line branch="false" hits="1" number="41" />
+								<line branch="false" hits="1" number="42" />
+								<line branch="false" hits="1" number="43" />
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="46" />
+								<line branch="false" hits="1" number="47" />
+								<line branch="false" hits="1" number="48" />
+								<line branch="false" hits="1" number="49" />
+								<line branch="false" hits="1" number="50" />
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="55" />
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="57" />
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="59" />
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="62" />
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="69" />
+								<line branch="false" hits="1" number="70" />
+								<line branch="false" hits="1" number="72" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0" filename="com/google/javascript/jscomp/parsing/Config.java" line-rate="1.0" name="com.google.javascript.jscomp.parsing.Config">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/util/Set;Ljava/util/Set;ZZ)V">
+							<lines>
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="69" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="buildAnnotationNames" signature="(Ljava/util/Set;)Ljava/util/Map;">
+							<lines>
+								<line branch="false" hits="1" number="77" />
+								<line branch="false" hits="1" number="79" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="1" number="80">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="36" number="81">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="31" number="83" />
+								<line branch="false" hits="36" number="86" />
+								<line branch="false" hits="1" number="87" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.09090909090909091" complexity="6.507246376811594" filename="com/google/javascript/jscomp/parsing/IRFactory.java" line-rate="0.2336065573770492" name="com.google.javascript.jscomp.parsing.IRFactory">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Lcom/google/javascript/jscomp/parsing/Config;Lcom/google/javascript/jscomp/mozilla/rhino/ErrorReporter;)V">
+							<lines>
+								<line branch="false" hits="1" number="85" />
+								<line branch="false" hits="1" number="89" />
+								<line branch="false" hits="1" number="90" />
+								<line branch="false" hits="1" number="92" />
+								<line branch="false" hits="1" number="103" />
+								<line branch="false" hits="1" number="104" />
+								<line branch="false" hits="1" number="105" />
+								<line branch="false" hits="1" number="106" />
+								<line branch="false" hits="1" number="107" />
+								<line branch="false" hits="1" number="108" />
+								<line branch="false" hits="1" number="110" />
+								<line branch="false" hits="1" number="111" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="access$1500" signature="(Lcom/google/javascript/jscomp/parsing/IRFactory;Ljava/lang/String;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="71" number="76" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createTemplateNode" signature="()Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="118" />
+								<line branch="false" hits="1" number="119" />
+								<line branch="false" hits="1" number="120" />
+							</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="0.42857142857142855" name="handleJsDoc" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/AstNode;)Lcom/google/javascript/rhino/JSDocInfo;">
+							<lines>
+								<line branch="false" hits="31" number="193" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="31" number="194">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="31" number="201" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="justTransform" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/AstNode;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="31" number="273" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="newNode" signature="(I)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="12" number="1190" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="newNode" signature="(ILcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="6" number="1198" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="newNode" signature="(ILcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="1202" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="newStringNode" signature="(ILjava/lang/String;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="12" number="1210" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="position2charno" signature="(I)I">
+							<lines>
+								<line branch="false" hits="30" number="263" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="30" number="264">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="265" />
+								<line branch="false" hits="24" number="268" />
+							</lines>
+						</method>
+						<method branch-rate="0.16666666666666666" line-rate="0.5" name="setFileOverviewJsDoc" signature="(Lcom/google/javascript/rhino/Node;)V">
+							<lines>
+								<line branch="false" hits="1" number="148" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="149">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="156" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.9230769230769231" name="transform" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/AstNode;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="31" number="205" />
+								<line branch="false" hits="31" number="206" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="31" number="207">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="75% (3/4)" hits="31" number="212">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="214" />
+								<line branch="false" hits="1" number="215" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="30" number="217">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="27" number="221" />
+								<line branch="false" hits="27" number="222" />
+								<line branch="false" hits="27" number="223" />
+								<line branch="false" hits="27" number="224" />
+								<line branch="false" hits="31" number="227" />
+							</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="0.3" name="transformBlock" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/AstNode;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="2" number="159" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="160">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="171" />
+							</lines>
+						</method>
+						<method branch-rate="0.032679738562091505" line-rate="0.03896103896103896" name="transformTokenType" signature="(I)I">
+							<lines>
+								<line branch="true" condition-coverage="3% (5/153)" hits="7" number="876">
+									<conditions>
+										<condition coverage="3%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="904" />
+								<line branch="false" hits="1" number="964" />
+								<line branch="false" hits="1" number="1052" />
+								<line branch="false" hits="3" number="1130" />
+								<line branch="false" hits="1" number="1139" />
+								</lines>
+						</method>
+						<method branch-rate="0.125" line-rate="0.5555555555555556" name="transformTree" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/AstRoot;Ljava/lang/String;Lcom/google/javascript/jscomp/parsing/Config;Lcom/google/javascript/jscomp/mozilla/rhino/ErrorReporter;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="127" />
+								<line branch="false" hits="1" number="129" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="131">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="139" />
+								<line branch="false" hits="1" number="141" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="6.507246376811594" filename="com/google/javascript/jscomp/parsing/IRFactory.java" line-rate="1.0" name="com.google.javascript.jscomp.parsing.IRFactory$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.19811320754716982" complexity="6.507246376811594" filename="com/google/javascript/jscomp/parsing/IRFactory.java" line-rate="0.30115830115830117" name="com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/jscomp/parsing/IRFactory;Lcom/google/javascript/jscomp/parsing/IRFactory$1;)V">
+							<lines>
+								<line branch="false" hits="33" number="276" />
+							</lines>
+						</method>
+						<method branch-rate="0.3" line-rate="1.0" name="isDirective" signature="(Lcom/google/javascript/rhino/Node;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="381">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="383" />
+								<line branch="true" condition-coverage="25% (2/8)" hits="2" number="384">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="0%" number="2" type="jump" />
+										<condition coverage="0%" number="3" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.3333333333333333" line-rate="0.4" name="parseDirectives" signature="(Lcom/google/javascript/rhino/Node;)V">
+							<lines>
+								<line branch="false" hits="2" number="365" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="366">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="375">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="378" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processAssignment" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/Assignment;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="340" />
+								<line branch="false" hits="1" number="341" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processAstRoot" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/AstRoot;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="346" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="1" number="347">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="348" />
+								<line branch="false" hits="2" number="349" />
+								<line branch="false" hits="1" number="350" />
+								<line branch="false" hits="1" number="351" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processBlock" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/Block;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="391" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.5" name="processBreakStatement" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/BreakStatement;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="396" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="397">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="403" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processEmptyExpression" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/EmptyExpression;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="459" />
+								<line branch="false" hits="1" number="460" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processExpressionStatement" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/ExpressionStatement;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="465" />
+								<line branch="false" hits="1" number="466" />
+								<line branch="false" hits="1" number="467" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processForInLoop" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/ForInLoop;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="472" />
+							</lines>
+						</method>
+						<method branch-rate="0.625" line-rate="0.75" name="processFunctionNode" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/FunctionNode;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="506" />
+								<line branch="false" hits="1" number="507" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="508">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="513" />
+								<line branch="false" hits="1" number="514" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="515">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="527" />
+								<line branch="false" hits="1" number="528" />
+								<line branch="false" hits="1" number="535" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="536">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="537" />
+								<line branch="false" hits="1" number="541" />
+								<line branch="false" hits="1" number="544" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="1" number="545">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="546" />
+								<line branch="false" hits="2" number="547" />
+								<line branch="false" hits="1" number="548" />
+								<line branch="false" hits="1" number="550" />
+								<line branch="false" hits="1" number="551" />
+								<line branch="false" hits="1" number="552" />
+								<line branch="false" hits="1" number="553" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processGeneric" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/Node;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="3" number="279" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="280">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="281" />
+								<line branch="false" hits="4" number="282" />
+								<line branch="false" hits="3" number="283" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8333333333333334" name="processIfStatement" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/IfStatement;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="558" />
+								<line branch="false" hits="1" number="559" />
+								<line branch="false" hits="1" number="560" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="561">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="564" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processInfixExpression" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/InfixExpression;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="2" number="569" />
+								<line branch="false" hits="2" number="575" />
+								<line branch="false" hits="2" number="579" />
+								<line branch="false" hits="2" number="581" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processKeywordLiteral" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/KeywordLiteral;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="586" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processName" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/Name;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="12" number="619" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processPropertyGet" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/PropertyGet;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="4" number="676" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processScope" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/Scope;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="2" number="709" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="processVariableDeclaration" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/VariableDeclaration;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="809" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="1" number="810">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="811" />
+								<line branch="false" hits="1" number="812" />
+								<line branch="false" hits="1" number="813" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6" name="processVariableInitializer" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/VariableInitializer;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="818" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="819">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="823" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8333333333333334" name="transformAsString" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/AstNode;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="4" number="296" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="297">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="299">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="300" />
+								<line branch="false" hits="4" number="302" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.625" complexity="2.0" filename="com/google/javascript/jscomp/parsing/ParserRunner.java" line-rate="0.875" name="com.google.javascript.jscomp.parsing.ParserRunner">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="39" />
+								<line branch="false" hits="1" number="41" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createConfig" signature="(ZZ)Lcom/google/javascript/jscomp/parsing/Config;">
+							<lines>
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="extractList" signature="(Ljava/lang/String;)Ljava/util/Set;">
+							<lines>
+								<line branch="false" hits="2" number="67" />
+								<line branch="false" hits="2" number="68" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="55" number="69">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="53" number="70" />
+								<line branch="false" hits="2" number="72" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8333333333333334" name="initResourceConfig" signature="()V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="57">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="62" />
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="64" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.9130434782608695" name="parse" signature="(Ljava/lang/String;Ljava/lang/String;Lcom/google/javascript/jscomp/parsing/Config;Lcom/google/javascript/jscomp/mozilla/rhino/ErrorReporter;Ljava/util/logging/Logger;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="1" number="90" />
+								<line branch="false" hits="1" number="91" />
+								<line branch="false" hits="1" number="92" />
+								<line branch="false" hits="1" number="93" />
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="95" />
+								<line branch="false" hits="1" number="96" />
+								<line branch="false" hits="1" number="97" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="98">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="99" />
+								<line branch="false" hits="1" number="100" />
+								<line branch="false" hits="1" number="103" />
+								<line branch="false" hits="1" number="104" />
+								<line branch="false" hits="1" number="106" />
+								<line branch="false" hits="1" number="110" />
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="1" number="112" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="113">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="114" />
+								<line branch="false" hits="1" number="116" />
+								<line branch="false" hits="1" number="118" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.4074074074074074" complexity="4.232558139534884" filename="com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java" line-rate="0.42857142857142855" name="com.google.javascript.jscomp.parsing.TypeSafeDispatcher">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="73" />
+							</lines>
+						</method>
+						<method branch-rate="0.4074074074074074" line-rate="0.41818181818181815" name="process" signature="(Lcom/google/javascript/jscomp/mozilla/rhino/ast/AstNode;)Ljava/lang/Object;">
+							<lines>
+								<line branch="true" condition-coverage="36% (14/38)" hits="31" number="119">
+									<conditions>
+										<condition coverage="36%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="144" />
+								<line branch="false" hits="1" number="159" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="171">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="172" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="173">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="174" />
+								<line branch="false" hits="1" number="182" />
+								<line branch="false" hits="1" number="198" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="201">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="202" />
+								<line branch="false" hits="1" number="216" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="218">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="219" />
+								<line branch="false" hits="1" number="229" />
+								<line branch="false" hits="4" number="233" />
+								<line branch="false" hits="1" number="237" />
+								<line branch="false" hits="12" number="243" />
+								<line branch="false" hits="1" number="255" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="265">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="266" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="267">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="268" />
+								</lines>
+						</method>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.1" complexity="2.0" line-rate="0.4117647058823529" name="com.google.javascript.jscomp.testing">
+			<classes>
+				<class branch-rate="0.1" complexity="2.0" filename="com/google/javascript/jscomp/testing/TestErrorReporter.java" line-rate="0.4117647058823529" name="com.google.javascript.jscomp.testing.TestErrorReporter">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="([Ljava/lang/String;[Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="40" />
+								<line branch="false" hits="1" number="41" />
+								<line branch="false" hits="1" number="43" />
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="46" />
+							</lines>
+						</method>
+						<method branch-rate="0.3333333333333333" line-rate="1.0" name="hasEncounteredAllErrors" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="33% (2/6)" hits="1" number="84">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.03680981595092025" complexity="4.0646258503401365" line-rate="0.09958791208791208" name="com.google.javascript.rhino">
+			<classes>
+				<class branch-rate="0.0" complexity="3.125" filename="com/google/javascript/rhino/Context.java" line-rate="0.01327433628318584" name="com.google.javascript.rhino.Context">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="273" />
+								<line branch="false" hits="1" number="407" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getCurrentContext" signature="()Lcom/google/javascript/rhino/Context;">
+							<lines>
+								<line branch="false" hits="1" number="400" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/EcmaError.java" line-rate="0.0" name="com.google.javascript.rhino.EcmaError">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/ErrorReporter.java" line-rate="1.0" name="com.google.javascript.rhino.ErrorReporter">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/EvaluatorException.java" line-rate="0.0" name="com.google.javascript.rhino.EvaluatorException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="com/google/javascript/rhino/JSTypeExpression.java" line-rate="0.0" name="com.google.javascript.rhino.JSTypeExpression">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.06273062730627306" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.1434010152284264" name="com.google.javascript.rhino.Node">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(I)V">
+							<lines>
+								<line branch="false" hits="281" number="368" />
+								<line branch="false" hits="281" number="369" />
+								<line branch="false" hits="281" number="370" />
+								<line branch="false" hits="281" number="371" />
+								<line branch="false" hits="281" number="372" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="&lt;init&gt;" signature="(ILcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V">
+							<lines>
+								<line branch="false" hits="6" number="388" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="389">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="391">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="393">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="395">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="397" />
+								<line branch="false" hits="6" number="398" />
+								<line branch="false" hits="6" number="399" />
+								<line branch="false" hits="6" number="400" />
+								<line branch="false" hits="6" number="401" />
+								<line branch="false" hits="6" number="402" />
+								<line branch="false" hits="6" number="403" />
+								<line branch="false" hits="6" number="404" />
+								<line branch="false" hits="6" number="405" />
+								<line branch="false" hits="6" number="406" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="&lt;init&gt;" signature="(ILcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V">
+							<lines>
+								<line branch="false" hits="1" number="408" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="409">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="410">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="411">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="412">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="413">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="414">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="415" />
+								<line branch="false" hits="1" number="416" />
+								<line branch="false" hits="1" number="417" />
+								<line branch="false" hits="1" number="418" />
+								<line branch="false" hits="1" number="419" />
+								<line branch="false" hits="1" number="420" />
+								<line branch="false" hits="1" number="421" />
+								<line branch="false" hits="1" number="422" />
+								<line branch="false" hits="1" number="423" />
+								<line branch="false" hits="1" number="424" />
+								<line branch="false" hits="1" number="425" />
+								<line branch="false" hits="1" number="426" />
+							</lines>
+						</method>
+						<method branch-rate="0.6666666666666666" line-rate="1.0" name="addChildToBack" signature="(Lcom/google/javascript/rhino/Node;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="153" number="602">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="153" number="603">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="153" number="604" />
+								<line branch="false" hits="153" number="605" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="153" number="606">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="126" number="607" />
+								<line branch="false" hits="126" number="608" />
+								<line branch="false" hits="27" number="610" />
+								<line branch="false" hits="27" number="611" />
+								<line branch="false" hits="27" number="612" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="clonePropsFrom" signature="(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="31" number="756">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="31" number="758" />
+								<line branch="false" hits="31" number="759" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="extractCharno" signature="(I)I">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="32" number="1173">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="31" number="1174" />
+								<line branch="false" hits="1" number="1176" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="extractLineno" signature="(I)I">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="63" number="1161">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="27" number="1162" />
+								<line branch="false" hits="36" number="1164" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getCharno" signature="()I">
+							<lines>
+								<line branch="false" hits="32" number="863" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getFirstChild" signature="()Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="5" number="548" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getJSDocInfo" signature="()Lcom/google/javascript/rhino/JSDocInfo;">
+							<lines>
+								<line branch="false" hits="1" number="1961" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getJsDocBuilderForNode" signature="()Lcom/google/javascript/rhino/Node$FileLevelJsDocBuilder;">
+							<lines>
+								<line branch="false" hits="1" number="1927" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLastChild" signature="()Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="117" number="552" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLineno" signature="()I">
+							<lines>
+								<line branch="false" hits="63" number="859" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="getProp" signature="(I)Ljava/lang/Object;">
+							<lines>
+								<line branch="false" hits="1" number="792" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="793">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="794" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getType" signature="()I">
+							<lines>
+								<line branch="false" hits="43" number="536" />
+							</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="0.75" name="lookupProperty" signature="(I)Lcom/google/javascript/rhino/Node$PropListItem;">
+							<lines>
+								<line branch="false" hits="1" number="741" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="1" number="742">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="745" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6" name="mergeLineCharNo" signature="(II)I">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="62" number="1147">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="62" number="1149">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="62" number="1152" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="newString" signature="(ILjava/lang/String;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="150" number="524" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="putBooleanProp" signature="(IZ)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="136" number="831">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="136" number="832" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="putIntProp" signature="(II)V">
+							<lines>
+								<line branch="false" hits="136" number="835" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="136" number="836">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="136" number="837" />
+								<line branch="false" hits="136" number="839" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="putProp" signature="(ILjava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="2" number="824" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="825">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="826" />
+								<line branch="false" hits="2" number="828" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="removeProp" signature="(I)V">
+							<lines>
+								<line branch="false" hits="138" number="763" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="138" number="764">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="138" number="767" />
+							</lines>
+						</method>
+						<method branch-rate="0.6666666666666666" line-rate="0.75" name="removeProp" signature="(Lcom/google/javascript/rhino/Node$PropListItem;I)Lcom/google/javascript/rhino/Node$PropListItem;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="140" number="776">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="138" number="777" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="778">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="781" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="782">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="786" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setCharno" signature="(I)V">
+							<lines>
+								<line branch="false" hits="31" number="1137" />
+								<line branch="false" hits="31" number="1138" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setIsSyntheticBlock" signature="(Z)V">
+							<lines>
+								<line branch="false" hits="1" number="2012" />
+								<line branch="false" hits="1" number="2013" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setJSDocInfo" signature="(Lcom/google/javascript/rhino/JSDocInfo;)V">
+							<lines>
+								<line branch="false" hits="1" number="1968" />
+								<line branch="false" hits="1" number="1969" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setJSType" signature="(Lcom/google/javascript/rhino/jstype/JSType;)V">
+							<lines>
+								<line branch="false" hits="138" number="1923" />
+								<line branch="false" hits="138" number="1924" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="setLineno" signature="(I)V">
+							<lines>
+								<line branch="false" hits="31" number="1129" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="31" number="1130">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="31" number="1131" />
+								<line branch="false" hits="31" number="1133" />
+								<line branch="false" hits="31" number="1134" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setOptionalArg" signature="(Z)V">
+							<lines>
+								<line branch="false" hits="31" number="1995" />
+								<line branch="false" hits="31" number="1996" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setType" signature="(I)V">
+							<lines>
+								<line branch="false" hits="4" number="540" />
+								<line branch="false" hits="4" number="541" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setVarArgs" signature="(Z)V">
+							<lines>
+								<line branch="false" hits="104" number="1977" />
+								<line branch="false" hits="104" number="1978" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$AncestorIterable">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$AncestorIterable$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.1" name="com.google.javascript.rhino.Node$FileLevelJsDocBuilder">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/Node;)V">
+							<lines>
+								<line branch="false" hits="1" number="1938" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$NodeMismatch">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$NumberNode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="1.0" name="com.google.javascript.rhino.Node$PropListItem">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(IILcom/google/javascript/rhino/Node$PropListItem;)V">
+							<lines>
+								<line branch="false" hits="136" number="351" />
+								<line branch="false" hits="136" number="352" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(IILjava/lang/Object;Lcom/google/javascript/rhino/Node$PropListItem;)V">
+							<lines>
+								<line branch="false" hits="137" number="359" />
+								<line branch="false" hits="137" number="360" />
+								<line branch="false" hits="137" number="361" />
+								<line branch="false" hits="137" number="362" />
+								<line branch="false" hits="137" number="363" />
+								<line branch="false" hits="137" number="364" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(ILjava/lang/Object;Lcom/google/javascript/rhino/Node$PropListItem;)V">
+							<lines>
+								<line branch="false" hits="1" number="355" />
+								<line branch="false" hits="1" number="356" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$SiblingNodeIterable">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$SideEffectFlags">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.1" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.21052631578947367" name="com.google.javascript.rhino.Node$StringNode">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8" name="&lt;init&gt;" signature="(ILjava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="150" number="277" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="150" number="278">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="150" number="281" />
+								<line branch="false" hits="150" number="282" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.473684210526316" filename="com/google/javascript/rhino/RhinoException.java" line-rate="0.0" name="com.google.javascript.rhino.RhinoException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.473684210526316" filename="com/google/javascript/rhino/RhinoException.java" line-rate="0.0" name="com.google.javascript.rhino.RhinoException$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.00510204081632653" complexity="4.878787878787879" filename="com/google/javascript/rhino/ScriptRuntime.java" line-rate="0.059574468085106386" name="com.google.javascript.rhino.ScriptRuntime">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="82" />
+								<line branch="false" hits="1" number="86" />
+								<line branch="false" hits="1" number="88" />
+								<line branch="false" hits="1" number="608" />
+								<line branch="false" hits="1" number="609" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8" name="getMessage" signature="(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="458" />
+								<line branch="false" hits="1" number="461" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="462">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="465" />
+								<line branch="false" hits="1" number="469" />
+								<line branch="false" hits="1" number="473" />
+								<line branch="false" hits="1" number="481" />
+								<line branch="false" hits="1" number="482" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getMessage0" signature="(Ljava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="422" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.11903012490815577" complexity="2.246734397677794" line-rate="0.2753686036426713" name="com.google.javascript.rhino.jstype">
+			<classes>
+				<class branch-rate="0.0" complexity="1.1333333333333333" filename="com/google/javascript/rhino/jstype/AllType.java" line-rate="0.16666666666666666" name="com.google.javascript.rhino.jstype.AllType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isAllType" signature="()Z">
+							<lines>
+								<line branch="false" hits="27" number="68" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.05555555555555555" complexity="4.538461538461538" filename="com/google/javascript/rhino/jstype/ArrowType.java" line-rate="0.08433734939759036" name="com.google.javascript.rhino.jstype.ArrowType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/JSType;)V">
+							<lines>
+								<line branch="false" hits="18" number="64" />
+								<line branch="false" hits="18" number="65" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/JSType;Z)V">
+							<lines>
+								<line branch="false" hits="117" number="69" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="117" number="71">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="117" number="74">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="117" number="76" />
+								<line branch="false" hits="117" number="77" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="com/google/javascript/rhino/jstype/BooleanType.java" line-rate="0.2631578947368421" name="com.google.javascript.rhino.jstype.BooleanType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDisplayName" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="108" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isSubtype" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="false" hits="5" number="49" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="toString" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="103" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/ErrorFunctionType.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.ErrorFunctionType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="7" number="51" />
+								<line branch="false" hits="7" number="73" />
+								<line branch="false" hits="7" number="74" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/FunctionBuilder.java" line-rate="0.3541666666666667" name="com.google.javascript.rhino.jstype.FunctionBuilder">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="99" number="54" />
+								<line branch="false" hits="99" number="55" />
+								<line branch="false" hits="99" number="56" />
+								<line branch="false" hits="99" number="57" />
+								<line branch="false" hits="99" number="58" />
+								<line branch="false" hits="99" number="59" />
+								<line branch="false" hits="99" number="60" />
+								<line branch="false" hits="99" number="61" />
+								<line branch="false" hits="99" number="62" />
+								<line branch="false" hits="99" number="64" />
+								<line branch="false" hits="99" number="65" />
+								<line branch="false" hits="99" number="66" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="build" signature="()Lcom/google/javascript/rhino/jstype/FunctionType;">
+							<lines>
+								<line branch="false" hits="99" number="159" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="withParamsNode" signature="(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/FunctionBuilder;">
+							<lines>
+								<line branch="false" hits="3" number="90" />
+								<line branch="false" hits="3" number="91" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="withReturnType" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/FunctionBuilder;">
+							<lines>
+								<line branch="false" hits="99" number="96" />
+								<line branch="false" hits="99" number="97" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.5" complexity="2.3333333333333335" filename="com/google/javascript/rhino/jstype/FunctionParamBuilder.java" line-rate="0.7878787878787878" name="com.google.javascript.rhino.jstype.FunctionParamBuilder">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="117" number="52" />
+								<line branch="false" hits="117" number="54" />
+								<line branch="false" hits="117" number="55" />
+								<line branch="false" hits="117" number="56" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.8" name="addOptionalParams" signature="([Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="10" number="80">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="41" number="84">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="31" number="85" />
+								<line branch="false" hits="10" number="87" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.8" name="addRequiredParams" signature="([Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="63">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="6" number="67">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="68" />
+								<line branch="false" hits="3" number="70" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.8333333333333334" name="addVarArgs" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="104" number="95">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="104" number="104">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="103" number="105" />
+								<line branch="false" hits="104" number="107" />
+								<line branch="false" hits="104" number="108" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="build" signature="()Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="117" number="130" />
+							</lines>
+						</method>
+						<method branch-rate="0.16666666666666666" line-rate="1.0" name="hasOptionalOrVarArgs" signature="()Z">
+							<lines>
+								<line branch="false" hits="3" number="134" />
+								<line branch="true" condition-coverage="16% (1/6)" hits="3" number="135">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+										<condition coverage="0%" number="2" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="1.0" name="hasVarArgs" signature="()Z">
+							<lines>
+								<line branch="false" hits="114" number="140" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="114" number="141">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="newParameter" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="138" number="123" />
+								<line branch="false" hits="138" number="124" />
+								<line branch="false" hits="138" number="125" />
+								<line branch="false" hits="138" number="126" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.5" complexity="1.4285714285714286" filename="com/google/javascript/rhino/jstype/FunctionPrototypeType.java" line-rate="0.6923076923076923" name="com.google.javascript.rhino.jstype.FunctionPrototypeType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Lcom/google/javascript/rhino/jstype/FunctionType;Lcom/google/javascript/rhino/jstype/ObjectType;)V">
+							<lines>
+								<line branch="false" hits="6" number="62" />
+								<line branch="false" hits="6" number="63" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Lcom/google/javascript/rhino/jstype/FunctionType;Lcom/google/javascript/rhino/jstype/ObjectType;Z)V">
+							<lines>
+								<line branch="false" hits="15" number="55" />
+								<line branch="false" hits="15" number="57" />
+								<line branch="false" hits="15" number="58" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getPropertiesCount" signature="()I">
+							<lines>
+								<line branch="false" hits="366" number="48" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="getReferenceName" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="96" number="67">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="96" number="70" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="hasReferenceName" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="96" number="76">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.11986301369863013" complexity="3.890909090909091" filename="com/google/javascript/rhino/jstype/FunctionType.java" line-rate="0.18770226537216828" name="com.google.javascript.rhino.jstype.FunctionType">
+					<methods>
+						<method branch-rate="0.0" line-rate="0.1111111111111111" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Ljava/lang/String;Lcom/google/javascript/rhino/Node;)V">
+							<lines>
+								<line branch="false" hits="117" number="108" />
+								</lines>
+						</method>
+						<method branch-rate="0.6666666666666666" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Ljava/lang/String;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/ArrowType;Lcom/google/javascript/rhino/jstype/ObjectType;Ljava/lang/String;ZZ)V">
+							<lines>
+								<line branch="false" hits="117" number="125" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="117" number="128">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="117" number="130" />
+								<line branch="false" hits="117" number="131" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="117" number="132">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="117" number="133">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="18" number="134">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="99" number="137">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="117" number="141" />
+								<line branch="false" hits="117" number="142" />
+								<line branch="false" hits="117" number="143" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="addSubType" signature="(Lcom/google/javascript/rhino/jstype/FunctionType;)V">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="13" number="850">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="851" />
+								<line branch="false" hits="13" number="853" />
+								<line branch="false" hits="13" number="854" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.625" name="defineProperty" signature="(Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;ZZLcom/google/javascript/rhino/Node;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="429">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="430" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="431">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="432">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="435" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getInstanceType" signature="()Lcom/google/javascript/rhino/jstype/ObjectType;">
+							<lines>
+								<line branch="false" hits="37" number="810" />
+								<line branch="false" hits="37" number="811" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getInternalArrowType" signature="()Lcom/google/javascript/rhino/jstype/ArrowType;">
+							<lines>
+								<line branch="false" hits="11" number="251" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getPropertiesCount" signature="()I">
+							<lines>
+								<line branch="false" hits="344" number="65" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getPrototype" signature="()Lcom/google/javascript/rhino/jstype/FunctionPrototypeType;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="121" number="260">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="261" />
+								<line branch="false" hits="121" number="263" />
+							</lines>
+						</method>
+						<method branch-rate="0.3333333333333333" line-rate="0.8" name="getSuperClassConstructor" signature="()Lcom/google/javascript/rhino/jstype/FunctionType;">
+							<lines>
+								<line branch="true" condition-coverage="25% (1/4)" hits="14" number="597">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="14" number="598" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="14" number="599">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="14" number="602" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="hasCachedValues" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="118" number="867">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="1.0" name="hasInstanceType" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="25% (1/4)" hits="37" number="823">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="isConstructor" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="81" number="172">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="0.375" name="isEquivalentTo" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="655">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="658" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="659">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="662">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="663">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="664">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isFunctionType" signature="()Z">
+							<lines>
+								<line branch="false" hits="1" number="187" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="isInterface" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="177">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.041666666666666664" line-rate="0.18181818181818182" name="isSubtype" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="757">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="758" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setInstanceType" signature="(Lcom/google/javascript/rhino/jstype/ObjectType;)V">
+							<lines>
+								<line branch="false" hits="3" number="816" />
+								<line branch="false" hits="3" number="817" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8" name="setPrototype" signature="(Lcom/google/javascript/rhino/jstype/FunctionPrototypeType;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="14" number="287">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (2/4)" hits="14" number="291">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="14" number="295" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="14" number="297">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="14" number="298" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="14" number="299">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="13" number="300" />
+								<line branch="false" hits="14" number="303" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="setPrototypeBasedOn" signature="(Lcom/google/javascript/rhino/jstype/ObjectType;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="272">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="273" />
+								<line branch="false" hits="7" number="279" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.890909090909091" filename="com/google/javascript/rhino/jstype/FunctionType.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.FunctionType$Kind">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="4" number="68" />
+								<line branch="false" hits="1" number="69" />
+								<line branch="false" hits="1" number="70" />
+								<line branch="false" hits="1" number="71" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/IndexedType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.IndexedType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.22727272727272727" complexity="2.0" filename="com/google/javascript/rhino/jstype/InstanceObjectType.java" line-rate="0.6052631578947368" name="com.google.javascript.rhino.jstype.InstanceObjectType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Lcom/google/javascript/rhino/jstype/FunctionType;Z)V">
+							<lines>
+								<line branch="false" hits="17" number="60" />
+								<line branch="false" hits="17" number="61" />
+								<line branch="false" hits="17" number="62" />
+								<line branch="false" hits="17" number="63" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="defineProperty" signature="(Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;ZZLcom/google/javascript/rhino/Node;)Z">
+							<lines>
+								<line branch="false" hits="7" number="88" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="7" number="89">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="92" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getConstructor" signature="()Lcom/google/javascript/rhino/jstype/FunctionType;">
+							<lines>
+								<line branch="false" hits="218" number="82" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getImplicitPrototype" signature="()Lcom/google/javascript/rhino/jstype/ObjectType;">
+							<lines>
+								<line branch="false" hits="92" number="77" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getPropertiesCount" signature="()I">
+							<lines>
+								<line branch="false" hits="42" number="49" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getReferenceName" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="33" number="67" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hasReferenceName" signature="()Z">
+							<lines>
+								<line branch="false" hits="78" number="72" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="hashCode" signature="()I">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="14" number="168">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="14" number="169" />
+								</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.8571428571428571" name="isEquivalentTo" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="51" number="151">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="51" number="153">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="51" number="154" />
+								<line branch="true" condition-coverage="100% (4/4)" hits="51" number="155">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="156" />
+								<line branch="false" hits="45" number="159" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isNominalType" signature="()Z">
+							<lines>
+								<line branch="false" hits="57" number="146" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="toString" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="14" number="97">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="14" number="98" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.109375" complexity="2.1149425287356323" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.1348314606741573" name="com.google.javascript.rhino.jstype.JSType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="90" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="283" number="70" />
+								<line branch="false" hits="283" number="71" />
+								<line branch="false" hits="283" number="102" />
+								<line branch="false" hits="283" number="103" />
+								<line branch="false" hits="283" number="104" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getNativeType" signature="(Lcom/google/javascript/rhino/jstype/JSTypeNative;)Lcom/google/javascript/rhino/jstype/JSType;">
+							<lines>
+								<line branch="false" hits="109" number="110" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hashCode" signature="()I">
+							<lines>
+								<line branch="false" hits="42" number="347" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isAllType" signature="()Z">
+							<lines>
+								<line branch="false" hits="184" number="234" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="1.0" name="isEmptyType" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="75% (3/4)" hits="104" number="159">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.6666666666666666" name="isEquivalentTo" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="127" number="324">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="127" number="331">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isNoObjectType" signature="()Z">
+							<lines>
+								<line branch="false" hits="103" number="155" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isNoType" signature="()Z">
+							<lines>
+								<line branch="false" hits="228" number="151" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isNominalType" signature="()Z">
+							<lines>
+								<line branch="false" hits="23" number="294" />
+							</lines>
+						</method>
+						<method branch-rate="0.42857142857142855" line-rate="0.4666666666666667" name="isSubtype" signature="(Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="60" number="844">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="60" number="848">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="849" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="59" number="852">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="59" number="856">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="59" number="865">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="59" number="868" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isUnknownType" signature="()Z">
+							<lines>
+								<line branch="false" hits="50" number="238" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="toObjectType" signature="()Lcom/google/javascript/rhino/jstype/ObjectType;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="73" number="470">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1149425287356323" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.5" name="com.google.javascript.rhino.jstype.JSType$1">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="compare" signature="(Ljava/lang/Object;Ljava/lang/Object;)I">
+							<lines>
+								<line branch="false" hits="1" number="90" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1149425287356323" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSType$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1149425287356323" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSType$TypePair">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="com/google/javascript/rhino/jstype/JSTypeNative.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.JSTypeNative">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="56" number="47" />
+								<line branch="false" hits="1" number="50" />
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="55" />
+								<line branch="false" hits="1" number="79" />
+								<line branch="false" hits="1" number="81" />
+								<line branch="false" hits="1" number="82" />
+								<line branch="false" hits="1" number="84" />
+								<line branch="false" hits="1" number="85" />
+								<line branch="false" hits="1" number="87" />
+								<line branch="false" hits="1" number="88" />
+								<line branch="false" hits="1" number="90" />
+								<line branch="false" hits="1" number="91" />
+								<line branch="false" hits="1" number="92" />
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="96" />
+								<line branch="false" hits="1" number="97" />
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="100" />
+								<line branch="false" hits="1" number="101" />
+								<line branch="false" hits="1" number="102" />
+								<line branch="false" hits="1" number="104" />
+								<line branch="false" hits="1" number="105" />
+								<line branch="false" hits="1" number="107" />
+								<line branch="false" hits="1" number="108" />
+								<line branch="false" hits="1" number="110" />
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="1" number="113" />
+								<line branch="false" hits="1" number="114" />
+								<line branch="false" hits="1" number="115" />
+								<line branch="false" hits="1" number="117" />
+								<line branch="false" hits="1" number="118" />
+								<line branch="false" hits="1" number="120" />
+								<line branch="false" hits="1" number="121" />
+								<line branch="false" hits="1" number="123" />
+								<line branch="false" hits="1" number="125" />
+								<line branch="false" hits="1" number="126" />
+								<line branch="false" hits="1" number="128" />
+								<line branch="false" hits="1" number="132" />
+								<line branch="false" hits="1" number="133" />
+								<line branch="false" hits="1" number="134" />
+								<line branch="false" hits="1" number="135" />
+								<line branch="false" hits="1" number="136" />
+								<line branch="false" hits="1" number="137" />
+								<line branch="false" hits="1" number="138" />
+								<line branch="false" hits="1" number="139" />
+								<line branch="false" hits="1" number="140" />
+								<line branch="false" hits="1" number="142" />
+								<line branch="false" hits="1" number="143" />
+								<line branch="false" hits="1" number="148" />
+								<line branch="false" hits="1" number="153" />
+								<line branch="false" hits="1" number="158" />
+								<line branch="false" hits="1" number="163" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.1258741258741259" complexity="2.3" filename="com/google/javascript/rhino/jstype/JSTypeRegistry.java" line-rate="0.5157657657657657" name="com.google.javascript.rhino.jstype.JSTypeRegistry">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/ErrorReporter;)V">
+							<lines>
+								<line branch="false" hits="1" number="189" />
+								<line branch="false" hits="1" number="190" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/ErrorReporter;Z)V">
+							<lines>
+								<line branch="false" hits="1" number="93" />
+								<line branch="false" hits="1" number="108" />
+								<line branch="false" hits="1" number="113" />
+								<line branch="false" hits="1" number="117" />
+								<line branch="false" hits="1" number="123" />
+								<line branch="false" hits="1" number="129" />
+								<line branch="false" hits="1" number="133" />
+								<line branch="false" hits="1" number="137" />
+								<line branch="false" hits="1" number="141" />
+								<line branch="false" hits="1" number="145" />
+								<line branch="false" hits="1" number="183" />
+								<line branch="false" hits="1" number="196" />
+								<line branch="false" hits="1" number="197" />
+								<line branch="false" hits="1" number="198" />
+								<line branch="false" hits="1" number="199" />
+								<line branch="false" hits="1" number="200" />
+								<line branch="false" hits="1" number="201" />
+								<line branch="false" hits="1" number="202" />
+							</lines>
+						</method>
+						<method branch-rate="0.3333333333333333" line-rate="0.6428571428571429" name="addReferenceTypeIndexedByProperty" signature="(Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="105" number="615">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="105" number="616" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="105" number="618">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="82" number="619" />
+								<line branch="false" hits="82" number="620" />
+								<line branch="false" hits="105" number="622" />
+								<line branch="false" hits="105" number="623" />
+								<line branch="true" condition-coverage="0% (0/2)" hits="105" number="624">
+									<conditions>
+										<condition coverage="0%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="105" number="632" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createArrowType" signature="(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/ArrowType;">
+							<lines>
+								<line branch="false" hits="1" number="976" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createArrowType" signature="(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/ArrowType;">
+							<lines>
+								<line branch="false" hits="17" number="966" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createFunctionType" signature="(Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/FunctionType;">
+							<lines>
+								<line branch="false" hits="3" number="1217" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="createFunctionType" signature="(Lcom/google/javascript/rhino/jstype/JSType;Z[Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/FunctionType;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="1174">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="1175" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createFunctionTypeWithVarArgs" signature="(Lcom/google/javascript/rhino/jstype/JSType;[Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/FunctionType;">
+							<lines>
+								<line branch="false" hits="3" number="1023" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createNullableType" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/JSType;">
+							<lines>
+								<line branch="false" hits="2" number="915" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createObjectType" signature="(Ljava/lang/String;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/ObjectType;)Lcom/google/javascript/rhino/jstype/ObjectType;">
+							<lines>
+								<line branch="false" hits="1" number="1258" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createOptionalParameters" signature="([Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="10" number="1137" />
+								<line branch="false" hits="10" number="1138" />
+								<line branch="false" hits="10" number="1139" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.6666666666666666" name="createOptionalType" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/JSType;">
+							<lines>
+								<line branch="true" condition-coverage="75% (3/4)" hits="134" number="893">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="134" number="894" />
+								</lines>
+						</method>
+						<method branch-rate="0.8333333333333334" line-rate="1.0" name="createParameters" signature="(Z[Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="107" number="1153" />
+								<line branch="false" hits="107" number="1154" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="214" number="1155">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="75% (3/4)" hits="107" number="1156">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="104" number="1157" />
+								<line branch="false" hits="3" number="1159" />
+								<line branch="false" hits="107" number="1162" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createParametersWithVarArgs" signature="([Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/Node;">
+							<lines>
+								<line branch="false" hits="104" number="1129" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createUnionType" signature="([Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/JSType;">
+							<lines>
+								<line branch="false" hits="8" number="931" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="28" number="932">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="20" number="933" />
+								<line branch="false" hits="8" number="935" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getNativeFunctionType" signature="(Lcom/google/javascript/rhino/jstype/JSTypeNative;)Lcom/google/javascript/rhino/jstype/FunctionType;">
+							<lines>
+								<line branch="false" hits="12" number="818" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getNativeObjectType" signature="(Lcom/google/javascript/rhino/jstype/JSTypeNative;)Lcom/google/javascript/rhino/jstype/ObjectType;">
+							<lines>
+								<line branch="false" hits="248" number="814" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getNativeType" signature="(Lcom/google/javascript/rhino/jstype/JSTypeNative;)Lcom/google/javascript/rhino/jstype/JSType;">
+							<lines>
+								<line branch="false" hits="445" number="810" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="initializeBuiltInTypes" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="238" />
+								<line branch="false" hits="1" number="239" />
+								<line branch="false" hits="1" number="241" />
+								<line branch="false" hits="1" number="242" />
+								<line branch="false" hits="1" number="244" />
+								<line branch="false" hits="1" number="245" />
+								<line branch="false" hits="1" number="247" />
+								<line branch="false" hits="1" number="248" />
+								<line branch="false" hits="1" number="250" />
+								<line branch="false" hits="1" number="251" />
+								<line branch="false" hits="1" number="252" />
+								<line branch="false" hits="1" number="255" />
+								<line branch="false" hits="1" number="256" />
+								<line branch="false" hits="1" number="258" />
+								<line branch="false" hits="1" number="259" />
+								<line branch="false" hits="1" number="265" />
+								<line branch="false" hits="1" number="267" />
+								<line branch="false" hits="1" number="270" />
+								<line branch="false" hits="1" number="274" />
+								<line branch="false" hits="1" number="276" />
+								<line branch="false" hits="1" number="278" />
+								<line branch="false" hits="1" number="279" />
+								<line branch="false" hits="1" number="281" />
+								<line branch="false" hits="1" number="282" />
+								<line branch="false" hits="1" number="285" />
+								<line branch="false" hits="1" number="290" />
+								<line branch="false" hits="1" number="291" />
+								<line branch="false" hits="1" number="294" />
+								<line branch="false" hits="1" number="295" />
+								<line branch="false" hits="1" number="297" />
+								<line branch="false" hits="1" number="298" />
+								<line branch="false" hits="1" number="300" />
+								<line branch="false" hits="1" number="301" />
+								<line branch="false" hits="1" number="304" />
+								<line branch="false" hits="1" number="308" />
+								<line branch="false" hits="1" number="311" />
+								<line branch="false" hits="1" number="312" />
+								<line branch="false" hits="1" number="314" />
+								<line branch="false" hits="1" number="315" />
+								<line branch="false" hits="1" number="318" />
+								<line branch="false" hits="1" number="322" />
+								<line branch="false" hits="1" number="323" />
+								<line branch="false" hits="1" number="326" />
+								<line branch="false" hits="1" number="328" />
+								<line branch="false" hits="1" number="331" />
+								<line branch="false" hits="1" number="338" />
+								<line branch="false" hits="1" number="339" />
+								<line branch="false" hits="1" number="341" />
+								<line branch="false" hits="1" number="342" />
+								<line branch="false" hits="1" number="345" />
+								<line branch="false" hits="1" number="346" />
+								<line branch="false" hits="1" number="348" />
+								<line branch="false" hits="1" number="349" />
+								<line branch="false" hits="1" number="352" />
+								<line branch="false" hits="1" number="354" />
+								<line branch="false" hits="1" number="355" />
+								<line branch="false" hits="1" number="358" />
+								<line branch="false" hits="1" number="359" />
+								<line branch="false" hits="1" number="362" />
+								<line branch="false" hits="1" number="364" />
+								<line branch="false" hits="1" number="365" />
+								<line branch="false" hits="1" number="368" />
+								<line branch="false" hits="1" number="369" />
+								<line branch="false" hits="1" number="372" />
+								<line branch="false" hits="1" number="374" />
+								<line branch="false" hits="1" number="375" />
+								<line branch="false" hits="1" number="378" />
+								<line branch="false" hits="1" number="380" />
+								<line branch="false" hits="1" number="383" />
+								<line branch="false" hits="1" number="385" />
+								<line branch="false" hits="1" number="386" />
+								<line branch="false" hits="1" number="389" />
+								<line branch="false" hits="1" number="390" />
+								<line branch="false" hits="1" number="393" />
+								<line branch="false" hits="1" number="395" />
+								<line branch="false" hits="1" number="396" />
+								<line branch="false" hits="1" number="399" />
+								<line branch="false" hits="1" number="400" />
+								<line branch="false" hits="1" number="403" />
+								<line branch="false" hits="1" number="405" />
+								<line branch="false" hits="1" number="406" />
+								<line branch="false" hits="1" number="409" />
+								<line branch="false" hits="1" number="410" />
+								<line branch="false" hits="1" number="413" />
+								<line branch="false" hits="1" number="417" />
+								<line branch="false" hits="1" number="418" />
+								<line branch="false" hits="1" number="421" />
+								<line branch="false" hits="1" number="423" />
+								<line branch="false" hits="1" number="426" />
+								<line branch="false" hits="1" number="430" />
+								<line branch="false" hits="1" number="433" />
+								<line branch="false" hits="1" number="434" />
+								<line branch="false" hits="1" number="436" />
+								<line branch="false" hits="1" number="437" />
+								<line branch="false" hits="1" number="440" />
+								<line branch="false" hits="1" number="444" />
+								<line branch="false" hits="1" number="445" />
+								<line branch="false" hits="1" number="448" />
+								<line branch="false" hits="1" number="450" />
+								<line branch="false" hits="1" number="454" />
+								<line branch="false" hits="1" number="456" />
+								<line branch="false" hits="1" number="459" />
+								<line branch="false" hits="1" number="461" />
+								<line branch="false" hits="1" number="465" />
+								<line branch="false" hits="1" number="467" />
+								<line branch="false" hits="1" number="471" />
+								<line branch="false" hits="1" number="472" />
+								<line branch="false" hits="1" number="477" />
+								<line branch="false" hits="1" number="479" />
+								<line branch="false" hits="1" number="483" />
+								<line branch="false" hits="1" number="485" />
+								<line branch="false" hits="1" number="489" />
+								<line branch="false" hits="1" number="491" />
+								<line branch="false" hits="1" number="495" />
+								<line branch="false" hits="1" number="515" />
+								<line branch="false" hits="1" number="516" />
+								<line branch="false" hits="1" number="519" />
+								<line branch="false" hits="1" number="520" />
+								<line branch="false" hits="1" number="523" />
+								<line branch="false" hits="1" number="525" />
+								<line branch="false" hits="1" number="528" />
+								<line branch="false" hits="1" number="530" />
+								<line branch="false" hits="1" number="533" />
+								<line branch="false" hits="1" number="535" />
+								<line branch="false" hits="1" number="540" />
+								<line branch="false" hits="1" number="541" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="initializeRegistry" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="544" />
+								<line branch="false" hits="1" number="545" />
+								<line branch="false" hits="1" number="546" />
+								<line branch="false" hits="1" number="547" />
+								<line branch="false" hits="1" number="548" />
+								<line branch="false" hits="1" number="549" />
+								<line branch="false" hits="1" number="550" />
+								<line branch="false" hits="1" number="551" />
+								<line branch="false" hits="1" number="552" />
+								<line branch="false" hits="1" number="553" />
+								<line branch="false" hits="1" number="554" />
+								<line branch="false" hits="1" number="555" />
+								<line branch="false" hits="1" number="556" />
+								<line branch="false" hits="1" number="557" />
+								<line branch="false" hits="1" number="558" />
+								<line branch="false" hits="1" number="559" />
+								<line branch="false" hits="1" number="560" />
+								<line branch="false" hits="1" number="561" />
+								<line branch="false" hits="1" number="562" />
+								<line branch="false" hits="1" number="563" />
+								<line branch="false" hits="1" number="564" />
+								<line branch="false" hits="1" number="565" />
+								<line branch="false" hits="1" number="566" />
+								<line branch="false" hits="1" number="567" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="register" signature="(Lcom/google/javascript/rhino/jstype/JSType;)V">
+							<lines>
+								<line branch="false" hits="19" number="570" />
+								<line branch="false" hits="19" number="571" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6" name="register" signature="(Lcom/google/javascript/rhino/jstype/JSType;Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="23" number="574" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="23" number="577">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="23" number="581" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="registerNativeType" signature="(Lcom/google/javascript/rhino/jstype/JSTypeNative;Lcom/google/javascript/rhino/jstype/JSType;)V">
+							<lines>
+								<line branch="false" hits="54" number="584" />
+								<line branch="false" hits="54" number="585" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="registerPropertyOnType" signature="(Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;)V">
+							<lines>
+								<line branch="false" hits="105" number="600" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="105" number="601">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="82" number="602" />
+								<line branch="false" hits="82" number="603" />
+								<line branch="false" hits="105" number="606" />
+								<line branch="false" hits="105" number="607" />
+								<line branch="false" hits="105" number="610" />
+								<line branch="false" hits="105" number="611" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="resetForTypeCheck" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="228" />
+								<line branch="false" hits="1" number="229" />
+								<line branch="false" hits="1" number="230" />
+								<line branch="false" hits="1" number="231" />
+								<line branch="false" hits="1" number="232" />
+								<line branch="false" hits="1" number="233" />
+								<line branch="false" hits="1" number="234" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3" filename="com/google/javascript/rhino/jstype/JSTypeRegistry.java" line-rate="0.5" name="com.google.javascript.rhino.jstype.JSTypeRegistry$1">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Ljava/lang/String;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/ArrowType;Lcom/google/javascript/rhino/jstype/ObjectType;Ljava/lang/String;ZZ)V">
+							<lines>
+								<line branch="false" hits="1" number="504" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3" filename="com/google/javascript/rhino/jstype/JSTypeRegistry.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.JSTypeRegistry$ResolveMode">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="4" number="159" />
+								<line branch="false" hits="1" number="164" />
+								<line branch="false" hits="1" number="174" />
+								<line branch="false" hits="1" number="180" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.35" filename="com/google/javascript/rhino/jstype/NamedType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NamedType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1764705882352942" filename="com/google/javascript/rhino/jstype/NoObjectType.java" line-rate="0.1875" name="com.google.javascript.rhino.jstype.NoObjectType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="2" number="71" />
+								<line branch="false" hits="2" number="142" />
+								<line branch="false" hits="2" number="210" />
+								<line branch="false" hits="2" number="213" />
+								<line branch="false" hits="2" number="214" />
+								<line branch="false" hits="2" number="215" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1764705882352942" filename="com/google/javascript/rhino/jstype/NoObjectType.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.NoObjectType$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1764705882352942" filename="com/google/javascript/rhino/jstype/NoObjectType.java" line-rate="0.05263157894736842" name="com.google.javascript.rhino.jstype.NoObjectType$GreatestSupertypeVisitor">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/NoObjectType;Lcom/google/javascript/rhino/jstype/NoObjectType$1;)V">
+							<lines>
+								<line branch="false" hits="4" number="145" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1764705882352942" filename="com/google/javascript/rhino/jstype/NoObjectType.java" line-rate="0.06666666666666667" name="com.google.javascript.rhino.jstype.NoObjectType$LeastSupertypeVisitor">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/NoObjectType;Lcom/google/javascript/rhino/jstype/NoObjectType$1;)V">
+							<lines>
+								<line branch="false" hits="4" number="74" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1538461538461537" filename="com/google/javascript/rhino/jstype/NoType.java" line-rate="0.1875" name="com.google.javascript.rhino.jstype.NoType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="66" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isNoType" signature="()Z">
+							<lines>
+								<line branch="false" hits="1" number="75" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6666666666666667" filename="com/google/javascript/rhino/jstype/NullType.java" line-rate="0.23809523809523808" name="com.google.javascript.rhino.jstype.NullType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="55" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDisplayName" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="109" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isSubtype" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="false" hits="2" number="50" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="toString" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="104" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4166666666666667" filename="com/google/javascript/rhino/jstype/NumberType.java" line-rate="0.2631578947368421" name="com.google.javascript.rhino.jstype.NumberType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDisplayName" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="102" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isSubtype" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="false" hits="9" number="49" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="toString" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="97" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.3333333333333333" complexity="1.6341463414634145" filename="com/google/javascript/rhino/jstype/ObjectType.java" line-rate="0.27848101265822783" name="com.google.javascript.rhino.jstype.ObjectType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="152" number="82" />
+								<line branch="false" hits="152" number="83" />
+								<line branch="false" hits="152" number="86" />
+								<line branch="false" hits="152" number="87" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="cast" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/ObjectType;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="51" number="506">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="defineDeclaredProperty" signature="(Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;ZLcom/google/javascript/rhino/Node;)Z">
+							<lines>
+								<line branch="false" hits="104" number="249" />
+								<line branch="false" hits="104" number="256" />
+								<line branch="false" hits="104" number="258" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="hasCachedValues" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="151" number="494">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="1.0" name="hasOwnDeclaredProperty" signature="(Ljava/lang/String;)Z">
+							<lines>
+								<line branch="true" condition-coverage="25% (1/4)" hits="110" number="404">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isImplicitPrototype" signature="(Lcom/google/javascript/rhino/jstype/ObjectType;)Z">
+							<lines>
+								<line branch="false" hits="34" number="448" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="133" number="449">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="99" number="450" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="118" number="451">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="19" number="452" />
+								<line branch="false" hits="15" number="455" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isUnknownType" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="230" number="471">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="13" number="472" />
+								<line branch="true" condition-coverage="100% (4/4)" hits="13" number="473">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="10" number="475" />
+								<line branch="false" hits="3" number="477" />
+								<line branch="false" hits="230" number="480" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/ParameterizedType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ParameterizedType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.2112676056338028" complexity="3.657142857142857" filename="com/google/javascript/rhino/jstype/PrototypeObjectType.java" line-rate="0.2988505747126437" name="com.google.javascript.rhino.jstype.PrototypeObjectType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Ljava/lang/String;Lcom/google/javascript/rhino/jstype/ObjectType;)V">
+							<lines>
+								<line branch="false" hits="1" number="101" />
+								<line branch="false" hits="1" number="102" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Ljava/lang/String;Lcom/google/javascript/rhino/jstype/ObjectType;Z)V">
+							<lines>
+								<line branch="false" hits="150" number="84" />
+								<line branch="false" hits="150" number="110" />
+								<line branch="false" hits="150" number="111" />
+								<line branch="false" hits="150" number="112" />
+								<line branch="false" hits="150" number="113" />
+								<line branch="true" condition-coverage="100% (4/4)" hits="150" number="114">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="143" number="115" />
+								<line branch="false" hits="7" number="117" />
+								<line branch="false" hits="150" number="120" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="defineProperty" signature="(Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;ZZLcom/google/javascript/rhino/Node;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="103" number="230">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="103" number="233" />
+								<line branch="false" hits="103" number="234" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getConstructor" signature="()Lcom/google/javascript/rhino/jstype/FunctionType;">
+							<lines>
+								<line branch="false" hits="24" number="389" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getImplicitPrototype" signature="()Lcom/google/javascript/rhino/jstype/ObjectType;">
+							<lines>
+								<line branch="false" hits="188" number="394" />
+							</lines>
+						</method>
+						<method branch-rate="0.8333333333333334" line-rate="1.0" name="getPropertiesCount" signature="()I">
+							<lines>
+								<line branch="false" hits="3" number="127" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="128">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="129" />
+								<line branch="false" hits="2" number="131" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="132">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="133">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="134" />
+								<line branch="false" hits="7" number="136" />
+								<line branch="false" hits="2" number="137" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="getReferenceName" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="145" number="410">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="145" number="411" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hasCachedValues" signature="()Z">
+							<lines>
+								<line branch="false" hits="151" number="516" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="hasOwnProperty" signature="(Ljava/lang/String;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="110" number="154">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="hasProperty" signature="(Ljava/lang/String;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="142">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="145" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="146">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="149" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="hasReferenceName" signature="()Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="190" number="419">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.8333333333333334" name="implicitPrototypeChainIsUnknown" signature="()Z">
+							<lines>
+								<line branch="false" hits="34" number="469" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="137" number="470">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="103" number="471">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="103" number="474" />
+								<line branch="false" hits="34" number="476" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isNativeObjectType" signature="()Z">
+							<lines>
+								<line branch="false" hits="19" number="522" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.47368421052631576" name="isSubtype" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="34" number="424">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="34" number="429">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="34" number="436">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="34" number="443" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="34" number="444">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="75% (3/4)" hits="34" number="445">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="34" number="455">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (2/4)" hits="34" number="456">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="34" number="462" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="setImplicitPrototype" signature="(Lcom/google/javascript/rhino/jstype/ObjectType;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="151" number="404">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="151" number="405" />
+								<line branch="false" hits="151" number="406" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.657142857142857" filename="com/google/javascript/rhino/jstype/PrototypeObjectType.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.PrototypeObjectType$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.657142857142857" filename="com/google/javascript/rhino/jstype/PrototypeObjectType.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.PrototypeObjectType$Property">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSType;ZZLcom/google/javascript/rhino/Node;)V">
+							<lines>
+								<line branch="false" hits="103" number="504" />
+								<line branch="false" hits="103" number="506" />
+								<line branch="false" hits="103" number="507" />
+								<line branch="false" hits="103" number="508" />
+								<line branch="false" hits="103" number="509" />
+								<line branch="false" hits="103" number="510" />
+								<line branch="false" hits="103" number="511" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="access$102" signature="(Lcom/google/javascript/rhino/jstype/PrototypeObjectType$Property;Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/JSType;">
+							<lines>
+								<line branch="false" hits="103" number="479" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.48" filename="com/google/javascript/rhino/jstype/ProxyObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ProxyObjectType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.090909090909091" filename="com/google/javascript/rhino/jstype/RecordType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.RecordType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="com/google/javascript/rhino/jstype/RecordTypeBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.RecordTypeBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.3333333333333333" filename="com/google/javascript/rhino/jstype/RecordTypeBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/StaticScope.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.StaticScope">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/StaticSlot.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.StaticSlot">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4545454545454546" filename="com/google/javascript/rhino/jstype/StringType.java" line-rate="0.2777777777777778" name="com.google.javascript.rhino.jstype.StringType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDisplayName" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="97" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isSubtype" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="false" hits="9" number="49" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="toString" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="92" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/TemplateType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.TemplateType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.84375" filename="com/google/javascript/rhino/jstype/UnionType.java" line-rate="0.018867924528301886" name="com.google.javascript.rhino.jstype.UnionType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Ljava/util/Collection;)V">
+							<lines>
+								<line branch="false" hits="8" number="81" />
+								<line branch="false" hits="8" number="82" />
+								<line branch="false" hits="8" number="83" />
+								<line branch="false" hits="8" number="84" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.4107142857142857" complexity="6.142857142857143" filename="com/google/javascript/rhino/jstype/UnionTypeBuilder.java" line-rate="0.6363636363636364" name="com.google.javascript.rhino.jstype.UnionTypeBuilder">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="195" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="90" number="71" />
+								<line branch="false" hits="90" number="72" />
+								<line branch="false" hits="90" number="73" />
+								<line branch="false" hits="90" number="74" />
+								<line branch="false" hits="90" number="77" />
+								<line branch="false" hits="90" number="79" />
+								<line branch="false" hits="90" number="80" />
+								<line branch="false" hits="90" number="81" />
+							</lines>
+						</method>
+						<method branch-rate="0.4473684210526316" line-rate="0.625" name="addAlternate" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/UnionTypeBuilder;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="125" number="98">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (2/4)" hits="125" number="102">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="125" number="104" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="125" number="105">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="125" number="106">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (2/4)" hits="125" number="110">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="125" number="111">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="125" number="117">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="125" number="124" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="145" number="125">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="40" number="126" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="40" number="127">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="40" number="134">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="20" number="136" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="20" number="137">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="20" number="142" />
+								<line branch="false" hits="105" number="143" />
+								<line branch="false" hits="105" number="144" />
+								<line branch="false" hits="105" number="145" />
+								<line branch="false" hits="105" number="149" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="build" signature="()Lcom/google/javascript/rhino/jstype/JSType;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="8" number="186">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="187" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="8" number="188">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="189" />
+								<line branch="false" hits="8" number="192" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getAlternateListCopy" signature="()Ljava/util/Collection;">
+							<lines>
+								<line branch="false" hits="8" number="206" />
+								<line branch="false" hits="8" number="208" />
+							</lines>
+						</method>
+						<method branch-rate="0.3333333333333333" line-rate="0.42857142857142855" name="reduceAlternatesWithoutUnion" signature="()Lcom/google/javascript/rhino/jstype/JSType;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="8" number="158">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="8" number="160">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="167" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="8" number="168">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="8" number="170">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="171" />
+								</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="6.142857142857143" filename="com/google/javascript/rhino/jstype/UnionTypeBuilder.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.UnionTypeBuilder$1">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="compare" signature="(Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)I">
+							<lines>
+								<line branch="false" hits="18" number="198" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="compare" signature="(Ljava/lang/Object;Ljava/lang/Object;)I">
+							<lines>
+								<line branch="false" hits="19" number="196" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0344827586206897" filename="com/google/javascript/rhino/jstype/UnknownType.java" line-rate="0.0967741935483871" name="com.google.javascript.rhino.jstype.UnknownType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Z)V">
+							<lines>
+								<line branch="false" hits="2" number="59" />
+								<line branch="false" hits="2" number="60" />
+								<line branch="false" hits="2" number="61" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/UnresolvedTypeExpression.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.UnresolvedTypeExpression">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/ValueType.java" line-rate="0.6" name="com.google.javascript.rhino.jstype.ValueType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="5" number="49" />
+								<line branch="false" hits="5" number="50" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isSubtype" signature="(Lcom/google/javascript/rhino/jstype/JSType;)Z">
+							<lines>
+								<line branch="false" hits="25" number="54" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/Visitor.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.Visitor">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4545454545454546" filename="com/google/javascript/rhino/jstype/VoidType.java" line-rate="0.23529411764705882" name="com.google.javascript.rhino.jstype.VoidType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="55" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDisplayName" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="101" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="toString" signature="()Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="96" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.35" line-rate="0.8703703703703703" name="com.google.javascript.rhino.testing">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/testing/BaseJSTypeTestCase.java" line-rate="0.9479166666666666" name="com.google.javascript.rhino.testing.BaseJSTypeTestCase">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="54" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="addMethod" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;Lcom/google/javascript/rhino/jstype/ObjectType;Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;)V">
+							<lines>
+								<line branch="false" hits="96" number="383" />
+								<line branch="false" hits="96" number="385" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="addNativeProperties" signature="(Lcom/google/javascript/rhino/jstype/JSTypeRegistry;)V">
+							<lines>
+								<line branch="false" hits="1" number="226" />
+								<line branch="false" hits="1" number="227" />
+								<line branch="false" hits="1" number="228" />
+								<line branch="false" hits="1" number="229" />
+								<line branch="false" hits="1" number="231" />
+								<line branch="false" hits="1" number="233" />
+								<line branch="false" hits="1" number="235" />
+								<line branch="false" hits="1" number="237" />
+								<line branch="false" hits="1" number="239" />
+								<line branch="false" hits="1" number="241" />
+								<line branch="false" hits="1" number="243" />
+								<line branch="false" hits="1" number="246" />
+								<line branch="false" hits="1" number="249" />
+								<line branch="false" hits="1" number="250" />
+								<line branch="false" hits="1" number="251" />
+								<line branch="false" hits="1" number="252" />
+								<line branch="false" hits="1" number="253" />
+								<line branch="false" hits="1" number="254" />
+								<line branch="false" hits="1" number="255" />
+								<line branch="false" hits="1" number="257" />
+								<line branch="false" hits="1" number="260" />
+								<line branch="false" hits="1" number="261" />
+								<line branch="false" hits="1" number="262" />
+								<line branch="false" hits="1" number="263" />
+								<line branch="false" hits="1" number="264" />
+								<line branch="false" hits="1" number="265" />
+								<line branch="false" hits="1" number="266" />
+								<line branch="false" hits="1" number="267" />
+								<line branch="false" hits="1" number="268" />
+								<line branch="false" hits="1" number="269" />
+								<line branch="false" hits="1" number="270" />
+								<line branch="false" hits="1" number="271" />
+								<line branch="false" hits="1" number="272" />
+								<line branch="false" hits="1" number="273" />
+								<line branch="false" hits="1" number="275" />
+								<line branch="false" hits="1" number="278" />
+								<line branch="false" hits="1" number="279" />
+								<line branch="false" hits="1" number="280" />
+								<line branch="false" hits="1" number="282" />
+								<line branch="false" hits="1" number="285" />
+								<line branch="false" hits="1" number="286" />
+								<line branch="false" hits="1" number="287" />
+								<line branch="false" hits="1" number="288" />
+								<line branch="false" hits="1" number="289" />
+								<line branch="false" hits="1" number="290" />
+								<line branch="false" hits="1" number="291" />
+								<line branch="false" hits="1" number="292" />
+								<line branch="false" hits="1" number="293" />
+								<line branch="false" hits="1" number="294" />
+								<line branch="false" hits="1" number="295" />
+								<line branch="false" hits="1" number="296" />
+								<line branch="false" hits="1" number="297" />
+								<line branch="false" hits="1" number="298" />
+								<line branch="false" hits="1" number="299" />
+								<line branch="false" hits="1" number="300" />
+								<line branch="false" hits="1" number="301" />
+								<line branch="false" hits="1" number="302" />
+								<line branch="false" hits="1" number="303" />
+								<line branch="false" hits="1" number="304" />
+								<line branch="false" hits="1" number="305" />
+								<line branch="false" hits="1" number="306" />
+								<line branch="false" hits="1" number="307" />
+								<line branch="false" hits="1" number="308" />
+								<line branch="false" hits="1" number="309" />
+								<line branch="false" hits="1" number="310" />
+								<line branch="false" hits="1" number="311" />
+								<line branch="false" hits="1" number="312" />
+								<line branch="false" hits="1" number="313" />
+								<line branch="false" hits="1" number="314" />
+								<line branch="false" hits="1" number="315" />
+								<line branch="false" hits="1" number="316" />
+								<line branch="false" hits="1" number="317" />
+								<line branch="false" hits="1" number="318" />
+								<line branch="false" hits="1" number="319" />
+								<line branch="false" hits="1" number="320" />
+								<line branch="false" hits="1" number="321" />
+								<line branch="false" hits="1" number="322" />
+								<line branch="false" hits="1" number="323" />
+								<line branch="false" hits="1" number="324" />
+								<line branch="false" hits="1" number="325" />
+								<line branch="false" hits="1" number="326" />
+								<line branch="false" hits="1" number="327" />
+								<line branch="false" hits="1" number="329" />
+								<line branch="false" hits="1" number="332" />
+								<line branch="false" hits="1" number="333" />
+								<line branch="false" hits="1" number="334" />
+								<line branch="false" hits="1" number="335" />
+								<line branch="false" hits="1" number="336" />
+								<line branch="false" hits="1" number="337" />
+								<line branch="false" hits="1" number="338" />
+								<line branch="false" hits="1" number="340" />
+								<line branch="false" hits="1" number="343" />
+								<line branch="false" hits="1" number="344" />
+								<line branch="false" hits="1" number="346" />
+								<line branch="false" hits="1" number="347" />
+								<line branch="false" hits="1" number="348" />
+								<line branch="false" hits="1" number="349" />
+								<line branch="false" hits="1" number="350" />
+								<line branch="false" hits="1" number="351" />
+								<line branch="false" hits="1" number="352" />
+								<line branch="false" hits="1" number="354" />
+								<line branch="false" hits="1" number="357" />
+								<line branch="false" hits="1" number="358" />
+								<line branch="false" hits="1" number="359" />
+								<line branch="false" hits="1" number="360" />
+								<line branch="false" hits="1" number="361" />
+								<line branch="false" hits="1" number="362" />
+								<line branch="false" hits="1" number="363" />
+								<line branch="false" hits="1" number="364" />
+								<line branch="false" hits="1" number="365" />
+								<line branch="false" hits="1" number="366" />
+								<line branch="false" hits="1" number="368" />
+								<line branch="false" hits="1" number="369" />
+								<line branch="false" hits="1" number="370" />
+								<line branch="false" hits="1" number="371" />
+								<line branch="false" hits="1" number="372" />
+								<line branch="false" hits="1" number="373" />
+								<line branch="false" hits="1" number="374" />
+								<line branch="false" hits="1" number="375" />
+								<line branch="false" hits="1" number="376" />
+								<line branch="false" hits="1" number="377" />
+								<line branch="false" hits="1" number="378" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="initTypes" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="120" />
+								<line branch="false" hits="1" number="122" />
+								<line branch="false" hits="1" number="124" />
+								<line branch="false" hits="1" number="126" />
+								<line branch="false" hits="1" number="128" />
+								<line branch="false" hits="1" number="130" />
+								<line branch="false" hits="1" number="132" />
+								<line branch="false" hits="1" number="134" />
+								<line branch="false" hits="1" number="136" />
+								<line branch="false" hits="1" number="138" />
+								<line branch="false" hits="1" number="140" />
+								<line branch="false" hits="1" number="142" />
+								<line branch="false" hits="1" number="144" />
+								<line branch="false" hits="1" number="146" />
+								<line branch="false" hits="1" number="148" />
+								<line branch="false" hits="1" number="150" />
+								<line branch="false" hits="1" number="152" />
+								<line branch="false" hits="1" number="154" />
+								<line branch="false" hits="1" number="156" />
+								<line branch="false" hits="1" number="158" />
+								<line branch="false" hits="1" number="160" />
+								<line branch="false" hits="1" number="162" />
+								<line branch="false" hits="1" number="164" />
+								<line branch="false" hits="1" number="166" />
+								<line branch="false" hits="1" number="168" />
+								<line branch="false" hits="1" number="170" />
+								<line branch="false" hits="1" number="172" />
+								<line branch="false" hits="1" number="174" />
+								<line branch="false" hits="1" number="176" />
+								<line branch="false" hits="1" number="178" />
+								<line branch="false" hits="1" number="180" />
+								<line branch="false" hits="1" number="182" />
+								<line branch="false" hits="1" number="184" />
+								<line branch="false" hits="1" number="186" />
+								<line branch="false" hits="1" number="188" />
+								<line branch="false" hits="1" number="190" />
+								<line branch="false" hits="1" number="192" />
+								<line branch="false" hits="1" number="194" />
+								<line branch="false" hits="1" number="196" />
+								<line branch="false" hits="1" number="198" />
+								<line branch="false" hits="1" number="200" />
+								<line branch="false" hits="1" number="202" />
+								<line branch="false" hits="1" number="204" />
+								<line branch="false" hits="1" number="206" />
+								<line branch="false" hits="1" number="208" />
+								<line branch="false" hits="1" number="210" />
+								<line branch="false" hits="1" number="212" />
+								<line branch="false" hits="1" number="214" />
+								<line branch="false" hits="1" number="216" />
+								<line branch="false" hits="1" number="219" />
+								<line branch="false" hits="1" number="221" />
+								<line branch="false" hits="1" number="222" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setUp" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="113" />
+								<line branch="false" hits="1" number="114" />
+								<line branch="false" hits="1" number="115" />
+								<line branch="false" hits="1" number="116" />
+								<line branch="false" hits="1" number="117" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7777777777777777" filename="com/google/javascript/rhino/testing/TestErrorReporter.java" line-rate="0.25" name="com.google.javascript.rhino.testing.TestErrorReporter">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="([Ljava/lang/String;[Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="69" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

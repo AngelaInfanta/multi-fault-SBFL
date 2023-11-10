@@ -1,0 +1,4 @@
+--- Overwrite: testNonAliasLocal
+375a376,377
+>     testScopedFailure("function f() {}",
+>         ScopedAliases.GOOG_SCOPE_NON_ALIAS_LOCAL);

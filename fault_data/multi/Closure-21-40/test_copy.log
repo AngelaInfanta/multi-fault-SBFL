@@ -1,0 +1,6 @@
+--- Overwrite: testUselessCode
+70a71,74
+>     test("var a, b; a = (bar(), 6, 7)",
+>          "var a, b; a = (bar(), JSCOMPILER_PRESERVE(6), 7)", e);
+>     test("var a, b; a = (bar(), bar(), 7, 8)",
+>          "var a, b; a = (bar(), bar(), JSCOMPILER_PRESERVE(7), 8)", e);

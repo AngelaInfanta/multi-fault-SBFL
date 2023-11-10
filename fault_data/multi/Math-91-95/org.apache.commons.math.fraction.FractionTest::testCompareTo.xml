@@ -1,0 +1,260 @@
+<coverage branch-rate="0.04990403071017274" branches-covered="26" branches-valid="521" complexity="2.75" line-rate="0.04710144927536232" lines-covered="39" lines-valid="828" timestamp="1623858276917" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.36" line-rate="0.0" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.0" name="org.apache.commons.math.ConvergenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/FunctionEvaluationException.java" line-rate="0.0" name="org.apache.commons.math.FunctionEvaluationException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6923076923076923" filename="org/apache/commons/math/MathException.java" line-rate="0.0" name="org.apache.commons.math.MathException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/MaxIterationsExceededException.java" line-rate="0.0" name="org.apache.commons.math.MaxIterationsExceededException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.111111111111111" line-rate="0.0" name="org.apache.commons.math.analysis">
+			<classes>
+				<class branch-rate="0.0" complexity="9.75" filename="org/apache/commons/math/analysis/BrentSolver.java" line-rate="0.0" name="org.apache.commons.math.analysis.BrentSolver">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.UnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealSolver.java" line-rate="1.0" name="org.apache.commons.math.analysis.UnivariateRealSolver">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealSolverFactory.java" line-rate="0.0" name="org.apache.commons.math.analysis.UnivariateRealSolverFactory">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealSolverFactoryImpl.java" line-rate="0.0" name="org.apache.commons.math.analysis.UnivariateRealSolverFactoryImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8181818181818181" filename="org/apache/commons/math/analysis/UnivariateRealSolverImpl.java" line-rate="0.0" name="org.apache.commons.math.analysis.UnivariateRealSolverImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4285714285714284" filename="org/apache/commons/math/analysis/UnivariateRealSolverUtils.java" line-rate="0.0" name="org.apache.commons.math.analysis.UnivariateRealSolverUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.92" line-rate="0.0" name="org.apache.commons.math.distribution">
+			<classes>
+				<class branch-rate="0.0" complexity="3.0" filename="org/apache/commons/math/distribution/AbstractContinuousDistribution.java" line-rate="0.0" name="org.apache.commons.math.distribution.AbstractContinuousDistribution">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.0" filename="org/apache/commons/math/distribution/AbstractContinuousDistribution.java" line-rate="0.0" name="org.apache.commons.math.distribution.AbstractContinuousDistribution$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/math/distribution/AbstractDistribution.java" line-rate="0.0" name="org.apache.commons.math.distribution.AbstractDistribution">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/ContinuousDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.ContinuousDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/Distribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.Distribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/FDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.FDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.9" filename="org/apache/commons/math/distribution/FDistributionImpl.java" line-rate="0.0" name="org.apache.commons.math.distribution.FDistributionImpl">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.10869565217391304" complexity="3.6" line-rate="0.1337579617834395" name="org.apache.commons.math.fraction">
+			<classes>
+				<class branch-rate="0.10869565217391304" complexity="3.8260869565217392" filename="org/apache/commons/math/fraction/Fraction.java" line-rate="0.13725490196078433" name="org.apache.commons.math.fraction.Fraction">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="31" />
+								<line branch="false" hits="1" number="34" />
+							</lines>
+						</method>
+						<method branch-rate="0.3333333333333333" line-rate="0.5" name="&lt;init&gt;" signature="(II)V">
+							<lines>
+								<line branch="false" hits="7" number="201" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="202">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="205">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="214" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="215">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="221">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="7" number="225" />
+								<line branch="false" hits="7" number="226" />
+								<line branch="false" hits="7" number="227" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="compareTo" signature="(Lorg/apache/commons/math/fraction/Fraction;)I">
+							<lines>
+								<line branch="false" hits="5" number="250" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="5" number="252">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="253" />
+								<line branch="false" hits="4" number="254" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="4" number="256">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="257" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="258">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="259" />
+								<line branch="false" hits="5" number="263" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="doubleValue" signature="()D">
+							<lines>
+								<line branch="false" hits="8" number="272" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/fraction/FractionConversionException.java" line-rate="0.0" name="org.apache.commons.math.fraction.FractionConversionException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.0" line-rate="0.0" name="org.apache.commons.math.special">
+			<classes>
+				<class branch-rate="0.0" complexity="2.4444444444444446" filename="org/apache/commons/math/special/Beta.java" line-rate="0.0" name="org.apache.commons.math.special.Beta">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4444444444444446" filename="org/apache/commons/math/special/Beta.java" line-rate="0.0" name="org.apache.commons.math.special.Beta$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.625" filename="org/apache/commons/math/special/Gamma.java" line-rate="0.0" name="org.apache.commons.math.special.Gamma">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.625" filename="org/apache/commons/math/special/Gamma.java" line-rate="0.0" name="org.apache.commons.math.special.Gamma$1">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.07048458149779736" complexity="4.183673469387755" line-rate="0.07003891050583658" name="org.apache.commons.math.util">
+			<classes>
+				<class branch-rate="0.0" complexity="2.2857142857142856" filename="org/apache/commons/math/util/ContinuedFraction.java" line-rate="0.0" name="org.apache.commons.math.util.ContinuedFraction">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.07511737089201878" complexity="4.5" filename="org/apache/commons/math/util/MathUtils.java" line-rate="0.08181818181818182" name="org.apache.commons.math.util.MathUtils">
+					<methods>
+						<method branch-rate="0.7272727272727273" line-rate="0.8181818181818182" name="gcd" signature="(II)I">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="7" number="402">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="403" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="410">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="411" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="413">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="414" />
+								<line branch="false" hits="6" number="417" />
+								<line branch="true" condition-coverage="50% (3/6)" hits="6" number="418">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="0%" number="2" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="424">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="6" number="429">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="89" number="435">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="40" number="436" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="49" number="439">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="26" number="440" />
+								<line branch="false" hits="23" number="442" />
+								<line branch="false" hits="49" number="445" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="49" number="448">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="449" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

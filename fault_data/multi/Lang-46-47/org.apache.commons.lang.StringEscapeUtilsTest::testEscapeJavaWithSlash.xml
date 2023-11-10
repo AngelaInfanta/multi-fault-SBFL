@@ -1,0 +1,149 @@
+<coverage branch-rate="0.015130674002751032" branches-covered="11" branches-valid="727" complexity="2.75" line-rate="0.017488076311605722" lines-covered="22" lines-valid="1258" timestamp="1623785211223" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.102803738317757" complexity="5.0" line-rate="0.09954751131221719" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.102803738317757" complexity="5.0" filename="org/apache/commons/lang/StringEscapeUtils.java" line-rate="0.09954751131221719" name="org.apache.commons.lang.StringEscapeUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="46" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="escapeJava" signature="(Ljava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="86" />
+							</lines>
+						</method>
+						<method branch-rate="0.3448275862068966" line-rate="0.3" name="escapeJavaStyleString" signature="(Ljava/io/Writer;Ljava/lang/String;Z)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="177">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="180">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="184" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="30" number="185">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="29" number="186" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="29" number="189">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="29" number="191">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="29" number="193">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="29" number="195">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="40% (2/5)" hits="29" number="226">
+									<conditions>
+										<condition coverage="40%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="242" />
+								<line branch="false" hits="1" number="243" />
+								<line branch="false" hits="1" number="244" />
+								<line branch="false" hits="28" number="246" />
+								<line branch="false" hits="1" number="251" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.5" name="escapeJavaStyleString" signature="(Ljava/lang/String;Z)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="154">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="158" />
+								<line branch="false" hits="1" number="159" />
+								<line branch="false" hits="1" number="160" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.206896551724138" line-rate="0.0" name="org.apache.commons.lang.exception">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/lang/exception/Nestable.java" line-rate="1.0" name="org.apache.commons.lang.exception.Nestable">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3529411764705883" filename="org/apache/commons/lang/exception/NestableRuntimeException.java" line-rate="0.0" name="org.apache.commons.lang.exception.NestableRuntimeException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.7024793388429753" line-rate="0.0" name="org.apache.commons.lang.text">
+			<classes>
+				<class branch-rate="0.0" complexity="3.151315789473684" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.151315789473684" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderReader">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.151315789473684" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderTokenizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.151315789473684" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderWriter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$CharMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$CharSetMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$NoMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$StringMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$TrimMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/lang/text/StrTokenizer.java" line-rate="0.0" name="org.apache.commons.lang.text.StrTokenizer">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

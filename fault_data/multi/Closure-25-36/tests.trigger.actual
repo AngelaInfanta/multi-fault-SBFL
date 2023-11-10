@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.IntegrationTest::testSingletonGetter1
+com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew

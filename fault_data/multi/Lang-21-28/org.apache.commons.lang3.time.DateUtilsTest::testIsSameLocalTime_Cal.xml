@@ -1,0 +1,63 @@
+<coverage branch-rate="0.04" branches-covered="10" branches-valid="250" complexity="3.735294117647059" line-rate="0.011019283746556474" lines-covered="4" lines-valid="363" timestamp="1624285071764" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="4.25" line-rate="0.0" name="org.apache.commons.lang3.text.translate">
+			<classes>
+				<class branch-rate="0.0" complexity="2.5" filename="org/apache/commons/lang3/text/translate/AggregateTranslator.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.AggregateTranslator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6" filename="org/apache/commons/lang3/text/translate/CharSequenceTranslator.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.CharSequenceTranslator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="11.0" filename="org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.NumericEntityUnescaper">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.045871559633027525" complexity="3.6666666666666665" line-rate="0.013029315960912053" name="org.apache.commons.lang3.time">
+			<classes>
+				<class branch-rate="0.046296296296296294" complexity="3.6666666666666665" filename="org/apache/commons/lang3/time/DateUtils.java" line-rate="0.013559322033898305" name="org.apache.commons.lang3.time.DateUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="88" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="isSameLocalTime" signature="(Ljava/util/Calendar;Ljava/util/Calendar;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="2" number="259">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (8/16)" hits="2" number="262">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+										<condition coverage="50%" number="4" type="jump" />
+										<condition coverage="50%" number="5" type="jump" />
+										<condition coverage="50%" number="6" type="jump" />
+										<condition coverage="50%" number="7" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6666666666666665" filename="org/apache/commons/lang3/time/DateUtils.java" line-rate="0.0" name="org.apache.commons.lang3.time.DateUtils$DateIterator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

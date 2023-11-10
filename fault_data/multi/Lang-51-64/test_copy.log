@@ -1,0 +1,4 @@
+--- Overwrite: test_toBoolean_String
+318a319,320
+>         assertEquals(false, BooleanUtils.toBoolean("yes?"));
+>         assertEquals(false, BooleanUtils.toBoolean("tru"));

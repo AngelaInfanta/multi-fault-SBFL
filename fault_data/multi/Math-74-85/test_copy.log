@@ -1,0 +1,5 @@
+--- Overwrite: polynomial
+148c148
+<                 assertTrue(integ.getEvaluations() > 150);
+---
+>                 assertTrue(integ.getEvaluations() > 140);

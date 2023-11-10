@@ -1,0 +1,4 @@
+org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConstructor
+org.apache.commons.math3.fraction.FractionTest::testDigitLimitConstructor
+org.apache.commons.math3.geometry.euclidean.threed.SubLineTest::testIntersectionNotIntersecting
+org.apache.commons.math3.geometry.euclidean.twod.SubLineTest::testIntersectionParallel

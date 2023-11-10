@@ -1,0 +1,127 @@
+<coverage branch-rate="0.013071895424836602" branches-covered="8" branches-valid="612" complexity="2.831168831168831" line-rate="0.021611001964636542" lines-covered="22" lines-valid="1018" timestamp="1623789987650" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="2.817351598173516" line-rate="0.0" name="org.apache.commons.lang.text">
+			<classes>
+				<class branch-rate="0.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderReader">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderTokenizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderWriter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$CharMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$CharSetMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$NoMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$StringMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.84" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$TrimMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/lang/text/StrTokenizer.java" line-rate="0.0" name="org.apache.commons.lang.text.StrTokenizer">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.3076923076923077" complexity="3.0833333333333335" line-rate="0.38596491228070173" name="org.apache.commons.lang.time">
+			<classes>
+				<class branch-rate="0.3076923076923077" complexity="3.0833333333333335" filename="org/apache/commons/lang/time/StopWatch.java" line-rate="0.38596491228070173" name="org.apache.commons.lang.time.StopWatch">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="71" />
+								<line branch="false" hits="1" number="76" />
+								<line branch="false" hits="1" number="80" />
+								<line branch="false" hits="1" number="86" />
+								<line branch="false" hits="1" number="87" />
+							</lines>
+						</method>
+						<method branch-rate="0.375" line-rate="0.2857142857142857" name="getTime" signature="()J">
+							<lines>
+								<line branch="true" condition-coverage="75% (3/4)" hits="2" number="210">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="211" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="start" signature="()V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="97">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="100">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="103" />
+								<line branch="false" hits="1" number="104" />
+								<line branch="false" hits="1" number="105" />
+								<line branch="false" hits="1" number="106" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8" name="stop" signature="()V">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="116">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="119" />
+								<line branch="false" hits="1" number="120" />
+								<line branch="false" hits="1" number="121" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8" name="suspend" signature="()V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="177">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="180" />
+								<line branch="false" hits="1" number="181" />
+								<line branch="false" hits="1" number="182" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

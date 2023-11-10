@@ -1,0 +1,4 @@
+com.google.javascript.jscomp.TypeCheckTest::testGetprop4
+com.google.javascript.jscomp.TypeCheckTest::testLends10
+com.google.javascript.jscomp.TypeCheckTest::testLends11
+com.google.javascript.jscomp.TypeCheckTest::testIssue810

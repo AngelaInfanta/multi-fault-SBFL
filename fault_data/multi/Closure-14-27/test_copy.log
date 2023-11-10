@@ -1,0 +1,17 @@
+--- Insert: testIssue779
+215a216,220
+>   public void testIssue779() {
+>     testNotMissing(
+>         "var a = f(); try { alert(); if (a > 0) return 1; }" +
+>         "finally { a = 5; } return 2;");
+>   }
+--- Overwrite: testDeepNestedFinally
+1118c1118
+<     assertCrossEdge(cfg, Token.IF, Token.BLOCK, Branch.UNCOND);
+---
+>     assertCrossEdge(cfg, Token.IF, Token.BLOCK, Branch.ON_EX);
+--- Overwrite: testDeepNestedBreakwithFinally
+1107c1107
+<     assertCrossEdge(cfg, Token.BLOCK, Token.BLOCK, Branch.UNCOND);
+---
+>     assertCrossEdge(cfg, Token.BLOCK, Token.BLOCK, Branch.ON_EX);

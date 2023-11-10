@@ -1,0 +1,87 @@
+--- Insert: testGetCategoryIndex
+315a316,322
+>     public void testGetCategoryIndex() {
+>     	// check an empty dataset
+>     	DefaultIntervalCategoryDataset empty 
+>     	        = new DefaultIntervalCategoryDataset(new double[0][0], 
+>     	        		new double[0][0]);
+>     	assertEquals(-1, empty.getCategoryIndex("ABC"));
+>     }
+--- Insert: testSetCategoryKeys
+322a323,336
+>     public void testSetCategoryKeys() {
+>     	// check an empty dataset
+>     	DefaultIntervalCategoryDataset empty 
+>     	        = new DefaultIntervalCategoryDataset(new double[0][0], 
+>     	        		new double[0][0]);
+>     	boolean pass = true;
+>     	try {
+>     		empty.setCategoryKeys(new String[0]);
+>     	}
+>     	catch (RuntimeException e) {
+>     		pass = false;
+>     	}
+>     	assertTrue(pass);
+>     }
+--- Insert: testGetSeriesIndex
+336a337,343
+>     public void testGetSeriesIndex() {
+>     	// check an empty dataset
+>     	DefaultIntervalCategoryDataset empty 
+>     	        = new DefaultIntervalCategoryDataset(new double[0][0], 
+>     	        		new double[0][0]);
+>     	assertEquals(-1, empty.getSeriesIndex("ABC"));
+>     }
+--- Insert: testGetRowCount
+343a344,350
+>     public void testGetRowCount() {
+>     	// check an empty dataset
+>     	DefaultIntervalCategoryDataset empty 
+>     	        = new DefaultIntervalCategoryDataset(new double[0][0], 
+>     	        		new double[0][0]);
+>         assertEquals(0, empty.getColumnCount());
+>     }
+--- Insert: testGetRowIndex
+350a351,357
+>     public void testGetRowIndex() {
+>     	// check an empty dataset
+>     	DefaultIntervalCategoryDataset empty 
+>     	        = new DefaultIntervalCategoryDataset(new double[0][0], 
+>     	        		new double[0][0]);
+>     	assertEquals(-1, empty.getRowIndex("ABC"));
+>     }
+--- Insert: testGetColumnCount
+357a358,364
+>     public void testGetColumnCount() {
+>     	// check an empty dataset
+>     	DefaultIntervalCategoryDataset empty 
+>     	        = new DefaultIntervalCategoryDataset(new double[0][0], 
+>     	        		new double[0][0]);
+>         assertEquals(0, empty.getColumnCount());
+>     }
+--- Insert: testGetColumnIndex
+364a365,371
+>     public void testGetColumnIndex() {
+>     	// check an empty dataset
+>     	DefaultIntervalCategoryDataset empty 
+>     	        = new DefaultIntervalCategoryDataset(new double[0][0], 
+>     	        		new double[0][0]);
+>     	assertEquals(-1, empty.getColumnIndex("ABC"));
+>     }
+--- Insert: testCloning2
+371a372,386
+>     public void testCloning2() {
+>     	DefaultIntervalCategoryDataset d1 
+>                 = new DefaultIntervalCategoryDataset(new double[0][0], 
+>         		    new double[0][0]);
+>         DefaultIntervalCategoryDataset d2 = null;
+>         try {
+>             d2 = (DefaultIntervalCategoryDataset) d1.clone();
+>         }
+>         catch (CloneNotSupportedException e) {
+>             e.printStackTrace();
+>         }
+>         assertTrue(d1 != d2);
+>         assertTrue(d1.getClass() == d2.getClass());
+>         assertTrue(d1.equals(d2));	
+>     }

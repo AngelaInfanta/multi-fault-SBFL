@@ -1,0 +1,6 @@
+--- Insert: testIssue477
+2588a2589,2592
+>   public void testIssue477() throws Exception {
+>     parse("@type function */",
+>         "Bad type annotation. missing opening (");
+>   }

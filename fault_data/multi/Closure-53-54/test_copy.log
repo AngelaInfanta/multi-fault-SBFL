@@ -1,0 +1,6 @@
+--- Insert: testBug545
+369a370,373
+>   public void testBug545() {
+>     testLocal("var a = {}", "");
+>     testLocal("var a; a = {}", "true");
+>   }

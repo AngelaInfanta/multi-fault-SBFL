@@ -1,0 +1,78 @@
+--- Overwrite: testLocalValue1
+1021,1022c1021,1023
+<     // new objects are local
+<     assertTrue(testLocalValue("new x()"));
+---
+>     // We can't know if new objects are local unless we know
+>     // that they don't alias themselves.
+>     assertFalse(testLocalValue("new x()"));
+--- Overwrite: testLocalizedSideEffects8
+735c735,737
+<                      ImmutableList.<String>of("A", "f"));
+---
+>                      BROKEN_NEW ?
+>                          ImmutableList.<String>of("A") :
+>                          ImmutableList.<String>of("A", "f"));
+--- Overwrite: testLocalizedSideEffects9
+748c748,750
+<                      ImmutableList.<String>of("A", "f"));
+---
+>                      BROKEN_NEW ?
+>                          ImmutableList.<String>of("A") :
+>                          ImmutableList.<String>of("A", "f"));
+--- Overwrite: testAnnotationInExterns_new4
+204a205
+> 
+206,207c207,211
+<         ImmutableList.<String>of(
+<             "externObjSEThis", "NEW STRING externObjSEThisMethod"));
+---
+>         BROKEN_NEW ?
+>             ImmutableList.<String>of(
+>                "externObjSEThis") :
+>             ImmutableList.<String>of(
+>                "externObjSEThis", "NEW STRING externObjSEThisMethod"));
+--- Overwrite: testAnnotationInExterns_new6
+230,231c230,234
+<         ImmutableList.<String>of(
+<             "externObjSEThis", "NEW STRING externObjSEThisMethod", "f"));
+---
+>         BROKEN_NEW ?
+>             ImmutableList.<String>of(
+>                 "externObjSEThis") :
+>            ImmutableList.<String>of(
+>                "externObjSEThis", "NEW STRING externObjSEThisMethod", "f"));
+--- Insert: testIssue303b
+1248a1249,1264
+>   public void testIssue303b() throws Exception {
+>     checkMarkedCalls(
+>         "/** @constructor */ function F() {" +
+>         "  var self = this;" +
+>         "  window.setTimeout(function() {" +
+>         "    window.location = self.location;" +
+>         "  }, 0);" +
+>         "}" +
+>         "F.prototype.setLocation = function(x) {" +
+>         "  this.location = x;" +
+>         "};" +
+>         "function x() {" +
+>         "  (new F()).setLocation('http://www.google.com/');" +
+>         "} window['x'] = x;",
+>         ImmutableList.<String>of());
+>   }
+--- Insert: testIssue303
+1264a1265,1278
+>   public void testIssue303() throws Exception {
+>     checkMarkedCalls(
+>         "/** @constructor */ function F() {" +
+>         "  var self = this;" +
+>         "  window.setTimeout(function() {" +
+>         "    window.location = self.location;" +
+>         "  }, 0);" +
+>         "}" +
+>         "F.prototype.setLocation = function(x) {" +
+>         "  this.location = x;" +
+>         "};" +
+>         "(new F()).setLocation('http://www.google.com/');",
+>         ImmutableList.<String>of());
+>   }

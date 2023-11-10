@@ -1,0 +1,206 @@
+<coverage branch-rate="0.01011804384485666" branches-covered="6" branches-valid="593" complexity="2.6083916083916083" line-rate="0.03889789303079417" lines-covered="48" lines-valid="1234" timestamp="1624283475656" version="2.0.3">
+	<sources>
+		<source>source</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="4.05" line-rate="0.0" name="org.jfree.chart.util">
+			<classes>
+				<class branch-rate="0.0" complexity="4.2105263157894735" filename="org/jfree/chart/util/ObjectUtilities.java" line-rate="0.0" name="org.jfree.chart.util.ObjectUtilities">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/util/PublicCloneable.java" line-rate="1.0" name="org.jfree.chart.util.PublicCloneable">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.7391304347826086" line-rate="0.0" name="org.jfree.data.general">
+			<classes>
+				<class branch-rate="0.0" complexity="1.85" filename="org/jfree/data/general/Series.java" line-rate="0.0" name="org.jfree.data.general.Series">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/SeriesChangeEvent.java" line-rate="0.0" name="org.jfree.data.general.SeriesChangeEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/SeriesChangeListener.java" line-rate="1.0" name="org.jfree.data.general.SeriesChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/SeriesException.java" line-rate="0.0" name="org.jfree.data.general.SeriesException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.011787819253438114" complexity="2.57201646090535" line-rate="0.04597701149425287" name="org.jfree.data.time">
+			<classes>
+				<class branch-rate="0.0" complexity="2.0" filename="org/jfree/data/time/Day.java" line-rate="0.0" name="org.jfree.data.time.Day">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4705882352941178" filename="org/jfree/data/time/FixedMillisecond.java" line-rate="0.0" name="org.jfree.data.time.FixedMillisecond">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.391304347826087" filename="org/jfree/data/time/Month.java" line-rate="0.0" name="org.jfree.data.time.Month">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="org/jfree/data/time/MonthConstants.java" line-rate="1.0" name="org.jfree.data.time.MonthConstants">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/jfree/data/time/RegularTimePeriod.java" line-rate="0.06060606060606061" name="org.jfree.data.time.RegularTimePeriod">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="161" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="6" number="70" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/data/time/SerialDate.java" line-rate="0.0" name="org.jfree.data.time.SerialDate">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5" filename="org/jfree/data/time/SpreadsheetDate.java" line-rate="0.0" name="org.jfree.data.time.SpreadsheetDate">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/time/TimePeriod.java" line-rate="1.0" name="org.jfree.data.time.TimePeriod">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/time/TimePeriodFormatException.java" line-rate="0.0" name="org.jfree.data.time.TimePeriodFormatException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.1363636363636362" filename="org/jfree/data/time/TimeSeries.java" line-rate="0.0" name="org.jfree.data.time.TimeSeries">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.2222222222222223" filename="org/jfree/data/time/TimeSeriesDataItem.java" line-rate="0.0" name="org.jfree.data.time.TimeSeriesDataItem">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.08823529411764706" complexity="2.96" filename="org/jfree/data/time/Week.java" line-rate="0.2875" name="org.jfree.data.time.Week">
+					<methods>
+						<method branch-rate="0.25" line-rate="0.8571428571428571" name="&lt;init&gt;" signature="(II)V">
+							<lines>
+								<line branch="false" hits="4" number="126" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="4" number="127">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="131" />
+								<line branch="false" hits="4" number="132" />
+								<line branch="false" hits="4" number="133" />
+								<line branch="false" hits="4" number="134" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/util/Date;Ljava/util/TimeZone;)V">
+							<lines>
+								<line branch="false" hits="2" number="174" />
+								<line branch="false" hits="2" number="175" />
+							</lines>
+						</method>
+						<method branch-rate="0.35714285714285715" line-rate="0.7" name="&lt;init&gt;" signature="(Ljava/util/Date;Ljava/util/TimeZone;Ljava/util/Locale;)V">
+							<lines>
+								<line branch="false" hits="2" number="187" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="188">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="191">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="194">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="197" />
+								<line branch="false" hits="2" number="198" />
+								<line branch="false" hits="2" number="203" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="2" number="204">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="210" />
+								<line branch="false" hits="2" number="211" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="2" number="214">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="218" />
+								<line branch="false" hits="2" number="220" />
+								<line branch="false" hits="2" number="221" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getFirstMillisecond" signature="(Ljava/util/Calendar;)J">
+							<lines>
+								<line branch="false" hits="6" number="379" />
+								<line branch="false" hits="6" number="380" />
+								<line branch="false" hits="6" number="381" />
+								<line branch="false" hits="6" number="382" />
+								<line branch="false" hits="6" number="383" />
+								<line branch="false" hits="6" number="384" />
+								<line branch="false" hits="6" number="385" />
+								<line branch="false" hits="6" number="386" />
+								<line branch="false" hits="6" number="387" />
+								<line branch="false" hits="6" number="389" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLastMillisecond" signature="(Ljava/util/Calendar;)J">
+							<lines>
+								<line branch="false" hits="6" number="404" />
+								<line branch="false" hits="6" number="405" />
+								<line branch="false" hits="6" number="406" />
+								<line branch="false" hits="6" number="407" />
+								<line branch="false" hits="6" number="408" />
+								<line branch="false" hits="6" number="409" />
+								<line branch="false" hits="6" number="410" />
+								<line branch="false" hits="6" number="411" />
+								<line branch="false" hits="6" number="412" />
+								<line branch="false" hits="6" number="414" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getWeek" signature="()I">
+							<lines>
+								<line branch="false" hits="2" number="247" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="peg" signature="(Ljava/util/Calendar;)V">
+							<lines>
+								<line branch="false" hits="6" number="287" />
+								<line branch="false" hits="6" number="288" />
+								<line branch="false" hits="6" number="289" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/jfree/data/time/Year.java" line-rate="0.0" name="org.jfree.data.time.Year">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

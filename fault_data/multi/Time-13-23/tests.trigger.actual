@@ -1,0 +1,2 @@
+org.joda.time.TestDateTimeZone::testForID_String_old
+org.joda.time.format.TestISOPeriodFormat::testFormatStandard_negative

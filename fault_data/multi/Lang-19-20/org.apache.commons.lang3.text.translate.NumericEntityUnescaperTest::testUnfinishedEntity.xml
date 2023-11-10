@@ -1,0 +1,109 @@
+<coverage branch-rate="0.009282700421940928" branches-covered="11" branches-valid="1185" complexity="5.890173410404624" line-rate="0.01711309523809524" lines-covered="23" lines-valid="1344" timestamp="1623773753813" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="5.957575757575758" line-rate="0.0" name="org.apache.commons.lang3">
+			<classes>
+				<class branch-rate="0.0" complexity="5.957575757575758" filename="org/apache/commons/lang3/StringUtils.java" line-rate="0.0" name="org.apache.commons.lang3.StringUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.3055555555555556" complexity="4.5" line-rate="0.3770491803278688" name="org.apache.commons.lang3.text.translate">
+			<classes>
+				<class branch-rate="0.0" complexity="2.5" filename="org/apache/commons/lang3/text/translate/AggregateTranslator.java" line-rate="0.0" name="org.apache.commons.lang3.text.translate.AggregateTranslator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.35714285714285715" complexity="3.6" filename="org/apache/commons/lang3/text/translate/CharSequenceTranslator.java" line-rate="0.39285714285714285" name="org.apache.commons.lang3.text.translate.CharSequenceTranslator">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="32" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.42857142857142855" name="translate" signature="(Ljava/lang/CharSequence;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="54">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="59" />
+								</lines>
+						</method>
+						<method branch-rate="0.3333333333333333" line-rate="0.4666666666666667" name="translate" signature="(Ljava/lang/CharSequence;Ljava/io/Writer;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="76">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="79">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="82" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="83">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="86" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="88">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="89" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.3333333333333333" complexity="13.0" filename="org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java" line-rate="0.48" name="org.apache.commons.lang3.text.translate.NumericEntityUnescaper">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="29" />
+							</lines>
+						</method>
+						<method branch-rate="0.3333333333333333" line-rate="0.4583333333333333" name="translate" signature="(Ljava/lang/CharSequence;ILjava/io/Writer;)I">
+							<lines>
+								<line branch="true" condition-coverage="66% (4/6)" hits="6" number="36">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="37" />
+								<line branch="false" hits="1" number="38" />
+								<line branch="false" hits="1" number="40" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="1" number="41">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="42" />
+								<line branch="false" hits="1" number="43" />
+								<line branch="false" hits="1" number="46" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="12" number="47">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="11" number="48" />
+								<line branch="false" hits="5" number="71" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

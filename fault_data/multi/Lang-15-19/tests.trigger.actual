@@ -1,0 +1,4 @@
+org.apache.commons.lang3.reflect.TypeUtilsTest::testGetTypeArguments
+org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable
+org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testUnfinishedEntity
+org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testOutOfBounds

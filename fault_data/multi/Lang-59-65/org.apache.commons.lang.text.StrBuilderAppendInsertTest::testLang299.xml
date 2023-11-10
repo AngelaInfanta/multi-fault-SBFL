@@ -1,0 +1,83 @@
+<coverage branch-rate="0.007173601147776184" branches-covered="5" branches-valid="697" complexity="3.17351598173516" line-rate="0.011194029850746268" lines-covered="12" lines-valid="1072" timestamp="1624291354609" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.009124087591240875" complexity="2.9523809523809526" line-rate="0.013544018058690745" name="org.apache.commons.lang.text">
+			<classes>
+				<class branch-rate="0.011467889908256881" complexity="3.4330708661417324" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.02" name="org.apache.commons.lang.text.StrBuilder">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8" name="&lt;init&gt;" signature="(I)V">
+							<lines>
+								<line branch="false" hits="1" number="101" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="102">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="105" />
+								<line branch="false" hits="1" number="106" />
+							</lines>
+						</method>
+						<method branch-rate="0.375" line-rate="0.5" name="appendFixedWidthPadRight" signature="(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="873">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="874" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="875">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="876" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="877">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="878" />
+								</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.4" name="ensureCapacity" signature="(I)Lorg/apache/commons/lang/text/StrBuilder;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="222">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="227" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4330708661417324" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderReader">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.4330708661417324" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderWriter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.967741935483871" filename="org/apache/commons/lang/text/StrTokenizer.java" line-rate="0.0" name="org.apache.commons.lang.text.StrTokenizer">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="4.566666666666666" line-rate="0.0" name="org.apache.commons.lang.time">
+			<classes>
+				<class branch-rate="0.0" complexity="4.566666666666666" filename="org/apache/commons/lang/time/DateUtils.java" line-rate="0.0" name="org.apache.commons.lang.time.DateUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.566666666666666" filename="org/apache/commons/lang/time/DateUtils.java" line-rate="0.0" name="org.apache.commons.lang.time.DateUtils$DateIterator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

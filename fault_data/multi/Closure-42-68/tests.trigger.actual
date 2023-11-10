@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testIssue477
+com.google.javascript.jscomp.parsing.ParserTest::testForEach

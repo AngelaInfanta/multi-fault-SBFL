@@ -1,0 +1,4 @@
+com.google.javascript.jscomp.NodeUtilTest::testIsBooleanResult
+com.google.javascript.jscomp.NodeUtilTest::testLocalValue1
+com.google.javascript.jscomp.TypeCheckTest::testIssue301
+com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes

@@ -1,0 +1,94 @@
+--- Insert: testDrawWithNullMeanVertical
+181a182,202
+>     public void testDrawWithNullMeanVertical() {
+>         boolean success = false;
+>         try {
+>             DefaultStatisticalCategoryDataset dataset 
+>                     = new DefaultStatisticalCategoryDataset();
+>             dataset.add(1.0, 2.0, "S1", "C1");
+>             dataset.add(null, new Double(4.0), "S1", "C2");
+>             CategoryPlot plot = new CategoryPlot(dataset, 
+>                     new CategoryAxis("Category"), new NumberAxis("Value"), 
+>                     new StatisticalBarRenderer());
+>             JFreeChart chart = new JFreeChart(plot);
+>             /* BufferedImage image = */ chart.createBufferedImage(300, 200, 
+>                     null);
+>             success = true;
+>         }
+>         catch (NullPointerException e) {
+>             e.printStackTrace();
+>             success = false;
+>         }
+>         assertTrue(success);
+>     }
+--- Insert: testDrawWithNullDeviationVertical
+202a203,223
+>     public void testDrawWithNullDeviationVertical() {
+>         boolean success = false;
+>         try {
+>             DefaultStatisticalCategoryDataset dataset 
+>                     = new DefaultStatisticalCategoryDataset();
+>             dataset.add(1.0, 2.0, "S1", "C1");
+>             dataset.add(new Double(4.0), null, "S1", "C2");
+>             CategoryPlot plot = new CategoryPlot(dataset, 
+>                     new CategoryAxis("Category"), new NumberAxis("Value"), 
+>                     new StatisticalBarRenderer());
+>             JFreeChart chart = new JFreeChart(plot);
+>             /* BufferedImage image = */ chart.createBufferedImage(300, 200, 
+>                     null);
+>             success = true;
+>         }
+>         catch (NullPointerException e) {
+>             e.printStackTrace();
+>             success = false;
+>         }
+>         assertTrue(success);
+>     }
+--- Insert: testDrawWithNullMeanHorizontal
+223a224,245
+>     public void testDrawWithNullMeanHorizontal() {
+>         boolean success = false;
+>         try {
+>             DefaultStatisticalCategoryDataset dataset 
+>                     = new DefaultStatisticalCategoryDataset();
+>             dataset.add(1.0, 2.0, "S1", "C1");
+>             dataset.add(null, new Double(4.0), "S1", "C2");
+>             CategoryPlot plot = new CategoryPlot(dataset, 
+>                     new CategoryAxis("Category"), new NumberAxis("Value"), 
+>                     new StatisticalBarRenderer());
+>             plot.setOrientation(PlotOrientation.HORIZONTAL);
+>             JFreeChart chart = new JFreeChart(plot);
+>             /* BufferedImage image = */ chart.createBufferedImage(300, 200, 
+>                     null);
+>             success = true;
+>         }
+>         catch (NullPointerException e) {
+>             e.printStackTrace();
+>             success = false;
+>         }
+>         assertTrue(success);
+>     }
+--- Insert: testDrawWithNullDeviationHorizontal
+245a246,267
+>     public void testDrawWithNullDeviationHorizontal() {
+>         boolean success = false;
+>         try {
+>             DefaultStatisticalCategoryDataset dataset 
+>                     = new DefaultStatisticalCategoryDataset();
+>             dataset.add(1.0, 2.0, "S1", "C1");
+>             dataset.add(new Double(4.0), null, "S1", "C2");
+>             CategoryPlot plot = new CategoryPlot(dataset, 
+>                     new CategoryAxis("Category"), new NumberAxis("Value"), 
+>                     new StatisticalBarRenderer());
+>             plot.setOrientation(PlotOrientation.HORIZONTAL);
+>             JFreeChart chart = new JFreeChart(plot);
+>             /* BufferedImage image = */ chart.createBufferedImage(300, 200, 
+>                     null);
+>             success = true;
+>         }
+>         catch (NullPointerException e) {
+>             e.printStackTrace();
+>             success = false;
+>         }
+>         assertTrue(success);
+>     }

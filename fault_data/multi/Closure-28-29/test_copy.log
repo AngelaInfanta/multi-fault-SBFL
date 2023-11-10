@@ -1,0 +1,21 @@
+--- Overwrite: testCost
+48a49,50
+>     checkCost("true", "1");
+>     checkCost("false", "1");
+53c55
+<     checkCost("10 + foo(a,b)", "10+xx(xx,xx)");
+---
+>     checkCost("10 + foo(a,b)", "0+xx(xx,xx)");
+--- Insert: testIssue728
+2333a2334,2344
+>   public void testIssue728() {
+>     String f = "var f = function() { return false; };";
+>     StringBuilder calls = new StringBuilder();
+>     StringBuilder folded = new StringBuilder();
+>     for (int i = 0; i < 30; i++) {
+>       calls.append("if (!f()) alert('x');");
+>       folded.append("if (!false) alert('x');");
+>     }
+> 
+>     test(f + calls, folded.toString());
+>   }

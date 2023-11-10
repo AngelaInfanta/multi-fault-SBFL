@@ -1,0 +1,15 @@
+--- Overwrite: testAddNonComparable
+195,197c195,197
+<             f.addValue(new Object()); // This was OK
+<             fail("Expected ClassCastException");
+<         } catch (ClassCastException expected) {
+---
+>             f.addValue(new Object()); // This was previously OK
+>             fail("Expected IllegalArgumentException");
+>         } catch (IllegalArgumentException expected) {
+203,204c203,204
+<             fail("Expected ClassCastException"); // Previously would have been IllegalArgument
+<         } catch (ClassCastException expected) {
+---
+>             fail("Expected IllegalArgumentException");
+>         } catch (IllegalArgumentException expected) {

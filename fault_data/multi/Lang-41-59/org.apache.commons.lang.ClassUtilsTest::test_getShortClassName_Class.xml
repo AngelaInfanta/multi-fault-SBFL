@@ -1,0 +1,110 @@
+<coverage branch-rate="0.013966480446927373" branches-covered="10" branches-valid="716" complexity="3.240740740740741" line-rate="0.03190519598906107" lines-covered="35" lines-valid="1097" timestamp="1624287544407" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.06329113924050633" complexity="5.863636363636363" line-rate="0.1794871794871795" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.06329113924050633" complexity="5.863636363636363" filename="org/apache/commons/lang/ClassUtils.java" line-rate="0.1794871794871795" name="org.apache.commons.lang.ClassUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="9" number="68" />
+								<line branch="false" hits="1" number="69" />
+								<line branch="false" hits="1" number="70" />
+								<line branch="false" hits="1" number="71" />
+								<line branch="false" hits="1" number="72" />
+								<line branch="false" hits="1" number="73" />
+								<line branch="false" hits="1" number="74" />
+								<line branch="false" hits="1" number="75" />
+								<line branch="false" hits="1" number="76" />
+								<line branch="false" hits="1" number="82" />
+								<line branch="false" hits="1" number="84" />
+								<line branch="false" hits="1" number="85" />
+								<line branch="false" hits="1" number="86" />
+								<line branch="false" hits="1" number="87" />
+								<line branch="false" hits="1" number="88" />
+								<line branch="false" hits="1" number="89" />
+								<line branch="false" hits="1" number="90" />
+								<line branch="false" hits="1" number="91" />
+								<line branch="false" hits="1" number="92" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getShortClassName" signature="(Ljava/lang/Class;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="4" number="129">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="130" />
+								<line branch="false" hits="3" number="132" />
+							</lines>
+						</method>
+						<method branch-rate="0.8" line-rate="0.8333333333333334" name="getShortClassName" signature="(Ljava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="144">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="147">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="150" />
+								<line branch="false" hits="3" number="151" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="75" number="152">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="72" number="153">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="154" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="64" number="155">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="156" />
+								<line branch="false" hits="3" number="159" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.943298969072165" line-rate="0.0" name="org.apache.commons.lang.text">
+			<classes>
+				<class branch-rate="0.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderReader">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderTokenizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.4076923076923076" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderWriter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/lang/text/StrTokenizer.java" line-rate="0.0" name="org.apache.commons.lang.text.StrTokenizer">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

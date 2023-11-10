@@ -1,0 +1,5 @@
+--- Insert: testIssue582
+1020a1021,1023
+>   public void testIssue582() {
+>     assertPrint("var x = -0.0;", "var x=-0.0");
+>   }

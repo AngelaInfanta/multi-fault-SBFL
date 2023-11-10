@@ -1,0 +1,20 @@
+--- Insert: testGetprop4
+7015a7016,7021
+>   public void testGetprop4() throws Exception {
+>     testTypes("var x = null; x.prop = 3;",
+>         "No properties on this expression\n" +
+>         "found   : null\n" +
+>         "required: Object");
+>   }
+--- Insert: testIssue810
+7021a7022,7031
+>   public void testIssue810() throws Exception {
+>     testTypes(
+>         "/** @constructor */" +
+>         "var Type = function () {" +
+>         "};" +
+>         "Type.prototype.doIt = function(obj) {" +
+>         "  this.prop = obj.unknownProp;" +
+>         "};",
+>         "Property unknownProp never defined on obj");
+>   }

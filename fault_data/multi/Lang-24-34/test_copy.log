@@ -1,0 +1,6 @@
+--- Overwrite: testIsNumber
+1138a1139,1142
+> 
+>         // LANG-664
+>         val = "1.1L";
+>         assertFalse("isNumber(String) LANG-664 failed", NumberUtils.isNumber(val));

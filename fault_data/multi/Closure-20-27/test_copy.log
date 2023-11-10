@@ -1,0 +1,4 @@
+--- Overwrite: testSimpleFunctionCall
+1030a1031,1032
+>     testSame("var a = String('hello', bar());");
+>     testSame("var a = String({valueOf: function() { return 1; }});");

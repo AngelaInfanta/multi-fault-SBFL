@@ -1,0 +1,8 @@
+com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl
+com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldComparison3
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testInvertibleOperators
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testCommutativeOperators
+com.google.javascript.jscomp.TypeCheckTest::testScoping12
+com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl
+com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13

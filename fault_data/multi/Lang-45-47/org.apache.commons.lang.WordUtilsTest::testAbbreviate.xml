@@ -1,0 +1,146 @@
+<coverage branch-rate="0.012316715542521995" branches-covered="21" branches-valid="1705" complexity="3.8129496402877696" line-rate="0.010738255033557046" lines-covered="24" lines-valid="2235" timestamp="1623785066124" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.01924839596700275" complexity="5.348571428571429" line-rate="0.019464720194647202" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.005055611729019211" complexity="5.341614906832298" filename="org/apache/commons/lang/StringUtils.java" line-rate="0.0036529680365296802" name="org.apache.commons.lang.StringUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="defaultString" signature="(Ljava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="12" number="5212">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="0.375" line-rate="0.6" name="indexOf" signature="(Ljava/lang/String;Ljava/lang/String;I)I">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="15" number="850">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="25% (1/4)" hits="15" number="854">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="15" number="857" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.1568627450980392" complexity="5.428571428571429" filename="org/apache/commons/lang/WordUtils.java" line-rate="0.14492753623188406" name="org.apache.commons.lang.WordUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="abbreviate" signature="(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="17" number="607">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="608" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="16" number="610">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="611" />
+								<line branch="true" condition-coverage="100% (4/4)" hits="15" number="616">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="617" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="15" number="620">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="621" />
+								<line branch="false" hits="15" number="624" />
+								<line branch="false" hits="15" number="625" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="15" number="626">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="9" number="627" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="8" number="629">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="630" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="6" number="632">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="633" />
+								<line branch="false" hits="1" number="634" />
+								<line branch="false" hits="5" number="636" />
+								<line branch="false" hits="5" number="637" />
+								<line branch="false" hits="14" number="639" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.7024793388429753" line-rate="0.0" name="org.apache.commons.lang.text">
+			<classes>
+				<class branch-rate="0.0" complexity="3.151315789473684" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.151315789473684" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderReader">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.151315789473684" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderTokenizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.151315789473684" filename="org/apache/commons/lang/text/StrBuilder.java" line-rate="0.0" name="org.apache.commons.lang.text.StrBuilder$StrBuilderWriter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$CharMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$CharSetMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$NoMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$StringMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang.text.StrMatcher$TrimMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/lang/text/StrTokenizer.java" line-rate="0.0" name="org.apache.commons.lang.text.StrTokenizer">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

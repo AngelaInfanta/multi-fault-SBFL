@@ -1,0 +1,36 @@
+--- Insert: testInstanceOfThrowsException
+141a142,145
+>   public void testInstanceOfThrowsException() {
+>     testSame("function f() {try { if (value instanceof type) return true; } " +
+>              "catch (e) { }}");
+>   }
+--- Insert: testInstanceOf
+1334a1335,1339
+>   public void testInstanceOf() {
+>     String src = "try { x instanceof 'x' } catch (e) { }";
+>     ControlFlowGraph<Node> cfg = createCfg(src, true);
+>     assertCrossEdge(cfg, Token.EXPR_RESULT, Token.BLOCK, Branch.ON_EX);
+>   }
+--- Insert: testSupertypeReferenceOfSubtypeProperty
+969a970,990
+>   public void testSupertypeReferenceOfSubtypeProperty() {
+>     String externs = ""
+>         + "/** @constructor */ function Ext() {}"
+>         + "Ext.prototype.a;";
+>     String js = ""
+>         + "/** @constructor */ function Foo() {}\n"
+>         + "/** @constructor \n@extends Foo*/ function Bar() {}\n"
+>         + "Bar.prototype.a;\n"
+>         + "/** @param {Foo} foo */"
+>         + "function foo(foo) {\n"
+>         + "  var x = foo.a;\n"
+>         + "}\n";
+>     String result = ""
+>         + "function Foo() {}\n"
+>         + "function Bar() {}\n"
+>         + "Bar.prototype.Bar_prototype$a;\n"
+>         + "function foo(foo) {\n"
+>         + "  var x = foo.Bar_prototype$a;\n"
+>         + "}\n";
+>     testSets(false, externs, js, result, "{a=[[Bar.prototype]]}");
+>   }

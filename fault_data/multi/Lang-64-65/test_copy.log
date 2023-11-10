@@ -1,0 +1,10 @@
+--- Insert: testCompareTo_otherEnumType
+133a134,141
+>     public void testCompareTo_otherEnumType() {
+>         try {
+>             ValuedColorEnum.BLUE.compareTo(ValuedLanguageEnum.ENGLISH);
+>             fail();
+>         } catch (ClassCastException ex) {
+>             // expected
+>         }
+>     }

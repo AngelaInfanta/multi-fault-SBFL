@@ -1,0 +1,66 @@
+--- Exist: testParseSourceMetaMap
+--- Insert: testGoldenOutput0a
+482a483,495
+>   public void testGoldenOutput0a() throws Exception {
+>     // Empty source map test
+>     checkSourceMap("a;",
+> 
+>                    "{\n" +
+>                    "\"version\":3,\n" +
+>                    "\"file\":\"testcode\",\n" +
+>                    "\"lineCount\":1,\n" +
+>                    "\"mappings\":\"AAAAA;\",\n" +
+>                    "\"sources\":[\"testcode\"],\n" +
+>                    "\"names\":[\"a\"]\n" +
+>                    "}\n");
+>   }
+--- Exist: testMultilineMapping
+--- Exist: testMultiFunctionMapping
+--- Overwrite: testLiteralMappingsGoldenOutput
+81c81
+<                    "\"mappings\":\"AACAA,QAASA,UAAS,CAACC,UAAD,CAAaC,UAAb," +
+---
+>                    "\"mappings\":\"AAAAA,QAASA,UAAS,CAACC,UAAD,CAAaC,UAAb," +
+--- Exist: testMultilineMapping2
+--- Overwrite: testBasicMappingGoldenOutput
+57c57
+<                    "\"mappings\":\"AACAA,QAASA,UAAS,EAAG;\",\n" +
+---
+>                    "\"mappings\":\"AAAAA,QAASA,UAAS,EAAG;\",\n" +
+--- Exist: testSourceMapMerging
+--- Exist: testLiteralMappings
+--- Exist: testBasicMapping1
+--- Exist: testBasicMapping2
+--- Overwrite: testGoldenOutput1
+138c138
+<                    "\"mappings\":\"AACAA,QAASA,EAAC,CAACC,GAAD,CAAMC,GAAN," +
+---
+>                    "\"mappings\":\"AAAAA,QAASA,EAAC,CAACC,GAAD,CAAMC,GAAN," +
+153c153
+<                    "\"mappings\":\"AACAA,QAASA,EAATA,CAAWC,GAAXD,CAAgBE," +
+---
+>                    "\"mappings\":\"AAAAA,QAASA,EAATA,CAAWC,GAAXD,CAAgBE," +
+--- Overwrite: testGoldenOutput2
+169c169
+<                    "\"mappings\":\"AACAA,QAASA,EAAC,CAACC,GAAD,CAAMC,GAAN," +
+---
+>                    "\"mappings\":\"AAAAA,QAASA,EAAC,CAACC,GAAD,CAAMC,GAAN," +
+--- Overwrite: testGoldenOutput3
+185c185
+<                    "\"mappings\":\"AACAA;\",\n" +
+---
+>                    "\"mappings\":\"AAAAA;\",\n" +
+--- Overwrite: testGoldenOutput4
+199c199
+<                    "\"mappings\":\"AACAA,GAAOC,IAAOC;\",\n" +
+---
+>                    "\"mappings\":\"AAAAA,GAAOC,IAAOC;\",\n" +
+--- Overwrite: testGoldenOutput5
+245c245
+<         "\"mappings\":\"A;;;;AAIA,IAAIA,IAAIC,CAAJD,CAAQ,mxCAARA;AAA8xCE," +
+---
+>         "\"mappings\":\"A;;;;AAGA,IAAIA,IAAIC,CAAJD,CAAQ,mxCAARA;AAA8xCE," +
+289c289
+<         "\"mappings\":\"A;;;;IAIIA,IAAIC,CAAJD;AAA8xCE,CAA9xCF,CAAkyCG," +
+---
+>         "\"mappings\":\"A;;;;IAGIA,IAAIC,CAAJD;AAA8xCE,CAA9xCF,CAAkyCG," +

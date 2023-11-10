@@ -1,0 +1,61 @@
+--- Overwrite: testTransformAMDAndProcessCJS
+1060,1062c1060
+<         "var module$foo$bar={}, module$foo$bar={foo:1}; " +
+<         "module$foo$bar.module$exports && " +
+<         "(module$foo$bar=module$foo$bar.module$exports)");
+---
+>         "var module$foo$bar={}, module$foo$bar={foo:1};");
+--- Overwrite: testProcessCJS
+1049,1051c1049
+<         "var module$foo$bar={test:1}; " +
+<         "module$foo$bar.module$exports && " +
+<         "(module$foo$bar=module$foo$bar.module$exports)");
+---
+>         "var module$foo$bar={test:1};");
+--- Overwrite: testExports
+71,73c71
+<         "module$test.foo = 1;" +
+<         "if(module$test.module$exports)" +
+<         "module$test=module$test.module$exports");
+---
+>         "module$test.foo = 1;");
+--- Overwrite: testModuleName
+126,128c126
+<         "var name$$module$foo$bar = module$name;" +
+<         "if(module$foo$bar.module$exports)" +
+<         "module$foo$bar=module$foo$bar.module$exports");
+---
+>         "var name$$module$foo$bar = module$name;");
+134,136c132
+<         "var name$$module$foo$bar = module$foo$name;" +
+<         "if(module$foo$bar.module$exports)" +
+<         "module$foo$bar=module$foo$bar.module$exports");
+---
+>         "var name$$module$foo$bar = module$foo$name;");
+--- Overwrite: testDash
+105,107c105
+<         "module$test_test.foo = 1;" +
+<         "if(module$test_test.module$exports)" +
+<         "module$test_test=module$test_test.module$exports");
+---
+>         "module$test_test.foo = 1;");
+--- Overwrite: testVarRenaming
+92,94c92
+<         "(function() { var a; b$$module$test = 4})();" +
+<         "if(module$test.module$exports)" +
+<         "module$test=module$test.module$exports");
+---
+>         "(function() { var a; b$$module$test = 4})();");
+--- Overwrite: testWithoutExports
+46,48c46
+<         "name$$module$test();" +
+<         "if(module$test.module$exports)" +
+<         "module$test=module$test.module$exports");
+---
+>         "name$$module$test();");
+57,59c55
+<         "(function() { name$$module$test$sub(); })();" +
+<         "if(module$test$sub.module$exports)" +
+<         "module$test$sub=module$test$sub.module$exports");
+---
+>         "(function() { name$$module$test$sub(); })();");

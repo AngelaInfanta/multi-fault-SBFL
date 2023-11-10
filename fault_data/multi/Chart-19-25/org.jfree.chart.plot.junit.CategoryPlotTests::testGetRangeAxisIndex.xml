@@ -1,0 +1,2230 @@
+<coverage branch-rate="0.017209128320239433" branches-covered="92" branches-valid="5346" complexity="2.771551724137931" line-rate="0.06551218618288437" lines-covered="715" lines-valid="10914" timestamp="1624287052511" version="2.0.3">
+	<sources>
+		<source>source</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="2.6065573770491803" line-rate="0.038461538461538464" name="org.jfree.chart">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/ChartColor.java" line-rate="0.9259259259259259" name="org.jfree.chart.ChartColor">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="70" />
+								<line branch="false" hits="1" number="73" />
+								<line branch="false" hits="1" number="76" />
+								<line branch="false" hits="1" number="79" />
+								<line branch="false" hits="1" number="82" />
+								<line branch="false" hits="1" number="85" />
+								<line branch="false" hits="1" number="88" />
+								<line branch="false" hits="1" number="91" />
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="97" />
+								<line branch="false" hits="1" number="100" />
+								<line branch="false" hits="1" number="103" />
+								<line branch="false" hits="1" number="106" />
+								<line branch="false" hits="1" number="109" />
+								<line branch="false" hits="1" number="112" />
+								<line branch="false" hits="1" number="115" />
+								<line branch="false" hits="1" number="118" />
+								<line branch="false" hits="1" number="121" />
+								<line branch="false" hits="1" number="124" />
+								<line branch="false" hits="1" number="127" />
+								<line branch="false" hits="1" number="130" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createDefaultPaintArray" signature="()[Ljava/awt/Paint;">
+							<lines>
+								<line branch="false" hits="1" number="153" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/Drawable.java" line-rate="1.0" name="org.jfree.chart.Drawable">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.763888888888889" filename="org/jfree/chart/JFreeChart.java" line-rate="0.0" name="org.jfree.chart.JFreeChart">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6578947368421053" filename="org/jfree/chart/LegendItem.java" line-rate="0.0" name="org.jfree.chart.LegendItem">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.75" filename="org/jfree/chart/LegendItemCollection.java" line-rate="0.0" name="org.jfree.chart.LegendItemCollection">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/LegendItemSource.java" line-rate="1.0" name="org.jfree.chart.LegendItemSource">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.jfree.chart.annotations">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/annotations/CategoryAnnotation.java" line-rate="1.0" name="org.jfree.chart.annotations.CategoryAnnotation">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.03932584269662921" complexity="2.8911764705882352" line-rate="0.13625758282781147" name="org.jfree.chart.axis">
+			<classes>
+				<class branch-rate="0.029411764705882353" complexity="2.6666666666666665" filename="org/jfree/chart/axis/Axis.java" line-rate="0.14285714285714285" name="org.jfree.chart.axis.Axis">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="137" />
+								<line branch="false" hits="1" number="141" />
+								<line branch="false" hits="1" number="144" />
+								<line branch="false" hits="1" number="148" />
+								<line branch="false" hits="1" number="151" />
+								<line branch="false" hits="1" number="157" />
+								<line branch="false" hits="1" number="161" />
+								<line branch="false" hits="1" number="164" />
+								<line branch="false" hits="1" number="171" />
+								<line branch="false" hits="1" number="174" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="4" number="273" />
+								<line branch="false" hits="4" number="275" />
+								<line branch="false" hits="4" number="276" />
+								<line branch="false" hits="4" number="277" />
+								<line branch="false" hits="4" number="278" />
+								<line branch="false" hits="4" number="279" />
+								<line branch="false" hits="4" number="280" />
+								<line branch="false" hits="4" number="281" />
+								<line branch="false" hits="4" number="282" />
+								<line branch="false" hits="4" number="284" />
+								<line branch="false" hits="4" number="285" />
+								<line branch="false" hits="4" number="286" />
+								<line branch="false" hits="4" number="288" />
+								<line branch="false" hits="4" number="289" />
+								<line branch="false" hits="4" number="290" />
+								<line branch="false" hits="4" number="291" />
+								<line branch="false" hits="4" number="293" />
+								<line branch="false" hits="4" number="294" />
+								<line branch="false" hits="4" number="295" />
+								<line branch="false" hits="4" number="296" />
+								<line branch="false" hits="4" number="297" />
+								<line branch="false" hits="4" number="299" />
+								<line branch="false" hits="4" number="301" />
+								<line branch="false" hits="4" number="303" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="addChangeListener" signature="(Lorg/jfree/chart/event/AxisChangeListener;)V">
+							<lines>
+								<line branch="false" hits="3" number="1001" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="class$" signature="(Ljava/lang/String;)Ljava/lang/Class;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="4" number="1000">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getPlot" signature="()Lorg/jfree/chart/plot/Plot;">
+							<lines>
+								<line branch="false" hits="5" number="886" />
+							</lines>
+						</method>
+						<method branch-rate="0.16666666666666666" line-rate="0.6" name="notifyListeners" signature="(Lorg/jfree/chart/event/AxisChangeEvent;)V">
+							<lines>
+								<line branch="false" hits="1" number="1036" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="1037">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="1043" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setPlot" signature="(Lorg/jfree/chart/plot/Plot;)V">
+							<lines>
+								<line branch="false" hits="3" number="899" />
+								<line branch="false" hits="3" number="900" />
+								<line branch="false" hits="3" number="901" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="setTickMarksVisible" signature="(Z)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="764">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="765" />
+								<line branch="false" hits="1" number="766" />
+								<line branch="false" hits="1" number="768" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3333333333333335" filename="org/jfree/chart/axis/AxisCollection.java" line-rate="0.0" name="org.jfree.chart.axis.AxisCollection">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.5" filename="org/jfree/chart/axis/AxisLocation.java" line-rate="0.1794871794871795" name="org.jfree.chart.axis.AxisLocation">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="71" />
+								<line branch="false" hits="1" number="75" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="4" number="86" />
+								<line branch="false" hits="4" number="87" />
+								<line branch="false" hits="4" number="88" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.789473684210526" filename="org/jfree/chart/axis/AxisSpace.java" line-rate="0.0" name="org.jfree.chart.axis.AxisSpace">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3076923076923077" filename="org/jfree/chart/axis/AxisState.java" line-rate="0.0" name="org.jfree.chart.axis.AxisState">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.0" filename="org/jfree/chart/axis/CategoryAnchor.java" line-rate="0.2727272727272727" name="org.jfree.chart.axis.CategoryAnchor">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="62" />
+								<line branch="false" hits="1" number="66" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="3" number="77" />
+								<line branch="false" hits="3" number="78" />
+								<line branch="false" hits="3" number="79" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4565217391304346" filename="org/jfree/chart/axis/CategoryAxis.java" line-rate="0.040229885057471264" name="org.jfree.chart.axis.CategoryAxis">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="197" />
+								<line branch="false" hits="1" number="199" />
+								<line branch="false" hits="1" number="200" />
+								<line branch="false" hits="1" number="201" />
+								<line branch="false" hits="1" number="202" />
+								<line branch="false" hits="1" number="203" />
+								<line branch="false" hits="1" number="205" />
+								<line branch="false" hits="1" number="207" />
+								<line branch="false" hits="1" number="208" />
+								<line branch="false" hits="1" number="209" />
+								<line branch="false" hits="1" number="210" />
+								<line branch="false" hits="1" number="211" />
+								<line branch="false" hits="1" number="213" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="configure" signature="()V">
+							<lines>
+								<line branch="false" hits="2" number="790" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.16666666666666666" complexity="3.0" filename="org/jfree/chart/axis/CategoryLabelPosition.java" line-rate="0.3137254901960784" name="org.jfree.chart.axis.CategoryLabelPosition">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/jfree/chart/util/RectangleAnchor;Lorg/jfree/chart/text/TextBlockAnchor;)V">
+							<lines>
+								<line branch="false" hits="2" number="106" />
+								<line branch="false" hits="2" number="108" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/jfree/chart/util/RectangleAnchor;Lorg/jfree/chart/text/TextBlockAnchor;Lorg/jfree/chart/axis/CategoryLabelWidthType;F)V">
+							<lines>
+								<line branch="false" hits="2" number="125" />
+								<line branch="false" hits="2" number="127" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.75" name="&lt;init&gt;" signature="(Lorg/jfree/chart/util/RectangleAnchor;Lorg/jfree/chart/text/TextBlockAnchor;Lorg/jfree/chart/text/TextAnchor;DLorg/jfree/chart/axis/CategoryLabelWidthType;F)V">
+							<lines>
+								<line branch="false" hits="20" number="150" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="20" number="152">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="20" number="156">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="20" number="160">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="20" number="164">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="20" number="168" />
+								<line branch="false" hits="20" number="169" />
+								<line branch="false" hits="20" number="170" />
+								<line branch="false" hits="20" number="171" />
+								<line branch="false" hits="20" number="172" />
+								<line branch="false" hits="20" number="173" />
+								<line branch="false" hits="20" number="175" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.09090909090909091" complexity="4.636363636363637" filename="org/jfree/chart/axis/CategoryLabelPositions.java" line-rate="0.22077922077922077" name="org.jfree.chart.axis.CategoryLabelPositions">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="85" />
+								<line branch="false" hits="1" number="110" />
+								<line branch="false" hits="1" number="134" />
+								<line branch="false" hits="1" number="138" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.7142857142857143" name="&lt;init&gt;" signature="(Lorg/jfree/chart/axis/CategoryLabelPosition;Lorg/jfree/chart/axis/CategoryLabelPosition;Lorg/jfree/chart/axis/CategoryLabelPosition;Lorg/jfree/chart/axis/CategoryLabelPosition;)V">
+							<lines>
+								<line branch="false" hits="5" number="258" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="260">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="263">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="266">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="269">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="273" />
+								<line branch="false" hits="5" number="274" />
+								<line branch="false" hits="5" number="275" />
+								<line branch="false" hits="5" number="276" />
+								<line branch="false" hits="5" number="278" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createDownRotationLabelPositions" signature="(D)Lorg/jfree/chart/axis/CategoryLabelPositions;">
+							<lines>
+								<line branch="false" hits="1" number="185" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createUpRotationLabelPositions" signature="(D)Lorg/jfree/chart/axis/CategoryLabelPositions;">
+							<lines>
+								<line branch="false" hits="1" number="151" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.08333333333333333" complexity="4.0" filename="org/jfree/chart/axis/CategoryLabelWidthType.java" line-rate="0.2857142857142857" name="org.jfree.chart.axis.CategoryLabelWidthType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="64" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="2" number="74" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="75">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="78" />
+								<line branch="false" hits="2" number="79" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.8333333333333335" filename="org/jfree/chart/axis/CategoryTick.java" line-rate="0.0" name="org.jfree.chart.axis.CategoryTick">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.1015625" complexity="3.0789473684210527" filename="org/jfree/chart/axis/NumberAxis.java" line-rate="0.22111553784860558" name="org.jfree.chart.axis.NumberAxis">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="150" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="3" number="198" />
+								<line branch="false" hits="3" number="199" />
+								<line branch="false" hits="3" number="200" />
+								<line branch="false" hits="3" number="201" />
+								<line branch="false" hits="3" number="202" />
+								<line branch="false" hits="3" number="203" />
+								<line branch="false" hits="3" number="204" />
+								<line branch="false" hits="3" number="205" />
+							</lines>
+						</method>
+						<method branch-rate="0.375" line-rate="0.5294117647058824" name="autoAdjustRange" signature="()V">
+							<lines>
+								<line branch="false" hits="5" number="423" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="5" number="424">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="425" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="428">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="429" />
+								<line branch="false" hits="4" number="431" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="432">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="433" />
+								<line branch="false" hits="4" number="436" />
+								<line branch="false" hits="4" number="437" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="438">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="442">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="447">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="448" />
+								<line branch="false" hits="4" number="449" />
+								<line branch="false" hits="4" number="451" />
+								<line branch="false" hits="4" number="454" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="455">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="460" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="461">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="484">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="485">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="489" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="491">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="492" />
+								<line branch="false" hits="4" number="504" />
+								<line branch="false" hits="4" number="507" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="configure" signature="()V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="413">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="414" />
+								<line branch="false" hits="5" number="416" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createStandardTickUnits" signature="()Lorg/jfree/chart/axis/TickUnitSource;">
+							<lines>
+								<line branch="false" hits="3" number="703" />
+								<line branch="false" hits="3" number="704" />
+								<line branch="false" hits="3" number="705" />
+								<line branch="false" hits="3" number="706" />
+								<line branch="false" hits="3" number="707" />
+								<line branch="false" hits="3" number="708" />
+								<line branch="false" hits="3" number="709" />
+								<line branch="false" hits="3" number="710" />
+								<line branch="false" hits="3" number="711" />
+								<line branch="false" hits="3" number="712" />
+								<line branch="false" hits="3" number="713" />
+								<line branch="false" hits="3" number="714" />
+								<line branch="false" hits="3" number="718" />
+								<line branch="false" hits="3" number="719" />
+								<line branch="false" hits="3" number="720" />
+								<line branch="false" hits="3" number="721" />
+								<line branch="false" hits="3" number="722" />
+								<line branch="false" hits="3" number="723" />
+								<line branch="false" hits="3" number="724" />
+								<line branch="false" hits="3" number="725" />
+								<line branch="false" hits="3" number="726" />
+								<line branch="false" hits="3" number="727" />
+								<line branch="false" hits="3" number="728" />
+								<line branch="false" hits="3" number="729" />
+								<line branch="false" hits="3" number="730" />
+								<line branch="false" hits="3" number="731" />
+								<line branch="false" hits="3" number="732" />
+								<line branch="false" hits="3" number="733" />
+								<line branch="false" hits="3" number="734" />
+								<line branch="false" hits="3" number="735" />
+								<line branch="false" hits="3" number="736" />
+								<line branch="false" hits="3" number="738" />
+								<line branch="false" hits="3" number="739" />
+								<line branch="false" hits="3" number="740" />
+								<line branch="false" hits="3" number="741" />
+								<line branch="false" hits="3" number="742" />
+								<line branch="false" hits="3" number="743" />
+								<line branch="false" hits="3" number="744" />
+								<line branch="false" hits="3" number="745" />
+								<line branch="false" hits="3" number="746" />
+								<line branch="false" hits="3" number="747" />
+								<line branch="false" hits="3" number="748" />
+								<line branch="false" hits="3" number="749" />
+								<line branch="false" hits="3" number="750" />
+								<line branch="false" hits="3" number="751" />
+								<line branch="false" hits="3" number="752" />
+								<line branch="false" hits="3" number="753" />
+								<line branch="false" hits="3" number="754" />
+								<line branch="false" hits="3" number="755" />
+								<line branch="false" hits="3" number="756" />
+								<line branch="false" hits="3" number="758" />
+								<line branch="false" hits="3" number="759" />
+								<line branch="false" hits="3" number="760" />
+								<line branch="false" hits="3" number="761" />
+								<line branch="false" hits="3" number="762" />
+								<line branch="false" hits="3" number="763" />
+								<line branch="false" hits="3" number="764" />
+								<line branch="false" hits="3" number="765" />
+								<line branch="false" hits="3" number="766" />
+								<line branch="false" hits="3" number="767" />
+								<line branch="false" hits="3" number="768" />
+								<line branch="false" hits="3" number="769" />
+								<line branch="false" hits="3" number="770" />
+								<line branch="false" hits="3" number="771" />
+								<line branch="false" hits="3" number="772" />
+								<line branch="false" hits="3" number="773" />
+								<line branch="false" hits="3" number="774" />
+								<line branch="false" hits="3" number="775" />
+								<line branch="false" hits="3" number="776" />
+								<line branch="false" hits="3" number="778" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getAutoRangeIncludesZero" signature="()Z">
+							<lines>
+								<line branch="false" hits="4" number="240" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getAutoRangeStickyZero" signature="()Z">
+							<lines>
+								<line branch="false" hits="4" number="275" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/axis/NumberTick.java" line-rate="0.0" name="org.jfree.chart.axis.NumberTick">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.07142857142857142" complexity="2.857142857142857" filename="org/jfree/chart/axis/NumberTickUnit.java" line-rate="0.14814814814814814" name="org.jfree.chart.axis.NumberTickUnit">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8" name="&lt;init&gt;" signature="(DLjava/text/NumberFormat;)V">
+							<lines>
+								<line branch="false" hits="172" number="84" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="172" number="85">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="172" number="88" />
+								<line branch="false" hits="172" number="89" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/axis/Tick.java" line-rate="0.0" name="org.jfree.chart.axis.Tick">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/axis/TickType.java" line-rate="0.0" name="org.jfree.chart.axis.TickType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.25" complexity="2.875" filename="org/jfree/chart/axis/TickUnit.java" line-rate="0.3333333333333333" name="org.jfree.chart.axis.TickUnit">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(D)V">
+							<lines>
+								<line branch="false" hits="172" number="85" />
+								<line branch="false" hits="172" number="86" />
+								<line branch="false" hits="172" number="87" />
+							</lines>
+						</method>
+						<method branch-rate="0.6666666666666666" line-rate="0.75" name="compareTo" signature="(Ljava/lang/Object;)I">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="5712" number="146">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5712" number="147" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="5712" number="148">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5331" number="149" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="381" number="151">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="381" number="152" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getSize" signature="()D">
+							<lines>
+								<line branch="false" hits="6093" number="108" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/axis/TickUnitSource.java" line-rate="1.0" name="org.jfree.chart.axis.TickUnitSource">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.1" complexity="2.0" filename="org/jfree/chart/axis/TickUnits.java" line-rate="0.23333333333333334" name="org.jfree.chart.axis.TickUnits">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="3" number="81" />
+								<line branch="false" hits="3" number="82" />
+								<line branch="false" hits="3" number="83" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8" name="add" signature="(Lorg/jfree/chart/axis/TickUnit;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="171" number="92">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="171" number="95" />
+								<line branch="false" hits="171" number="96" />
+								<line branch="false" hits="171" number="97" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.016304347826086956" complexity="2.7058823529411766" filename="org/jfree/chart/axis/ValueAxis.java" line-rate="0.11270983213429256" name="org.jfree.chart.axis.ValueAxis">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="149" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;Lorg/jfree/chart/axis/TickUnitSource;)V">
+							<lines>
+								<line branch="false" hits="3" number="264" />
+								<line branch="false" hits="3" number="266" />
+								<line branch="false" hits="3" number="267" />
+								<line branch="false" hits="3" number="269" />
+								<line branch="false" hits="3" number="270" />
+								<line branch="false" hits="3" number="271" />
+								<line branch="false" hits="3" number="273" />
+								<line branch="false" hits="3" number="274" />
+								<line branch="false" hits="3" number="276" />
+								<line branch="false" hits="3" number="277" />
+								<line branch="false" hits="3" number="279" />
+								<line branch="false" hits="3" number="281" />
+								<line branch="false" hits="3" number="282" />
+								<line branch="false" hits="3" number="284" />
+								<line branch="false" hits="3" number="285" />
+								<line branch="false" hits="3" number="286" />
+								<line branch="false" hits="3" number="287" />
+								<line branch="false" hits="3" number="289" />
+								<line branch="false" hits="3" number="291" />
+								<line branch="false" hits="3" number="292" />
+								<line branch="false" hits="3" number="293" />
+								<line branch="false" hits="3" number="294" />
+								<line branch="false" hits="3" number="296" />
+								<line branch="false" hits="3" number="298" />
+								<line branch="false" hits="3" number="299" />
+								<line branch="false" hits="3" number="300" />
+								<line branch="false" hits="3" number="301" />
+								<line branch="false" hits="3" number="303" />
+								<line branch="false" hits="3" number="305" />
+								<line branch="false" hits="3" number="306" />
+								<line branch="false" hits="3" number="307" />
+								<line branch="false" hits="3" number="308" />
+								<line branch="false" hits="3" number="310" />
+								<line branch="false" hits="3" number="312" />
+								<line branch="false" hits="3" number="314" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getAutoRangeMinimumSize" signature="()D">
+							<lines>
+								<line branch="false" hits="4" number="977" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getDefaultAutoRange" signature="()Lorg/jfree/data/Range;">
+							<lines>
+								<line branch="false" hits="4" number="1029" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getFixedAutoRange" signature="()D">
+							<lines>
+								<line branch="false" hits="4" number="1124" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLowerMargin" signature="()D">
+							<lines>
+								<line branch="false" hits="4" number="1061" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getUpperMargin" signature="()D">
+							<lines>
+								<line branch="false" hits="4" number="1094" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isAutoRange" signature="()Z">
+							<lines>
+								<line branch="false" hits="5" number="931" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.625" name="setRange" signature="(Lorg/jfree/data/Range;ZZ)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="1238">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="1241">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="1244" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="1245">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="1248" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6" filename="org/jfree/chart/axis/ValueTick.java" line-rate="0.0" name="org.jfree.chart.axis.ValueTick">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.967391304347826" line-rate="0.0" name="org.jfree.chart.block">
+			<classes>
+				<class branch-rate="0.0" complexity="2.0833333333333335" filename="org/jfree/chart/block/AbstractBlock.java" line-rate="0.0" name="org.jfree.chart.block.AbstractBlock">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/Arrangement.java" line-rate="1.0" name="org.jfree.chart.block.Arrangement">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/Block.java" line-rate="1.0" name="org.jfree.chart.block.Block">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4545454545454546" filename="org/jfree/chart/block/BlockBorder.java" line-rate="0.0" name="org.jfree.chart.block.BlockBorder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4285714285714284" filename="org/jfree/chart/block/BlockContainer.java" line-rate="0.0" name="org.jfree.chart.block.BlockContainer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/BlockFrame.java" line-rate="1.0" name="org.jfree.chart.block.BlockFrame">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/BlockParams.java" line-rate="0.0" name="org.jfree.chart.block.BlockParams">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/BlockResult.java" line-rate="0.0" name="org.jfree.chart.block.BlockResult">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="8.2" filename="org/jfree/chart/block/BorderArrangement.java" line-rate="0.0" name="org.jfree.chart.block.BorderArrangement">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6153846153846154" filename="org/jfree/chart/block/CenterArrangement.java" line-rate="0.0" name="org.jfree.chart.block.CenterArrangement">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.363636363636363" filename="org/jfree/chart/block/ColumnArrangement.java" line-rate="0.0" name="org.jfree.chart.block.ColumnArrangement">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/EntityBlockParams.java" line-rate="1.0" name="org.jfree.chart.block.EntityBlockParams">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/EntityBlockResult.java" line-rate="1.0" name="org.jfree.chart.block.EntityBlockResult">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.714285714285714" filename="org/jfree/chart/block/FlowArrangement.java" line-rate="0.0" name="org.jfree.chart.block.FlowArrangement">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2222222222222223" filename="org/jfree/chart/block/LabelBlock.java" line-rate="0.0" name="org.jfree.chart.block.LabelBlock">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/jfree/chart/block/LengthConstraintType.java" line-rate="0.0" name="org.jfree.chart.block.LengthConstraintType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.5555555555555554" filename="org/jfree/chart/block/LineBorder.java" line-rate="0.0" name="org.jfree.chart.block.LineBorder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.263157894736842" filename="org/jfree/chart/block/RectangleConstraint.java" line-rate="0.0" name="org.jfree.chart.block.RectangleConstraint">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.1176470588235294" line-rate="0.0" name="org.jfree.chart.entity">
+			<classes>
+				<class branch-rate="0.0" complexity="1.6666666666666667" filename="org/jfree/chart/entity/AxisLabelEntity.java" line-rate="0.0" name="org.jfree.chart.entity.AxisLabelEntity">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5555555555555554" filename="org/jfree/chart/entity/CategoryItemEntity.java" line-rate="0.0" name="org.jfree.chart.entity.CategoryItemEntity">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/entity/CategoryLabelEntity.java" line-rate="0.0" name="org.jfree.chart.entity.CategoryLabelEntity">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.736842105263158" filename="org/jfree/chart/entity/ChartEntity.java" line-rate="0.0" name="org.jfree.chart.entity.ChartEntity">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/entity/EntityCollection.java" line-rate="1.0" name="org.jfree.chart.entity.EntityCollection">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/jfree/chart/entity/LegendItemEntity.java" line-rate="0.0" name="org.jfree.chart.entity.LegendItemEntity">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/entity/TickLabelEntity.java" line-rate="0.0" name="org.jfree.chart.entity.TickLabelEntity">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.4" line-rate="0.3225806451612903" name="org.jfree.chart.event">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/AxisChangeEvent.java" line-rate="0.75" name="org.jfree.chart.event.AxisChangeEvent">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/jfree/chart/axis/Axis;)V">
+							<lines>
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="65" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/AxisChangeListener.java" line-rate="1.0" name="org.jfree.chart.event.AxisChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/ChartChangeEvent.java" line-rate="0.5714285714285714" name="org.jfree.chart.event.ChartChangeEvent">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="5" number="71" />
+								<line branch="false" hits="5" number="72" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/Object;Lorg/jfree/chart/JFreeChart;Lorg/jfree/chart/event/ChartChangeEventType;)V">
+							<lines>
+								<line branch="false" hits="5" number="95" />
+								<line branch="false" hits="5" number="96" />
+								<line branch="false" hits="5" number="97" />
+								<line branch="false" hits="5" number="98" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setType" signature="(Lorg/jfree/chart/event/ChartChangeEventType;)V">
+							<lines>
+								<line branch="false" hits="2" number="133" />
+								<line branch="false" hits="2" number="134" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/jfree/chart/event/ChartChangeEventType.java" line-rate="0.2608695652173913" name="org.jfree.chart.event.ChartChangeEventType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="57" />
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="65" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="3" number="76" />
+								<line branch="false" hits="3" number="77" />
+								<line branch="false" hits="3" number="78" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/ChartProgressEvent.java" line-rate="0.0" name="org.jfree.chart.event.ChartProgressEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/MarkerChangeListener.java" line-rate="1.0" name="org.jfree.chart.event.MarkerChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/PlotChangeEvent.java" line-rate="0.75" name="org.jfree.chart.event.PlotChangeEvent">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/jfree/chart/plot/Plot;)V">
+							<lines>
+								<line branch="false" hits="4" number="66" />
+								<line branch="false" hits="4" number="67" />
+								<line branch="false" hits="4" number="68" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/PlotChangeListener.java" line-rate="1.0" name="org.jfree.chart.event.PlotChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/RendererChangeListener.java" line-rate="1.0" name="org.jfree.chart.event.RendererChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/TitleChangeEvent.java" line-rate="0.0" name="org.jfree.chart.event.TitleChangeEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/TitleChangeListener.java" line-rate="1.0" name="org.jfree.chart.event.TitleChangeListener">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="4.105263157894737" line-rate="0.0" name="org.jfree.chart.labels">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/labels/CategorySeriesLabelGenerator.java" line-rate="1.0" name="org.jfree.chart.labels.CategorySeriesLabelGenerator">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="8.75" filename="org/jfree/chart/labels/ItemLabelAnchor.java" line-rate="0.0" name="org.jfree.chart.labels.ItemLabelAnchor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.25" filename="org/jfree/chart/labels/ItemLabelPosition.java" line-rate="0.0" name="org.jfree.chart.labels.ItemLabelPosition">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6666666666666665" filename="org/jfree/chart/labels/StandardCategorySeriesLabelGenerator.java" line-rate="0.0" name="org.jfree.chart.labels.StandardCategorySeriesLabelGenerator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.04801670146137787" complexity="2.937888198757764" line-rate="0.1382636655948553" name="org.jfree.chart.plot">
+			<classes>
+				<class branch-rate="0.06779661016949153" complexity="3.21656050955414" filename="org/jfree/chart/plot/CategoryPlot.java" line-rate="0.13881278538812786" name="org.jfree.chart.plot.CategoryPlot">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="243" />
+								<line branch="false" hits="1" number="248" />
+								<line branch="false" hits="1" number="251" />
+								<line branch="false" hits="1" number="266" />
+								<line branch="false" hits="1" number="274" />
+								<line branch="false" hits="1" number="277" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.9473684210526315" name="&lt;init&gt;" signature="(Lorg/jfree/data/category/CategoryDataset;Lorg/jfree/chart/axis/CategoryAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/renderer/category/CategoryItemRenderer;)V">
+							<lines>
+								<line branch="false" hits="1" number="317" />
+								<line branch="false" hits="1" number="324" />
+								<line branch="false" hits="1" number="330" />
+								<line branch="false" hits="1" number="378" />
+								<line branch="false" hits="1" number="438" />
+								<line branch="false" hits="1" number="440" />
+								<line branch="false" hits="1" number="443" />
+								<line branch="false" hits="1" number="444" />
+								<line branch="false" hits="1" number="445" />
+								<line branch="false" hits="1" number="446" />
+								<line branch="false" hits="1" number="448" />
+								<line branch="false" hits="1" number="449" />
+								<line branch="false" hits="1" number="451" />
+								<line branch="false" hits="1" number="453" />
+								<line branch="false" hits="1" number="454" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="455">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="459" />
+								<line branch="false" hits="1" number="461" />
+								<line branch="false" hits="1" number="462" />
+								<line branch="false" hits="1" number="464" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="465">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="470" />
+								<line branch="false" hits="1" number="471" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="472">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="473" />
+								<line branch="false" hits="1" number="474" />
+								<line branch="false" hits="1" number="476" />
+								<line branch="false" hits="1" number="478" />
+								<line branch="false" hits="1" number="479" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="480">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="481" />
+								<line branch="false" hits="1" number="482" />
+								<line branch="false" hits="1" number="485" />
+								<line branch="false" hits="1" number="486" />
+								<line branch="false" hits="1" number="488" />
+								<line branch="false" hits="1" number="489" />
+								<line branch="false" hits="1" number="490" />
+								<line branch="false" hits="1" number="491" />
+								<line branch="false" hits="1" number="493" />
+								<line branch="false" hits="1" number="494" />
+								<line branch="false" hits="1" number="495" />
+								<line branch="false" hits="1" number="497" />
+								<line branch="false" hits="1" number="498" />
+								<line branch="false" hits="1" number="499" />
+								<line branch="false" hits="1" number="500" />
+								<line branch="false" hits="1" number="502" />
+								<line branch="false" hits="1" number="505" />
+								<line branch="false" hits="1" number="507" />
+								<line branch="false" hits="1" number="509" />
+								<line branch="false" hits="1" number="510" />
+								<line branch="false" hits="1" number="511" />
+								<line branch="false" hits="1" number="512" />
+								<line branch="false" hits="1" number="514" />
+								<line branch="false" hits="1" number="516" />
+							</lines>
+						</method>
+						<method branch-rate="0.375" line-rate="0.6666666666666666" name="addRangeMarker" signature="(ILorg/jfree/chart/plot/Marker;Lorg/jfree/chart/util/Layer;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="2083">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="2092">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="2093" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="2095">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="2096" />
+								<line branch="false" hits="1" number="2097" />
+								<line branch="false" hits="1" number="2099" />
+								<line branch="false" hits="1" number="2101" />
+								<line branch="false" hits="1" number="2102" />
+								<line branch="false" hits="1" number="2103" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="addRangeMarker" signature="(Lorg/jfree/chart/plot/Marker;Lorg/jfree/chart/util/Layer;)V">
+							<lines>
+								<line branch="false" hits="1" number="2068" />
+								<line branch="false" hits="1" number="2069" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="1.0" name="configureDomainAxes" signature="()V">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="852">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="853" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="854">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="855" />
+								<line branch="false" hits="1" number="858" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="1.0" name="configureRangeAxes" signature="()V">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="1126">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="1127" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="1128">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="1129" />
+								<line branch="false" hits="1" number="1132" />
+							</lines>
+						</method>
+						<method branch-rate="0.6666666666666666" line-rate="0.9090909090909091" name="datasetChanged" signature="(Lorg/jfree/data/general/DatasetChangeEvent;)V">
+							<lines>
+								<line branch="false" hits="2" number="1836" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="1837">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="1838" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="1839">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="1840" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="1843">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="1847" />
+								<line branch="false" hits="2" number="1848" />
+								<line branch="false" hits="2" number="1849" />
+								<line branch="false" hits="2" number="1852" />
+							</lines>
+						</method>
+						<method branch-rate="0.3" line-rate="0.45454545454545453" name="datasetsMappedToRangeAxis" signature="(I)Ljava/util/List;">
+							<lines>
+								<line branch="false" hits="3" number="3207" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="6" number="3208">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="3209" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="3210">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="3225" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6" name="getDataRange" signature="(Lorg/jfree/chart/axis/ValueAxis;)Lorg/jfree/data/Range;">
+							<lines>
+								<line branch="false" hits="4" number="3139" />
+								<line branch="false" hits="4" number="3140" />
+								<line branch="false" hits="4" number="3142" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="4" number="3143">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="3144" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="3146">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="3152" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="3153">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="3160" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="getDataset" signature="(I)Lorg/jfree/data/category/CategoryDataset;">
+							<lines>
+								<line branch="false" hits="2" number="1155" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="1156">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="1157" />
+								<line branch="false" hits="2" number="1159" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRangeAxis" signature="()Lorg/jfree/chart/axis/ValueAxis;">
+							<lines>
+								<line branch="false" hits="1" number="868" />
+							</lines>
+						</method>
+						<method branch-rate="0.3333333333333333" line-rate="0.5555555555555556" name="getRangeAxis" signature="(I)Lorg/jfree/chart/axis/ValueAxis;">
+							<lines>
+								<line branch="false" hits="2" number="879" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="880">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="881" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="883">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="890" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.7142857142857143" name="getRangeAxisIndex" signature="(Lorg/jfree/chart/axis/ValueAxis;)I">
+							<lines>
+								<line branch="false" hits="5" number="968" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="5" number="969">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="970" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="971">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="976" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="mapDatasetToDomainAxis" signature="(II)V">
+							<lines>
+								<line branch="false" hits="1" number="1222" />
+								<line branch="false" hits="1" number="1224" />
+								<line branch="false" hits="1" number="1225" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="mapDatasetToRangeAxis" signature="(II)V">
+							<lines>
+								<line branch="false" hits="1" number="1255" />
+								<line branch="false" hits="1" number="1257" />
+								<line branch="false" hits="1" number="1258" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="setDomainAxisLocation" signature="(ILorg/jfree/chart/axis/AxisLocation;Z)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="785">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="789" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="790">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="793" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setDomainAxisLocation" signature="(Lorg/jfree/chart/axis/AxisLocation;Z)V">
+							<lines>
+								<line branch="false" hits="1" number="752" />
+								<line branch="false" hits="1" number="753" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setRangeAxis" signature="(ILorg/jfree/chart/axis/ValueAxis;)V">
+							<lines>
+								<line branch="false" hits="1" number="911" />
+								<line branch="false" hits="1" number="912" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.9166666666666666" name="setRangeAxis" signature="(ILorg/jfree/chart/axis/ValueAxis;Z)V">
+							<lines>
+								<line branch="false" hits="1" number="923" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="924">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="927">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="928" />
+								<line branch="false" hits="1" number="930" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="931">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="932" />
+								<line branch="false" hits="1" number="933" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="935">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="936" />
+								<line branch="false" hits="1" number="938" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="setRangeAxisLocation" signature="(ILorg/jfree/chart/axis/AxisLocation;Z)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="1062">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="1066" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="1067">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="1070" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setRangeAxisLocation" signature="(Lorg/jfree/chart/axis/AxisLocation;Z)V">
+							<lines>
+								<line branch="false" hits="1" number="1032" />
+								<line branch="false" hits="1" number="1033" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.5" filename="org/jfree/chart/plot/DatasetRenderingOrder.java" line-rate="0.2631578947368421" name="org.jfree.chart.plot.DatasetRenderingOrder">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="70" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="2" number="81" />
+								<line branch="false" hits="2" number="82" />
+								<line branch="false" hits="2" number="83" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.5294117647058822" filename="org/jfree/chart/plot/DefaultDrawingSupplier.java" line-rate="0.2894736842105263" name="org.jfree.chart.plot.DefaultDrawingSupplier">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="85" />
+								<line branch="false" hits="1" number="89" />
+								<line branch="false" hits="1" number="93" />
+								<line branch="false" hits="1" number="97" />
+								<line branch="false" hits="1" number="102" />
+								<line branch="false" hits="1" number="107" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="152" />
+								<line branch="false" hits="1" number="158" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="([Ljava/awt/Paint;[Ljava/awt/Paint;[Ljava/awt/Paint;[Ljava/awt/Stroke;[Ljava/awt/Stroke;[Ljava/awt/Shape;)V">
+							<lines>
+								<line branch="false" hits="1" number="199" />
+								<line branch="false" hits="1" number="201" />
+								<line branch="false" hits="1" number="202" />
+								<line branch="false" hits="1" number="203" />
+								<line branch="false" hits="1" number="204" />
+								<line branch="false" hits="1" number="205" />
+								<line branch="false" hits="1" number="206" />
+								<line branch="false" hits="1" number="207" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="createStandardSeriesShapes" signature="()[Ljava/awt/Shape;">
+							<lines>
+								<line branch="false" hits="1" number="291" />
+								<line branch="false" hits="1" number="293" />
+								<line branch="false" hits="1" number="294" />
+								<line branch="false" hits="1" number="295" />
+								<line branch="false" hits="1" number="296" />
+								<line branch="false" hits="1" number="299" />
+								<line branch="false" hits="1" number="301" />
+								<line branch="false" hits="1" number="304" />
+								<line branch="false" hits="1" number="305" />
+								<line branch="false" hits="1" number="306" />
+								<line branch="false" hits="1" number="309" />
+								<line branch="false" hits="1" number="310" />
+								<line branch="false" hits="1" number="311" />
+								<line branch="false" hits="1" number="314" />
+								<line branch="false" hits="1" number="317" />
+								<line branch="false" hits="1" number="318" />
+								<line branch="false" hits="1" number="319" />
+								<line branch="false" hits="1" number="322" />
+								<line branch="false" hits="1" number="325" />
+								<line branch="false" hits="1" number="326" />
+								<line branch="false" hits="1" number="327" />
+								<line branch="false" hits="1" number="330" />
+								<line branch="false" hits="1" number="333" />
+								<line branch="false" hits="1" number="334" />
+								<line branch="false" hits="1" number="335" />
+								<line branch="false" hits="1" number="337" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="intArray" signature="(DDD)[I">
+							<lines>
+								<line branch="false" hits="8" number="519" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="intArray" signature="(DDDD)[I">
+							<lines>
+								<line branch="false" hits="2" number="534" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/plot/DrawingSupplier.java" line-rate="1.0" name="org.jfree.chart.plot.DrawingSupplier">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2" filename="org/jfree/chart/plot/IntervalMarker.java" line-rate="0.0" name="org.jfree.chart.plot.IntervalMarker">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.07575757575757576" complexity="2.6" filename="org/jfree/chart/plot/Marker.java" line-rate="0.136986301369863" name="org.jfree.chart.plot.Marker">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.8571428571428571" name="&lt;init&gt;" signature="(Ljava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V">
+							<lines>
+								<line branch="false" hits="1" number="116" />
+								<line branch="false" hits="1" number="174" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="176">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="179">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="182">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="186" />
+								<line branch="false" hits="1" number="187" />
+								<line branch="false" hits="1" number="188" />
+								<line branch="false" hits="1" number="189" />
+								<line branch="false" hits="1" number="190" />
+								<line branch="false" hits="1" number="192" />
+								<line branch="false" hits="1" number="193" />
+								<line branch="false" hits="1" number="194" />
+								<line branch="false" hits="1" number="195" />
+								<line branch="false" hits="1" number="196" />
+								<line branch="false" hits="1" number="197" />
+								<line branch="false" hits="1" number="199" />
+								<line branch="false" hits="1" number="200" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="addChangeListener" signature="(Lorg/jfree/chart/event/MarkerChangeListener;)V">
+							<lines>
+								<line branch="false" hits="1" number="534" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="class$" signature="(Ljava/lang/String;)Ljava/lang/Class;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="533">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.005434782608695652" complexity="2.9836065573770494" filename="org/jfree/chart/plot/Plot.java" line-rate="0.09006211180124224" name="org.jfree.chart.plot.Plot">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="195" />
+								<line branch="false" hits="1" number="198" />
+								<line branch="false" hits="1" number="202" />
+								<line branch="false" hits="1" number="205" />
+								<line branch="false" hits="1" number="214" />
+								<line branch="false" hits="1" number="223" />
+								<line branch="false" hits="1" number="227" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="268" />
+								<line branch="false" hits="1" number="271" />
+								<line branch="false" hits="1" number="288" />
+								<line branch="false" hits="1" number="290" />
+								<line branch="false" hits="1" number="291" />
+								<line branch="false" hits="1" number="292" />
+								<line branch="false" hits="1" number="293" />
+								<line branch="false" hits="1" number="294" />
+								<line branch="false" hits="1" number="295" />
+								<line branch="false" hits="1" number="296" />
+								<line branch="false" hits="1" number="297" />
+								<line branch="false" hits="1" number="298" />
+								<line branch="false" hits="1" number="300" />
+								<line branch="false" hits="1" number="301" />
+								<line branch="false" hits="1" number="302" />
+								<line branch="false" hits="1" number="304" />
+								<line branch="false" hits="1" number="306" />
+								<line branch="false" hits="1" number="308" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getParent" signature="()Lorg/jfree/chart/plot/Plot;">
+							<lines>
+								<line branch="false" hits="5" number="437" />
+							</lines>
+						</method>
+						<method branch-rate="0.16666666666666666" line-rate="0.6" name="notifyListeners" signature="(Lorg/jfree/chart/event/PlotChangeEvent;)V">
+							<lines>
+								<line branch="false" hits="4" number="892" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="893">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="898" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/plot/PlotOrientation.java" line-rate="0.25" name="org.jfree.chart.plot.PlotOrientation">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="62" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="2" number="73" />
+								<line branch="false" hits="2" number="74" />
+								<line branch="false" hits="2" number="75" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2857142857142856" filename="org/jfree/chart/plot/PlotRenderingInfo.java" line-rate="0.0" name="org.jfree.chart.plot.PlotRenderingInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/plot/ValueAxisPlot.java" line-rate="1.0" name="org.jfree.chart.plot.ValueAxisPlot">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3333333333333335" filename="org/jfree/chart/plot/ValueMarker.java" line-rate="0.13636363636363635" name="org.jfree.chart.plot.ValueMarker">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V">
+							<lines>
+								<line branch="false" hits="1" number="95" />
+								<line branch="false" hits="1" number="96" />
+								<line branch="false" hits="1" number="97" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/plot/Zoomable.java" line-rate="1.0" name="org.jfree.chart.plot.Zoomable">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.386861313868613" line-rate="0.0" name="org.jfree.chart.renderer">
+			<classes>
+				<class branch-rate="0.0" complexity="2.4029850746268657" filename="org/jfree/chart/renderer/AbstractRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.AbstractRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6666666666666667" filename="org/jfree/chart/renderer/RendererState.java" line-rate="0.0" name="org.jfree.chart.renderer.RendererState">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.09765625" line-rate="0.0" name="org.jfree.chart.renderer.category">
+			<classes>
+				<class branch-rate="0.0" complexity="3.152542372881356" filename="org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.AbstractCategoryItemRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.212121212121212" filename="org/jfree/chart/renderer/category/BarRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.BarRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/renderer/category/CategoryItemRenderer.java" line-rate="1.0" name="org.jfree.chart.renderer.category.CategoryItemRenderer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/renderer/category/CategoryItemRendererState.java" line-rate="0.0" name="org.jfree.chart.renderer.category.CategoryItemRendererState">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.363636363636363" filename="org/jfree/chart/renderer/category/StatisticalBarRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.StatisticalBarRenderer">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="0.0" name="org.jfree.chart.resources">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/resources/JFreeChartResources.java" line-rate="0.0" name="org.jfree.chart.resources.JFreeChartResources">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="4.213333333333333" line-rate="0.054844606946983544" name="org.jfree.chart.text">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/text/G2TextMeasurer.java" line-rate="0.0" name="org.jfree.chart.text.G2TextMeasurer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.2" filename="org/jfree/chart/text/TextAnchor.java" line-rate="0.3" name="org.jfree.chart.text.TextAnchor">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="72" />
+								<line branch="false" hits="1" number="76" />
+								<line branch="false" hits="1" number="80" />
+								<line branch="false" hits="1" number="84" />
+								<line branch="false" hits="1" number="88" />
+								<line branch="false" hits="1" number="91" />
+								<line branch="false" hits="1" number="95" />
+								<line branch="false" hits="1" number="99" />
+								<line branch="false" hits="1" number="103" />
+								<line branch="false" hits="1" number="107" />
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="1" number="115" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="15" number="126" />
+								<line branch="false" hits="15" number="127" />
+								<line branch="false" hits="15" number="128" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.9285714285714284" filename="org/jfree/chart/text/TextBlock.java" line-rate="0.0" name="org.jfree.chart.text.TextBlock">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.8" filename="org/jfree/chart/text/TextBlockAnchor.java" line-rate="0.2926829268292683" name="org.jfree.chart.text.TextBlockAnchor">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="59" />
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="71" />
+								<line branch="false" hits="1" number="75" />
+								<line branch="false" hits="1" number="79" />
+								<line branch="false" hits="1" number="83" />
+								<line branch="false" hits="1" number="87" />
+								<line branch="false" hits="1" number="91" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="9" number="102" />
+								<line branch="false" hits="9" number="103" />
+								<line branch="false" hits="9" number="104" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.8" filename="org/jfree/chart/text/TextFragment.java" line-rate="0.0" name="org.jfree.chart.text.TextFragment">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3846153846153846" filename="org/jfree/chart/text/TextLine.java" line-rate="0.0" name="org.jfree.chart.text.TextLine">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/text/TextMeasurer.java" line-rate="1.0" name="org.jfree.chart.text.TextMeasurer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.2" filename="org/jfree/chart/text/TextUtilities.java" line-rate="0.0" name="org.jfree.chart.text.TextUtilities">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.921259842519685" line-rate="0.0" name="org.jfree.chart.title">
+			<classes>
+				<class branch-rate="0.0" complexity="2.736842105263158" filename="org/jfree/chart/title/LegendGraphic.java" line-rate="0.0" name="org.jfree.chart.title.LegendGraphic">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.25" filename="org/jfree/chart/title/LegendItemBlockContainer.java" line-rate="0.0" name="org.jfree.chart.title.LegendItemBlockContainer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5" filename="org/jfree/chart/title/LegendTitle.java" line-rate="0.0" name="org.jfree.chart.title.LegendTitle">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.096774193548387" filename="org/jfree/chart/title/TextTitle.java" line-rate="0.0" name="org.jfree.chart.title.TextTitle">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.75" filename="org/jfree/chart/title/Title.java" line-rate="0.0" name="org.jfree.chart.title.Title">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.7173913043478262" line-rate="0.0" name="org.jfree.chart.ui">
+			<classes>
+				<class branch-rate="0.0" complexity="2.0" filename="org/jfree/chart/ui/BasicProjectInfo.java" line-rate="0.0" name="org.jfree.chart.ui.BasicProjectInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/jfree/chart/ui/BasicProjectInfo.java" line-rate="0.0" name="org.jfree.chart.ui.BasicProjectInfo$OptionalLibraryHolder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/ui/Contributor.java" line-rate="0.0" name="org.jfree.chart.ui.Contributor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.75" filename="org/jfree/chart/ui/Library.java" line-rate="0.0" name="org.jfree.chart.ui.Library">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="org/jfree/chart/ui/Licences.java" line-rate="0.0" name="org.jfree.chart.ui.Licences">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4444444444444444" filename="org/jfree/chart/ui/ProjectInfo.java" line-rate="0.0" name="org.jfree.chart.ui.ProjectInfo">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.019230769230769232" complexity="3.119565217391304" line-rate="0.07535641547861507" name="org.jfree.chart.util">
+			<classes>
+				<class branch-rate="0.2647058823529412" complexity="2.769230769230769" filename="org/jfree/chart/util/AbstractObjectList.java" line-rate="0.3582089552238806" name="org.jfree.chart.util.AbstractObjectList">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="8" number="77" />
+								<line branch="false" hits="8" number="78" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(I)V">
+							<lines>
+								<line branch="false" hits="8" number="86" />
+								<line branch="false" hits="8" number="87" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(II)V">
+							<lines>
+								<line branch="false" hits="8" number="68" />
+								<line branch="false" hits="8" number="71" />
+								<line branch="false" hits="8" number="95" />
+								<line branch="false" hits="8" number="96" />
+								<line branch="false" hits="8" number="97" />
+								<line branch="false" hits="8" number="98" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="1.0" name="get" signature="(I)Ljava/lang/Object;">
+							<lines>
+								<line branch="false" hits="10" number="109" />
+								<line branch="true" condition-coverage="75% (3/4)" hits="10" number="110">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="9" number="111" />
+								<line branch="false" hits="10" number="113" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="indexOf" signature="(Ljava/lang/Object;)I">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="17" number="161">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="13" number="162">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="163" />
+								<line branch="false" hits="4" number="166" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.5555555555555556" name="set" signature="(ILjava/lang/Object;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="9" number="123">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="9" number="126">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="9" number="131" />
+								<line branch="false" hits="9" number="132" />
+								<line branch="false" hits="9" number="133" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="size" signature="()I">
+							<lines>
+								<line branch="false" hits="16" number="149" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4" filename="org/jfree/chart/util/BooleanList.java" line-rate="0.0" name="org.jfree.chart.util.BooleanList">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/util/GradientPaintTransformType.java" line-rate="0.0" name="org.jfree.chart.util.GradientPaintTransformType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/util/GradientPaintTransformer.java" line-rate="1.0" name="org.jfree.chart.util.GradientPaintTransformer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.8" filename="org/jfree/chart/util/HorizontalAlignment.java" line-rate="0.0" name="org.jfree.chart.util.HorizontalAlignment">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6" filename="org/jfree/chart/util/Layer.java" line-rate="0.23809523809523808" name="org.jfree.chart.util.Layer">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="33" />
+								<line branch="false" hits="1" number="36" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="2" number="46" />
+								<line branch="false" hits="2" number="47" />
+								<line branch="false" hits="2" number="48" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/jfree/chart/util/LengthAdjustmentType.java" line-rate="0.2608695652173913" name="org.jfree.chart.util.LengthAdjustmentType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="59" />
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="67" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="3" number="78" />
+								<line branch="false" hits="3" number="79" />
+								<line branch="false" hits="3" number="80" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/util/ObjectList.java" line-rate="0.75" name="org.jfree.chart.util.ObjectList">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="8" number="60" />
+								<line branch="false" hits="8" number="61" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="get" signature="(I)Ljava/lang/Object;">
+							<lines>
+								<line branch="false" hits="10" number="87" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="indexOf" signature="(Ljava/lang/Object;)I">
+							<lines>
+								<line branch="false" hits="9" number="109" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="set" signature="(ILjava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="9" number="97" />
+								<line branch="false" hits="9" number="98" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.2105263157894735" filename="org/jfree/chart/util/ObjectUtilities.java" line-rate="0.0" name="org.jfree.chart.util.ObjectUtilities">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.7142857142857144" filename="org/jfree/chart/util/PaintList.java" line-rate="0.0" name="org.jfree.chart.util.PaintList">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/util/PublicCloneable.java" line-rate="1.0" name="org.jfree.chart.util.PublicCloneable">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.714285714285714" filename="org/jfree/chart/util/RectangleAnchor.java" line-rate="0.14285714285714285" name="org.jfree.chart.util.RectangleAnchor">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="40" />
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="48" />
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="72" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="9" number="83" />
+								<line branch="false" hits="9" number="84" />
+								<line branch="false" hits="9" number="85" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.2222222222222223" filename="org/jfree/chart/util/RectangleEdge.java" line-rate="0.0" name="org.jfree.chart.util.RectangleEdge">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.015625" complexity="2.4827586206896552" filename="org/jfree/chart/util/RectangleInsets.java" line-rate="0.07692307692307693" name="org.jfree.chart.util.RectangleInsets">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="42" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(DDDD)V">
+							<lines>
+								<line branch="false" hits="5" number="79" />
+								<line branch="false" hits="5" number="80" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.8888888888888888" name="&lt;init&gt;" signature="(Lorg/jfree/chart/util/UnitType;DDDD)V">
+							<lines>
+								<line branch="false" hits="6" number="93" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="94">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="97" />
+								<line branch="false" hits="6" number="98" />
+								<line branch="false" hits="6" number="99" />
+								<line branch="false" hits="6" number="100" />
+								<line branch="false" hits="6" number="101" />
+								<line branch="false" hits="6" number="102" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="org/jfree/chart/util/ShapeList.java" line-rate="0.0" name="org.jfree.chart.util.ShapeList">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.0" filename="org/jfree/chart/util/ShapeUtilities.java" line-rate="0.0" name="org.jfree.chart.util.ShapeUtilities">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8888888888888888" filename="org/jfree/chart/util/Size2D.java" line-rate="0.0" name="org.jfree.chart.util.Size2D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/util/SortOrder.java" line-rate="0.25" name="org.jfree.chart.util.SortOrder">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="36" />
+								<line branch="false" hits="1" number="40" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="2" number="51" />
+								<line branch="false" hits="2" number="52" />
+								<line branch="false" hits="2" number="53" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.857142857142857" filename="org/jfree/chart/util/StandardGradientPaintTransformer.java" line-rate="0.0" name="org.jfree.chart.util.StandardGradientPaintTransformer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="org/jfree/chart/util/StrokeList.java" line-rate="0.0" name="org.jfree.chart.util.StrokeList">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/util/UnitType.java" line-rate="0.25" name="org.jfree.chart.util.UnitType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="61" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="2" number="71" />
+								<line branch="false" hits="2" number="72" />
+								<line branch="false" hits="2" number="73" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/jfree/chart/util/VerticalAlignment.java" line-rate="0.0" name="org.jfree.chart.util.VerticalAlignment">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.007042253521126761" complexity="2.3333333333333335" line-rate="0.046762589928057555" name="org.jfree.data">
+			<classes>
+				<class branch-rate="0.0" complexity="2.5" filename="org/jfree/data/KeyedObject.java" line-rate="0.0" name="org.jfree.data.KeyedObject">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.076923076923077" filename="org/jfree/data/KeyedObjects.java" line-rate="0.0" name="org.jfree.data.KeyedObjects">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2857142857142856" filename="org/jfree/data/KeyedObjects2D.java" line-rate="0.0" name="org.jfree.data.KeyedObjects2D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/KeyedValues.java" line-rate="1.0" name="org.jfree.data.KeyedValues">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/KeyedValues2D.java" line-rate="1.0" name="org.jfree.data.KeyedValues2D">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.022727272727272728" complexity="2.9411764705882355" filename="org/jfree/data/Range.java" line-rate="0.1076923076923077" name="org.jfree.data.Range">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.7142857142857143" name="&lt;init&gt;" signature="(DD)V">
+							<lines>
+								<line branch="false" hits="5" number="85" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="5" number="86">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="5" number="91" />
+								<line branch="false" hits="5" number="92" />
+								<line branch="false" hits="5" number="93" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getLowerBound" signature="()D">
+							<lines>
+								<line branch="false" hits="4" number="101" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getUpperBound" signature="()D">
+							<lines>
+								<line branch="false" hits="4" number="110" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/RangeInfo.java" line-rate="1.0" name="org.jfree.data.RangeInfo">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/jfree/data/RangeType.java" line-rate="0.2608695652173913" name="org.jfree.data.RangeType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="65" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="3" number="76" />
+								<line branch="false" hits="3" number="77" />
+								<line branch="false" hits="3" number="78" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/Values.java" line-rate="1.0" name="org.jfree.data.Values">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/Values2D.java" line-rate="1.0" name="org.jfree.data.Values2D">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="0.0" line-rate="1.0" name="org.jfree.data.category">
+			<classes>
+				<class branch-rate="1.0" complexity="0.0" filename="org/jfree/data/category/CategoryDataset.java" line-rate="1.0" name="org.jfree.data.category.CategoryDataset">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="4.264705882352941" line-rate="0.005272407732864675" name="org.jfree.data.general">
+			<classes>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="org/jfree/data/general/AbstractDataset.java" line-rate="0.0" name="org.jfree.data.general.AbstractDataset">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/Dataset.java" line-rate="1.0" name="org.jfree.data.general.Dataset">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/DatasetChangeEvent.java" line-rate="0.75" name="org.jfree.data.general.DatasetChangeEvent">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/Object;Lorg/jfree/data/general/Dataset;)V">
+							<lines>
+								<line branch="false" hits="2" number="73" />
+								<line branch="false" hits="2" number="74" />
+								<line branch="false" hits="2" number="75" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/DatasetChangeListener.java" line-rate="1.0" name="org.jfree.data.general.DatasetChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6" filename="org/jfree/data/general/DatasetGroup.java" line-rate="0.0" name="org.jfree.data.general.DatasetGroup">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.121951219512195" filename="org/jfree/data/general/DatasetUtilities.java" line-rate="0.0" name="org.jfree.data.general.DatasetUtilities">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="org/jfree/data/general/PieDataset.java" line-rate="1.0" name="org.jfree.data.general.PieDataset">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/SeriesDataset.java" line-rate="1.0" name="org.jfree.data.general.SeriesDataset">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.2333333333333334" line-rate="0.0" name="org.jfree.data.statistics">
+			<classes>
+				<class branch-rate="0.0" complexity="2.380952380952381" filename="org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java" line-rate="0.0" name="org.jfree.data.statistics.DefaultStatisticalCategoryDataset">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6" filename="org/jfree/data/statistics/MeanAndStandardDeviation.java" line-rate="0.0" name="org.jfree.data.statistics.MeanAndStandardDeviation">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/statistics/StatisticalCategoryDataset.java" line-rate="1.0" name="org.jfree.data.statistics.StatisticalCategoryDataset">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.jfree.data.xy">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/xy/IntervalXYDataset.java" line-rate="1.0" name="org.jfree.data.xy.IntervalXYDataset">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/xy/XYDataset.java" line-rate="1.0" name="org.jfree.data.xy.XYDataset">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

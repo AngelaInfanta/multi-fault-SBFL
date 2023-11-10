@@ -1,0 +1,30 @@
+--- Overwrite: testExceptions
+128a129
+>         final char[] DUMMY = new char[]{'a'}; // valid char array
+138c139,143
+<             RandomStringUtils.random(-1, new char[0]);
+---
+>             RandomStringUtils.random(-1, DUMMY);
+>             fail();
+>         } catch (IllegalArgumentException ex) {}
+>         try {
+>             RandomStringUtils.random(1, new char[0]); // must not provide empty array => IAE
+145a151,154
+>             RandomStringUtils.random(-1, (String)null);
+>             fail();
+>         } catch (IllegalArgumentException ex) {}
+>         try {
+150c159
+<             RandomStringUtils.random(-1, 'a', 'z', false, false, new char[0]);
+---
+>             RandomStringUtils.random(-1, 'a', 'z', false, false, DUMMY);
+154c163
+<             RandomStringUtils.random(-1, 'a', 'z', false, false, new char[0], new Random());
+---
+>             RandomStringUtils.random(-1, 'a', 'z', false, false, DUMMY, new Random());
+--- Insert: testLANG805
+340a341,344
+>     public void testLANG805() {
+>         long seed = System.currentTimeMillis();
+>         assertEquals("aaa", RandomStringUtils.random(3,0,0,false,false,new char[]{'a'},new Random(seed)));
+>     }

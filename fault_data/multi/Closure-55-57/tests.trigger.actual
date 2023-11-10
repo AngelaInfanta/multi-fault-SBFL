@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.ClosureCodingConventionTest::testRequire
+com.google.javascript.jscomp.FunctionRewriterTest::testIssue538

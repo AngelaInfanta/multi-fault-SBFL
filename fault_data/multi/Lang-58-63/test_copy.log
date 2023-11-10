@@ -1,0 +1,7 @@
+--- Insert: testLang300
+1122a1123,1127
+>     public void testLang300() {
+>         NumberUtils.createNumber("-1l");
+>         NumberUtils.createNumber("01l");
+>         NumberUtils.createNumber("1l");
+>     }

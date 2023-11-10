@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew
+com.google.javascript.jscomp.parsing.ParserTest::testDestructuringAssignForbidden4

@@ -1,0 +1,133 @@
+<coverage branch-rate="0.044081632653061226" branches-covered="54" branches-valid="1225" complexity="5.126168224299065" line-rate="0.014074074074074074" lines-covered="19" lines-valid="1350" timestamp="1624290358422" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.046834345186470075" complexity="5.3125" line-rate="0.015447154471544716" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.25961538461538464" complexity="5.571428571428571" filename="org/apache/commons/lang/BooleanUtils.java" line-rate="0.11949685534591195" name="org.apache.commons.lang.BooleanUtils">
+					<methods>
+						<method branch-rate="0.84375" line-rate="1.0" name="toBoolean" signature="(Ljava/lang/String;)Z">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="39" number="613">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="614" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="38" number="616">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="617" />
+								<line branch="true" condition-coverage="100% (4/4)" hits="37" number="619">
+									<conditions>
+										<condition coverage="100%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="621" />
+								<line branch="false" hits="4" number="622" />
+								<line branch="true" condition-coverage="75% (6/8)" hits="4" number="623">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="100%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="12" number="628" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="12" number="629">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="87% (7/8)" hits="5" number="630">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="100%" number="2" type="jump" />
+										<condition coverage="100%" number="3" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="7" number="634">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="75% (6/8)" hits="4" number="635">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="100%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="21" number="641" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="21" number="642">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="83% (10/12)" hits="10" number="643">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="100%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+										<condition coverage="100%" number="4" type="jump" />
+										<condition coverage="100%" number="5" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="11" number="648">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="75% (9/12)" hits="8" number="649">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="100%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+										<condition coverage="100%" number="4" type="jump" />
+										<condition coverage="50%" number="5" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="656" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.863636363636363" filename="org/apache/commons/lang/ClassUtils.java" line-rate="0.0" name="org.apache.commons.lang.ClassUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/lang/NullArgumentException.java" line-rate="0.0" name="org.apache.commons.lang.NullArgumentException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.17910447761194" filename="org/apache/commons/lang/StringUtils.java" line-rate="0.0" name="org.apache.commons.lang.StringUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.5" line-rate="0.0" name="org.apache.commons.lang.enums">
+			<classes>
+				<class branch-rate="0.0" complexity="3.8823529411764706" filename="org/apache/commons/lang/enums/Enum.java" line-rate="0.0" name="org.apache.commons.lang.enums.Enum">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.8823529411764706" filename="org/apache/commons/lang/enums/Enum.java" line-rate="0.0" name="org.apache.commons.lang.enums.Enum$Entry">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2" filename="org/apache/commons/lang/enums/ValuedEnum.java" line-rate="0.0" name="org.apache.commons.lang.enums.ValuedEnum">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

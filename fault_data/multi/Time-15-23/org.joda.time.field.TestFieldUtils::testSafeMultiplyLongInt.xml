@@ -1,0 +1,154 @@
+<coverage branch-rate="0.00508130081300813" branches-covered="5" branches-valid="984" complexity="2.681592039800995" line-rate="0.00398406374501992" lines-covered="7" lines-valid="1757" timestamp="1624300520441" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="2.0" line-rate="0.0" name="org.joda.time">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/Chronology.java" line-rate="0.0" name="org.joda.time.Chronology">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.327272727272727" filename="org/joda/time/DateTimeZone.java" line-rate="0.0" name="org.joda.time.DateTimeZone">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.327272727272727" filename="org/joda/time/DateTimeZone.java" line-rate="0.0" name="org.joda.time.DateTimeZone$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.327272727272727" filename="org/joda/time/DateTimeZone.java" line-rate="0.0" name="org.joda.time.DateTimeZone$Stub">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4210526315789473" filename="org/joda/time/IllegalFieldValueException.java" line-rate="0.0" name="org.joda.time.IllegalFieldValueException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/JodaTimePermission.java" line-rate="0.0" name="org.joda.time.JodaTimePermission">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/ReadableInstant.java" line-rate="1.0" name="org.joda.time.ReadableInstant">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.1140350877192984" line-rate="0.0" name="org.joda.time.chrono">
+			<classes>
+				<class branch-rate="0.0" complexity="2.8979591836734695" filename="org/joda/time/chrono/AssembledChronology.java" line-rate="0.0" name="org.joda.time.chrono.AssembledChronology">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.8979591836734695" filename="org/joda/time/chrono/AssembledChronology.java" line-rate="0.0" name="org.joda.time.chrono.AssembledChronology$Fields">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.48" filename="org/joda/time/chrono/BaseChronology.java" line-rate="0.0" name="org.joda.time.chrono.BaseChronology">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6666666666666667" filename="org/joda/time/chrono/ISOChronology.java" line-rate="0.0" name="org.joda.time.chrono.ISOChronology">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.6666666666666667" filename="org/joda/time/chrono/ISOChronology.java" line-rate="0.0" name="org.joda.time.chrono.ISOChronology$Stub">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.08620689655172414" complexity="4.25" line-rate="0.1044776119402985" name="org.joda.time.field">
+			<classes>
+				<class branch-rate="0.08620689655172414" complexity="4.25" filename="org/joda/time/field/FieldUtils.java" line-rate="0.1044776119402985" name="org.joda.time.field.FieldUtils">
+					<methods>
+						<method branch-rate="0.8333333333333334" line-rate="0.875" name="safeMultiply" signature="(JI)J">
+							<lines>
+								<line branch="true" condition-coverage="100% (4/4)" hits="13" number="137">
+									<conditions>
+										<condition coverage="100%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="139" />
+								<line branch="false" hits="1" number="141" />
+								<line branch="false" hits="4" number="143" />
+								<line branch="false" hits="6" number="145" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="146">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="150" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.6544117647058822" line-rate="0.0" name="org.joda.time.tz">
+			<classes>
+				<class branch-rate="0.0" complexity="2.2777777777777777" filename="org/joda/time/tz/CachedDateTimeZone.java" line-rate="0.0" name="org.joda.time.tz.CachedDateTimeZone">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2777777777777777" filename="org/joda/time/tz/CachedDateTimeZone.java" line-rate="0.0" name="org.joda.time.tz.CachedDateTimeZone$Info">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.0" name="org.joda.time.tz.DateTimeZoneBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.0" name="org.joda.time.tz.DateTimeZoneBuilder$DSTZone">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.0" name="org.joda.time.tz.DateTimeZoneBuilder$OfYear">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.0" name="org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.0" name="org.joda.time.tz.DateTimeZoneBuilder$Recurrence">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.0" name="org.joda.time.tz.DateTimeZoneBuilder$Rule">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.0" name="org.joda.time.tz.DateTimeZoneBuilder$RuleSet">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.206896551724138" filename="org/joda/time/tz/DateTimeZoneBuilder.java" line-rate="0.0" name="org.joda.time.tz.DateTimeZoneBuilder$Transition">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6" filename="org/joda/time/tz/DefaultNameProvider.java" line-rate="0.0" name="org.joda.time.tz.DefaultNameProvider">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.9090909090909092" filename="org/joda/time/tz/FixedDateTimeZone.java" line-rate="0.0" name="org.joda.time.tz.FixedDateTimeZone">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/tz/NameProvider.java" line-rate="1.0" name="org.joda.time.tz.NameProvider">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/joda/time/tz/Provider.java" line-rate="1.0" name="org.joda.time.tz.Provider">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.2727272727272725" filename="org/joda/time/tz/ZoneInfoProvider.java" line-rate="0.0" name="org.joda.time.tz.ZoneInfoProvider">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,10 @@
+--- Insert: testIssue
+517a518,521
+>   public void testIssue() {
+>     super.allowExternsChanges(true);
+>     test("var a,b,c; var a,b", "a(), b()", "a(), b()", null, null);
+>   }
+--- Exist: testPropReferenceInExterns1
+--- Exist: testPropReferenceInExterns3
+--- Exist: testVarReferenceInExterns
+--- Exist: testCallInExterns

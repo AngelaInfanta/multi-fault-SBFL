@@ -1,0 +1,269 @@
+<coverage branch-rate="0.08860759493670886" branches-covered="14" branches-valid="158" complexity="1.7122302158273381" line-rate="0.13655462184873948" lines-covered="65" lines-valid="476" timestamp="1624314452845" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.1224489795918366" line-rate="0.1" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.0" name="org.apache.commons.math.ConvergenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergingAlgorithm.java" line-rate="1.0" name="org.apache.commons.math.ConvergingAlgorithm">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergingAlgorithmImpl.java" line-rate="0.4" name="org.apache.commons.math.ConvergingAlgorithmImpl">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(ID)V">
+							<lines>
+								<line branch="false" hits="1" number="61" />
+								<line branch="false" hits="1" number="62" />
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="69" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getAbsoluteAccuracy" signature="()D">
+							<lines>
+								<line branch="false" hits="3" number="83" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/FunctionEvaluationException.java" line-rate="0.0" name="org.apache.commons.math.FunctionEvaluationException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math/MathException.java" line-rate="0.0" name="org.apache.commons.math.MathException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/MaxIterationsExceededException.java" line-rate="0.0" name="org.apache.commons.math.MaxIterationsExceededException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math.analysis">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/DifferentiableUnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.DifferentiableUnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.UnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.1891891891891892" complexity="2.46875" line-rate="0.36666666666666664" name="org.apache.commons.math.analysis.solvers">
+			<classes>
+				<class branch-rate="0.19230769230769232" complexity="5.714285714285714" filename="org/apache/commons/math/analysis/solvers/BrentSolver.java" line-rate="0.38" name="org.apache.commons.math.analysis.solvers.BrentSolver">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="57" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.7" name="solve" signature="(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DD)D">
+							<lines>
+								<line branch="false" hits="2" number="158" />
+								<line branch="false" hits="2" number="159" />
+								<line branch="false" hits="2" number="161" />
+								<line branch="false" hits="2" number="163" />
+								<line branch="false" hits="2" number="164" />
+								<line branch="false" hits="2" number="167" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="168">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="170">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="173">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="174" />
+								<line branch="false" hits="1" number="175" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="183">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="185" />
+								<line branch="false" hits="2" number="195" />
+							</lines>
+						</method>
+						<method branch-rate="0.2" line-rate="0.42105263157894735" name="solve" signature="(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D">
+							<lines>
+								<line branch="false" hits="1" number="97" />
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="101" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="102">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="108" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="109">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="110" />
+								<line branch="false" hits="1" number="111" />
+								</lines>
+						</method>
+						<method branch-rate="0.09375" line-rate="0.2545454545454545" name="solve" signature="(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D">
+							<lines>
+								<line branch="false" hits="1" number="221" />
+								<line branch="false" hits="1" number="222" />
+								<line branch="false" hits="1" number="224" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="225">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="226">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="228" />
+								<line branch="false" hits="1" number="229" />
+								<line branch="false" hits="1" number="230" />
+								<line branch="false" hits="1" number="231" />
+								<line branch="false" hits="1" number="232" />
+								<line branch="false" hits="1" number="233" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="235">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="239" />
+								<line branch="false" hits="1" number="240" />
+								</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/solvers/UnivariateRealSolver.java" line-rate="1.0" name="org.apache.commons.math.analysis.solvers.UnivariateRealSolver">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.18181818181818182" complexity="1.875" filename="org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl.java" line-rate="0.34" name="org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(ID)V">
+							<lines>
+								<line branch="false" hits="1" number="41" />
+								<line branch="false" hits="1" number="93" />
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="95" />
+								<line branch="false" hits="1" number="96" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="clearResult" signature="()V">
+							<lines>
+								<line branch="false" hits="3" number="165" />
+								<line branch="false" hits="3" number="166" />
+								<line branch="false" hits="3" number="167" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="isSequence" signature="(DDD)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="196">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setResult" signature="(DI)V">
+							<lines>
+								<line branch="false" hits="3" number="141" />
+								<line branch="false" hits="3" number="142" />
+								<line branch="false" hits="3" number="143" />
+								<line branch="false" hits="3" number="144" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="verifyInterval" signature="(DD)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="208">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="213" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="verifySequence" signature="(DDD)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="225">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="230" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="0.0" name="org.apache.commons.math.ode">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ode/DerivativeException.java" line-rate="0.0" name="org.apache.commons.math.ode.DerivativeException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.823529411764706" line-rate="0.0" name="org.apache.commons.math.ode.events">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ode/events/EventException.java" line-rate="0.0" name="org.apache.commons.math.ode.events.EventException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ode/events/EventHandler.java" line-rate="1.0" name="org.apache.commons.math.ode.events.EventHandler">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.5833333333333335" filename="org/apache/commons/math/ode/events/EventState.java" line-rate="0.0" name="org.apache.commons.math.ode.events.EventState">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.5833333333333335" filename="org/apache/commons/math/ode/events/EventState.java" line-rate="0.0" name="org.apache.commons.math.ode.events.EventState$1">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.4054054054054055" line-rate="0.0" name="org.apache.commons.math.ode.sampling">
+			<classes>
+				<class branch-rate="0.0" complexity="1.6818181818181819" filename="org/apache/commons/math/ode/sampling/AbstractStepInterpolator.java" line-rate="0.0" name="org.apache.commons.math.ode.sampling.AbstractStepInterpolator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ode/sampling/DummyStepInterpolator.java" line-rate="0.0" name="org.apache.commons.math.ode.sampling.DummyStepInterpolator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ode/sampling/StepInterpolator.java" line-rate="1.0" name="org.apache.commons.math.ode.sampling.StepInterpolator">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

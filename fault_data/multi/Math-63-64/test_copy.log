@@ -1,0 +1,16 @@
+--- Overwrite: testArrayEquals
+450c450
+<                                       Double.NaN, Double.POSITIVE_INFINITY,
+---
+>                                       Double.POSITIVE_INFINITY,
+453c453
+<                                       Double.NaN, Double.POSITIVE_INFINITY,
+---
+>                                       Double.POSITIVE_INFINITY,
+455a456,457
+>         assertFalse(MathUtils.equals(new double[] { Double.NaN },
+>                                      new double[] { Double.NaN }));
+459c461
+<                                      new double[] { MathUtils.nextAfter(1d, 2d) }));
+---
+>                                      new double[] { FastMath.nextAfter(FastMath.nextAfter(1d, 2d), 2d) }));

@@ -1,0 +1,43 @@
+--- Exist: testXYAutoRange1
+--- Exist: testXYAutoRange2
+--- Exist: testXYAutoRange1
+--- Exist: testXYAutoRange2
+--- Exist: testAxisMargins
+--- Exist: testSerialization4
+--- Exist: testDrawWithNullInfo
+--- Overwrite: testSetSeriesToolTipGenerator
+162c162
+<         XYToolTipGenerator tt2 = renderer.getToolTipGenerator(0, 0);
+---
+>         XYToolTipGenerator tt2 = renderer.getToolTipGenerator(0, 0, false);
+--- Exist: testReplaceDataset
+--- Exist: testDrawWithNullInfo
+--- Overwrite: testSetSeriesToolTipGenerator
+157c157
+<         XYToolTipGenerator tt2 = renderer.getToolTipGenerator(0, 0);
+---
+>         XYToolTipGenerator tt2 = renderer.getToolTipGenerator(0, 0, false);
+--- Exist: testReplaceDataset
+--- Exist: testDrawWithNullInfo
+--- Overwrite: testSetSeriesToolTipGenerator
+158c158,159
+<         XYToolTipGenerator tt2 = renderer.getToolTipGenerator(0, 0);
+---
+>         XYToolTipGenerator tt2 = renderer.getToolTipGenerator(0, 0,
+>                 false);
+--- Exist: testReplaceDataset
+--- Exist: testDrawWithNullInfo
+--- Overwrite: testSetSeriesToolTipGenerator
+158c158
+<         XYToolTipGenerator tt2 = renderer.getToolTipGenerator(0, 0);
+---
+>         XYToolTipGenerator tt2 = renderer.getToolTipGenerator(0, 0, false);
+--- Exist: testReplaceDataset
+--- Exist: testDrawWithNullInfo
+--- Overwrite: testSetSeriesToolTipGenerator
+158c158
+<         XYToolTipGenerator tt2 = renderer.getToolTipGenerator(0, 0);
+---
+>         XYToolTipGenerator tt2 = renderer.getToolTipGenerator(0, 0, false);
+--- Exist: testReplaceDataset
+--- Exist: testDrawRangeGridlines

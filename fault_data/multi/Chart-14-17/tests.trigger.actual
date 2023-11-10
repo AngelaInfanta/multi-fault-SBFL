@@ -1,0 +1,5 @@
+org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveRangeMarker
+org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveDomainMarker
+org.jfree.chart.plot.junit.XYPlotTests::testRemoveRangeMarker
+org.jfree.chart.plot.junit.XYPlotTests::testRemoveDomainMarker
+org.jfree.data.time.junit.TimeSeriesTests::testBug1832432

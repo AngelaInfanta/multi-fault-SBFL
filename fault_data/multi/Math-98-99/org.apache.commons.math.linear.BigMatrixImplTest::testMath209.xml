@@ -1,0 +1,176 @@
+<coverage branch-rate="0.018376722817764167" branches-covered="12" branches-valid="653" complexity="2.256880733944954" line-rate="0.03148854961832061" lines-covered="33" lines-valid="1048" timestamp="1623862381538" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.2857142857142858" line-rate="0.0" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="0.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$6">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$7">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$8">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.032432432432432434" complexity="2.4" line-rate="0.04564315352697095" name="org.apache.commons.math.linear">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/BigMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.BigMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.043478260869565216" complexity="4.112903225806452" filename="org/apache/commons/math/linear/BigMatrixImpl.java" line-rate="0.06457925636007827" name="org.apache.commons.math.linear.BigMatrixImpl">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="80" />
+								<line branch="false" hits="1" number="83" />
+								<line branch="false" hits="1" number="85" />
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.5" name="&lt;init&gt;" signature="([Ljava/math/BigDecimal;)V">
+							<lines>
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="68" />
+								<line branch="false" hits="1" number="71" />
+								<line branch="false" hits="1" number="74" />
+								<line branch="false" hits="1" number="77" />
+								</lines>
+						</method>
+						<method branch-rate="0.5833333333333334" line-rate="0.7058823529411765" name="&lt;init&gt;" signature="([[Ljava/math/BigDecimal;Z)V">
+							<lines>
+								<line branch="false" hits="1" number="142" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="143">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="146">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="149" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="150">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="153" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="154">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="157">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="158">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="162" />
+								<line branch="false" hits="1" number="164" />
+								<line branch="false" hits="1" number="165" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getColumnDimension" signature="()I">
+							<lines>
+								<line branch="false" hits="2" number="979" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRowDimension" signature="()I">
+							<lines>
+								<line branch="false" hits="2" number="970" />
+							</lines>
+						</method>
+						<method branch-rate="0.8333333333333334" line-rate="0.9090909090909091" name="operate" signature="([Ljava/math/BigDecimal;)[Ljava/math/BigDecimal;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="1009">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="1012" />
+								<line branch="false" hits="1" number="1013" />
+								<line branch="false" hits="1" number="1014" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="4" number="1015">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="1016" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="9" number="1017">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="1018" />
+								<line branch="false" hits="3" number="1020" />
+								<line branch="false" hits="1" number="1022" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/InvalidMatrixException.java" line-rate="0.0" name="org.apache.commons.math.linear.InvalidMatrixException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/MatrixIndexException.java" line-rate="0.0" name="org.apache.commons.math.linear.MatrixIndexException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/linear/RealMatrix.java" line-rate="1.0" name="org.apache.commons.math.linear.RealMatrix">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.1470588235294117" filename="org/apache/commons/math/linear/RealMatrixImpl.java" line-rate="0.0" name="org.apache.commons.math.linear.RealMatrixImpl">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="0.0" line-rate="0.0" name="org.apache.commons.math.util">
+			<classes>
+				<class branch-rate="0.0" complexity="0.0" filename="org/apache/commons/math/util/MathUtils.java" line-rate="0.0" name="org.apache.commons.math.util.MathUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

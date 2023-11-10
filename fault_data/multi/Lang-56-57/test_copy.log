@@ -1,0 +1,6 @@
+--- Insert: testLang303
+282a283,286
+>     public void testLang303() {
+>         FastDateFormat format = FastDateFormat.getInstance("yyyy/MM/dd");
+>         format = (FastDateFormat) SerializationUtils.deserialize( SerializationUtils.serialize( format ) );
+>     }

@@ -1,0 +1,13 @@
+--- Overwrite: testAddNaN
+100a101
+>     @Test
+104c105
+<         assertTrue(z.isNaN());
+---
+>         Assert.assertTrue(z.isNaN());
+107,108c108,109
+<         assertEquals(w.getReal(), 4.0, 0);
+<         assertTrue(Double.isNaN(w.getImaginary()));
+---
+>         Assert.assertTrue(Double.isNaN(w.getReal()));
+>         Assert.assertTrue(Double.isNaN(w.getImaginary()));

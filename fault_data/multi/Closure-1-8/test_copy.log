@@ -1,0 +1,45 @@
+--- Insert: testSimpleModeLeavesUnusedParams
+1279a1280,1283
+>   public void testSimpleModeLeavesUnusedParams() {
+>     args.add("--compilation_level=SIMPLE_OPTIMIZATIONS");
+>     testSame("window.f = function(a) {};");
+>   }
+--- Overwrite: testForwardDeclareDroppedTypes
+742c742
+<            "var beer = {}; function f() {}",
+---
+>            "var beer = {}; function f(a) {}",
+751c751
+<            "var beer = {}; function f() {}",
+---
+>            "var beer = {}; function f(a) {}",
+--- Overwrite: testDebugFlag1
+459c459
+<          "function foo() {}");
+---
+>          "function foo(a) {}");
+--- Overwrite: testIssue787
+2270c2270
+<         "  any_expression && (b = external_ref, a = function() {\n" +
+---
+>         "  any_expression && (b = external_ref, a = function(a) {\n" +
+--- Overwrite: testRemoveGlobal1
+247c247
+<     test("var y=function(x){var z;}", "var y=function(){}");
+---
+>     test("var y=function(x){var z;}", "var y=function(x){}");
+--- Overwrite: testRemoveGlobal2
+253c253
+<     test("function y(x){var z;}", "function y(){}");
+---
+>     test("function y(x){var z;}", "function y(x){}");
+--- Overwrite: testRemoveGlobal3
+260c260
+<          "function x(){function y(){}y()}");
+---
+>          "function x(){function y(x){}y()}");
+--- Overwrite: testIssue168b
+289c289
+<          "function a(){(function(){b()})(1)}" +
+---
+>          "function a(){(function(x){b()})(1)}" +

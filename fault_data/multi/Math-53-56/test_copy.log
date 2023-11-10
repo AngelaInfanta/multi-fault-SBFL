@@ -1,0 +1,5 @@
+--- Overwrite: testAddNaN
+115c115
+<         Assert.assertEquals(w.getReal(), 4.0, 0);
+---
+>         Assert.assertTrue(Double.isNaN(w.getReal()));

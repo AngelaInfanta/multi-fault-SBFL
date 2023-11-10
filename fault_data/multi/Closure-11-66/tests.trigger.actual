@@ -1,0 +1,4 @@
+com.google.javascript.jscomp.TypeCheckTest::testGetprop4
+com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent5
+com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent6
+com.google.javascript.jscomp.TypeCheckTest::testIssue810

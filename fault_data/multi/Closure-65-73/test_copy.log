@@ -1,0 +1,10 @@
+--- Overwrite: testZero
+1207,1209c1207,1210
+<     assertPrint("var x ='\\0';", "var x=\"\\0\"");
+<     assertPrint("var x ='\\x00';", "var x=\"\\0\"");
+<     assertPrint("var x ='\\u0000';", "var x=\"\\0\"");
+---
+>     assertPrint("var x ='\\0';", "var x=\"\\000\"");
+>     assertPrint("var x ='\\x00';", "var x=\"\\000\"");
+>     assertPrint("var x ='\\u0000';", "var x=\"\\000\"");
+>     assertPrint("var x ='\\u00003';", "var x=\"\\0003\"");

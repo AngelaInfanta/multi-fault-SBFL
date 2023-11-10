@@ -1,0 +1,88 @@
+<coverage branch-rate="0.008620689655172414" branches-covered="1" branches-valid="116" complexity="1.9456521739130435" line-rate="0.02786377708978328" lines-covered="9" lines-valid="323" timestamp="1624317025588" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.45" line-rate="0.0" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.0" name="org.apache.commons.math.ConvergenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6923076923076923" filename="org/apache/commons/math/MathException.java" line-rate="0.0" name="org.apache.commons.math.MathException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/MaxIterationsExceededException.java" line-rate="0.0" name="org.apache.commons.math.MaxIterationsExceededException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.1136363636363638" line-rate="0.0" name="org.apache.commons.math.analysis">
+			<classes>
+				<class branch-rate="0.0" complexity="8.75" filename="org/apache/commons/math/analysis/BrentSolver.java" line-rate="0.0" name="org.apache.commons.math.analysis.BrentSolver">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/DifferentiableUnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.DifferentiableUnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.UnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealSolver.java" line-rate="1.0" name="org.apache.commons.math.analysis.UnivariateRealSolver">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8181818181818181" filename="org/apache/commons/math/analysis/UnivariateRealSolverImpl.java" line-rate="0.0" name="org.apache.commons.math.analysis.UnivariateRealSolverImpl">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.03125" complexity="2.0357142857142856" line-rate="0.08571428571428572" name="org.apache.commons.math.stat">
+			<classes>
+				<class branch-rate="0.03125" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="0.08737864077669903" name="org.apache.commons.math.stat.Frequency">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="0.25" name="&lt;init&gt;" signature="(Ljava/util/Comparator;)V">
+							<lines>
+								<line branch="false" hits="1" number="47" />
+								</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="0.45454545454545453" name="addValue" signature="(Ljava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="1" number="97" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="98">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="102" />
+								<line branch="false" hits="1" number="108" />
+								<line branch="false" hits="1" number="110" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="1.0" name="org.apache.commons.math.stat.Frequency$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="0.0" name="org.apache.commons.math.stat.Frequency$NaturalComparator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,10 @@
+--- Overwrite: testRecursiveRecord
+58a59,60
+>     assertEquals("{loop: ?, number: number, string: string}",
+>         record.toAnnotationString());
+--- Overwrite: testLongToString
+75a76,79
+>     assertEquals(
+>         "{a1: number, a2: number, a3: number, a4: number," +
+>         " a5: number, a6: number}",
+>         record.toAnnotationString());

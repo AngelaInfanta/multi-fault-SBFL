@@ -1,0 +1,32 @@
+--- Overwrite: testTanhInf
+1041,1042c1041,1042
+<         TestUtils.assertSame(nanZero, infOne.tanh());
+<         TestUtils.assertSame(nanZero, negInfOne.tanh());
+---
+>         TestUtils.assertSame(Complex.valueOf(1.0, 0.0), infOne.tanh());
+>         TestUtils.assertSame(Complex.valueOf(-1.0, 0.0), negInfOne.tanh());
+--- Overwrite: testTan
+999a1000,1006
+>         /* Check that no overflow occurs (MATH-722) */
+>         Complex actual = new Complex(3.0, 1E10).tan();
+>         expected = new Complex(0, 1);
+>         TestUtils.assertEquals(expected, actual, 1.0e-5);
+>         actual = new Complex(3.0, -1E10).tan();
+>         expected = new Complex(0, -1);
+>         TestUtils.assertEquals(expected, actual, 1.0e-5);
+--- Overwrite: testTanh
+1036a1037,1043
+>         /* Check that no overflow occurs (MATH-722) */
+>         Complex actual = new Complex(1E10, 3.0).tanh();
+>         expected = new Complex(1, 0);
+>         TestUtils.assertEquals(expected, actual, 1.0e-5);
+>         actual = new Complex(-1E10, 3.0).tanh();
+>         expected = new Complex(-1, 0);
+>         TestUtils.assertEquals(expected, actual, 1.0e-5);
+--- Overwrite: testTanInf
+1016,1017c1016,1017
+<         TestUtils.assertSame(zeroNaN, oneInf.tan());
+<         TestUtils.assertSame(zeroNaN, oneNegInf.tan());
+---
+>         TestUtils.assertSame(Complex.valueOf(0.0, 1.0), oneInf.tan());
+>         TestUtils.assertSame(Complex.valueOf(0.0, -1.0), oneNegInf.tan());

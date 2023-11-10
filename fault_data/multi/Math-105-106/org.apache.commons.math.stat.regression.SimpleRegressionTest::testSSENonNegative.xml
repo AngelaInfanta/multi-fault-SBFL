@@ -1,0 +1,80 @@
+<coverage branch-rate="0.03125" branches-covered="2" branches-valid="64" complexity="1.873015873015873" line-rate="0.09803921568627451" lines-covered="25" lines-valid="255" timestamp="1623863281450" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.25" line-rate="0.0" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.0" name="org.apache.commons.math.ConvergenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.375" filename="org/apache/commons/math/MathException.java" line-rate="0.0" name="org.apache.commons.math.MathException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.310344827586207" line-rate="0.0" name="org.apache.commons.math.fraction">
+			<classes>
+				<class branch-rate="0.0" complexity="2.0454545454545454" filename="org/apache/commons/math/fraction/FractionFormat.java" line-rate="0.0" name="org.apache.commons.math.fraction.FractionFormat">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.142857142857143" filename="org/apache/commons/math/fraction/ProperFractionFormat.java" line-rate="0.0" name="org.apache.commons.math.fraction.ProperFractionFormat">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.1111111111111111" complexity="1.6363636363636365" line-rate="0.36764705882352944" name="org.apache.commons.math.stat.regression">
+			<classes>
+				<class branch-rate="0.1111111111111111" complexity="1.6363636363636365" filename="org/apache/commons/math/stat/regression/SimpleRegression.java" line-rate="0.36764705882352944" name="org.apache.commons.math.stat.regression.SimpleRegression">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="69" />
+								<line branch="false" hits="1" number="72" />
+								<line branch="false" hits="1" number="75" />
+								<line branch="false" hits="1" number="78" />
+								<line branch="false" hits="1" number="81" />
+								<line branch="false" hits="1" number="89" />
+								<line branch="false" hits="1" number="90" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="addData" signature="(DD)V">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="106">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="107" />
+								<line branch="false" hits="1" number="108" />
+								<line branch="false" hits="2" number="110" />
+								<line branch="false" hits="2" number="111" />
+								<line branch="false" hits="2" number="112" />
+								<line branch="false" hits="2" number="113" />
+								<line branch="false" hits="2" number="114" />
+								<line branch="false" hits="2" number="115" />
+								<line branch="false" hits="2" number="116" />
+								<line branch="false" hits="3" number="118" />
+								<line branch="false" hits="3" number="119" />
+								<line branch="false" hits="3" number="120" />
+								<line branch="false" hits="3" number="121" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getSumSquaredErrors" signature="()D">
+							<lines>
+								<line branch="false" hits="1" number="249" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

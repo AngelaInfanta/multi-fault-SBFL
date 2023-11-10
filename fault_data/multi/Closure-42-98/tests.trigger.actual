@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.InlineVariablesTest::testNoInlineAliasesInLoop
+com.google.javascript.jscomp.parsing.ParserTest::testForEach

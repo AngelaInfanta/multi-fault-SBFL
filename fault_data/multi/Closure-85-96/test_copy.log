@@ -1,0 +1,41 @@
+--- Overwrite: testCascadedRemovalOfUnlessUnconditonalJumps
+236a237,239
+>          "switch (a) { case 'a': break; case 'b': case 'c': }");
+>     // Only one break removed per pass.
+>     test("switch (a) { case 'a': break; case 'b': case 'c': }",
+237a241
+> 
+239,240c243,248
+<          "  switch (a) { case 'a':return; case 'b':return; case 'c':return }}",
+<          "function foo() { switch (a) { case 'a': case 'b': case 'c': }}");
+---
+>       "  switch (a) { case 'a':return; case 'b':return; case 'c':return }}",
+>       "function foo() { switch (a) { case 'a':return; case 'b': case 'c': }}");
+>     test("function foo() {" +
+>       "  switch (a) { case 'a':return; case 'b': case 'c': }}",
+>       "function foo() { switch (a) { case 'a': case 'b': case 'c': }}");
+> 
+--- Insert: testIssue311
+251a252,273
+>   public void testIssue311() {
+>     test("function a(b) {\n" +
+>          "  switch (b.v) {\n" +
+>          "    case 'SWITCH':\n" +
+>          "      if (b.i >= 0) {\n" +
+>          "        return b.o;\n" +
+>          "      } else {\n" +
+>          "        return;\n" +
+>          "      }\n" +
+>          "      break;\n" +
+>          "  }\n" +
+>          "}",
+>          "function a(b) {\n" +
+>          "  switch (b.v) {\n" +
+>          "    case 'SWITCH':\n" +
+>          "      if (b.i >= 0) {\n" +
+>          "        return b.o;\n" +
+>          "      } else {\n" +
+>          "      }\n" +
+>          "  }\n" +
+>          "}");
+>   }

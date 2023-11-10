@@ -1,0 +1,64 @@
+<coverage branch-rate="7.58150113722517E-4" branches-covered="1" branches-valid="1319" complexity="5.49537037037037" line-rate="0.008513425016371971" lines-covered="13" lines-valid="1527" timestamp="1623790160387" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0011123470522803114" complexity="4.950920245398773" line-rate="0.011882998171846435" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.015625" complexity="5.444444444444445" filename="org/apache/commons/lang/LocaleUtils.java" line-rate="0.17105263157894737" name="org.apache.commons.lang.LocaleUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="47" />
+								<line branch="false" hits="1" number="49" />
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="availableLocaleList" signature="()Ljava/util/List;">
+							<lines>
+								<line branch="false" hits="1" number="192" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="availableLocaleSet" signature="()Ljava/util/Set;">
+							<lines>
+								<line branch="false" hits="1" number="206" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="207">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="208" />
+								<line branch="false" hits="1" number="209" />
+								<line branch="false" hits="1" number="210" />
+								<line branch="false" hits="1" number="212" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isAvailableLocale" signature="(Ljava/util/Locale;)Z">
+							<lines>
+								<line branch="false" hits="7" number="223" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.188405797101449" filename="org/apache/commons/lang/StringUtils.java" line-rate="0.0" name="org.apache.commons.lang.StringUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.625" filename="org/apache/commons/lang/SystemUtils.java" line-rate="0.0" name="org.apache.commons.lang.SystemUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="7.169811320754717" line-rate="0.0" name="org.apache.commons.lang.math">
+			<classes>
+				<class branch-rate="0.0" complexity="7.169811320754717" filename="org/apache/commons/lang/math/NumberUtils.java" line-rate="0.0" name="org.apache.commons.lang.math.NumberUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,96 @@
+<coverage branch-rate="0.0031746031746031746" branches-covered="1" branches-valid="315" complexity="1.6607142857142858" line-rate="0.020930232558139535" lines-covered="9" lines-valid="430" timestamp="1624317100817" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.2857142857142858" line-rate="0.0" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="0.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$6">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$7">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2857142857142858" filename="org/apache/commons/math/MathRuntimeException.java" line-rate="0.0" name="org.apache.commons.math.MathRuntimeException$8">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.03125" complexity="2.0357142857142856" line-rate="0.08571428571428572" name="org.apache.commons.math.stat">
+			<classes>
+				<class branch-rate="0.03125" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="0.08737864077669903" name="org.apache.commons.math.stat.Frequency">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="0.25" name="&lt;init&gt;" signature="(Ljava/util/Comparator;)V">
+							<lines>
+								<line branch="false" hits="1" number="47" />
+								</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="0.45454545454545453" name="addValue" signature="(Ljava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="1" number="97" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="98">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="102" />
+								<line branch="false" hits="1" number="108" />
+								<line branch="false" hits="1" number="110" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="1.0" name="org.apache.commons.math.stat.Frequency$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="0.0" name="org.apache.commons.math.stat.Frequency$NaturalComparator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="0.0" line-rate="0.0" name="org.apache.commons.math.util">
+			<classes>
+				<class branch-rate="0.0" complexity="0.0" filename="org/apache/commons/math/util/MathUtils.java" line-rate="0.0" name="org.apache.commons.math.util.MathUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

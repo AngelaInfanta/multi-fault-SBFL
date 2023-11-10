@@ -1,0 +1,223 @@
+<coverage branch-rate="0.015730337078651686" branches-covered="7" branches-valid="445" complexity="1.8043478260869565" line-rate="0.05649717514124294" lines-covered="40" lines-valid="708" timestamp="1623856055458" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.1935483870967742" line-rate="0.0" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.0" name="org.apache.commons.math.ConvergenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/FunctionEvaluationException.java" line-rate="0.0" name="org.apache.commons.math.FunctionEvaluationException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math/MathException.java" line-rate="0.0" name="org.apache.commons.math.MathException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/MaxEvaluationsExceededException.java" line-rate="0.0" name="org.apache.commons.math.MaxEvaluationsExceededException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/MaxIterationsExceededException.java" line-rate="0.0" name="org.apache.commons.math.MaxIterationsExceededException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math.analysis">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/MultivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.MultivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.1" line-rate="0.0" name="org.apache.commons.math.optimization">
+			<classes>
+				<class branch-rate="1.0" complexity="0.0" filename="org/apache/commons/math/optimization/GoalType.java" line-rate="0.0" name="org.apache.commons.math.optimization.GoalType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/optimization/MultivariateRealOptimizer.java" line-rate="1.0" name="org.apache.commons.math.optimization.MultivariateRealOptimizer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/optimization/OptimizationException.java" line-rate="0.0" name="org.apache.commons.math.optimization.OptimizationException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/optimization/RealConvergenceChecker.java" line-rate="1.0" name="org.apache.commons.math.optimization.RealConvergenceChecker">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.2" filename="org/apache/commons/math/optimization/RealPointValuePair.java" line-rate="0.0" name="org.apache.commons.math.optimization.RealPointValuePair">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="org/apache/commons/math/optimization/SimpleScalarValueChecker.java" line-rate="0.0" name="org.apache.commons.math.optimization.SimpleScalarValueChecker">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.8260869565217392" line-rate="0.0" name="org.apache.commons.math.optimization.direct">
+			<classes>
+				<class branch-rate="0.0" complexity="2.8421052631578947" filename="org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java" line-rate="0.0" name="org.apache.commons.math.optimization.direct.DirectSearchOptimizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.8421052631578947" filename="org/apache/commons/math/optimization/direct/DirectSearchOptimizer.java" line-rate="0.0" name="org.apache.commons.math.optimization.direct.DirectSearchOptimizer$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.75" filename="org/apache/commons/math/optimization/direct/MultiDirectional.java" line-rate="0.0" name="org.apache.commons.math.optimization.direct.MultiDirectional">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.125" complexity="2.411764705882353" line-rate="0.36666666666666664" name="org.apache.commons.math.stat.clustering">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/stat/clustering/Cluster.java" line-rate="0.625" name="org.apache.commons.math.stat.clustering.Cluster">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lorg/apache/commons/math/stat/clustering/Clusterable;)V">
+							<lines>
+								<line branch="false" hits="1" number="45" />
+								<line branch="false" hits="1" number="46" />
+								<line branch="false" hits="1" number="47" />
+								<line branch="false" hits="1" number="48" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getCenter" signature="()Lorg/apache/commons/math/stat/clustering/Clusterable;">
+							<lines>
+								<line branch="false" hits="1" number="71" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/stat/clustering/Clusterable.java" line-rate="1.0" name="org.apache.commons.math.stat.clustering.Clusterable">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.8333333333333335" filename="org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java" line-rate="0.2222222222222222" name="org.apache.commons.math.stat.clustering.EuclideanIntegerPoint">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="([I)V">
+							<lines>
+								<line branch="false" hits="2" number="43" />
+								<line branch="false" hits="2" number="44" />
+								<line branch="false" hits="2" number="45" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="distanceFrom" signature="(Ljava/lang/Object;)D">
+							<lines>
+								<line branch="false" hits="1" number="30" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="distanceFrom" signature="(Lorg/apache/commons/math/stat/clustering/EuclideanIntegerPoint;)D">
+							<lines>
+								<line branch="false" hits="1" number="57" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getPoint" signature="()[I">
+							<lines>
+								<line branch="false" hits="1" number="52" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.20833333333333334" complexity="3.6" filename="org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java" line-rate="0.4" name="org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/util/Random;)V">
+							<lines>
+								<line branch="false" hits="1" number="40" />
+								<line branch="false" hits="1" number="41" />
+								<line branch="false" hits="1" number="42" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6" name="assignPointsToClusters" signature="(Ljava/util/Collection;Ljava/util/Collection;)V">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="89">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="90" />
+								<line branch="false" hits="1" number="91" />
+								</lines>
+						</method>
+						<method branch-rate="0.125" line-rate="0.3333333333333333" name="chooseInitialCenters" signature="(Ljava/util/Collection;ILjava/util/Random;)Ljava/util/List;">
+							<lines>
+								<line branch="false" hits="1" number="107" />
+								<line branch="false" hits="1" number="108" />
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="1" number="112" />
+								<line branch="false" hits="1" number="114" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="115">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="139" />
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.11764705882352941" name="cluster" signature="(Ljava/util/Collection;II)Ljava/util/List;">
+							<lines>
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="57" />
+								</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.7777777777777778" name="getNearestCluster" signature="(Ljava/util/Collection;Lorg/apache/commons/math/stat/clustering/Clusterable;)Lorg/apache/commons/math/stat/clustering/Cluster;">
+							<lines>
+								<line branch="false" hits="1" number="153" />
+								<line branch="false" hits="1" number="154" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="1" number="155">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="156" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="157">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="161" />
+								<line branch="false" hits="1" number="162" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0060790273556231" complexity="0.0" line-rate="0.01907356948228883" name="org.apache.commons.math.util">
+			<classes>
+				<class branch-rate="0.0060790273556231" complexity="0.0" filename="org/apache/commons/math/util/MathUtils.java" line-rate="0.01907356948228883" name="org.apache.commons.math.util.MathUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="30" />
+								<line branch="false" hits="1" number="473" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="distance" signature="([I[I)D">
+							<lines>
+								<line branch="false" hits="1" number="1559" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="1560">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="1561" />
+								<line branch="false" hits="2" number="1562" />
+								<line branch="false" hits="1" number="1564" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

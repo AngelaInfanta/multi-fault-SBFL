@@ -1,0 +1,6 @@
+--- Insert: testIssue620
+1176a1177,1180
+>   public void testIssue620() {
+>     assertPrint("alert(/ / / / /);", "alert(/ // / /)");
+>     assertPrint("alert(/ // / /);", "alert(/ // / /)");
+>   }

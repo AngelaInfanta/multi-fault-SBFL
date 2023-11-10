@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16
+com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew

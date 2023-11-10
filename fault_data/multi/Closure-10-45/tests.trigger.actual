@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821
+com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_1

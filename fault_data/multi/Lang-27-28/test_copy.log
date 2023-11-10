@@ -1,0 +1,5 @@
+--- Overwrite: testCreateNumber
+213a214,216
+> 
+>         // LANG-638
+>         assertFalse("createNumber(String) succeeded", checkCreateNumber("1eE"));

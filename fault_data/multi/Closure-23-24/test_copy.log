@@ -1,0 +1,6 @@
+--- Overwrite: testFoldGetElem
+773a774,777
+> 
+>     foldSame("x = [foo(), 0][1]");
+>     fold("x = [0, foo()][1]", "x = foo()");
+>     foldSame("x = [0, foo()][0]");

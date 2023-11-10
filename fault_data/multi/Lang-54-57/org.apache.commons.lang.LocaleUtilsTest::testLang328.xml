@@ -1,0 +1,33 @@
+<coverage branch-rate="0.0" branches-covered="0" branches-valid="98" complexity="3.64" line-rate="0.031413612565445025" lines-covered="6" lines-valid="191" timestamp="1623789719265" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="3.64" line-rate="0.031413612565445025" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.0" complexity="5.444444444444445" filename="org/apache/commons/lang/LocaleUtils.java" line-rate="0.07894736842105263" name="org.apache.commons.lang.LocaleUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="47" />
+								<line branch="false" hits="1" number="49" />
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isAvailableLocale" signature="(Ljava/util/Locale;)Z">
+							<lines>
+								<line branch="false" hits="1" number="223" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.625" filename="org/apache/commons/lang/SystemUtils.java" line-rate="0.0" name="org.apache.commons.lang.SystemUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

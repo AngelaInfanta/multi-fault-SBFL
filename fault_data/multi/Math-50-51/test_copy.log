@@ -1,0 +1,9 @@
+--- Overwrite: testIssue631
+43c43
+<     @Test
+---
+>     @Test(expected=TooManyEvaluationsException.class)
+46c46
+<                 @Override
+---
+>                 /** {@inheritDoc} */

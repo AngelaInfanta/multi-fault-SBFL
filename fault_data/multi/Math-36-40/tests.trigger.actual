@@ -1,0 +1,3 @@
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testIssue716
+org.apache.commons.math.fraction.BigFractionTest::testFloatValueForLargeNumeratorAndDenominator
+org.apache.commons.math.fraction.BigFractionTest::testDoubleValueForLargeNumeratorAndDenominator

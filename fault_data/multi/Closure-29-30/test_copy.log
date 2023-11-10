@@ -1,0 +1,64 @@
+--- Overwrite: testObject10
+175,182c175
+<          "var JSCompiler_object_inline_a_0;" +
+<          "var JSCompiler_object_inline_b_1;" +
+<          "var JSCompiler_object_inline_c_2;" +
+<          "var b=f();" +
+<          "JSCompiler_object_inline_a_0=a,JSCompiler_object_inline_b_1=b," +
+<          "  JSCompiler_object_inline_c_2=void 0,true;" +
+<          "if(JSCompiler_object_inline_a_0) " +
+<          "  g(JSCompiler_object_inline_b_1) + JSCompiler_object_inline_c_2");
+---
+>          "var x = {}; var b = f(); x = {a:a, b:b}; if(x.a) g(x.b) + x.c");
+--- Overwrite: testObject12
+216,223c216
+<          "var JSCompiler_object_inline_x_0;" +
+<          "var JSCompiler_object_inline_y_1;" +
+<          "var JSCompiler_object_inline_y2_2;" +
+<          "JSCompiler_object_inline_x_0=1," +
+<          "JSCompiler_object_inline_y_1=2," +
+<          "JSCompiler_object_inline_y2_2=void 0," +
+<          "true;" +
+<          "f(JSCompiler_object_inline_x_0, JSCompiler_object_inline_y2_2);");
+---
+>         "var a; a = {x:1, y:2}; f(a.x, a.y2);");
+--- Overwrite: testObject22
+289,296c289
+<       "var JSCompiler_object_inline_x_0;" +
+<       "var JSCompiler_object_inline_y_1;" +
+<       "for(;1;) {" +
+<       " f(JSCompiler_object_inline_x_0,JSCompiler_object_inline_y_1);" +
+<       " JSCompiler_object_inline_x_0=1," +
+<       " JSCompiler_object_inline_y_1=1," +
+<       " true" +
+<       "}");
+---
+>         "var a; while (1) { f(a.x, a.y); a = {x:1, y:1};}");
+--- Insert: testIssue724
+353a354,360
+>   public void testIssue724() {
+>     testSameLocal(
+>         "var getType; getType = {};" +
+>         "return functionToCheck && " +
+>         "   getType.toString.apply(functionToCheck) === " +
+>         "   '[object Function]';");
+>   }
+--- Insert: testIssue724
+2246a2247,2263
+>   public void testIssue724() {
+>     CompilerOptions options = createCompilerOptions();
+>     CompilationLevel.ADVANCED_OPTIMIZATIONS
+>         .setOptionsForCompilationLevel(options);
+>     String code =
+>         "isFunction = function(functionToCheck) {" +
+>         "  var getType = {};" +
+>         "  return functionToCheck && " +
+>         "      getType.toString.apply(functionToCheck) === " +
+>         "     '[object Function]';" +
+>         "};";
+>     String result =
+>         "isFunction=function(a){var b={};" +
+>         "return a&&\"[object Function]\"===b.b.a(a)}";
+> 
+>     test(options, code, result);
+>   }

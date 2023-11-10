@@ -1,0 +1,769 @@
+--- Overwrite: testInline19b
+950c950
+<            "{var b$$inline_3=y;" +
+---
+>            "{var b$$inline_1=y;" +
+952c952
+<             "x = b$$inline_3;}" +
+---
+>             "x = b$$inline_1;}" +
+--- Overwrite: testInlineIntoLoop
+963c963
+<             "var b$$inline_3=void 0;1}}",
+---
+>             "var b$$inline_1=void 0;1}}",
+971c971
+<             "var b$$inline_3=void 0;1}}while(1)",
+---
+>             "var b$$inline_1=void 0;1}}while(1)",
+978,980c978,980
+<         "for(;1;){ {JSCompiler_inline_label_foo_4:{" +
+<             "var b$$inline_3=void 0;for(b$$inline_3 in c){" +
+<               "1;break JSCompiler_inline_label_foo_4" +
+---
+>         "for(;1;){ {JSCompiler_inline_label_foo_2:{" +
+>             "var b$$inline_1=void 0;for(b$$inline_1 in c){" +
+>               "1;break JSCompiler_inline_label_foo_2" +
+--- Overwrite: testInline13
+868,869c868,869
+<         "function x() {{var a$$inline_1=x++;" +
+<             "a$$inline_1}}",
+---
+>         "function x() {{var a$$inline_0=x++;" +
+>             "a$$inline_0}}",
+--- Overwrite: testInline14
+878,880c878,880
+<             "{var a$$inline_1=x++;" +
+<             " a$$inline_1+" +
+<             "a$$inline_1;}",
+---
+>             "{var a$$inline_0=x++;" +
+>             " a$$inline_0+" +
+>             "a$$inline_0;}",
+--- Overwrite: testInline15
+889,891c889,891
+<             "{var a$$inline_1=new Date();" +
+<             " a$$inline_1+" +
+<             "a$$inline_1;}",
+---
+>             "{var a$$inline_0=new Date();" +
+>             " a$$inline_0+" +
+>             "a$$inline_0;}",
+--- Overwrite: testInline16
+900,902c900,902
+<             "{var a$$inline_1=function(){};" +
+<             " a$$inline_1+" +
+<             "a$$inline_1;}",
+---
+>             "{var a$$inline_0=function(){};" +
+>             " a$$inline_0+" +
+>             "a$$inline_0;}",
+--- Overwrite: testInline17
+911c911
+<             "{var a$$inline_1=goo();true}",
+---
+>             "{var a$$inline_0=goo();true}",
+--- Overwrite: testInline18
+921,922c921,922
+<             "function x() {{var a$$inline_2=goo();" +
+<                 "var b$$inline_3;a$$inline_2}}",
+---
+>             "function x() {{var a$$inline_0=goo();" +
+>                 "var b$$inline_1;a$$inline_0}}",
+--- Overwrite: testInline19
+935c935
+<            "{var a$$inline_2=x;" +
+---
+>            "{var a$$inline_0=x;" +
+937c937
+<             "y = a$$inline_2;}" +
+---
+>             "y = a$$inline_0;}" +
+--- Overwrite: testBug1897706
+1315c1315
+<         "function foo(a){}; {var a$$inline_1=x()}",
+---
+>         "function foo(a){}; {var a$$inline_0=x()}",
+1320c1320
+<         "function foo(a){bar()}; {var a$$inline_1=x();bar()}",
+---
+>         "function foo(a){bar()}; {var a$$inline_0=x();bar()}",
+1326c1326
+<         "{var a$$inline_2=x();var b$$inline_3=y();bar()}",
+---
+>         "{var a$$inline_0=x();var b$$inline_1=y();bar()}",
+--- Overwrite: testInlineFunctionWithInnerFunction5
+1026,1027c1026,1027
+<             "{var x$$inline_1 = function(){" +
+<             "var a$$inline_2;return true};x$$inline_1}",
+---
+>             "{var x$$inline_0 = function(){" +
+>             "var a$$inline_1;return true};x$$inline_0}",
+--- Overwrite: testMutateWithParameters3
+115c115
+<         "{var a$$inline_1 = x++; a$$inline_1}",
+---
+>         "{var a$$inline_0 = x++; a$$inline_0}",
+--- Overwrite: testMutateCallInLoopVars1
+153c153
+<         "{var B$$inline_3=bar(); 1;}",
+---
+>         "{var B$$inline_1=bar(); 1;}",
+160c160
+<         "{var B$$inline_3 = bar(); 1;}",
+---
+>         "{var B$$inline_1 = bar(); 1;}",
+--- Overwrite: testMutateInitializeUninitializedVars1
+131c131
+<         "{var b$$inline_3=void 0;1}",
+---
+>         "{var b$$inline_1=void 0;1}",
+--- Overwrite: testMutateInitializeUninitializedVars2
+138c138
+<         "{JSCompiler_inline_label_foo_4:" +
+---
+>         "{JSCompiler_inline_label_foo_2:" +
+140,141c140,141
+<             "for(var b$$inline_3 in c){" +
+<                 "1;break JSCompiler_inline_label_foo_4" +
+---
+>             "for(var b$$inline_1 in c){" +
+>                 "1;break JSCompiler_inline_label_foo_2" +
+--- Overwrite: testMutateFunctionDefinition
+169c169
+<         "{var g$$inline_3=function(){};}",
+---
+>         "{var g$$inline_1=function(){};}",
+--- Overwrite: testMutate8
+123,124c123,124
+<         "{var a$$inline_1 = x++;" +
+<             "a$$inline_1 + a$$inline_1;}",
+---
+>         "{var a$$inline_0 = x++;" +
+>             "a$$inline_0 + a$$inline_0;}",
+--- Insert: testLoopWithFunctionWithFunction
+2035a2036,2069
+>   public void testLoopWithFunctionWithFunction() {
+>     assumeMinimumCapture = true;
+>     test("function _testLocalVariableInLoop_() {\n" +
+>         "  var result = 0;\n" +
+>         "  function foo() {\n" +
+>         "    var arr = [1, 2, 3, 4, 5];\n" +
+>         "    for (var i = 0, l = arr.length; i < l; i++) {\n" +
+>         "      var j = arr[i];\n" +
+>         // don't inline this function, because the correct behavior depends
+>         // captured values.
+>         "      (function() {\n" +
+>         "        var k = j;\n" +
+>         "        setTimeout(function() { result += k; }, 5 * i);\n" +
+>         "      })();\n" +
+>         "    }\n" +
+>         "  }\n" +
+>         "  foo();\n" +
+>         "}",
+>         "function _testLocalVariableInLoop_(){\n" +
+>         "  var result=0;\n" +
+>         "  {" +
+>         "  var arr$$inline_0=[1,2,3,4,5];\n" +
+>         "  var i$$inline_1=0;\n" +
+>         "  var l$$inline_2=arr$$inline_0.length;\n" +
+>         "  for(;i$$inline_1<l$$inline_2;i$$inline_1++){\n" +
+>         "    var j$$inline_3=arr$$inline_0[i$$inline_1];\n" +
+>         "    (function(){\n" +
+>         "       var k$$inline_4=j$$inline_3;\n" +
+>         "       setTimeout(function(){result+=k$$inline_4},5*i$$inline_1)\n" +
+>         "     })()\n" +
+>         "  }\n" +
+>         "  }\n" +
+>         "}");
+>   }
+--- Overwrite: testShadowVariables16
+771a772,781
+>     assumeMinimumCapture = false;
+>     // Inline functions defined as a child of the CALL node.
+>     test("var a=3;" +
+>          "function foo(){return a}" +
+>          "(function(){var a=5;(function(){foo()})()})()",
+>          "var a=3;" +
+>          "{var a$$inline_0=5;{a}}"
+>          );
+> 
+>     assumeMinimumCapture = true;
+778a789
+> 
+--- Overwrite: testShadowVariables18
+810c810
+<         "{var a$$inline_1=3;x=a+a}}");
+---
+>         "{var a$$inline_0=3;x=a+a}}");
+--- Overwrite: testCostBasedInlining11
+928,929c928,929
+<          "{var a$$inline_1=1+1;" +
+<          "a=a$$inline_1+a$$inline_1}");
+---
+>          "{var a$$inline_0=1+1;" +
+>          "a=a$$inline_0+a$$inline_0}");
+--- Overwrite: testMixedModeInliningCosting3
+473c473
+<         "{var JSCompiler_inline_anon_param_4=x();" +
+---
+>         "{var JSCompiler_inline_anon_param_2=x();" +
+--- Overwrite: testInlineNeverMutateConstants
+556,557c556,557
+<          "{var x$$inline_1=undefined;" +
+<          "x$$inline_1=1}");
+---
+>          "{var x$$inline_0=undefined;" +
+>          "x$$inline_0=1}");
+--- Overwrite: testInlineWithThis7
+1756c1756
+<          "{var a$$inline_1=void 0; a$$inline_1=1; void 0;}");
+---
+>          "{var a$$inline_0=void 0; a$$inline_0=1; void 0;}");
+1758c1758
+<          "{var a$$inline_1=x; a$$inline_1=1; x;}");
+---
+>          "{var a$$inline_0=x; a$$inline_0=1; x;}");
+--- Overwrite: testAnonymous1
+1955a1956
+>     assumeMinimumCapture = false;
+1957,1959c1958,1966
+<          "{var a$$inline_2=10;" +
+<          "{var b$$inline_3=a$$inline_2;" +
+<          "a$$inline_2++;alert(b$$inline_3)}}");
+---
+>          "{var a$$inline_0=10;" +
+>          "{var b$$inline_1=a$$inline_0;" +
+>          "a$$inline_0++;alert(b$$inline_1)}}");
+> 
+>     assumeMinimumCapture = true;
+>     test("(function(){var a=10;(function(){var b=a;a++;alert(b)})()})();",
+>         "{var a$$inline_2=10;" +
+>         "{var b$$inline_0=a$$inline_2;" +
+>         "a$$inline_2++;alert(b$$inline_0)}}");
+--- Overwrite: testAnonymous3
+1974a1975
+>     assumeMinimumCapture = false;
+1975a1977,1981
+> 
+>     assumeMinimumCapture = true;
+>     test("(function(){var a=10;(function(){arguments;})()})();",
+>          "{var a$$inline_0=10;(function(){arguments;})();}");
+> 
+--- Overwrite: testShadowVariables1
+626c626
+<          "{var a$$inline_1=3+4}");
+---
+>          "{var a$$inline_0=3+4}");
+--- Overwrite: testShadowVariables3
+649,650c649,650
+<         "function _bar(){{var a$$inline_1=2;" +
+<         "a=3+a$$inline_1}}");
+---
+>         "function _bar(){{var a$$inline_0=2;" +
+>         "a=3+a$$inline_0}}");
+--- Overwrite: testShadowVariables6
+680,681c680,681
+<         "var a$$inline_1=4;" +
+<         "a$$2=3+a$$inline_1}}");
+---
+>         "var a$$inline_0=4;" +
+>         "a$$2=3+a$$inline_0}}");
+--- Overwrite: testShadowVariables7
+684a685,693
+>     assumeMinimumCapture = false;
+>     test("var a=3;" +
+>          "function foo(){return a}" +
+>          "(function(){var a=5;(function(){foo()})()})()",
+>          "var a=3;" +
+>          "{var a$$inline_0=5;{a}}"
+>          );
+> 
+>     assumeMinimumCapture = true;
+--- Overwrite: testFunctionExpressionCallInlining11b
+1590a1591
+>     assumeMinimumCapture = false;
+1592a1594,1603
+> 
+>     assumeMinimumCapture = true;
+>     test(
+>         "((function(){var a; return function(){foo()}})())();",
+> 
+>         "{var JSCompiler_inline_result$$0;" +
+>         "var a$$inline_1;" +
+>         "JSCompiler_inline_result$$0=function(){foo()};}" +
+>         "JSCompiler_inline_result$$0()");
+> 
+--- Overwrite: testComplexInlineNoResultNoParamCall3
+1151c1151
+<          "function _foo(){{a();b();var z$$inline_1=1+1}}");
+---
+>          "function _foo(){{a();b();var z$$inline_0=1+1}}");
+--- Overwrite: testCostBasedInlining9
+918,919c918,919
+<          "{var a$$inline_1=1+1+1;" +
+<          "a=1+a$$inline_1+a$$inline_1}");
+---
+>          "{var a$$inline_0=1+1+1;" +
+>          "a=1+a$$inline_0+a$$inline_0}");
+--- Insert: testMethodWithFunctionWithFunction
+2113a2114,2138
+>   public void testMethodWithFunctionWithFunction() {
+>     assumeMinimumCapture = true;
+>     test("function _testLocalVariable_() {\n" +
+>         "  var result = 0;\n" +
+>         "  function foo() {\n" +
+>         "      var j = [i];\n" +
+>         "      (function(j) {\n" +
+>         "        setTimeout(function() { result += j; }, 5 * i);\n" +
+>         "      })(j);\n" +
+>         "      j = null;" +
+>         "  }\n" +
+>         "  foo();\n" +
+>         "}",
+>         "function _testLocalVariable_(){\n" +
+>         "  var result=0;\n" +
+>         "  {\n" +
+>         "  var j$$inline_2=[i];\n" +
+>         "  {\n" +
+>         "  var j$$inline_0=j$$inline_2;\n" +  // this temp is needed.
+>         "  setTimeout(function(){result+=j$$inline_0},5*i);\n" +
+>         "  }\n" +
+>         "  j$$inline_2=null\n" + // because this value can be modified later.
+>         "  }\n" +
+>         "}");
+>   }
+--- Overwrite: testFunctionExpressionYCombinator
+1782a1783
+>     assumeMinimumCapture = false;
+1805a1807,1850
+> 
+>     assumeMinimumCapture = true;
+>     test(
+>         "var factorial = ((function(M) {\n" +
+>         "      return ((function(f) {\n" +
+>         "                 return M(function(arg) {\n" +
+>         "                            return (f(f))(arg);\n" +
+>         "                            })\n" +
+>         "               })\n" +
+>         "              (function(f) {\n" +
+>         "                 return M(function(arg) {\n" +
+>         "                            return (f(f))(arg);\n" +
+>         "                           })\n" +
+>         "                 }));\n" +
+>         "     })\n" +
+>         "    (function(f) {\n" +
+>         "       return function(n) {\n" +
+>         "        if (n === 0)\n" +
+>         "          return 1;\n" +
+>         "        else\n" +
+>         "          return n * f(n - 1);\n" +
+>         "       };\n" +
+>         "     }));\n" +
+>         "\n" +
+>         "factorial(5)\n",
+>         "var factorial;\n" +
+>         "{\n" +
+>         "var M$$inline_4 = function(f$$2) {\n" +
+>         "  return function(n){if(n===0)return 1;else return n*f$$2(n-1)}\n" +
+>         "};\n" +
+>         "{\n" +
+>         "var f$$inline_0=function(f$$inline_7){\n" +
+>         "  return M$$inline_4(\n" +
+>         "    function(arg$$inline_8){\n" +
+>         "      return f$$inline_7(f$$inline_7)(arg$$inline_8)\n" +
+>         "     })\n" +
+>         "};\n" +
+>         "factorial=M$$inline_4(\n" +
+>         "  function(arg$$inline_1){\n" +
+>         "    return f$$inline_0(f$$inline_0)(arg$$inline_1)\n" +
+>         "});\n" +
+>         "}\n" +
+>         "}" +
+>         "factorial(5)");
+--- Overwrite: testComplexInlineVars7
+1260,1261c1260,1261
+<          "{JSCompiler_inline_label_f_4:{if(1){z=b();" +
+<          "break JSCompiler_inline_label_f_4" +
+---
+>          "{JSCompiler_inline_label_f_2:{if(1){z=b();" +
+>          "break JSCompiler_inline_label_f_2" +
+1263c1263
+<          "z=true;break JSCompiler_inline_label_f_4}z=void 0}}");
+---
+>          "z=true;break JSCompiler_inline_label_f_2}z=void 0}}");
+--- Overwrite: testComplexFunctionWithFunctionDefinition2a
+1446a1447,1448
+>     assumeMinimumCapture = false;
+> 
+1449c1451,1457
+<         "var f = function(a){call(function(){return})};f()})()");
+---
+>         "var f = function(a){call(function(){return a})};f()})()");
+> 
+>     assumeMinimumCapture = true;
+> 
+>     test("(function(){" +
+>          "var f = function(a){call(function(){return a})};f()})()",
+>          "{{var a$$inline_0=void 0;call(function(){return a$$inline_0})}}");
+--- Overwrite: testComplexInline7
+1209,1211c1209,1211
+<          "var b=1;{JSCompiler_inline_label_f_4:{if(1){z=b();" +
+<          "break JSCompiler_inline_label_f_4}else{z=true;" +
+<          "break JSCompiler_inline_label_f_4}z=void 0}}");
+---
+>          "var b=1;{JSCompiler_inline_label_f_2:{if(1){z=b();" +
+>          "break JSCompiler_inline_label_f_2}else{z=true;" +
+>          "break JSCompiler_inline_label_f_2}z=void 0}}");
+--- Overwrite: testFunctionExpressionOmega
+1647,1648c1647,1648
+<          "{var f$$inline_1=function(f$$1){f$$1(f$$1)};" +
+<           "{{f$$inline_1(f$$inline_1)}}}");
+---
+>          "{var f$$inline_0=function(f$$1){f$$1(f$$1)};" +
+>           "{{f$$inline_0(f$$inline_0)}}}");
+--- Overwrite: testInlineFunctions15b
+231c231,233
+<     // closure factories: don't inline closure with locals in global scope.
+---
+>     assumeMinimumCapture = false;
+> 
+>     // closure factories: don't inline closure with locals into global scope.
+237a240,254
+> 
+>     assumeMinimumCapture = true;
+> 
+>     test("function foo(){var x;return function(a){return a+1}}" +
+>          "var b=function(){return c};" +
+>          "var d=b()+foo()",
+> 
+>          "var JSCompiler_temp_const$$0 = c;\n" +
+>          "{\n" +
+>          "var JSCompiler_inline_result$$1;\n" +
+>          "var x$$inline_2;\n" +
+>          "JSCompiler_inline_result$$1 = " +
+>          "    function(a$$inline_3){ return a$$inline_3+1 };\n" +
+>          "}" +
+>          "var d=JSCompiler_temp_const$$0 + JSCompiler_inline_result$$1");
+--- Overwrite: testInlineFunctions15d
+267a268,269
+>     assumeMinimumCapture = false;
+> 
+274a277,294
+> 
+>     assumeMinimumCapture = true;
+> 
+>     // closure factories: don't inline functions with vars.
+>     test("function foo(){var x; return function(a){return a+1}}" +
+>          "var b=function(){return c};" +
+>          "function _x(){ var d=b()+foo() }",
+> 
+>          "function _x() { \n" +
+>          "  var JSCompiler_temp_const$$0 = c;\n" +
+>          "  {\n" +
+>          "  var JSCompiler_inline_result$$1;\n" +
+>          "  var x$$inline_2;\n" +
+>          "  JSCompiler_inline_result$$1 = " +
+>          "      function(a$$inline_3) {return a$$inline_3+1};\n" +
+>          "  }\n" +
+>          "  var d = JSCompiler_temp_const$$0+JSCompiler_inline_result$$1\n" +
+>          "}");
+--- Overwrite: testInlineFunctions16a
+297a298,299
+>     assumeMinimumCapture = false;
+> 
+299a302,309
+> 
+>     assumeMinimumCapture = true;
+> 
+>     test(
+>         "function foo(b){return window.bar(function(){c(b)})}" +
+>         "var d=foo(e)",
+>         "var d;{var b$$inline_0=e;" +
+>         "d=window.bar(function(){c(b$$inline_0)})}");
+--- Overwrite: testBug4944818
+2034,2037c2034,2037
+<         "  var self$$inline_3 = self$$2;" +
+<         "  if (!self$$inline_3.domServices_) {" +
+<         "    self$$inline_3.domServices_ = goog$component$DomServices.get(" +
+<         "        self$$inline_3.appContext_);" +
+---
+>         "  var self$$inline_2 = self$$2;" +
+>         "  if (!self$$inline_2.domServices_) {" +
+>         "    self$$inline_2.domServices_ = goog$component$DomServices.get(" +
+>         "        self$$inline_2.appContext_);" +
+2039c2039
+<         "  JSCompiler_inline_result$$1=self$$inline_3.domServices_;" +
+---
+>         "  JSCompiler_inline_result$$1=self$$inline_2.domServices_;" +
+--- Overwrite: testComplexSample
+1379c1379
+<       "var styleSheet$$inline_9=null;" +
+---
+>       "var styleSheet$$inline_2=null;" +
+1381c1381
+<         "styleSheet$$inline_9=0;" +
+---
+>         "styleSheet$$inline_2=0;" +
+1383c1383
+<         "var head$$inline_10=0;" +
+---
+>         "var head$$inline_3=0;" +
+1385,1387c1385,1387
+<         "var element$$inline_11=" +
+<             "styleSheet$$inline_9;" +
+<         "var stylesString$$inline_12=a;" +
+---
+>         "var element$$inline_4=" +
+>             "styleSheet$$inline_2;" +
+>         "var stylesString$$inline_5=a;" +
+1389,1390c1389,1390
+<           "element$$inline_11.cssText=" +
+<               "stylesString$$inline_12;" +
+---
+>           "element$$inline_4.cssText=" +
+>               "stylesString$$inline_5;" +
+1393c1393
+<           "var propToSet$$inline_13=" +
+---
+>           "var propToSet$$inline_6=" +
+1395,1397c1395,1397
+<           "element$$inline_11[" +
+<               "propToSet$$inline_13]=" +
+<                   "stylesString$$inline_12" +
+---
+>           "element$$inline_4[" +
+>               "propToSet$$inline_6]=" +
+>                   "stylesString$$inline_5" +
+1400c1400
+<       "styleSheet$$inline_9" +
+---
+>       "styleSheet$$inline_2" +
+--- Overwrite: testNoInlineIfParametersModified1
+535,536c535,536
+<          "{var x$$inline_1=undefined;" +
+<          "x$$inline_1=1}");
+---
+>          "{var x$$inline_0=undefined;" +
+>          "x$$inline_0=1}");
+--- Overwrite: testNoInlineIfParametersModified2
+541,542c541,542
+<          "{var x$$inline_1=2;" +
+<          "x$$inline_1=1}");
+---
+>          "{var x$$inline_0=2;" +
+>          "x$$inline_0=1}");
+--- Overwrite: testNoInlineIfParametersModified3
+548,549c548,549
+<          "{var x$$inline_1=2;" +
+<          "x$$inline_1*=2}");
+---
+>          "{var x$$inline_0=2;" +
+>          "x$$inline_0*=2}");
+--- Overwrite: testNoInlineIfParametersModified4
+555,557c555,557
+<          "{var x$$inline_1=2;" +
+<          "x$$inline_1?(" +
+<          "x$$inline_1=2):0}");
+---
+>          "{var x$$inline_0=2;" +
+>          "x$$inline_0?(" +
+>          "x$$inline_0=2):0}");
+--- Overwrite: testNoInlineIfParametersModified5
+563,564c563,564
+<          "{var y$$inline_3=undefined;2?(" +
+<          "y$$inline_3=2):0}");
+---
+>          "{var y$$inline_1=undefined;2?(" +
+>          "y$$inline_1=2):0}");
+--- Overwrite: testNoInlineIfParametersModified6
+569,570c569,570
+<          "{var y$$inline_3=void 0;2?(" +
+<          "y$$inline_3=2):0}");
+---
+>          "{var y$$inline_1=void 0;2?(" +
+>          "y$$inline_1=2):0}");
+--- Overwrite: testNoInlineIfParametersModified7
+576,578c576,578
+<          "{var a$$inline_1=1;" +
+<          "++a$$inline_1<" +
+<          "++a$$inline_1}");
+---
+>          "{var a$$inline_0=1;" +
+>          "++a$$inline_0<" +
+>          "++a$$inline_0}");
+--- Overwrite: testIssue423
+2047a2048
+>     assumeMinimumCapture = false;
+2072a2074,2098
+> 
+>     assumeMinimumCapture = true;
+>     test(
+>         "(function($) {\n" +
+>         "  $.fn.multicheck = function(options) {\n" +
+>         "    initialize.call(this, options);\n" +
+>         "  };\n" +
+>         "\n" +
+>         "  function initialize(options) {\n" +
+>         "    options.checkboxes = $(this).siblings(':checkbox');\n" +
+>         "    preload_check_all.call(this);\n" +
+>         "  }\n" +
+>         "\n" +
+>         "  function preload_check_all() {\n" +
+>         "    $(this).data('checkboxes');\n" +
+>         "  }\n" +
+>         "})(jQuery)",
+>         "{var $$$inline_0=jQuery;\n" +
+>         "$$$inline_0.fn.multicheck=function(options$$inline_4){\n" +
+>         "  {options$$inline_4.checkboxes=" +
+>             "$$$inline_0(this).siblings(\":checkbox\");\n" +
+>         "  {$$$inline_0(this).data(\"checkboxes\")}" +
+>         "  }\n" +
+>         "}\n" +
+>         "}");
+--- Overwrite: testComplexFunctionWithFunctionDefinition2
+1488a1489,1490
+>     assumeMinimumCapture = false;
+> 
+1490a1493,1498
+> 
+>     assumeMinimumCapture = true;
+> 
+>     test("(function(){" +
+>          "var f = function(a){call(function(){return a})};f()})()",
+>          "{{var a$$inline_0=void 0;call(function(){return a$$inline_0})}}");
+--- Overwrite: testComplexFunctionWithFunctionDefinition3
+1515a1516,1517
+>     assumeMinimumCapture = false;
+> 
+1517c1519,1525
+<     testSame("function f(){var a; call(function(){return})}f()");
+---
+>     testSame("function f(){var a; call(function(){return a})}f()");
+> 
+>     assumeMinimumCapture = true;
+> 
+>     test("function f(){var a; call(function(){return a})}f()",
+>          "{var a$$inline_0;call(function(){return a$$inline_0})}");
+> 
+--- Overwrite: testDecomposeFunctionExpressionInCall
+1549,1552c1549,1552
+<         "var ret$$inline_2={};\n" +
+<         "ret$$inline_2[ONE]='a';\n" +
+<         "ret$$inline_2[TWO]='b';\n" +
+<         "JSCompiler_inline_result$$0 = ret$$inline_2;\n" +
+---
+>         "var ret$$inline_1={};\n" +
+>         "ret$$inline_1[ONE]='a';\n" +
+>         "ret$$inline_1[TWO]='b';\n" +
+>         "JSCompiler_inline_result$$0 = ret$$inline_1;\n" +
+--- Overwrite: testInlineNeverOverrideNewValues
+609,610c609,610
+<         "{var a$$inline_1=1;" +
+<         "++a$$inline_1<++a$$inline_1}");
+---
+>         "{var a$$inline_0=1;" +
+>         "++a$$inline_0<++a$$inline_0}");
+--- Overwrite: testInlineBlockMutableArgs1
+639,640c639,640
+<          "{var x$$inline_1=[];" +
+<          "x$$inline_1+x$$inline_1}");
+---
+>          "{var x$$inline_0=[];" +
+>          "x$$inline_0+x$$inline_0}");
+--- Overwrite: testInlineBlockMutableArgs2
+645,646c645,646
+<          "{var x$$inline_1=new Date;" +
+<          "x$$inline_1+x$$inline_1}");
+---
+>          "{var x$$inline_0=new Date;" +
+>          "x$$inline_0+x$$inline_0}");
+--- Overwrite: testInlineBlockMutableArgs3
+651,652c651,652
+<          "{var x$$inline_1=true&&new Date;" +
+<          "x$$inline_1+x$$inline_1}");
+---
+>          "{var x$$inline_0=true&&new Date;" +
+>          "x$$inline_0+x$$inline_0}");
+--- Overwrite: testInlineBlockMutableArgs4
+657,658c657,658
+<          "{var x$$inline_1={};" +
+<          "x$$inline_1+x$$inline_1}");
+---
+>          "{var x$$inline_0={};" +
+>          "x$$inline_0+x$$inline_0}");
+--- Overwrite: testInlineFunctions10
+183,186c183,186
+<          "{var x$$inline_1=i;" +
+<          "y=x$$inline_1++}" +
+<          "{var x$$inline_4=i;" +
+<          "y=x$$inline_4++}");
+---
+>          "{var x$$inline_0=i;" +
+>          "y=x$$inline_0++}" +
+>          "{var x$$inline_2=i;" +
+>          "y=x$$inline_2++}");
+--- Overwrite: testInlineFunctions13
+209c209
+<          "var y;{var x$$inline_1=i++;y=x$$inline_1}");
+---
+>          "var y;{var x$$inline_0=i++;y=x$$inline_0}");
+--- Overwrite: testInlineFunctions22
+365c365
+<          "var d;{JSCompiler_inline_label_plex_2:{" +
+---
+>          "var d;{JSCompiler_inline_label_plex_1:{" +
+367c367
+<          "d=0;break JSCompiler_inline_label_plex_2}" +
+---
+>          "d=0;break JSCompiler_inline_label_plex_1}" +
+369c369
+<          "d=1;break JSCompiler_inline_label_plex_2}d=void 0}}");
+---
+>          "d=1;break JSCompiler_inline_label_plex_1}d=void 0}}");
+--- Overwrite: testInlineFunctions23
+379c379
+<          "var d;{JSCompiler_inline_label_complex_2:{" +
+---
+>          "var d;{JSCompiler_inline_label_complex_1:{" +
+381c381
+<          "d=0;break JSCompiler_inline_label_complex_2" +
+---
+>          "d=0;break JSCompiler_inline_label_complex_1" +
+383c383
+<          "d=1;break JSCompiler_inline_label_complex_2" +
+---
+>          "d=1;break JSCompiler_inline_label_complex_1" +
+--- Overwrite: testInlineFunctions9
+175,176c175,176
+<          "var y;{var x$$inline_1=i;" +
+<          "y=x$$inline_1++}");
+---
+>          "var y;{var x$$inline_0=i;" +
+>          "y=x$$inline_0++}");
+--- Insert: testMakeLocalNamesUniqueWithContext5
+337a338,361
+>   public void testMakeLocalNamesUniqueWithContext5() {
+>     // Set the test type
+>     this.useDefaultRenamer = true;
+> 
+>     testWithInversion(
+>         "function f(){var f; f = 1}",
+>         "function f(){var f$$1; f$$1 = 1}");
+>     testWithInversion(
+>         "function f(f){f = 1}",
+>         "function f(f$$1){f$$1 = 1}");
+>     testWithInversion(
+>         "function f(f){var f; f = 1}",
+>         "function f(f$$1){var f$$1; f$$1 = 1}");
+> 
+>     test(
+>         "var fn = function f(){var f; f = 1}",
+>         "var fn = function f(){var f$$1; f$$1 = 1}");
+>     test(
+>         "var fn = function f(f){f = 1}",
+>         "var fn = function f(f$$1){f$$1 = 1}");
+>     test(
+>         "var fn = function f(f){var f; f = 1}",
+>         "var fn = function f(f$$1){var f$$1; f$$1 = 1}");
+>   }

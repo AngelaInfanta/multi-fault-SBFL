@@ -1,0 +1,257 @@
+<coverage branch-rate="0.026726057906458798" branches-covered="24" branches-valid="898" complexity="3.9953488372093022" line-rate="0.06887298747763863" lines-covered="77" lines-valid="1118" timestamp="1623782779638" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0024813895781637717" complexity="4.365714285714286" line-rate="0.023858921161825725" name="org.apache.commons.lang3">
+			<classes>
+				<class branch-rate="0.0024813895781637717" complexity="4.365714285714286" filename="org/apache/commons/lang3/ArrayUtils.java" line-rate="0.023858921161825725" name="org.apache.commons.lang3.ArrayUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="62" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="70" />
+								<line branch="false" hits="1" number="74" />
+								<line branch="false" hits="1" number="78" />
+								<line branch="false" hits="1" number="82" />
+								<line branch="false" hits="1" number="86" />
+								<line branch="false" hits="1" number="90" />
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="102" />
+								<line branch="false" hits="1" number="106" />
+								<line branch="false" hits="1" number="110" />
+								<line branch="false" hits="1" number="114" />
+								<line branch="false" hits="1" number="118" />
+								<line branch="false" hits="1" number="122" />
+								<line branch="false" hits="1" number="126" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="contains" signature="([Ljava/lang/Object;Ljava/lang/Object;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="1348">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="indexOf" signature="([Ljava/lang/Object;Ljava/lang/Object;)I">
+							<lines>
+								<line branch="false" hits="2" number="1245" />
+							</lines>
+						</method>
+						<method branch-rate="0.0625" line-rate="0.15384615384615385" name="indexOf" signature="([Ljava/lang/Object;Ljava/lang/Object;I)I">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="1263">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="1264" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.2391304347826087" complexity="2.375" line-rate="0.35064935064935066" name="org.apache.commons.lang3.builder">
+			<classes>
+				<class branch-rate="0.22093023255813954" complexity="2.3783783783783785" filename="org/apache/commons/lang3/builder/HashCodeBuilder.java" line-rate="0.3049645390070922" name="org.apache.commons.lang3.builder.HashCodeBuilder">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="107" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6923076923076923" name="&lt;init&gt;" signature="(II)V">
+							<lines>
+								<line branch="false" hits="3" number="554" />
+								<line branch="false" hits="3" number="583" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="584">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="587">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="590">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="593">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="596" />
+								<line branch="false" hits="3" number="597" />
+								<line branch="false" hits="3" number="598" />
+							</lines>
+						</method>
+						<method branch-rate="0.1" line-rate="0.18181818181818182" name="append" signature="(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="860">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="864">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="888" />
+								<line branch="false" hits="2" number="891" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRegistry" signature="()Ljava/util/Set;">
+							<lines>
+								<line branch="false" hits="15" number="142" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isRegistered" signature="(Ljava/lang/Object;)Z">
+							<lines>
+								<line branch="false" hits="6" number="157" />
+							</lines>
+						</method>
+						<method branch-rate="0.6428571428571429" line-rate="0.8666666666666667" name="reflectionAppend" signature="(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="6" number="178">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="179" />
+								<line branch="false" hits="4" number="182" />
+								<line branch="false" hits="4" number="183" />
+								<line branch="false" hits="4" number="184" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="6" number="185">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (5/10)" hits="2" number="186">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+										<condition coverage="50%" number="4" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="191" />
+								<line branch="false" hits="2" number="192" />
+								<line branch="false" hits="2" number="197" />
+								<line branch="false" hits="4" number="201" />
+								<line branch="false" hits="4" number="202" />
+								<line branch="false" hits="4" number="203" />
+							</lines>
+						</method>
+						<method branch-rate="0.6666666666666666" line-rate="0.8888888888888888" name="reflectionHashCode" signature="(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="3" number="361">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="364" />
+								<line branch="false" hits="3" number="365" />
+								<line branch="false" hits="3" number="366" />
+								<line branch="true" condition-coverage="75% (3/4)" hits="6" number="367">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="368" />
+								<line branch="false" hits="3" number="369" />
+								<line branch="false" hits="3" number="371" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="reflectionHashCode" signature="(Ljava/lang/Object;)I">
+							<lines>
+								<line branch="false" hits="3" number="405" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="register" signature="(Ljava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="4" number="527" />
+								<line branch="false" hits="4" number="528" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="toHashCode" signature="()I">
+							<lines>
+								<line branch="false" hits="3" number="971" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="unregister" signature="(Ljava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="4" number="543" />
+								<line branch="false" hits="4" number="544" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3783783783783785" filename="org/apache/commons/lang3/builder/HashCodeBuilder.java" line-rate="1.0" name="org.apache.commons.lang3.builder.HashCodeBuilder$1">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="initialValue" signature="()Ljava/lang/Object;">
+							<lines>
+								<line branch="false" hits="2" number="107" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="initialValue" signature="()Ljava/util/Set;">
+							<lines>
+								<line branch="false" hits="1" number="112" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.5" complexity="2.3333333333333335" filename="org/apache/commons/lang3/builder/IDKey.java" line-rate="0.8181818181818182" name="org.apache.commons.lang3.builder.IDKey">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="14" number="40" />
+								<line branch="false" hits="14" number="42" />
+								<line branch="false" hits="14" number="46" />
+								<line branch="false" hits="14" number="47" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="equals" signature="(Ljava/lang/Object;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="65">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="6" number="68" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="69">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="6" number="73">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="hashCode" signature="()I">
+							<lines>
+								<line branch="false" hits="14" number="55" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

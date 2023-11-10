@@ -1,0 +1,62 @@
+--- Overwrite: testTrivial
+138a139,141
+> 
+>         // Check that the number of iterations is updated (MATH-949).
+>         Assert.assertTrue(optimizer.getIterations() > 0);
+--- Exist: testConstrainedRosen
+--- Exist: testElliRotated
+--- Exist: testEllipse
+--- Exist: testTwoAxes
+--- Exist: testCigar
+--- Exist: testRosen
+--- Exist: testRastrigin
+--- Exist: testDiagonalRosen
+--- Exist: testSsDiffPow
+--- Exist: testMaximize
+--- Exist: testAckley
+--- Exist: testCigTab
+--- Exist: testDiffPow
+--- Exist: testSphere
+--- Exist: testTablet
+--- Exist: testCigarWithBoundaries
+--- Exist: testSumSinc
+--- Overwrite: testMaximize1
+99a100,102
+> 
+>         // Check that the number of iterations is updated (MATH-949).
+>         Assert.assertTrue(optimizer.getIterations() > 0);
+--- Overwrite: testMaximize2
+120a121,123
+> 
+>         // Check that the number of iterations is updated (MATH-949).
+>         Assert.assertTrue(optimizer.getIterations() > 0);
+--- Overwrite: testMinimize1
+63a64,66
+> 
+>         // Check that the number of iterations is updated (MATH-949).
+>         Assert.assertTrue(optimizer.getIterations() > 0);
+--- Overwrite: testMinimize2
+84a85,87
+> 
+>         // Check that the number of iterations is updated (MATH-949).
+>         Assert.assertTrue(optimizer.getIterations() > 0);
+--- Overwrite: testMaximize1
+104a105,107
+> 
+>         // Check that the number of iterations is updated (MATH-949).
+>         Assert.assertTrue(optimizer.getIterations() > 0);
+--- Overwrite: testMaximize2
+125a126,128
+> 
+>         // Check that the number of iterations is updated (MATH-949).
+>         Assert.assertTrue(optimizer.getIterations() > 0);
+--- Overwrite: testMinimize1
+68a69,71
+> 
+>         // Check that the number of iterations is updated (MATH-949).
+>         Assert.assertTrue(optimizer.getIterations() > 0);
+--- Overwrite: testMinimize2
+89a90,92
+> 
+>         // Check that the number of iterations is updated (MATH-949).
+>         Assert.assertTrue(optimizer.getIterations() > 0);

@@ -1,0 +1,38 @@
+--- Overwrite: testStringJoinAdd
+83c83
+<         "x = [\"a\",foo,\"b,c\"].join(\",\")");
+---
+>         "x = [\"a\",foo,\"b,c\"].join()");
+85c85
+<         "x = [foo,\"a,b,c\"].join(\",\")");
+---
+>         "x = [foo,\"a,b,c\"].join()");
+87c87
+<         "x = [\"a,b,c\",foo].join(\",\")");
+---
+>         "x = [\"a,b,c\",foo].join()");
+103,104c103,104
+<     foldSame("x = ['', foo].join(',')");
+<     foldSame("x = ['', foo, ''].join(',')");
+---
+>     foldSame("x = ['', foo].join('-')");
+>     foldSame("x = ['', foo, ''].join()");
+106c106,107
+<     fold("x = ['', '', foo, ''].join(',')", "x = [',', foo, ''].join(',')");
+---
+>     fold("x = ['', '', foo, ''].join(',')",
+>          "x = [',', foo, ''].join()");
+108c109
+<          "x = [',', foo, ','].join(',')");
+---
+>          "x = [',', foo, ','].join()");
+111c112
+<          "x = [',', foo, ',', bar].join(',')");
+---
+>          "x = [',', foo, ',', bar].join()");
+--- Insert: testNoStringJoin
+276a277,280
+>   public void testNoStringJoin() {
+>     foldSame("x = [].join(',',2)");
+>     foldSame("x = [].join(f)");
+>   }

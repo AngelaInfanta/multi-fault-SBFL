@@ -1,0 +1,6 @@
+--- Overwrite: testGuessModuleName
+131a132,135
+>     assertEquals("module$baz",
+>         pass.guessCJSModuleName("foo\\baz.js"));
+>     assertEquals("module$bar$baz",
+>         pass.guessCJSModuleName("foo\\bar\\baz.js"));

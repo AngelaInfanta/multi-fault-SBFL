@@ -1,0 +1,10 @@
+org.apache.commons.math.complex.ComplexTest::testTanhInf
+org.apache.commons.math.complex.ComplexTest::testTan
+org.apache.commons.math.complex.ComplexTest::testTanh
+org.apache.commons.math.complex.ComplexTest::testTanInf
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideMeanWithMathClass
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideGeoMeanWithMathClass
+org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideVarianceWithMathClass
+org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideMeanWithMathClass
+org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideGeoMeanWithMathClass
+org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideVarianceWithMathClass

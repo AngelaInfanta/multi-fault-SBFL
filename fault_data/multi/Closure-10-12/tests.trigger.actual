@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testIssue794b
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821

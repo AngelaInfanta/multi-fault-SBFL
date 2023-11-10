@@ -1,0 +1,4 @@
+com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6
+com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties8
+com.google.javascript.jscomp.TypeCheckTest::testLends10
+com.google.javascript.jscomp.TypeCheckTest::testLends11

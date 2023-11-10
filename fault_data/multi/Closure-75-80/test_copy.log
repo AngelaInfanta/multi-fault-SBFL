@@ -1,0 +1,5 @@
+--- Insert: testIEString
+1100a1101,1103
+>   public void testIEString() {
+>     testSame("!+'\\v1'");
+>   }

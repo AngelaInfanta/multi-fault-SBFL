@@ -1,0 +1,86 @@
+<coverage branch-rate="0.002390914524805738" branches-covered="4" branches-valid="1673" complexity="5.764705882352941" line-rate="0.006763787721123829" lines-covered="13" lines-valid="1922" timestamp="1623771172927" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.00306044376434583" complexity="5.485576923076923" line-rate="0.008425145819831496" name="org.apache.commons.lang3">
+			<classes>
+				<class branch-rate="0.0" complexity="4.6" filename="org/apache/commons/lang3/JavaVersion.java" line-rate="0.0" name="org.apache.commons.lang3.JavaVersion">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0625" complexity="5.777777777777778" filename="org/apache/commons/lang3/LocaleUtils.java" line-rate="0.11428571428571428" name="org.apache.commons.lang3.LocaleUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="42" />
+								<line branch="false" hits="1" number="46" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="availableLocaleList" signature="()Ljava/util/List;">
+							<lines>
+								<line branch="false" hits="1" number="189" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="isAvailableLocale" signature="(Ljava/util/Locale;)Z">
+							<lines>
+								<line branch="false" hits="1" number="214" />
+							</lines>
+						</method>
+						<method branch-rate="0.11764705882352941" line-rate="0.16666666666666666" name="toLocale" signature="(Ljava/lang/String;)Ljava/util/Locale;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="89">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="92" />
+								<line branch="true" condition-coverage="50% (3/6)" hits="1" number="93">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="94" />
+								</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="5.777777777777778" filename="org/apache/commons/lang3/LocaleUtils.java" line-rate="1.0" name="org.apache.commons.lang3.LocaleUtils$SyncAvoid">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="291" />
+								<line branch="false" hits="1" number="292" />
+								<line branch="false" hits="1" number="293" />
+								<line branch="false" hits="1" number="294" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="access$100" signature="()Ljava/util/Set;">
+							<lines>
+								<line branch="false" hits="1" number="284" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.783333333333333" filename="org/apache/commons/lang3/StringUtils.java" line-rate="0.0" name="org.apache.commons.lang3.StringUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7857142857142858" filename="org/apache/commons/lang3/SystemUtils.java" line-rate="0.0" name="org.apache.commons.lang3.SystemUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="7.0" line-rate="0.0" name="org.apache.commons.lang3.math">
+			<classes>
+				<class branch-rate="0.0" complexity="7.0" filename="org/apache/commons/lang3/math/NumberUtils.java" line-rate="0.0" name="org.apache.commons.lang3.math.NumberUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

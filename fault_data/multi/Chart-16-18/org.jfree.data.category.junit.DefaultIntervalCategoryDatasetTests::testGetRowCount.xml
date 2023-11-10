@@ -1,0 +1,205 @@
+<coverage branch-rate="0.01875" branches-covered="6" branches-valid="320" complexity="2.4814814814814814" line-rate="0.052132701421800945" lines-covered="33" lines-valid="633" timestamp="1624285231296" version="2.0.3">
+	<sources>
+		<source>source</source>
+	</sources>
+	<packages>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.jfree.chart.util">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/util/PublicCloneable.java" line-rate="1.0" name="org.jfree.chart.util.PublicCloneable">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.013513513513513514" complexity="2.5970149253731343" line-rate="0.016233766233766232" name="org.jfree.data">
+			<classes>
+				<class branch-rate="0.07692307692307693" complexity="4.2" filename="org/jfree/data/DataUtilities.java" line-rate="0.11627906976744186" name="org.jfree.data.DataUtilities">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.7142857142857143" name="createNumberArray2D" signature="([[D)[[Ljava/lang/Number;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="125">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="128" />
+								<line branch="false" hits="2" number="129" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="130">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="133" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.772727272727273" filename="org/jfree/data/DefaultKeyedValues.java" line-rate="0.0" name="org.jfree.data.DefaultKeyedValues">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.260869565217391" filename="org/jfree/data/DefaultKeyedValues2D.java" line-rate="0.0" name="org.jfree.data.DefaultKeyedValues2D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/KeyedValues.java" line-rate="1.0" name="org.jfree.data.KeyedValues">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/KeyedValues2D.java" line-rate="1.0" name="org.jfree.data.KeyedValues2D">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/UnknownKeyException.java" line-rate="0.0" name="org.jfree.data.UnknownKeyException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/Values.java" line-rate="1.0" name="org.jfree.data.Values">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/Values2D.java" line-rate="1.0" name="org.jfree.data.Values2D">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.02702702702702703" complexity="2.9344262295081966" line-rate="0.06589147286821706" name="org.jfree.data.category">
+			<classes>
+				<class branch-rate="1.0" complexity="0.0" filename="org/jfree/data/category/CategoryDataset.java" line-rate="1.0" name="org.jfree.data.category.CategoryDataset">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.64" filename="org/jfree/data/category/DefaultCategoryDataset.java" line-rate="0.0" name="org.jfree.data.category.DefaultCategoryDataset">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.03125" complexity="4.1875" filename="org/jfree/data/category/DefaultIntervalCategoryDataset.java" line-rate="0.0913978494623656" name="org.jfree.data.category.DefaultIntervalCategoryDataset">
+					<methods>
+						<method branch-rate="0.2222222222222222" line-rate="0.3870967741935484" name="&lt;init&gt;" signature="([Ljava/lang/Comparable;[Ljava/lang/Comparable;[[Ljava/lang/Number;[[Ljava/lang/Number;)V">
+							<lines>
+								<line branch="false" hits="1" number="137" />
+								<line branch="false" hits="1" number="139" />
+								<line branch="false" hits="1" number="140" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="142">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="144" />
+								<line branch="false" hits="1" number="145" />
+								<line branch="false" hits="1" number="147" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="148">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="155">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="199" />
+								<line branch="false" hits="1" number="200" />
+								<line branch="false" hits="1" number="204" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="([[D[[D)V">
+							<lines>
+								<line branch="false" hits="1" number="86" />
+								<line branch="false" hits="1" number="88" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="([[Ljava/lang/Number;[[Ljava/lang/Number;)V">
+							<lines>
+								<line branch="false" hits="1" number="102" />
+								<line branch="false" hits="1" number="103" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getColumnCount" signature="()I">
+							<lines>
+								<line branch="false" hits="1" number="682" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/category/IntervalCategoryDataset.java" line-rate="1.0" name="org.jfree.data.category.IntervalCategoryDataset">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.46875" line-rate="0.140625" name="org.jfree.data.general">
+			<classes>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="org/jfree/data/general/AbstractDataset.java" line-rate="0.12121212121212122" name="org.jfree.data.general.AbstractDataset">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="95" />
+								<line branch="false" hits="1" number="96" />
+								<line branch="false" hits="1" number="97" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/jfree/data/general/AbstractSeriesDataset.java" line-rate="0.2222222222222222" name="org.jfree.data.general.AbstractSeriesDataset">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="66" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/Dataset.java" line-rate="1.0" name="org.jfree.data.general.Dataset">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/DatasetChangeEvent.java" line-rate="0.0" name="org.jfree.data.general.DatasetChangeEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6" filename="org/jfree/data/general/DatasetGroup.java" line-rate="0.16666666666666666" name="org.jfree.data.general.DatasetGroup">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="63" />
+								<line branch="false" hits="1" number="64" />
+								<line branch="false" hits="1" number="65" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/SeriesChangeListener.java" line-rate="1.0" name="org.jfree.data.general.SeriesChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/SeriesDataset.java" line-rate="1.0" name="org.jfree.data.general.SeriesDataset">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="0.6666666666666666" name="org.jfree.data.resources">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/resources/DataPackageResources.java" line-rate="0.6666666666666666" name="org.jfree.data.resources.DataPackageResources">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="62" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="50" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

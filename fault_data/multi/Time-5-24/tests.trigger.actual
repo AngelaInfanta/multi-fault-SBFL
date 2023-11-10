@@ -1,0 +1,10 @@
+org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2
+org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2011
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2012
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2010
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2011
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2012
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2016

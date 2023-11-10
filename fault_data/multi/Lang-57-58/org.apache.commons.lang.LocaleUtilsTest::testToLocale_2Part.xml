@@ -1,0 +1,96 @@
+<coverage branch-rate="0.014404852160727824" branches-covered="19" branches-valid="1319" complexity="5.49537037037037" line-rate="0.0137524557956778" lines-covered="21" lines-valid="1527" timestamp="1623790179793" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.021134593993325918" complexity="4.950920245398773" line-rate="0.019195612431444242" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.296875" complexity="5.444444444444445" filename="org/apache/commons/lang/LocaleUtils.java" line-rate="0.27631578947368424" name="org.apache.commons.lang.LocaleUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="47" />
+								<line branch="false" hits="1" number="49" />
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+							</lines>
+						</method>
+						<method branch-rate="0.59375" line-rate="0.7272727272727273" name="toLocale" signature="(Ljava/lang/String;)Ljava/util/Locale;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="8" number="95">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="98" />
+								<line branch="true" condition-coverage="33% (2/6)" hits="8" number="99">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="0%" number="2" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="8" number="102" />
+								<line branch="false" hits="8" number="103" />
+								<line branch="true" condition-coverage="62% (5/8)" hits="8" number="104">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="100%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="105" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="7" number="107">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="7" number="110">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="111" />
+								<line branch="false" hits="6" number="113" />
+								<line branch="false" hits="6" number="114" />
+								<line branch="true" condition-coverage="87% (7/8)" hits="6" number="115">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="100%" number="1" type="jump" />
+										<condition coverage="100%" number="2" type="jump" />
+										<condition coverage="100%" number="3" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="4" number="116" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="118">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="119" />
+								</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.188405797101449" filename="org/apache/commons/lang/StringUtils.java" line-rate="0.0" name="org.apache.commons.lang.StringUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.625" filename="org/apache/commons/lang/SystemUtils.java" line-rate="0.0" name="org.apache.commons.lang.SystemUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="7.169811320754717" line-rate="0.0" name="org.apache.commons.lang.math">
+			<classes>
+				<class branch-rate="0.0" complexity="7.169811320754717" filename="org/apache/commons/lang/math/NumberUtils.java" line-rate="0.0" name="org.apache.commons.lang.math.NumberUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

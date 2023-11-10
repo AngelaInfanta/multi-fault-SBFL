@@ -1,0 +1,101 @@
+<coverage branch-rate="0.16129032258064516" branches-covered="10" branches-valid="62" complexity="3.375" line-rate="0.16393442622950818" lines-covered="20" lines-valid="122" timestamp="1623772500051" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.16129032258064516" complexity="3.375" line-rate="0.16393442622950818" name="org.apache.commons.lang3">
+			<classes>
+				<class branch-rate="0.20833333333333334" complexity="3.3333333333333335" filename="org/apache/commons/lang3/RandomStringUtils.java" line-rate="0.38461538461538464" name="org.apache.commons.lang3.RandomStringUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="43" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="random" signature="(I)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="69" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="random" signature="(IIIZZ)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="2" number="163" />
+							</lines>
+						</method>
+						<method branch-rate="0.20454545454545456" line-rate="0.4" name="random" signature="(IIIZZ[CLjava/util/Random;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="4" number="225">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="4" number="227">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="3" number="228" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="230">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="231" />
+								<line branch="false" hits="1" number="232" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="233">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="234" />
+								<line branch="false" hits="1" number="235" />
+								<line branch="false" hits="1" number="239" />
+								<line branch="false" hits="1" number="240" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="242">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="244">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="247" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="random" signature="(IZZ)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="2" number="143" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="random" signature="(I[C)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="316">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="319" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/lang3/SerializationException.java" line-rate="0.0" name="org.apache.commons.lang3.SerializationException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.625" filename="org/apache/commons/lang3/SerializationUtils.java" line-rate="0.0" name="org.apache.commons.lang3.SerializationUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.625" filename="org/apache/commons/lang3/SerializationUtils.java" line-rate="0.0" name="org.apache.commons.lang3.SerializationUtils$ClassLoaderAwareObjectInputStream">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,76 @@
+--- Overwrite: testDuplicateLocalVarDecl
+1969c1969
+<     testTypes(
+---
+>     testClosureTypesMultipleWarnings(
+1972,1973c1972,1977
+<         "variable x redefined with type string, " +
+<         "original definition at [testcode]:2 with type number");
+---
+>         Lists.newArrayList(
+>             "variable x redefined with type string, original definition" +
+>             " at  [testcode] :2 with type number",
+>             "initializing variable\n" +
+>             "found   : string\n" +
+>             "required: number"));
+--- Overwrite: testFunctionArguments13
+1344c1344
+<     // verifying that the argument type have inferable types
+---
+>     // verifying that the argument type have non-inferrable types
+1347c1347
+<         "/** @param {boolean} b\n@return boolean */" +
+---
+>         "/** @param {boolean} b\n@return {?boolean} */" +
+1349,1350c1349,1350
+<         "inconsistent return type\n" +
+<         "found   : (boolean|null)\n" +
+---
+>         "assignment\n" +
+>         "found   : null\n" +
+--- Insert: testScoping12
+8473a8474,8487
+>   public void testScoping12() throws Exception {
+>     testTypes(
+>         "/** @constructor */ function F() {}" +
+>         "/** @type {number} */ F.prototype.bar = 3;" +
+>         "/** @param {!F} f */ function g(f) {" +
+>         "  /** @return {string} */" +
+>         "  function h() {" +
+>         "    return f.bar;" +
+>         "  }" +
+>         "}",
+>         "inconsistent return type\n" +
+>         "found   : number\n" +
+>         "required: string");
+>   }
+--- Overwrite: testDuplicateLocalVarDecl
+2131c2131
+<     testTypes(
+---
+>     testClosureTypesMultipleWarnings(
+2134,2135c2134,2139
+<         "variable x redefined with type string, " +
+<         "original definition at [testcode]:2 with type number");
+---
+>         Lists.newArrayList(
+>             "variable x redefined with type string, original definition" +
+>             " at  [testcode] :2 with type number",
+>             "initializing variable\n" +
+>             "found   : string\n" +
+>             "required: number"));
+--- Overwrite: testFunctionArguments13
+1497c1497
+<     // verifying that the argument type have inferable types
+---
+>     // verifying that the argument type have non-inferrable types
+1500c1500
+<         "/** @param {boolean} b\n@return boolean */" +
+---
+>         "/** @param {boolean} b\n@return {?boolean} */" +
+1502,1503c1502,1503
+<         "inconsistent return type\n" +
+<         "found   : (boolean|null)\n" +
+---
+>         "assignment\n" +
+>         "found   : null\n" +

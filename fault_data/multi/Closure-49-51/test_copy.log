@@ -1,0 +1,621 @@
+--- Overwrite: testInline19b
+952c952
+<            "{var b$$inline_3=y;" +
+---
+>            "{var b$$inline_1=y;" +
+954c954
+<             "x = b$$inline_3;}" +
+---
+>             "x = b$$inline_1;}" +
+--- Overwrite: testInlineIntoLoop
+965c965
+<             "var b$$inline_3=void 0;1}}",
+---
+>             "var b$$inline_1=void 0;1}}",
+973c973
+<             "var b$$inline_3=void 0;1}}while(1)",
+---
+>             "var b$$inline_1=void 0;1}}while(1)",
+980,982c980,982
+<         "for(;1;){ {JSCompiler_inline_label_foo_4:{" +
+<             "var b$$inline_3=void 0;for(b$$inline_3 in c){" +
+<               "1;break JSCompiler_inline_label_foo_4" +
+---
+>         "for(;1;){ {JSCompiler_inline_label_foo_2:{" +
+>             "var b$$inline_1=void 0;for(b$$inline_1 in c){" +
+>               "1;break JSCompiler_inline_label_foo_2" +
+--- Overwrite: testInline13
+870,871c870,871
+<         "function x() {{var a$$inline_1=x++;" +
+<             "a$$inline_1}}",
+---
+>         "function x() {{var a$$inline_0=x++;" +
+>             "a$$inline_0}}",
+--- Overwrite: testInline14
+880,882c880,882
+<             "{var a$$inline_1=x++;" +
+<             " a$$inline_1+" +
+<             "a$$inline_1;}",
+---
+>             "{var a$$inline_0=x++;" +
+>             " a$$inline_0+" +
+>             "a$$inline_0;}",
+--- Overwrite: testInline15
+891,893c891,893
+<             "{var a$$inline_1=new Date();" +
+<             " a$$inline_1+" +
+<             "a$$inline_1;}",
+---
+>             "{var a$$inline_0=new Date();" +
+>             " a$$inline_0+" +
+>             "a$$inline_0;}",
+--- Overwrite: testInline16
+902,904c902,904
+<             "{var a$$inline_1=function(){};" +
+<             " a$$inline_1+" +
+<             "a$$inline_1;}",
+---
+>             "{var a$$inline_0=function(){};" +
+>             " a$$inline_0+" +
+>             "a$$inline_0;}",
+--- Overwrite: testInline17
+913c913
+<             "{var a$$inline_1=goo();true}",
+---
+>             "{var a$$inline_0=goo();true}",
+--- Overwrite: testInline18
+923,924c923,924
+<             "function x() {{var a$$inline_2=goo();" +
+<                 "var b$$inline_3;a$$inline_2}}",
+---
+>             "function x() {{var a$$inline_0=goo();" +
+>                 "var b$$inline_1;a$$inline_0}}",
+--- Overwrite: testInline19
+937c937
+<            "{var a$$inline_2=x;" +
+---
+>            "{var a$$inline_0=x;" +
+939c939
+<             "y = a$$inline_2;}" +
+---
+>             "y = a$$inline_0;}" +
+--- Overwrite: testBug1897706
+1317c1317
+<         "function foo(a){}; {var a$$inline_1=x()}",
+---
+>         "function foo(a){}; {var a$$inline_0=x()}",
+1322c1322
+<         "function foo(a){bar()}; {var a$$inline_1=x();bar()}",
+---
+>         "function foo(a){bar()}; {var a$$inline_0=x();bar()}",
+1328c1328
+<         "{var a$$inline_2=x();var b$$inline_3=y();bar()}",
+---
+>         "{var a$$inline_0=x();var b$$inline_1=y();bar()}",
+--- Overwrite: testInlineFunctionWithInnerFunction5
+1028,1029c1028,1029
+<             "{var x$$inline_1 = function(){" +
+<             "var a$$inline_2;return true};x$$inline_1}",
+---
+>             "{var x$$inline_0 = function(){" +
+>             "var a$$inline_1;return true};x$$inline_0}",
+--- Overwrite: testMutateWithParameters3
+115c115
+<         "{var a$$inline_1 = x++; a$$inline_1}",
+---
+>         "{var a$$inline_0 = x++; a$$inline_0}",
+--- Overwrite: testMutateCallInLoopVars1
+153c153
+<         "{var B$$inline_3=bar(); 1;}",
+---
+>         "{var B$$inline_1=bar(); 1;}",
+160c160
+<         "{var B$$inline_3 = bar(); 1;}",
+---
+>         "{var B$$inline_1 = bar(); 1;}",
+--- Overwrite: testMutateInitializeUninitializedVars1
+131c131
+<         "{var b$$inline_3=void 0;1}",
+---
+>         "{var b$$inline_1=void 0;1}",
+--- Overwrite: testMutateInitializeUninitializedVars2
+138c138
+<         "{JSCompiler_inline_label_foo_4:" +
+---
+>         "{JSCompiler_inline_label_foo_2:" +
+140,141c140,141
+<             "for(var b$$inline_3 in c){" +
+<                 "1;break JSCompiler_inline_label_foo_4" +
+---
+>             "for(var b$$inline_1 in c){" +
+>                 "1;break JSCompiler_inline_label_foo_2" +
+--- Overwrite: testMutateFunctionDefinition
+169c169
+<         "{var g$$inline_3=function(){};}",
+---
+>         "{var g$$inline_1=function(){};}",
+--- Overwrite: testMutate8
+123,124c123,124
+<         "{var a$$inline_1 = x++;" +
+<             "a$$inline_1 + a$$inline_1;}",
+---
+>         "{var a$$inline_0 = x++;" +
+>             "a$$inline_0 + a$$inline_0;}",
+--- Overwrite: testLoopWithFunctionWithFunction
+2220,2224c2220,2224
+<         "  var arr$$inline_4=[1,2,3,4,5];\n" +
+<         "  var i$$inline_5=0;\n" +
+<         "  var l$$inline_6=arr$$inline_4.length;\n" +
+<         "  for(;i$$inline_5<l$$inline_6;i$$inline_5++){\n" +
+<         "    var j$$inline_7=arr$$inline_4[i$$inline_5];\n" +
+---
+>         "  var arr$$inline_0=[1,2,3,4,5];\n" +
+>         "  var i$$inline_1=0;\n" +
+>         "  var l$$inline_2=arr$$inline_0.length;\n" +
+>         "  for(;i$$inline_1<l$$inline_2;i$$inline_1++){\n" +
+>         "    var j$$inline_3=arr$$inline_0[i$$inline_1];\n" +
+2226,2227c2226,2227
+<         "       var k$$inline_8=j$$inline_7;\n" +
+<         "       setTimeout(function(){result+=k$$inline_8},5*i$$inline_5)\n" +
+---
+>         "       var k$$inline_4=j$$inline_3;\n" +
+>         "       setTimeout(function(){result+=k$$inline_4},5*i$$inline_1)\n" +
+--- Overwrite: testShadowVariables16
+849c849
+<          "{var a$$inline_1=5;{a}}"
+---
+>          "{var a$$inline_0=5;{a}}"
+858c858
+<          "{var a$$inline_2=5;{a}}"
+---
+>          "{var a$$inline_1=5;{a}}"
+--- Overwrite: testShadowVariables18
+881c881
+<         "{var a$$inline_1=3;x=a+a}}");
+---
+>         "{var a$$inline_0=3;x=a+a}}");
+--- Overwrite: testCostBasedInlining11
+999,1000c999,1000
+<          "{var a$$inline_1=1+1;" +
+<          "a=a$$inline_1+a$$inline_1}");
+---
+>          "{var a$$inline_0=1+1;" +
+>          "a=a$$inline_0+a$$inline_0}");
+--- Overwrite: testMixedModeInliningCosting3
+535c535
+<         "{var JSCompiler_inline_anon_param_4=x();" +
+---
+>         "{var JSCompiler_inline_anon_param_2=x();" +
+--- Overwrite: testInlineNeverMutateConstants
+618,619c618,619
+<          "{var x$$inline_1=undefined;" +
+<          "x$$inline_1=1}");
+---
+>          "{var x$$inline_0=undefined;" +
+>          "x$$inline_0=1}");
+--- Overwrite: testInlineWithThis7
+1896c1896
+<          "{var a$$inline_1=void 0; a$$inline_1=1; void 0;}");
+---
+>          "{var a$$inline_0=void 0; a$$inline_0=1; void 0;}");
+1898c1898
+<          "{var a$$inline_1=x; a$$inline_1=1; x;}");
+---
+>          "{var a$$inline_0=x; a$$inline_0=1; x;}");
+--- Overwrite: testAnonymous1
+2170,2172c2170,2172
+<          "{var a$$inline_2=10;" +
+<          "{var b$$inline_3=a$$inline_2;" +
+<          "a$$inline_2++;alert(b$$inline_3)}}");
+---
+>          "{var a$$inline_0=10;" +
+>          "{var b$$inline_1=a$$inline_0;" +
+>          "a$$inline_0++;alert(b$$inline_1)}}");
+2176,2178c2176,2178
+<         "{var a$$inline_4=10;" +
+<         "{var b$$inline_1=a$$inline_4;" +
+<         "a$$inline_4++;alert(b$$inline_1)}}");
+---
+>         "{var a$$inline_2=10;" +
+>         "{var b$$inline_0=a$$inline_2;" +
+>         "a$$inline_2++;alert(b$$inline_0)}}");
+--- Overwrite: testAnonymous3
+2192c2192
+<          "{var a$$inline_1=10;(function(){arguments;})();}");
+---
+>          "{var a$$inline_0=10;(function(){arguments;})();}");
+--- Overwrite: testShadowVariables1
+688c688
+<          "{var a$$inline_1=3+4}");
+---
+>          "{var a$$inline_0=3+4}");
+--- Overwrite: testShadowVariables3
+711,712c711,712
+<         "function _bar(){{var a$$inline_1=2;" +
+<         "a=3+a$$inline_1}}");
+---
+>         "function _bar(){{var a$$inline_0=2;" +
+>         "a=3+a$$inline_0}}");
+--- Overwrite: testShadowVariables6
+742,743c742,743
+<         "var a$$inline_1=4;" +
+<         "a$$2=3+a$$inline_1}}");
+---
+>         "var a$$inline_0=4;" +
+>         "a$$2=3+a$$inline_0}}");
+--- Overwrite: testShadowVariables7
+752c752
+<          "{var a$$inline_1=5;{a}}"
+---
+>          "{var a$$inline_0=5;{a}}"
+760c760
+<          "{var a$$inline_2=5;{a}}"
+---
+>          "{var a$$inline_1=5;{a}}"
+--- Overwrite: testFunctionExpressionCallInlining11b
+1686c1686
+<         "var a$$inline_2;" +
+---
+>         "var a$$inline_1;" +
+--- Overwrite: testComplexInlineNoResultNoParamCall3
+1213c1213
+<          "function _foo(){{a();b();var z$$inline_1=1+1}}");
+---
+>          "function _foo(){{a();b();var z$$inline_0=1+1}}");
+--- Overwrite: testCostBasedInlining9
+980,981c980,981
+<          "{var a$$inline_1=1+1+1;" +
+<          "a=1+a$$inline_1+a$$inline_1}");
+---
+>          "{var a$$inline_0=1+1+1;" +
+>          "a=1+a$$inline_0+a$$inline_0}");
+--- Overwrite: testMethodWithFunctionWithFunction
+2250c2250
+<         "  var j$$inline_4=[i];\n" +
+---
+>         "  var j$$inline_2=[i];\n" +
+2252,2253c2252,2253
+<         "  var j$$inline_1=j$$inline_4;\n" +  // this temp is needed.
+<         "  setTimeout(function(){result+=j$$inline_1},5*i);\n" +
+---
+>         "  var j$$inline_0=j$$inline_2;\n" +  // this temp is needed.
+>         "  setTimeout(function(){result+=j$$inline_0},5*i);\n" +
+2255c2255
+<         "  j$$inline_4=null\n" + // because this value can be modified later.
+---
+>         "  j$$inline_2=null\n" + // because this value can be modified later.
+--- Overwrite: testFunctionExpressionYCombinator
+1954c1954
+<         "var M$$inline_6 = function(f$$2) {\n" +
+---
+>         "var M$$inline_4 = function(f$$2) {\n" +
+1958,1961c1958,1961
+<         "var f$$inline_1=function(f$$inline_9){\n" +
+<         "  return M$$inline_6(\n" +
+<         "    function(arg$$inline_10){\n" +
+<         "      return f$$inline_9(f$$inline_9)(arg$$inline_10)\n" +
+---
+>         "var f$$inline_0=function(f$$inline_7){\n" +
+>         "  return M$$inline_4(\n" +
+>         "    function(arg$$inline_8){\n" +
+>         "      return f$$inline_7(f$$inline_7)(arg$$inline_8)\n" +
+1964,1966c1964,1966
+<         "factorial=M$$inline_6(\n" +
+<         "  function(arg$$inline_2){\n" +
+<         "    return f$$inline_1(f$$inline_1)(arg$$inline_2)\n" +
+---
+>         "factorial=M$$inline_4(\n" +
+>         "  function(arg$$inline_1){\n" +
+>         "    return f$$inline_0(f$$inline_0)(arg$$inline_1)\n" +
+--- Overwrite: testComplexInlineVars7
+1322,1323c1322,1323
+<          "{JSCompiler_inline_label_f_4:{if(1){z=b();" +
+<          "break JSCompiler_inline_label_f_4" +
+---
+>          "{JSCompiler_inline_label_f_2:{if(1){z=b();" +
+>          "break JSCompiler_inline_label_f_2" +
+1325c1325
+<          "z=true;break JSCompiler_inline_label_f_4}z=void 0}}");
+---
+>          "z=true;break JSCompiler_inline_label_f_2}z=void 0}}");
+--- Overwrite: testComplexFunctionWithFunctionDefinition2a
+1527c1527
+<          "{{var a$$inline_1=void 0;call(function(){return a$$inline_1})}}");
+---
+>          "{{var a$$inline_0=void 0;call(function(){return a$$inline_0})}}");
+--- Overwrite: testComplexInline7
+1271,1273c1271,1273
+<          "var b=1;{JSCompiler_inline_label_f_4:{if(1){z=b();" +
+<          "break JSCompiler_inline_label_f_4}else{z=true;" +
+<          "break JSCompiler_inline_label_f_4}z=void 0}}");
+---
+>          "var b=1;{JSCompiler_inline_label_f_2:{if(1){z=b();" +
+>          "break JSCompiler_inline_label_f_2}else{z=true;" +
+>          "break JSCompiler_inline_label_f_2}z=void 0}}");
+--- Overwrite: testFunctionExpressionOmega
+1759,1760c1759,1760
+<          "{var f$$inline_1=function(f$$1){f$$1(f$$1)};" +
+<           "{{f$$inline_1(f$$inline_1)}}}");
+---
+>          "{var f$$inline_0=function(f$$1){f$$1(f$$1)};" +
+>           "{{f$$inline_0(f$$inline_0)}}}");
+--- Overwrite: testInlineFunctions15b
+253c253
+<          "var x$$inline_3;\n" +
+---
+>          "var x$$inline_2;\n" +
+255c255
+<          "    function(a$$inline_4){ return a$$inline_4+1 };\n" +
+---
+>          "    function(a$$inline_3){ return a$$inline_3+1 };\n" +
+--- Overwrite: testInlineFunctions15d
+304c304
+<          "  var x$$inline_3;\n" +
+---
+>          "  var x$$inline_2;\n" +
+306c306
+<          "      function(a$$inline_4) {return a$$inline_4+1};\n" +
+---
+>          "      function(a$$inline_3) {return a$$inline_3+1};\n" +
+--- Overwrite: testInlineFunctions16a
+323,324c323,324
+<         "var d;{var b$$inline_1=e;" +
+<         "d=window.bar(function(){c(b$$inline_1)})}");
+---
+>         "var d;{var b$$inline_0=e;" +
+>         "d=window.bar(function(){c(b$$inline_0)})}");
+--- Overwrite: testBug4944818
+2100,2103c2100,2103
+<         "  var self$$inline_3 = self$$2;" +
+<         "  if (!self$$inline_3.domServices_) {" +
+<         "    self$$inline_3.domServices_ = goog$component$DomServices.get(" +
+<         "        self$$inline_3.appContext_);" +
+---
+>         "  var self$$inline_2 = self$$2;" +
+>         "  if (!self$$inline_2.domServices_) {" +
+>         "    self$$inline_2.domServices_ = goog$component$DomServices.get(" +
+>         "        self$$inline_2.appContext_);" +
+2105c2105
+<         "  JSCompiler_inline_result$$1=self$$inline_3.domServices_;" +
+---
+>         "  JSCompiler_inline_result$$1=self$$inline_2.domServices_;" +
+--- Overwrite: testComplexSample
+1394c1394
+<       "var styleSheet$$inline_9=null;" +
+---
+>       "var styleSheet$$inline_2=null;" +
+1396c1396
+<         "styleSheet$$inline_9=0;" +
+---
+>         "styleSheet$$inline_2=0;" +
+1398c1398
+<         "var head$$inline_10=0;" +
+---
+>         "var head$$inline_3=0;" +
+1400,1402c1400,1402
+<         "var element$$inline_11=" +
+<             "styleSheet$$inline_9;" +
+<         "var stylesString$$inline_12=a;" +
+---
+>         "var element$$inline_4=" +
+>             "styleSheet$$inline_2;" +
+>         "var stylesString$$inline_5=a;" +
+1404,1405c1404,1405
+<           "element$$inline_11.cssText=" +
+<               "stylesString$$inline_12;" +
+---
+>           "element$$inline_4.cssText=" +
+>               "stylesString$$inline_5;" +
+1408c1408
+<           "var propToSet$$inline_13=" +
+---
+>           "var propToSet$$inline_6=" +
+1410,1412c1410,1412
+<           "element$$inline_11[" +
+<               "propToSet$$inline_13]=" +
+<                   "stylesString$$inline_12" +
+---
+>           "element$$inline_4[" +
+>               "propToSet$$inline_6]=" +
+>                   "stylesString$$inline_5" +
+1415c1415
+<       "styleSheet$$inline_9" +
+---
+>       "styleSheet$$inline_2" +
+--- Overwrite: testNoInlineIfParametersModified1
+550,551c550,551
+<          "{var x$$inline_1=undefined;" +
+<          "x$$inline_1=1}");
+---
+>          "{var x$$inline_0=undefined;" +
+>          "x$$inline_0=1}");
+--- Overwrite: testNoInlineIfParametersModified2
+556,557c556,557
+<          "{var x$$inline_1=2;" +
+<          "x$$inline_1=1}");
+---
+>          "{var x$$inline_0=2;" +
+>          "x$$inline_0=1}");
+--- Overwrite: testNoInlineIfParametersModified3
+563,564c563,564
+<          "{var x$$inline_1=2;" +
+<          "x$$inline_1*=2}");
+---
+>          "{var x$$inline_0=2;" +
+>          "x$$inline_0*=2}");
+--- Overwrite: testNoInlineIfParametersModified4
+570,572c570,572
+<          "{var x$$inline_1=2;" +
+<          "x$$inline_1?(" +
+<          "x$$inline_1=2):0}");
+---
+>          "{var x$$inline_0=2;" +
+>          "x$$inline_0?(" +
+>          "x$$inline_0=2):0}");
+--- Overwrite: testNoInlineIfParametersModified5
+578,579c578,579
+<          "{var y$$inline_3=undefined;2?(" +
+<          "y$$inline_3=2):0}");
+---
+>          "{var y$$inline_1=undefined;2?(" +
+>          "y$$inline_1=2):0}");
+--- Overwrite: testNoInlineIfParametersModified6
+584,585c584,585
+<          "{var y$$inline_3=void 0;2?(" +
+<          "y$$inline_3=2):0}");
+---
+>          "{var y$$inline_1=void 0;2?(" +
+>          "y$$inline_1=2):0}");
+--- Overwrite: testNoInlineIfParametersModified7
+591,593c591,593
+<          "{var a$$inline_1=1;" +
+<          "++a$$inline_1<" +
+<          "++a$$inline_1}");
+---
+>          "{var a$$inline_0=1;" +
+>          "++a$$inline_0<" +
+>          "++a$$inline_0}");
+--- Overwrite: testIssue423
+2157,2161c2157,2161
+<         "{var $$$inline_3=jQuery;\n" +
+<         "$$$inline_3.fn.multicheck=function(options$$inline_7){\n" +
+<         "  {options$$inline_7.checkboxes=" +
+<             "$$$inline_3(this).siblings(\":checkbox\");\n" +
+<         "  {$$$inline_3(this).data(\"checkboxes\")}" +
+---
+>         "{var $$$inline_0=jQuery;\n" +
+>         "$$$inline_0.fn.multicheck=function(options$$inline_4){\n" +
+>         "  {options$$inline_4.checkboxes=" +
+>             "$$$inline_0(this).siblings(\":checkbox\");\n" +
+>         "  {$$$inline_0(this).data(\"checkboxes\")}" +
+--- Overwrite: testComplexFunctionWithFunctionDefinition2
+1513c1513
+<          "{{var a$$inline_1=void 0;call(function(){return a$$inline_1})}}");
+---
+>          "{{var a$$inline_0=void 0;call(function(){return a$$inline_0})}}");
+--- Overwrite: testComplexFunctionWithFunctionDefinition3
+1539c1539
+<          "{var a$$inline_1;call(function(){return a$$inline_1})}");
+---
+>          "{var a$$inline_0;call(function(){return a$$inline_0})}");
+--- Overwrite: testDecomposeFunctionExpressionInCall
+1564,1567c1564,1567
+<         "var ret$$inline_2={};\n" +
+<         "ret$$inline_2[ONE]='a';\n" +
+<         "ret$$inline_2[TWO]='b';\n" +
+<         "JSCompiler_inline_result$$0 = ret$$inline_2;\n" +
+---
+>         "var ret$$inline_1={};\n" +
+>         "ret$$inline_1[ONE]='a';\n" +
+>         "ret$$inline_1[TWO]='b';\n" +
+>         "JSCompiler_inline_result$$0 = ret$$inline_1;\n" +
+--- Overwrite: testInlineNeverOverrideNewValues
+624,625c624,625
+<         "{var a$$inline_1=1;" +
+<         "++a$$inline_1<++a$$inline_1}");
+---
+>         "{var a$$inline_0=1;" +
+>         "++a$$inline_0<++a$$inline_0}");
+--- Overwrite: testInlineBlockMutableArgs1
+654,655c654,655
+<          "{var x$$inline_1=[];" +
+<          "x$$inline_1+x$$inline_1}");
+---
+>          "{var x$$inline_0=[];" +
+>          "x$$inline_0+x$$inline_0}");
+--- Overwrite: testInlineBlockMutableArgs2
+660,661c660,661
+<          "{var x$$inline_1=new Date;" +
+<          "x$$inline_1+x$$inline_1}");
+---
+>          "{var x$$inline_0=new Date;" +
+>          "x$$inline_0+x$$inline_0}");
+--- Overwrite: testInlineBlockMutableArgs3
+666,667c666,667
+<          "{var x$$inline_1=true&&new Date;" +
+<          "x$$inline_1+x$$inline_1}");
+---
+>          "{var x$$inline_0=true&&new Date;" +
+>          "x$$inline_0+x$$inline_0}");
+--- Overwrite: testInlineBlockMutableArgs4
+672,673c672,673
+<          "{var x$$inline_1={};" +
+<          "x$$inline_1+x$$inline_1}");
+---
+>          "{var x$$inline_0={};" +
+>          "x$$inline_0+x$$inline_0}");
+--- Overwrite: testInlineFunctions10
+186,189c186,189
+<          "{var x$$inline_1=i;" +
+<          "y=x$$inline_1++}" +
+<          "{var x$$inline_4=i;" +
+<          "y=x$$inline_4++}");
+---
+>          "{var x$$inline_0=i;" +
+>          "y=x$$inline_0++}" +
+>          "{var x$$inline_2=i;" +
+>          "y=x$$inline_2++}");
+--- Overwrite: testInlineFunctions13
+212c212
+<          "var y;{var x$$inline_1=i++;y=x$$inline_1}");
+---
+>          "var y;{var x$$inline_0=i++;y=x$$inline_0}");
+--- Overwrite: testInlineFunctions22
+380c380
+<          "var d;{JSCompiler_inline_label_plex_2:{" +
+---
+>          "var d;{JSCompiler_inline_label_plex_1:{" +
+382c382
+<          "d=0;break JSCompiler_inline_label_plex_2}" +
+---
+>          "d=0;break JSCompiler_inline_label_plex_1}" +
+384c384
+<          "d=1;break JSCompiler_inline_label_plex_2}d=void 0}}");
+---
+>          "d=1;break JSCompiler_inline_label_plex_1}d=void 0}}");
+--- Overwrite: testInlineFunctions23
+394c394
+<          "var d;{JSCompiler_inline_label_complex_2:{" +
+---
+>          "var d;{JSCompiler_inline_label_complex_1:{" +
+396c396
+<          "d=0;break JSCompiler_inline_label_complex_2" +
+---
+>          "d=0;break JSCompiler_inline_label_complex_1" +
+398c398
+<          "d=1;break JSCompiler_inline_label_complex_2" +
+---
+>          "d=1;break JSCompiler_inline_label_complex_1" +
+--- Overwrite: testInlineFunctions9
+178,179c178,179
+<          "var y;{var x$$inline_1=i;" +
+<          "y=x$$inline_1++}");
+---
+>          "var y;{var x$$inline_0=i;" +
+>          "y=x$$inline_0++}");
+--- Insert: testMakeLocalNamesUniqueWithContext5
+337a338,361
+>   public void testMakeLocalNamesUniqueWithContext5() {
+>     // Set the test type
+>     this.useDefaultRenamer = true;
+> 
+>     testWithInversion(
+>         "function f(){var f; f = 1}",
+>         "function f(){var f$$1; f$$1 = 1}");
+>     testWithInversion(
+>         "function f(f){f = 1}",
+>         "function f(f$$1){f$$1 = 1}");
+>     testWithInversion(
+>         "function f(f){var f; f = 1}",
+>         "function f(f$$1){var f$$1; f$$1 = 1}");
+> 
+>     test(
+>         "var fn = function f(){var f; f = 1}",
+>         "var fn = function f(){var f$$1; f$$1 = 1}");
+>     test(
+>         "var fn = function f(f){f = 1}",
+>         "var fn = function f(f$$1){f$$1 = 1}");
+>     test(
+>         "var fn = function f(f){var f; f = 1}",
+>         "var fn = function f(f$$1){var f$$1; f$$1 = 1}");
+>   }

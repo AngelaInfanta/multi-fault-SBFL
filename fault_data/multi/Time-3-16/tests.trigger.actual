@@ -1,0 +1,12 @@
+org.joda.time.TestMutableDateTime_Adds::testAddYears_int_dstOverlapWinter_addZero
+org.joda.time.TestMutableDateTime_Adds::testAddDays_int_dstOverlapWinter_addZero
+org.joda.time.TestMutableDateTime_Adds::testAddWeeks_int_dstOverlapWinter_addZero
+org.joda.time.TestMutableDateTime_Adds::testAdd_DurationFieldType_int_dstOverlapWinter_addZero
+org.joda.time.TestMutableDateTime_Adds::testAddMonths_int_dstOverlapWinter_addZero
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear

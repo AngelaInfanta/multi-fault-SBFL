@@ -1,0 +1,3 @@
+com.google.javascript.jscomp.CodePrinterTest::testIssue620
+com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine1
+com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine2

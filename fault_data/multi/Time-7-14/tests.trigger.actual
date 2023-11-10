@@ -1,0 +1,10 @@
+org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeFromLeap
+org.joda.time.TestMonthDay_Basics::testMinusDays_int_negativeFromLeap
+org.joda.time.TestMonthDay_Basics::testPlusMonths_int_fromLeap
+org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeEndOfMonthAdjust
+org.joda.time.TestMonthDay_Basics::testMinusMonths_int_endOfMonthAdjust
+org.joda.time.TestMonthDay_Basics::testMinusMonths_int_negativeFromLeap
+org.joda.time.TestMonthDay_Basics::testMinusMonths_int_fromLeap
+org.joda.time.TestMonthDay_Basics::testPlusDays_int_fromLeap
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_tokyo_endOfYear

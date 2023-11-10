@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4
+com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes

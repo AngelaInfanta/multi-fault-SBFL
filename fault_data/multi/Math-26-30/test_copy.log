@@ -1,0 +1,4 @@
+--- Overwrite: testIntegerOverflow
+136a137,138
+>         checkIntegerOverflow(-1.0e10);
+>         checkIntegerOverflow(-43979.60679604749);

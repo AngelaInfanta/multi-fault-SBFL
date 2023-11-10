@@ -1,0 +1,14 @@
+--- Insert: testAtanI
+1250a1251,1257
+>     @Test
+>     public void testAtanI() {
+>         for (int i = -10; i < 10; i++) {
+>             System.out.println(new Complex(0, 1 - 0.1 * i).atan());
+>         }
+>         Assert.assertTrue(Complex.I.atan().isInfinite());
+>     }
+--- Overwrite: testDivideZero
+232c232
+<         Assert.assertEquals(z, Complex.NaN);
+---
+>         Assert.assertEquals(z, Complex.INF);

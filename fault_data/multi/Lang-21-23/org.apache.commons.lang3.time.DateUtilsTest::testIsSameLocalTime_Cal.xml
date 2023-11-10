@@ -1,0 +1,107 @@
+<coverage branch-rate="0.020618556701030927" branches-covered="10" branches-valid="485" complexity="3.18562874251497" line-rate="0.005502063273727648" lines-covered="4" lines-valid="727" timestamp="1623774111705" version="2.0.3">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="3.0350877192982457" line-rate="0.0" name="org.apache.commons.lang3">
+			<classes>
+				<class branch-rate="0.0" complexity="3.388888888888889" filename="org/apache/commons/lang3/ObjectUtils.java" line-rate="0.0" name="org.apache.commons.lang3.ObjectUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.388888888888889" filename="org/apache/commons/lang3/ObjectUtils.java" line-rate="0.0" name="org.apache.commons.lang3.ObjectUtils$Null">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.871794871794872" filename="org/apache/commons/lang3/Validate.java" line-rate="0.0" name="org.apache.commons.lang3.Validate">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="0.0" name="org.apache.commons.lang3.exception">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/lang3/exception/CloneFailedException.java" line-rate="0.0" name="org.apache.commons.lang3.exception.CloneFailedException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.9347826086956523" line-rate="0.0" name="org.apache.commons.lang3.text">
+			<classes>
+				<class branch-rate="0.0" complexity="4.578947368421052" filename="org/apache/commons/lang3/text/ExtendedMessageFormat.java" line-rate="0.0" name="org.apache.commons.lang3.text.ExtendedMessageFormat">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/lang3/text/FormatFactory.java" line-rate="1.0" name="org.apache.commons.lang3.text.FormatFactory">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher$CharMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher$CharSetMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher$NoMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher$StringMatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8076923076923077" filename="org/apache/commons/lang3/text/StrMatcher.java" line-rate="0.0" name="org.apache.commons.lang3.text.StrMatcher$TrimMatcher">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.045871559633027525" complexity="3.622950819672131" line-rate="0.012903225806451613" name="org.apache.commons.lang3.time">
+			<classes>
+				<class branch-rate="0.046296296296296294" complexity="3.622950819672131" filename="org/apache/commons/lang3/time/DateUtils.java" line-rate="0.013422818791946308" name="org.apache.commons.lang3.time.DateUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="60" />
+								<line branch="false" hits="1" number="88" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="isSameLocalTime" signature="(Ljava/util/Calendar;Ljava/util/Calendar;)Z">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="2" number="259">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (8/16)" hits="2" number="262">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+										<condition coverage="50%" number="3" type="jump" />
+										<condition coverage="50%" number="4" type="jump" />
+										<condition coverage="50%" number="5" type="jump" />
+										<condition coverage="50%" number="6" type="jump" />
+										<condition coverage="50%" number="7" type="jump" />
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.622950819672131" filename="org/apache/commons/lang3/time/DateUtils.java" line-rate="0.0" name="org.apache.commons.lang3.time.DateUtils$DateIterator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

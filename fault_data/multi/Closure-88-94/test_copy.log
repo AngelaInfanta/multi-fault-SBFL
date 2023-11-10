@@ -1,0 +1,75 @@
+--- Insert: testIssue297
+649a650,660
+>   public void testIssue297() {
+>     args.add("--compilation_level=SIMPLE_OPTIMIZATIONS");
+>     test("function f(p) {" +
+>          " var x;" +
+>          " return ((x=p.id) && (x=parseInt(x.substr(1))) && x>0);" +
+>          "}",
+>          "function f(b) {" +
+>          " var a;" +
+>          " return ((a=b.id) && (a=parseInt(a.substr(1))) && a>0);" +
+>          "}");
+>   }  
+--- Insert: testIssue297a
+365a366,371
+>   public void testIssue297a() {
+>     testSame("function f(p) {" +
+>          " var x;" +
+>          " return ((x=p.id) && (x=parseInt(x.substr(1))) && x>0);" +
+>          "}; f('');");
+>   }
+--- Insert: testIssue297b
+371a372,381
+>   public void testIssue297b() {
+>     test("function f() {" +
+>          " var x;" +
+>          " return (x='') && (x = x.substr(1));" +
+>          "};",
+>          "function f() {" +
+>          " var x;" +
+>          " return (x='') && (x.substr(1));" +
+>          "};");
+>   }
+--- Insert: testIssue297c
+381a382,391
+>   public void testIssue297c() {
+>     test("function f() {" +
+>          " var x;" +
+>          " return (x=1) && (x = f(x));" +
+>          "};",
+>          "function f() {" +
+>          " var x;" +
+>          " return (x=1) && f(x);" +
+>          "};");
+>   }
+--- Insert: testIssue297d
+391a392,399
+>   public void testIssue297d() {
+>     test("function f(a) {" +
+>          " return (a=1) && (a = f(a));" +
+>          "};",
+>          "function f(a) {" +
+>          " return (a=1) && (f(a));" +
+>          "};");
+>   }
+--- Insert: testIssue297e
+399a400,407
+>   public void testIssue297e() {
+>     test("function f(a) {" +
+>          " return (a=1) - (a = g(a));" +
+>          "};",
+>          "function f(a) {" +
+>          " return (a=1) - (g(a));" +
+>          "};");
+>   }
+--- Insert: testIssue297f
+407a408,415
+>   public void testIssue297f() {
+>     test("function f(a) {" +
+>          " h((a=1) - (a = g(a)));" +
+>          "};",
+>          "function f(a) {" +
+>          " h((a=1) - (g(a)));" +
+>          "};");
+>   }

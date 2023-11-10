@@ -1,0 +1,14 @@
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetCategoryIndex
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testSetCategoryKeys
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetSeriesIndex
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowCount
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowIndex
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnCount
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnIndex
+org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testCloning2
+org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByKey
+org.jfree.data.junit.KeyedObjects2DTests::testRemoveValue
+org.jfree.data.junit.KeyedObjects2DTests::testGetValueByKey
+org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByIndex
+org.jfree.data.junit.KeyedObjects2DTests::testSetObject
+org.jfree.data.junit.KeyedObjects2DTests::testRemoveRowByKey

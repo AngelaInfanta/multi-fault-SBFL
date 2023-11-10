@@ -1,0 +1,15 @@
+--- Insert: testIssue301
+8144a8145,8151
+>   public void testIssue301() throws Exception {
+>     testTypes(
+>         "Array.indexOf = function() {};" +
+>         "var s = 'hello';" +
+>         "alert(s.toLowerCase.indexOf('1'));",
+>         "Property indexOf never defined on String.prototype.toLowerCase");
+>   }
+--- Insert: testEmptyFunctionTypes
+172a173,176
+>   public void testEmptyFunctionTypes() {
+>     assertTrue(LEAST_FUNCTION_TYPE.isEmptyType());
+>     assertFalse(GREATEST_FUNCTION_TYPE.isEmptyType());
+>   }

@@ -1,0 +1,7 @@
+--- Insert: testLendsAnnotation3
+205a206,210
+>   public void testLendsAnnotation3() {
+>     testSame("/** @constructor */ function F() {}" +
+>         "dojo.declare(F, /** @lends {F.prototype} */ (" +
+>         "    {foo: function() { return this.foo; }}));");
+>   }

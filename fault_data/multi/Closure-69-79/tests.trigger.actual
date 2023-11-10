@@ -1,0 +1,8 @@
+com.google.javascript.jscomp.NormalizeTest::testIssue
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4
+com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1
+com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3
+com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns
+com.google.javascript.jscomp.VarCheckTest::testCallInExterns

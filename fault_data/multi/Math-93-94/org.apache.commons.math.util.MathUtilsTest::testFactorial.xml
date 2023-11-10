@@ -1,0 +1,53 @@
+<coverage branch-rate="0.023255813953488372" branches-covered="5" branches-valid="215" complexity="0.0" line-rate="0.04524886877828054" lines-covered="10" lines-valid="221" timestamp="1623861466959" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.023255813953488372" complexity="0.0" line-rate="0.04524886877828054" name="org.apache.commons.math.util">
+			<classes>
+				<class branch-rate="0.023255813953488372" complexity="0.0" filename="org/apache/commons/math/util/MathUtils.java" line-rate="0.04524886877828054" name="org.apache.commons.math.util.MathUtils">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.75" name="factorial" signature="(I)J">
+							<lines>
+								<line branch="false" hits="17" number="339" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="17" number="340">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="17" number="344" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.6666666666666666" name="factorialDouble" signature="(I)D">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="33" number="368">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="33" number="371" />
+							</lines>
+						</method>
+						<method branch-rate="0.75" line-rate="0.8333333333333334" name="factorialLog" signature="(I)D">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="49" number="388">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="49" number="391" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="425" number="392">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="376" number="393" />
+								<line branch="false" hits="49" number="395" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

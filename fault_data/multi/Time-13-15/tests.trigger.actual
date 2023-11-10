@@ -1,0 +1,2 @@
+org.joda.time.field.TestFieldUtils::testSafeMultiplyLongInt
+org.joda.time.format.TestISOPeriodFormat::testFormatStandard_negative

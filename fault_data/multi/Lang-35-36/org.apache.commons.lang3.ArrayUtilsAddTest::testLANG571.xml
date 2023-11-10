@@ -1,0 +1,77 @@
+<coverage branch-rate="0.001344688480502017" branches-covered="3" branches-valid="2231" complexity="5.162849872773537" line-rate="0.00963762528912876" lines-covered="25" lines-valid="2594" timestamp="1623783243056" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.001589825119236884" complexity="4.956647398843931" line-rate="0.011235955056179775" name="org.apache.commons.lang3">
+			<classes>
+				<class branch-rate="0.0037220843672456576" complexity="4.385057471264368" filename="org/apache/commons/lang3/ArrayUtils.java" line-rate="0.026041666666666668" name="org.apache.commons.lang3.ArrayUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="54" />
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="62" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="70" />
+								<line branch="false" hits="1" number="74" />
+								<line branch="false" hits="1" number="78" />
+								<line branch="false" hits="1" number="82" />
+								<line branch="false" hits="1" number="86" />
+								<line branch="false" hits="1" number="90" />
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="102" />
+								<line branch="false" hits="1" number="106" />
+								<line branch="false" hits="1" number="110" />
+								<line branch="false" hits="1" number="114" />
+								<line branch="false" hits="1" number="118" />
+								<line branch="false" hits="1" number="122" />
+								<line branch="false" hits="1" number="126" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="add" signature="([Ljava/lang/Object;Ljava/lang/Object;)[Ljava/lang/Object;">
+							<lines>
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="3243">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="3245" />
+								<line branch="false" hits="1" number="3246" />
+								<line branch="false" hits="1" number="3247" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.3333333333333333" name="copyArrayGrow1" signature="(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="3476">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="3482" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.802547770700637" filename="org/apache/commons/lang3/StringUtils.java" line-rate="0.0" name="org.apache.commons.lang3.StringUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.7333333333333334" filename="org/apache/commons/lang3/SystemUtils.java" line-rate="0.0" name="org.apache.commons.lang3.SystemUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="6.680851063829787" line-rate="0.0" name="org.apache.commons.lang3.math">
+			<classes>
+				<class branch-rate="0.0" complexity="6.680851063829787" filename="org/apache/commons/lang3/math/NumberUtils.java" line-rate="0.0" name="org.apache.commons.lang3.math.NumberUtils">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

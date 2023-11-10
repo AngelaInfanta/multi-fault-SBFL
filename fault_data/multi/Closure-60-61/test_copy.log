@@ -1,0 +1,46 @@
+--- Insert: testIssue504
+972a973,977
+>   public void testIssue504() {
+>     args.add("--compilation_level=ADVANCED_OPTIMIZATIONS");
+>     test("void function() { alert('hi'); }();",
+>          "alert('hi');", CheckSideEffects.USELESS_CODE_ERROR);
+>   }
+--- Overwrite: testGetBooleanValue
+92,106c92,106
+<     assertBooleanTrue("true");
+<     assertBooleanTrue("10");
+<     assertBooleanTrue("'0'");
+<     assertBooleanTrue("/a/");
+<     assertBooleanTrue("{}");
+<     assertBooleanTrue("[]");
+<     assertBooleanFalse("false");
+<     assertBooleanFalse("null");
+<     assertBooleanFalse("0");
+<     assertBooleanFalse("''");
+<     assertBooleanFalse("undefined");
+<     assertBooleanFalse("void 0");
+<     assertBooleanFalse("void foo()");
+<     assertBooleanUnknown("b");
+<     assertBooleanUnknown("-'0.0'");
+---
+>     assertPureBooleanTrue("true");
+>     assertPureBooleanTrue("10");
+>     assertPureBooleanTrue("'0'");
+>     assertPureBooleanTrue("/a/");
+>     assertPureBooleanTrue("{}");
+>     assertPureBooleanTrue("[]");
+>     assertPureBooleanFalse("false");
+>     assertPureBooleanFalse("null");
+>     assertPureBooleanFalse("0");
+>     assertPureBooleanFalse("''");
+>     assertPureBooleanFalse("undefined");
+>     assertPureBooleanFalse("void 0");
+>     assertPureBooleanUnknown("void foo()");
+>     assertPureBooleanUnknown("b");
+>     assertPureBooleanUnknown("-'0.0'");
+109,110c109,110
+<     assertBooleanUnknown("{a:foo()}");
+<     assertBooleanUnknown("[foo()]");
+---
+>     assertPureBooleanUnknown("{a:foo()}");
+>     assertPureBooleanUnknown("[foo()]");

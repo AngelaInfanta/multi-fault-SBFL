@@ -1,0 +1,44 @@
+--- Overwrite: testTypeRedefinition
+2113c2113,2114
+<     testTypes("a={};/**@enum {string}*/ a.A = {ZOR:'b'};"
+---
+>     testClosureTypesMultipleWarnings(
+>         "a={};/**@enum {string}*/ a.A = {ZOR:'b'};"
+2115,2116c2116,2121
+<         "variable a.A redefined with type function (new:a.A): undefined, " +
+<         "original definition at [testcode]:1 with type enum{a.A}");
+---
+>         Lists.newArrayList(
+>             "variable a.A redefined with type function (new:a.A): undefined, " +
+>             "original definition at [testcode]:1 with type enum{a.A}",
+>             "assignment to property A of a\n" +
+>             "found   : function (new:a.A): undefined\n" +
+>             "required: enum{a.A}"));
+--- Insert: testIssue635b
+9997a9998,10008
+>   public void testIssue635b() throws Exception {
+>     testTypes(
+>         "/** @constructor */" +
+>         "function F() {}" +
+>         "/** @constructor */" +
+>         "function G() {}" +
+>         "/** @type {function(new:G)} */ var x = F;",
+>         "initializing variable\n" +
+>         "found   : function (new:F): undefined\n" +
+>         "required: function (new:G): ?");
+>   }
+--- Overwrite: testTypeRedefinition
+2480c2480
+<     testTypes("a={};/**@enum {string}*/ a.A = {ZOR:'b'};"
+---
+>     testClosureTypesMultipleWarnings("a={};/**@enum {string}*/ a.A = {ZOR:'b'};"
+2482,2483c2482,2487
+<         "variable a.A redefined with type function (new:a.A): undefined, " +
+<         "original definition at [testcode]:1 with type enum{a.A}");
+---
+>         Lists.newArrayList(
+>             "variable a.A redefined with type function (new:a.A): undefined, " +
+>             "original definition at [testcode]:1 with type enum{a.A}",
+>             "assignment to property A of a\n" +
+>             "found   : function (new:a.A): undefined\n" +
+>             "required: enum{a.A}"));

@@ -1,0 +1,3 @@
+com.google.javascript.jscomp.NodeUtilTest::testIsBooleanResult
+com.google.javascript.jscomp.NodeUtilTest::testLocalValue1
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIEString

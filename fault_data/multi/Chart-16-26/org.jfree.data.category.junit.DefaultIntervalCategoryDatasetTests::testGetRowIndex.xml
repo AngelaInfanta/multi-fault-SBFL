@@ -1,0 +1,1215 @@
+<coverage branch-rate="6.224712107065049E-4" branches-covered="6" branches-valid="9639" complexity="2.803894297635605" line-rate="0.0016931114551083592" lines-covered="35" lines-valid="20672" timestamp="1624286085460" version="2.0.3">
+	<sources>
+		<source>source</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="2.9235294117647057" line-rate="0.0" name="org.jfree.chart">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/ChartColor.java" line-rate="0.0" name="org.jfree.chart.ChartColor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.529411764705882" filename="org/jfree/chart/ChartFactory.java" line-rate="0.0" name="org.jfree.chart.ChartFactory">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0833333333333335" filename="org/jfree/chart/ChartRenderingInfo.java" line-rate="0.0" name="org.jfree.chart.ChartRenderingInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/Drawable.java" line-rate="1.0" name="org.jfree.chart.Drawable">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/Effect3D.java" line-rate="1.0" name="org.jfree.chart.Effect3D">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.736111111111111" filename="org/jfree/chart/JFreeChart.java" line-rate="0.0" name="org.jfree.chart.JFreeChart">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6578947368421053" filename="org/jfree/chart/LegendItem.java" line-rate="0.0" name="org.jfree.chart.LegendItem">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.75" filename="org/jfree/chart/LegendItemCollection.java" line-rate="0.0" name="org.jfree.chart.LegendItemCollection">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/LegendItemSource.java" line-rate="1.0" name="org.jfree.chart.LegendItemSource">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.jfree.chart.annotations">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/annotations/CategoryAnnotation.java" line-rate="1.0" name="org.jfree.chart.annotations.CategoryAnnotation">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.8521400778210118" line-rate="0.0" name="org.jfree.chart.axis">
+			<classes>
+				<class branch-rate="0.0" complexity="2.65" filename="org/jfree/chart/axis/Axis.java" line-rate="0.0" name="org.jfree.chart.axis.Axis">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3333333333333335" filename="org/jfree/chart/axis/AxisCollection.java" line-rate="0.0" name="org.jfree.chart.axis.AxisCollection">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.5" filename="org/jfree/chart/axis/AxisLocation.java" line-rate="0.0" name="org.jfree.chart.axis.AxisLocation">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.789473684210526" filename="org/jfree/chart/axis/AxisSpace.java" line-rate="0.0" name="org.jfree.chart.axis.AxisSpace">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3076923076923077" filename="org/jfree/chart/axis/AxisState.java" line-rate="0.0" name="org.jfree.chart.axis.AxisState">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.0" filename="org/jfree/chart/axis/CategoryAnchor.java" line-rate="0.0" name="org.jfree.chart.axis.CategoryAnchor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4565217391304346" filename="org/jfree/chart/axis/CategoryAxis.java" line-rate="0.0" name="org.jfree.chart.axis.CategoryAxis">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.0" filename="org/jfree/chart/axis/CategoryAxis3D.java" line-rate="0.0" name="org.jfree.chart.axis.CategoryAxis3D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/axis/CategoryLabelPosition.java" line-rate="0.0" name="org.jfree.chart.axis.CategoryLabelPosition">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.636363636363637" filename="org/jfree/chart/axis/CategoryLabelPositions.java" line-rate="0.0" name="org.jfree.chart.axis.CategoryLabelPositions">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.0" filename="org/jfree/chart/axis/CategoryLabelWidthType.java" line-rate="0.0" name="org.jfree.chart.axis.CategoryLabelWidthType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.8333333333333335" filename="org/jfree/chart/axis/CategoryTick.java" line-rate="0.0" name="org.jfree.chart.axis.CategoryTick">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.357142857142857" filename="org/jfree/chart/axis/DateAxis.java" line-rate="0.0" name="org.jfree.chart.axis.DateAxis">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.357142857142857" filename="org/jfree/chart/axis/DateAxis.java" line-rate="1.0" name="org.jfree.chart.axis.DateAxis$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.357142857142857" filename="org/jfree/chart/axis/DateAxis.java" line-rate="0.0" name="org.jfree.chart.axis.DateAxis$DefaultTimeline">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.75" filename="org/jfree/chart/axis/DateTick.java" line-rate="0.0" name="org.jfree.chart.axis.DateTick">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.0" filename="org/jfree/chart/axis/DateTickMarkPosition.java" line-rate="0.0" name="org.jfree.chart.axis.DateTickMarkPosition">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.210526315789474" filename="org/jfree/chart/axis/DateTickUnit.java" line-rate="0.0" name="org.jfree.chart.axis.DateTickUnit">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.7142857142857144" filename="org/jfree/chart/axis/MarkerAxisBand.java" line-rate="0.0" name="org.jfree.chart.axis.MarkerAxisBand">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0789473684210527" filename="org/jfree/chart/axis/NumberAxis.java" line-rate="0.0" name="org.jfree.chart.axis.NumberAxis">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6666666666666665" filename="org/jfree/chart/axis/NumberAxis3D.java" line-rate="0.0" name="org.jfree.chart.axis.NumberAxis3D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/axis/NumberTick.java" line-rate="0.0" name="org.jfree.chart.axis.NumberTick">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.2" filename="org/jfree/chart/axis/NumberTickUnit.java" line-rate="0.0" name="org.jfree.chart.axis.NumberTickUnit">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0875" filename="org/jfree/chart/axis/SegmentedTimeline.java" line-rate="0.0" name="org.jfree.chart.axis.SegmentedTimeline">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0875" filename="org/jfree/chart/axis/SegmentedTimeline.java" line-rate="0.0" name="org.jfree.chart.axis.SegmentedTimeline$BaseTimelineSegmentRange">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0875" filename="org/jfree/chart/axis/SegmentedTimeline.java" line-rate="0.0" name="org.jfree.chart.axis.SegmentedTimeline$Segment">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0875" filename="org/jfree/chart/axis/SegmentedTimeline.java" line-rate="0.0" name="org.jfree.chart.axis.SegmentedTimeline$SegmentRange">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/axis/Tick.java" line-rate="0.0" name="org.jfree.chart.axis.Tick">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.1666666666666665" filename="org/jfree/chart/axis/TickUnit.java" line-rate="0.0" name="org.jfree.chart.axis.TickUnit">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/axis/TickUnitSource.java" line-rate="1.0" name="org.jfree.chart.axis.TickUnitSource">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2222222222222223" filename="org/jfree/chart/axis/TickUnits.java" line-rate="0.0" name="org.jfree.chart.axis.TickUnits">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/axis/Timeline.java" line-rate="1.0" name="org.jfree.chart.axis.Timeline">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6911764705882355" filename="org/jfree/chart/axis/ValueAxis.java" line-rate="0.0" name="org.jfree.chart.axis.ValueAxis">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.3333333333333335" filename="org/jfree/chart/axis/ValueTick.java" line-rate="0.0" name="org.jfree.chart.axis.ValueTick">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.967391304347826" line-rate="0.0" name="org.jfree.chart.block">
+			<classes>
+				<class branch-rate="0.0" complexity="2.0833333333333335" filename="org/jfree/chart/block/AbstractBlock.java" line-rate="0.0" name="org.jfree.chart.block.AbstractBlock">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/Arrangement.java" line-rate="1.0" name="org.jfree.chart.block.Arrangement">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/Block.java" line-rate="1.0" name="org.jfree.chart.block.Block">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4545454545454546" filename="org/jfree/chart/block/BlockBorder.java" line-rate="0.0" name="org.jfree.chart.block.BlockBorder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4285714285714284" filename="org/jfree/chart/block/BlockContainer.java" line-rate="0.0" name="org.jfree.chart.block.BlockContainer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/BlockFrame.java" line-rate="1.0" name="org.jfree.chart.block.BlockFrame">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/BlockParams.java" line-rate="0.0" name="org.jfree.chart.block.BlockParams">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/BlockResult.java" line-rate="0.0" name="org.jfree.chart.block.BlockResult">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="8.2" filename="org/jfree/chart/block/BorderArrangement.java" line-rate="0.0" name="org.jfree.chart.block.BorderArrangement">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6153846153846154" filename="org/jfree/chart/block/CenterArrangement.java" line-rate="0.0" name="org.jfree.chart.block.CenterArrangement">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.363636363636363" filename="org/jfree/chart/block/ColumnArrangement.java" line-rate="0.0" name="org.jfree.chart.block.ColumnArrangement">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/EntityBlockParams.java" line-rate="1.0" name="org.jfree.chart.block.EntityBlockParams">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/block/EntityBlockResult.java" line-rate="1.0" name="org.jfree.chart.block.EntityBlockResult">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.714285714285714" filename="org/jfree/chart/block/FlowArrangement.java" line-rate="0.0" name="org.jfree.chart.block.FlowArrangement">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2222222222222223" filename="org/jfree/chart/block/LabelBlock.java" line-rate="0.0" name="org.jfree.chart.block.LabelBlock">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/jfree/chart/block/LengthConstraintType.java" line-rate="0.0" name="org.jfree.chart.block.LengthConstraintType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.5555555555555554" filename="org/jfree/chart/block/LineBorder.java" line-rate="0.0" name="org.jfree.chart.block.LineBorder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.263157894736842" filename="org/jfree/chart/block/RectangleConstraint.java" line-rate="0.0" name="org.jfree.chart.block.RectangleConstraint">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.1" line-rate="0.0" name="org.jfree.chart.entity">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/entity/AxisLabelEntity.java" line-rate="0.0" name="org.jfree.chart.entity.AxisLabelEntity">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5555555555555554" filename="org/jfree/chart/entity/CategoryItemEntity.java" line-rate="0.0" name="org.jfree.chart.entity.CategoryItemEntity">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/entity/CategoryLabelEntity.java" line-rate="0.0" name="org.jfree.chart.entity.CategoryLabelEntity">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.736842105263158" filename="org/jfree/chart/entity/ChartEntity.java" line-rate="0.0" name="org.jfree.chart.entity.ChartEntity">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/entity/EntityCollection.java" line-rate="1.0" name="org.jfree.chart.entity.EntityCollection">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/jfree/chart/entity/LegendItemEntity.java" line-rate="0.0" name="org.jfree.chart.entity.LegendItemEntity">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/entity/TickLabelEntity.java" line-rate="0.0" name="org.jfree.chart.entity.TickLabelEntity">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.3333333333333333" line-rate="0.0" name="org.jfree.chart.event">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/AxisChangeEvent.java" line-rate="0.0" name="org.jfree.chart.event.AxisChangeEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/AxisChangeListener.java" line-rate="1.0" name="org.jfree.chart.event.AxisChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/ChartChangeEvent.java" line-rate="0.0" name="org.jfree.chart.event.ChartChangeEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/jfree/chart/event/ChartChangeEventType.java" line-rate="0.0" name="org.jfree.chart.event.ChartChangeEventType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/ChartChangeListener.java" line-rate="1.0" name="org.jfree.chart.event.ChartChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/ChartProgressEvent.java" line-rate="0.0" name="org.jfree.chart.event.ChartProgressEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/ChartProgressListener.java" line-rate="1.0" name="org.jfree.chart.event.ChartProgressListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/MarkerChangeEvent.java" line-rate="0.0" name="org.jfree.chart.event.MarkerChangeEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/MarkerChangeListener.java" line-rate="1.0" name="org.jfree.chart.event.MarkerChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/PlotChangeEvent.java" line-rate="0.0" name="org.jfree.chart.event.PlotChangeEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/PlotChangeListener.java" line-rate="1.0" name="org.jfree.chart.event.PlotChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/RendererChangeEvent.java" line-rate="0.0" name="org.jfree.chart.event.RendererChangeEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/RendererChangeListener.java" line-rate="1.0" name="org.jfree.chart.event.RendererChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/TitleChangeEvent.java" line-rate="0.0" name="org.jfree.chart.event.TitleChangeEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/event/TitleChangeListener.java" line-rate="1.0" name="org.jfree.chart.event.TitleChangeListener">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.0" line-rate="0.0" name="org.jfree.chart.labels">
+			<classes>
+				<class branch-rate="0.0" complexity="3.3333333333333335" filename="org/jfree/chart/labels/AbstractCategoryItemLabelGenerator.java" line-rate="0.0" name="org.jfree.chart.labels.AbstractCategoryItemLabelGenerator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/labels/CategoryItemLabelGenerator.java" line-rate="1.0" name="org.jfree.chart.labels.CategoryItemLabelGenerator">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/labels/CategorySeriesLabelGenerator.java" line-rate="1.0" name="org.jfree.chart.labels.CategorySeriesLabelGenerator">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/labels/CategoryToolTipGenerator.java" line-rate="1.0" name="org.jfree.chart.labels.CategoryToolTipGenerator">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="org/jfree/chart/labels/IntervalCategoryToolTipGenerator.java" line-rate="0.0" name="org.jfree.chart.labels.IntervalCategoryToolTipGenerator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="8.75" filename="org/jfree/chart/labels/ItemLabelAnchor.java" line-rate="0.0" name="org.jfree.chart.labels.ItemLabelAnchor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.25" filename="org/jfree/chart/labels/ItemLabelPosition.java" line-rate="0.0" name="org.jfree.chart.labels.ItemLabelPosition">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/labels/PieSectionLabelGenerator.java" line-rate="1.0" name="org.jfree.chart.labels.PieSectionLabelGenerator">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/labels/PieToolTipGenerator.java" line-rate="1.0" name="org.jfree.chart.labels.PieToolTipGenerator">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6666666666666665" filename="org/jfree/chart/labels/StandardCategorySeriesLabelGenerator.java" line-rate="0.0" name="org.jfree.chart.labels.StandardCategorySeriesLabelGenerator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8" filename="org/jfree/chart/labels/StandardCategoryToolTipGenerator.java" line-rate="0.0" name="org.jfree.chart.labels.StandardCategoryToolTipGenerator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/labels/XYToolTipGenerator.java" line-rate="1.0" name="org.jfree.chart.labels.XYToolTipGenerator">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.1027027027027025" line-rate="0.0" name="org.jfree.chart.plot">
+			<classes>
+				<class branch-rate="0.0" complexity="2.5" filename="org/jfree/chart/plot/CategoryMarker.java" line-rate="0.0" name="org.jfree.chart.plot.CategoryMarker">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.173076923076923" filename="org/jfree/chart/plot/CategoryPlot.java" line-rate="0.0" name="org.jfree.chart.plot.CategoryPlot">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.5" filename="org/jfree/chart/plot/DatasetRenderingOrder.java" line-rate="0.0" name="org.jfree.chart.plot.DatasetRenderingOrder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.5294117647058822" filename="org/jfree/chart/plot/DefaultDrawingSupplier.java" line-rate="0.0" name="org.jfree.chart.plot.DefaultDrawingSupplier">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/plot/DrawingSupplier.java" line-rate="1.0" name="org.jfree.chart.plot.DrawingSupplier">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2" filename="org/jfree/chart/plot/IntervalMarker.java" line-rate="0.0" name="org.jfree.chart.plot.IntervalMarker">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6" filename="org/jfree/chart/plot/Marker.java" line-rate="0.0" name="org.jfree.chart.plot.Marker">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6666666666666665" filename="org/jfree/chart/plot/MultiplePiePlot.java" line-rate="0.0" name="org.jfree.chart.plot.MultiplePiePlot">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.7757009345794392" filename="org/jfree/chart/plot/PiePlot.java" line-rate="0.0" name="org.jfree.chart.plot.PiePlot">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="8.4" filename="org/jfree/chart/plot/PiePlot3D.java" line-rate="0.0" name="org.jfree.chart.plot.PiePlot3D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.9836065573770494" filename="org/jfree/chart/plot/Plot.java" line-rate="0.0" name="org.jfree.chart.plot.Plot">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/plot/PlotOrientation.java" line-rate="0.0" name="org.jfree.chart.plot.PlotOrientation">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2857142857142856" filename="org/jfree/chart/plot/PlotRenderingInfo.java" line-rate="0.0" name="org.jfree.chart.plot.PlotRenderingInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/plot/PlotState.java" line-rate="0.0" name="org.jfree.chart.plot.PlotState">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5185185185185186" filename="org/jfree/chart/plot/PolarPlot.java" line-rate="0.0" name="org.jfree.chart.plot.PolarPlot">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/plot/RingPlot.java" line-rate="0.0" name="org.jfree.chart.plot.RingPlot">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/plot/ValueAxisPlot.java" line-rate="1.0" name="org.jfree.chart.plot.ValueAxisPlot">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3333333333333335" filename="org/jfree/chart/plot/ValueMarker.java" line-rate="0.0" name="org.jfree.chart.plot.ValueMarker">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6153846153846154" filename="org/jfree/chart/plot/WaferMapPlot.java" line-rate="0.0" name="org.jfree.chart.plot.WaferMapPlot">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.532608695652174" filename="org/jfree/chart/plot/XYPlot.java" line-rate="0.0" name="org.jfree.chart.plot.XYPlot">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/plot/Zoomable.java" line-rate="1.0" name="org.jfree.chart.plot.Zoomable">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.299363057324841" line-rate="0.0" name="org.jfree.chart.renderer">
+			<classes>
+				<class branch-rate="0.0" complexity="2.4029850746268657" filename="org/jfree/chart/renderer/AbstractRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.AbstractRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.25" filename="org/jfree/chart/renderer/AreaRendererEndType.java" line-rate="0.0" name="org.jfree.chart.renderer.AreaRendererEndType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.625" filename="org/jfree/chart/renderer/OutlierListCollection.java" line-rate="0.0" name="org.jfree.chart.renderer.OutlierListCollection">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/renderer/PolarItemRenderer.java" line-rate="1.0" name="org.jfree.chart.renderer.PolarItemRenderer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6666666666666667" filename="org/jfree/chart/renderer/RendererState.java" line-rate="0.0" name="org.jfree.chart.renderer.RendererState">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.982570806100218" line-rate="0.0" name="org.jfree.chart.renderer.category">
+			<classes>
+				<class branch-rate="0.0" complexity="3.111111111111111" filename="org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.AbstractCategoryItemRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.142857142857143" filename="org/jfree/chart/renderer/category/AreaRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.AreaRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.212121212121212" filename="org/jfree/chart/renderer/category/BarRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.BarRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.875" filename="org/jfree/chart/renderer/category/BarRenderer3D.java" line-rate="0.0" name="org.jfree.chart.renderer.category.BarRenderer3D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.473684210526316" filename="org/jfree/chart/renderer/category/BoxAndWhiskerRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.BoxAndWhiskerRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/renderer/category/CategoryItemRenderer.java" line-rate="1.0" name="org.jfree.chart.renderer.category.CategoryItemRenderer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/renderer/category/CategoryItemRendererState.java" line-rate="0.0" name="org.jfree.chart.renderer.category.CategoryItemRendererState">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.6" filename="org/jfree/chart/renderer/category/GanttRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.GanttRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.571428571428571" filename="org/jfree/chart/renderer/category/GroupedStackedBarRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.GroupedStackedBarRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.333333333333333" filename="org/jfree/chart/renderer/category/IntervalBarRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.IntervalBarRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="8.714285714285714" filename="org/jfree/chart/renderer/category/LayeredBarRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.LayeredBarRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.272727272727273" filename="org/jfree/chart/renderer/category/LevelRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.LevelRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.935483870967742" filename="org/jfree/chart/renderer/category/LineAndShapeRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.LineAndShapeRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.5" filename="org/jfree/chart/renderer/category/LineRenderer3D.java" line-rate="0.0" name="org.jfree.chart.renderer.category.LineRenderer3D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.1666666666666665" filename="org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.MinMaxCategoryRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.1666666666666665" filename="org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.MinMaxCategoryRenderer$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.1666666666666665" filename="org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.MinMaxCategoryRenderer$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.5833333333333335" filename="org/jfree/chart/renderer/category/StackedAreaRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.StackedAreaRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.444444444444445" filename="org/jfree/chart/renderer/category/StackedBarRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.StackedBarRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.6" filename="org/jfree/chart/renderer/category/StackedBarRenderer3D.java" line-rate="0.0" name="org.jfree.chart.renderer.category.StackedBarRenderer3D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.888888888888889" filename="org/jfree/chart/renderer/category/StatisticalBarRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.StatisticalBarRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.75" filename="org/jfree/chart/renderer/category/StatisticalLineAndShapeRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.StatisticalLineAndShapeRenderer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.333333333333333" filename="org/jfree/chart/renderer/category/WaterfallBarRenderer.java" line-rate="0.0" name="org.jfree.chart.renderer.category.WaterfallBarRenderer">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.jfree.chart.renderer.xy">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/renderer/xy/XYItemRenderer.java" line-rate="1.0" name="org.jfree.chart.renderer.xy.XYItemRenderer">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="0.0" name="org.jfree.chart.resources">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/resources/JFreeChartResources.java" line-rate="0.0" name="org.jfree.chart.resources.JFreeChartResources">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="4.213333333333333" line-rate="0.0" name="org.jfree.chart.text">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/text/G2TextMeasurer.java" line-rate="0.0" name="org.jfree.chart.text.G2TextMeasurer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.2" filename="org/jfree/chart/text/TextAnchor.java" line-rate="0.0" name="org.jfree.chart.text.TextAnchor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.9285714285714284" filename="org/jfree/chart/text/TextBlock.java" line-rate="0.0" name="org.jfree.chart.text.TextBlock">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.8" filename="org/jfree/chart/text/TextBlockAnchor.java" line-rate="0.0" name="org.jfree.chart.text.TextBlockAnchor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.8" filename="org/jfree/chart/text/TextFragment.java" line-rate="0.0" name="org.jfree.chart.text.TextFragment">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3846153846153846" filename="org/jfree/chart/text/TextLine.java" line-rate="0.0" name="org.jfree.chart.text.TextLine">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/text/TextMeasurer.java" line-rate="1.0" name="org.jfree.chart.text.TextMeasurer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.2" filename="org/jfree/chart/text/TextUtilities.java" line-rate="0.0" name="org.jfree.chart.text.TextUtilities">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.921259842519685" line-rate="0.0" name="org.jfree.chart.title">
+			<classes>
+				<class branch-rate="0.0" complexity="2.736842105263158" filename="org/jfree/chart/title/LegendGraphic.java" line-rate="0.0" name="org.jfree.chart.title.LegendGraphic">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.25" filename="org/jfree/chart/title/LegendItemBlockContainer.java" line-rate="0.0" name="org.jfree.chart.title.LegendItemBlockContainer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5" filename="org/jfree/chart/title/LegendTitle.java" line-rate="0.0" name="org.jfree.chart.title.LegendTitle">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.096774193548387" filename="org/jfree/chart/title/TextTitle.java" line-rate="0.0" name="org.jfree.chart.title.TextTitle">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.75" filename="org/jfree/chart/title/Title.java" line-rate="0.0" name="org.jfree.chart.title.Title">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.7173913043478262" line-rate="0.0" name="org.jfree.chart.ui">
+			<classes>
+				<class branch-rate="0.0" complexity="2.0" filename="org/jfree/chart/ui/BasicProjectInfo.java" line-rate="0.0" name="org.jfree.chart.ui.BasicProjectInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/jfree/chart/ui/BasicProjectInfo.java" line-rate="0.0" name="org.jfree.chart.ui.BasicProjectInfo$OptionalLibraryHolder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/ui/Contributor.java" line-rate="0.0" name="org.jfree.chart.ui.Contributor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.75" filename="org/jfree/chart/ui/Library.java" line-rate="0.0" name="org.jfree.chart.ui.Library">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="org/jfree/chart/ui/Licences.java" line-rate="0.0" name="org.jfree.chart.ui.Licences">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4444444444444444" filename="org/jfree/chart/ui/ProjectInfo.java" line-rate="0.0" name="org.jfree.chart.ui.ProjectInfo">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.4" line-rate="0.0" name="org.jfree.chart.urls">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/urls/CategoryURLGenerator.java" line-rate="1.0" name="org.jfree.chart.urls.CategoryURLGenerator">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/urls/PieURLGenerator.java" line-rate="1.0" name="org.jfree.chart.urls.PieURLGenerator">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.428571428571429" filename="org/jfree/chart/urls/StandardCategoryURLGenerator.java" line-rate="0.0" name="org.jfree.chart.urls.StandardCategoryURLGenerator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/urls/XYURLGenerator.java" line-rate="1.0" name="org.jfree.chart.urls.XYURLGenerator">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.375" line-rate="0.0" name="org.jfree.chart.util">
+			<classes>
+				<class branch-rate="0.0" complexity="2.769230769230769" filename="org/jfree/chart/util/AbstractObjectList.java" line-rate="0.0" name="org.jfree.chart.util.AbstractObjectList">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4" filename="org/jfree/chart/util/BooleanList.java" line-rate="0.0" name="org.jfree.chart.util.BooleanList">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/util/GradientPaintTransformType.java" line-rate="0.0" name="org.jfree.chart.util.GradientPaintTransformType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/util/GradientPaintTransformer.java" line-rate="1.0" name="org.jfree.chart.util.GradientPaintTransformer">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.8" filename="org/jfree/chart/util/HorizontalAlignment.java" line-rate="0.0" name="org.jfree.chart.util.HorizontalAlignment">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6" filename="org/jfree/chart/util/Layer.java" line-rate="0.0" name="org.jfree.chart.util.Layer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/jfree/chart/util/LengthAdjustmentType.java" line-rate="0.0" name="org.jfree.chart.util.LengthAdjustmentType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/util/ObjectList.java" line-rate="0.0" name="org.jfree.chart.util.ObjectList">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.2105263157894735" filename="org/jfree/chart/util/ObjectUtilities.java" line-rate="0.0" name="org.jfree.chart.util.ObjectUtilities">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.7142857142857144" filename="org/jfree/chart/util/PaintList.java" line-rate="0.0" name="org.jfree.chart.util.PaintList">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.5" filename="org/jfree/chart/util/PaintUtilities.java" line-rate="0.0" name="org.jfree.chart.util.PaintUtilities">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/chart/util/PublicCloneable.java" line-rate="1.0" name="org.jfree.chart.util.PublicCloneable">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.714285714285714" filename="org/jfree/chart/util/RectangleAnchor.java" line-rate="0.0" name="org.jfree.chart.util.RectangleAnchor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.2222222222222223" filename="org/jfree/chart/util/RectangleEdge.java" line-rate="0.0" name="org.jfree.chart.util.RectangleEdge">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4827586206896552" filename="org/jfree/chart/util/RectangleInsets.java" line-rate="0.0" name="org.jfree.chart.util.RectangleInsets">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.916666666666667" filename="org/jfree/chart/util/SerialUtilities.java" line-rate="0.0" name="org.jfree.chart.util.SerialUtilities">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="org/jfree/chart/util/ShapeList.java" line-rate="0.0" name="org.jfree.chart.util.ShapeList">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.0" filename="org/jfree/chart/util/ShapeUtilities.java" line-rate="0.0" name="org.jfree.chart.util.ShapeUtilities">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8888888888888888" filename="org/jfree/chart/util/Size2D.java" line-rate="0.0" name="org.jfree.chart.util.Size2D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/util/SortOrder.java" line-rate="0.0" name="org.jfree.chart.util.SortOrder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.857142857142857" filename="org/jfree/chart/util/StandardGradientPaintTransformer.java" line-rate="0.0" name="org.jfree.chart.util.StandardGradientPaintTransformer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="org/jfree/chart/util/StrokeList.java" line-rate="0.0" name="org.jfree.chart.util.StrokeList">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/chart/util/UnitType.java" line-rate="0.0" name="org.jfree.chart.util.UnitType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/jfree/chart/util/VerticalAlignment.java" line-rate="0.0" name="org.jfree.chart.util.VerticalAlignment">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0056179775280898875" complexity="2.712418300653595" line-rate="0.0072254335260115606" name="org.jfree.data">
+			<classes>
+				<class branch-rate="0.07692307692307693" complexity="4.2" filename="org/jfree/data/DataUtilities.java" line-rate="0.11627906976744186" name="org.jfree.data.DataUtilities">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.7142857142857143" name="createNumberArray2D" signature="([[D)[[Ljava/lang/Number;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="127">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="130" />
+								<line branch="false" hits="2" number="131" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="132">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="135" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5" filename="org/jfree/data/DefaultKeyedValue.java" line-rate="0.0" name="org.jfree.data.DefaultKeyedValue">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.7142857142857144" filename="org/jfree/data/DefaultKeyedValues.java" line-rate="0.0" name="org.jfree.data.DefaultKeyedValues">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.260869565217391" filename="org/jfree/data/DefaultKeyedValues2D.java" line-rate="0.0" name="org.jfree.data.DefaultKeyedValues2D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.166666666666667" filename="org/jfree/data/KeyToGroupMap.java" line-rate="0.0" name="org.jfree.data.KeyToGroupMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5" filename="org/jfree/data/KeyedObject.java" line-rate="0.0" name="org.jfree.data.KeyedObject">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.076923076923077" filename="org/jfree/data/KeyedObjects.java" line-rate="0.0" name="org.jfree.data.KeyedObjects">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2857142857142856" filename="org/jfree/data/KeyedObjects2D.java" line-rate="0.0" name="org.jfree.data.KeyedObjects2D">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/KeyedValue.java" line-rate="1.0" name="org.jfree.data.KeyedValue">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/KeyedValues.java" line-rate="1.0" name="org.jfree.data.KeyedValues">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/KeyedValues2D.java" line-rate="1.0" name="org.jfree.data.KeyedValues2D">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.9411764705882355" filename="org/jfree/data/Range.java" line-rate="0.0" name="org.jfree.data.Range">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/RangeInfo.java" line-rate="1.0" name="org.jfree.data.RangeInfo">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4" filename="org/jfree/data/RangeType.java" line-rate="0.0" name="org.jfree.data.RangeType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/UnknownKeyException.java" line-rate="0.0" name="org.jfree.data.UnknownKeyException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/Value.java" line-rate="1.0" name="org.jfree.data.Value">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/Values.java" line-rate="1.0" name="org.jfree.data.Values">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/Values2D.java" line-rate="1.0" name="org.jfree.data.Values2D">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.02702702702702703" complexity="2.9344262295081966" line-rate="0.07364341085271318" name="org.jfree.data.category">
+			<classes>
+				<class branch-rate="1.0" complexity="0.0" filename="org/jfree/data/category/CategoryDataset.java" line-rate="1.0" name="org.jfree.data.category.CategoryDataset">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.64" filename="org/jfree/data/category/DefaultCategoryDataset.java" line-rate="0.0" name="org.jfree.data.category.DefaultCategoryDataset">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.03125" complexity="4.1875" filename="org/jfree/data/category/DefaultIntervalCategoryDataset.java" line-rate="0.10215053763440861" name="org.jfree.data.category.DefaultIntervalCategoryDataset">
+					<methods>
+						<method branch-rate="0.2222222222222222" line-rate="0.3870967741935484" name="&lt;init&gt;" signature="([Ljava/lang/Comparable;[Ljava/lang/Comparable;[[Ljava/lang/Number;[[Ljava/lang/Number;)V">
+							<lines>
+								<line branch="false" hits="1" number="139" />
+								<line branch="false" hits="1" number="141" />
+								<line branch="false" hits="1" number="142" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="144">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="146" />
+								<line branch="false" hits="1" number="147" />
+								<line branch="false" hits="1" number="149" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="150">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="157">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="201" />
+								<line branch="false" hits="1" number="202" />
+								<line branch="false" hits="1" number="206" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="([[D[[D)V">
+							<lines>
+								<line branch="false" hits="1" number="88" />
+								<line branch="false" hits="1" number="90" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="([[Ljava/lang/Number;[[Ljava/lang/Number;)V">
+							<lines>
+								<line branch="false" hits="1" number="104" />
+								<line branch="false" hits="1" number="105" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getRowIndex" signature="(Ljava/lang/Comparable;)I">
+							<lines>
+								<line branch="false" hits="1" number="635" />
+							</lines>
+						</method>
+						<method branch-rate="0.0" line-rate="0.3333333333333333" name="getSeriesIndex" signature="(Ljava/lang/Comparable;)I">
+							<lines>
+								<line branch="false" hits="1" number="235" />
+								<line branch="true" condition-coverage="0% (0/2)" hits="1" number="236">
+									<conditions>
+										<condition coverage="0%" number="0" type="jump" />
+									</conditions>
+								</line>
+								</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/category/IntervalCategoryDataset.java" line-rate="1.0" name="org.jfree.data.category.IntervalCategoryDataset">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.0" line-rate="0.0" name="org.jfree.data.gantt">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/gantt/GanttCategoryDataset.java" line-rate="1.0" name="org.jfree.data.gantt.GanttCategoryDataset">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2" filename="org/jfree/data/gantt/Task.java" line-rate="0.0" name="org.jfree.data.gantt.Task">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3333333333333335" filename="org/jfree/data/gantt/TaskSeries.java" line-rate="0.0" name="org.jfree.data.gantt.TaskSeries">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.111111111111111" filename="org/jfree/data/gantt/TaskSeriesCollection.java" line-rate="0.0" name="org.jfree.data.gantt.TaskSeriesCollection">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.6021505376344085" line-rate="0.013996889580093312" name="org.jfree.data.general">
+			<classes>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="org/jfree/data/general/AbstractDataset.java" line-rate="0.12121212121212122" name="org.jfree.data.general.AbstractDataset">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="96" />
+								<line branch="false" hits="1" number="97" />
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="99" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/jfree/data/general/AbstractSeriesDataset.java" line-rate="0.2222222222222222" name="org.jfree.data.general.AbstractSeriesDataset">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="67" />
+								<line branch="false" hits="1" number="68" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/Dataset.java" line-rate="1.0" name="org.jfree.data.general.Dataset">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/DatasetChangeEvent.java" line-rate="0.0" name="org.jfree.data.general.DatasetChangeEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/DatasetChangeListener.java" line-rate="1.0" name="org.jfree.data.general.DatasetChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6" filename="org/jfree/data/general/DatasetGroup.java" line-rate="0.16666666666666666" name="org.jfree.data.general.DatasetGroup">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="65" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="67" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.121951219512195" filename="org/jfree/data/general/DatasetUtilities.java" line-rate="0.0" name="org.jfree.data.general.DatasetUtilities">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="org/jfree/data/general/PieDataset.java" line-rate="1.0" name="org.jfree.data.general.PieDataset">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.9444444444444444" filename="org/jfree/data/general/Series.java" line-rate="0.0" name="org.jfree.data.general.Series">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/SeriesChangeEvent.java" line-rate="0.0" name="org.jfree.data.general.SeriesChangeEvent">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/SeriesChangeListener.java" line-rate="1.0" name="org.jfree.data.general.SeriesChangeListener">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/general/SeriesDataset.java" line-rate="1.0" name="org.jfree.data.general.SeriesDataset">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="0.6666666666666666" name="org.jfree.data.resources">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/resources/DataPackageResources.java" line-rate="0.6666666666666666" name="org.jfree.data.resources.DataPackageResources">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="64" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="52" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.9479166666666667" line-rate="0.0" name="org.jfree.data.statistics">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/statistics/BoxAndWhiskerCategoryDataset.java" line-rate="1.0" name="org.jfree.data.statistics.BoxAndWhiskerCategoryDataset">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/data/statistics/BoxAndWhiskerItem.java" line-rate="0.0" name="org.jfree.data.statistics.BoxAndWhiskerItem">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8333333333333333" filename="org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java" line-rate="0.0" name="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.380952380952381" filename="org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java" line-rate="0.0" name="org.jfree.data.statistics.DefaultStatisticalCategoryDataset">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6" filename="org/jfree/data/statistics/MeanAndStandardDeviation.java" line-rate="0.0" name="org.jfree.data.statistics.MeanAndStandardDeviation">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/statistics/StatisticalCategoryDataset.java" line-rate="1.0" name="org.jfree.data.statistics.StatisticalCategoryDataset">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.507142857142857" line-rate="0.0" name="org.jfree.data.time">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/time/DateRange.java" line-rate="0.0" name="org.jfree.data.time.DateRange">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.391304347826087" filename="org/jfree/data/time/Month.java" line-rate="0.0" name="org.jfree.data.time.Month">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="org/jfree/data/time/MonthConstants.java" line-rate="1.0" name="org.jfree.data.time.MonthConstants">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/jfree/data/time/RegularTimePeriod.java" line-rate="0.0" name="org.jfree.data.time.RegularTimePeriod">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0" filename="org/jfree/data/time/SerialDate.java" line-rate="0.0" name="org.jfree.data.time.SerialDate">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.142857142857143" filename="org/jfree/data/time/SimpleTimePeriod.java" line-rate="0.0" name="org.jfree.data.time.SimpleTimePeriod">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5" filename="org/jfree/data/time/SpreadsheetDate.java" line-rate="0.0" name="org.jfree.data.time.SpreadsheetDate">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/time/TimePeriod.java" line-rate="1.0" name="org.jfree.data.time.TimePeriod">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/time/TimePeriodFormatException.java" line-rate="0.0" name="org.jfree.data.time.TimePeriodFormatException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/jfree/data/time/Year.java" line-rate="0.0" name="org.jfree.data.time.Year">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.jfree.data.xy">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/xy/IntervalXYDataset.java" line-rate="1.0" name="org.jfree.data.xy.IntervalXYDataset">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/jfree/data/xy/XYDataset.java" line-rate="1.0" name="org.jfree.data.xy.XYDataset">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

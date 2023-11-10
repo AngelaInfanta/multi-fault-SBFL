@@ -1,0 +1,34 @@
+--- Overwrite: testQuinticMin
+60a61
+>         underlying.setRelativeAccuracy(1e-15);
+62c63
+<         g.setSeed(4312000053l);
+---
+>         g.setSeed(4312000053L);
+85,87c86,89
+<         assertEquals(-0.27195612846834, minimizer.optimize(f, GoalType.MINIMIZE, -0.3, -0.2), 1.0e-13);
+<         assertEquals(-0.27195612846834, minimizer.getResult(), 1.0e-13);
+<         assertEquals(-0.04433426954946, minimizer.getFunctionValue(), 1.0e-13);
+---
+>         double result = minimizer.optimize(f, GoalType.MINIMIZE, -0.3, -0.2);
+>         assertEquals(-0.2719561270319131, result, 1.0e-13);
+>         assertEquals(-0.2719561270319131, minimizer.getResult(), 1.0e-13);
+>         assertEquals(-0.04433426954946637, minimizer.getFunctionValue(), 1.0e-13);
+94,97c96,98
+< 
+<         assertTrue(minimizer.getEvaluations()    >= 510);
+<         assertTrue(minimizer.getEvaluations()    <= 530);
+<         assertTrue(minimizer.getIterationCount() >= 150);
+---
+>         assertTrue(minimizer.getEvaluations()    >= 120);
+>         assertTrue(minimizer.getEvaluations()    <= 170);
+>         assertTrue(minimizer.getIterationCount() >= 120);
+99d99
+< 
+--- Overwrite: testSinMin
+51,52c51,52
+<         assertTrue(minimizer.getEvaluations() > 2900);
+<         assertTrue(minimizer.getEvaluations() < 3100);
+---
+>         assertTrue(minimizer.getEvaluations() > 150);
+>         assertTrue(minimizer.getEvaluations() < 250);

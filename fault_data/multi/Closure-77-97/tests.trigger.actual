@@ -1,0 +1,2 @@
+com.google.javascript.jscomp.CodePrinterTest::testZero
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitShifts

@@ -1,0 +1,14 @@
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2011
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2012
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2010
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2011
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2012
+org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2016
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear

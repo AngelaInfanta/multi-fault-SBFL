@@ -1,0 +1,6 @@
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldComparison3
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testInvertibleOperators
+com.google.javascript.jscomp.PeepholeFoldConstantsTest::testCommutativeOperators
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4

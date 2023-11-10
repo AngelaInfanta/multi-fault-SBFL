@@ -1,0 +1,13 @@
+--- Overwrite: testForOffsetHoursMinutes_int_int
+254a255
+>         assertEquals(DateTimeZone.forID("+23:59"), DateTimeZone.forOffsetHoursMinutes(23, 59));
+257a259
+>         assertEquals(DateTimeZone.forID("-23:59"), DateTimeZone.forOffsetHoursMinutes(-23, 59));
+275c277,281
+<             DateTimeZone.forOffsetHoursMinutes(999999, 0);
+---
+>             DateTimeZone.forOffsetHoursMinutes(24, 0);
+>             fail();
+>         } catch (IllegalArgumentException ex) {}
+>         try {
+>             DateTimeZone.forOffsetHoursMinutes(-24, 0);

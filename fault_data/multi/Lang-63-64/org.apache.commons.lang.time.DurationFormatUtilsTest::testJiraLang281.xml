@@ -1,0 +1,332 @@
+<coverage branch-rate="0.03298611111111111" branches-covered="38" branches-valid="1152" complexity="5.005" line-rate="0.08025122121423586" lines-covered="115" lines-valid="1433" timestamp="1623791442460" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0021164021164021165" complexity="5.254777070063694" line-rate="0.003734827264239029" name="org.apache.commons.lang">
+			<classes>
+				<class branch-rate="0.0" complexity="5.863636363636363" filename="org/apache/commons/lang/ClassUtils.java" line-rate="0.0" name="org.apache.commons.lang.ClassUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/lang/NullArgumentException.java" line-rate="0.0" name="org.apache.commons.lang.NullArgumentException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0025477707006369425" complexity="5.17910447761194" filename="org/apache/commons/lang/StringUtils.java" line-rate="0.004576659038901602" name="org.apache.commons.lang.StringUtils">
+					<methods>
+						<method branch-rate="0.3333333333333333" line-rate="0.5" name="leftPad" signature="(Ljava/lang/String;IC)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="3720">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="3723" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="3724">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="3725" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.5" line-rate="0.0" name="org.apache.commons.lang.enums">
+			<classes>
+				<class branch-rate="0.0" complexity="3.8823529411764706" filename="org/apache/commons/lang/enums/Enum.java" line-rate="0.0" name="org.apache.commons.lang.enums.Enum">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.8823529411764706" filename="org/apache/commons/lang/enums/Enum.java" line-rate="0.0" name="org.apache.commons.lang.enums.Enum$Entry">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2" filename="org/apache/commons/lang/enums/ValuedEnum.java" line-rate="0.0" name="org.apache.commons.lang.enums.ValuedEnum">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.26666666666666666" complexity="4.714285714285714" line-rate="0.45867768595041325" name="org.apache.commons.lang.time">
+			<classes>
+				<class branch-rate="0.2689075630252101" complexity="4.714285714285714" filename="org/apache/commons/lang/time/DurationFormatUtils.java" line-rate="0.46445497630331756" name="org.apache.commons.lang.time.DurationFormatUtils">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="452" />
+								<line branch="false" hits="1" number="453" />
+								<line branch="false" hits="1" number="454" />
+								<line branch="false" hits="1" number="455" />
+								<line branch="false" hits="1" number="456" />
+								<line branch="false" hits="1" number="457" />
+								<line branch="false" hits="1" number="458" />
+							</lines>
+						</method>
+						<method branch-rate="0.16666666666666666" line-rate="0.3611111111111111" name="format" signature="([Lorg/apache/commons/lang/time/DurationFormatUtils$Token;IIIIIIIZ)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="376" />
+								<line branch="false" hits="1" number="377" />
+								<line branch="false" hits="1" number="378" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="379">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="380" />
+								<line branch="false" hits="1" number="381" />
+								<line branch="false" hits="1" number="382" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="383">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="386">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="390">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="391">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="393" />
+								<line branch="false" hits="1" number="426" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="formatPeriod" signature="(JJLjava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="246" />
+							</lines>
+						</method>
+						<method branch-rate="0.5714285714285714" line-rate="0.7903225806451613" name="formatPeriod" signature="(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="264" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="265">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="269" />
+								<line branch="false" hits="1" number="273" />
+								<line branch="false" hits="1" number="274" />
+								<line branch="false" hits="1" number="275" />
+								<line branch="false" hits="1" number="276" />
+								<line branch="false" hits="1" number="279" />
+								<line branch="false" hits="1" number="280" />
+								<line branch="false" hits="1" number="281" />
+								<line branch="false" hits="1" number="282" />
+								<line branch="false" hits="1" number="283" />
+								<line branch="false" hits="1" number="284" />
+								<line branch="false" hits="1" number="285" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="288">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="292">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="296">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="300">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="304">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="305" />
+								<line branch="false" hits="1" number="306" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="308">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="309" />
+								<line branch="false" hits="1" number="310" />
+								<line branch="false" hits="1" number="314" />
+								<line branch="false" hits="1" number="315" />
+								<line branch="false" hits="1" number="316" />
+								<line branch="false" hits="1" number="317" />
+								<line branch="false" hits="1" number="318" />
+								<line branch="false" hits="1" number="319" />
+								<line branch="false" hits="1" number="320" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="325">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="326">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="327" />
+								<line branch="false" hits="1" number="328" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="335">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="339">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="340" />
+								<line branch="false" hits="1" number="341" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="343">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="344" />
+								<line branch="false" hits="1" number="345" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="347">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="348" />
+								<line branch="false" hits="1" number="349" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="351">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="352" />
+								<line branch="false" hits="1" number="353" />
+								<line branch="false" hits="1" number="356" />
+							</lines>
+						</method>
+						<method branch-rate="0.32" line-rate="0.5128205128205128" name="lexx" signature="(Ljava/lang/String;)[Lorg/apache/commons/lang/time/DurationFormatUtils$Token;">
+							<lines>
+								<line branch="false" hits="1" number="467" />
+								<line branch="false" hits="1" number="468" />
+								<line branch="false" hits="1" number="470" />
+								<line branch="false" hits="1" number="471" />
+								<line branch="false" hits="1" number="472" />
+								<line branch="false" hits="1" number="473" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="3" number="474">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="475" />
+								<line branch="true" condition-coverage="25% (1/4)" hits="2" number="476">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="0%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="480" />
+								<line branch="true" condition-coverage="11% (1/9)" hits="2" number="481">
+									<conditions>
+										<condition coverage="11%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="494" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="2" number="508">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="75% (3/4)" hits="2" number="509">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="510" />
+								<line branch="false" hits="1" number="512" />
+								<line branch="false" hits="1" number="513" />
+								<line branch="false" hits="1" number="514" />
+								<line branch="false" hits="2" number="516" />
+								<line branch="false" hits="1" number="519" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="reduceAndCorrect" signature="(Ljava/util/Calendar;Ljava/util/Calendar;II)I">
+							<lines>
+								<line branch="false" hits="7" number="440" />
+								<line branch="false" hits="7" number="441" />
+								<line branch="false" hits="7" number="442" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="7" number="443">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="444" />
+								<line branch="false" hits="2" number="445" />
+								<line branch="false" hits="2" number="446" />
+								<line branch="false" hits="5" number="448" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.25" complexity="4.714285714285714" filename="org/apache/commons/lang/time/DurationFormatUtils.java" line-rate="0.41935483870967744" name="org.apache.commons.lang.time.DurationFormatUtils$Token">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="1" number="552" />
+								<line branch="false" hits="1" number="553" />
+								<line branch="false" hits="1" number="554" />
+								<line branch="false" hits="1" number="555" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="containsTokenWithValue" signature="([Lorg/apache/commons/lang/time/DurationFormatUtils$Token;Ljava/lang/Object;)Z">
+							<lines>
+								<line branch="false" hits="7" number="535" />
+								<line branch="true" condition-coverage="100% (2/2)" hits="12" number="536">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="true" condition-coverage="100% (2/2)" hits="7" number="537">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="2" number="538" />
+								<line branch="false" hits="5" number="541" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getCount" signature="()I">
+							<lines>
+								<line branch="false" hits="1" number="582" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getValue" signature="()Ljava/lang/Object;">
+							<lines>
+								<line branch="false" hits="9" number="591" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="increment" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="573" />
+								<line branch="false" hits="1" number="574" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

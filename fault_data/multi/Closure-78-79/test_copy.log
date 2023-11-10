@@ -1,0 +1,9 @@
+--- Overwrite: testFoldArithmetic
+558c558
+<     fold("x = 1 / 0", "", PeepholeFoldConstants.DIVIDE_BY_0_ERROR);
+---
+>     fold("x = 1 / 0", "x = 1 / 0");
+562c562
+<     fold("x = 1 % 0", "", PeepholeFoldConstants.DIVIDE_BY_0_ERROR);
+---
+>     fold("x = 1 % 0", "x = 1 % 0");

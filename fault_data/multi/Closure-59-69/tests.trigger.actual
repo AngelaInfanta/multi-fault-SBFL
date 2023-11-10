@@ -1,0 +1,4 @@
+com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4

@@ -1,0 +1,38 @@
+--- Overwrite: testMethodInference6
+1778,1781c1778
+<         "(new G()).foo(1);",
+<         "Function G.prototype.foo: called with 1 argument(s). " +
+<         "Function requires at least 0 argument(s) " +
+<         "and no more than 0 argument(s).");
+---
+>         "(new G()).foo(1);");
+--- Insert: testIssue368
+9605a9606,9625
+>   public void testIssue368() throws Exception {
+>     testTypes(
+>         "/** @constructor */ function Foo(){}" +
+>         "/**\n" +
+>         " * @param {number} one\n" +
+>         " * @param {string} two\n" +
+>         " */\n" +
+>         "Foo.prototype.add = function(one, two) {};" +
+>         "/**\n" +
+>         " * @constructor\n" +
+>         " * @extends {Foo}\n" +
+>         " */\n" +
+>         "function Bar(){}" +
+>         "/** @override */\n" +
+>         "Bar.prototype.add = function(ignored) {};" +
+>         "(new Bar()).add(1, 2);",
+>         "actual parameter 2 of Bar.prototype.add does not match formal parameter\n" +
+>         "found   : number\n" +
+>         "required: string");
+>   }
+--- Overwrite: testMethodInference6
+2033,2036c2033
+<         "(new G()).foo(1);",
+<         "Function G.prototype.foo: called with 1 argument(s). " +
+<         "Function requires at least 0 argument(s) " +
+<         "and no more than 0 argument(s).");
+---
+>         "(new G()).foo(1);");

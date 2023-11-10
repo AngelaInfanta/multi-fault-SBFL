@@ -1,0 +1,27 @@
+--- Overwrite: testToClass_object
+902c902
+<         assertEquals(null, ClassUtils.toClass(null));
+---
+>         assertNull(ClassUtils.toClass(null));
+904,906c904
+<         assertSame(
+<             ArrayUtils.EMPTY_CLASS_ARRAY,
+<             ClassUtils.toClass(new Class[0]));
+---
+>         assertSame(ArrayUtils.EMPTY_CLASS_ARRAY, ClassUtils.toClass(ArrayUtils.EMPTY_OBJECT_ARRAY));
+908,911c906,907
+<         Object[] array = new Object[3];
+<         array[0] = new String("Test");
+<         array[1] = new Integer(1);
+<         array[2] = new Double(99);
+---
+>         assertTrue(Arrays.equals(new Class[] { String.class, Integer.class, Double.class },
+>                 ClassUtils.toClass(new Object[] { "Test", 1, 99d })));
+913,916c909,910
+<         Class<?>[] results = ClassUtils.toClass(array);
+<         assertEquals("String", ClassUtils.getShortClassName(results[0]));
+<         assertEquals("Integer", ClassUtils.getShortClassName(results[1]));
+<         assertEquals("Double", ClassUtils.getShortClassName(results[2]));
+---
+>         assertTrue(Arrays.equals(new Class[] { String.class, null, Double.class },
+>                 ClassUtils.toClass(new Object[] { "Test", null, 99d })));

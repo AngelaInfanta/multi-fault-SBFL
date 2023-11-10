@@ -1,0 +1,4 @@
+--- Overwrite: testPcts
+146a147,148
+>         // MATH-329
+>         assertEquals("three (Object) pct",0.5,f.getPct((Object) (Integer.valueOf(3))),tolerance);

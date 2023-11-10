@@ -1,0 +1,4 @@
+org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAtan2SpecialCases
+org.apache.commons.math3.linear.UnmodifiableArrayRealVectorTest::testAllButExcluded
+org.apache.commons.math3.linear.UnmodifiableOpenMapRealVectorTest::testAllButExcluded
+org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testMath864

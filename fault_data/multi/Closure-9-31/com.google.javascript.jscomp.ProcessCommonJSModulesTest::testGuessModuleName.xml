@@ -1,0 +1,2354 @@
+<coverage branch-rate="4.257493188010899E-4" branches-covered="5" branches-valid="11744" complexity="2.9571680524061477" line-rate="0.0019849561220225656" lines-covered="38" lines-valid="19144" timestamp="1624354588338" version="2.0.3">
+	<sources>
+		<source>src</source>
+	</sources>
+	<packages>
+		<package branch-rate="6.772314777190844E-4" complexity="3.175527039413382" line-rate="0.0031698365031698366" name="com.google.javascript.jscomp">
+			<classes>
+				<class branch-rate="0.0" complexity="3.489795918367347" filename="com/google/javascript/jscomp/AbstractCommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.AbstractCommandLineRunner">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.489795918367347" filename="com/google/javascript/jscomp/AbstractCommandLineRunner.java" line-rate="1.0" name="com.google.javascript.jscomp.AbstractCommandLineRunner$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.489795918367347" filename="com/google/javascript/jscomp/AbstractCommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.AbstractCommandLineRunner$CommandLineConfig">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.489795918367347" filename="com/google/javascript/jscomp/AbstractCommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.AbstractCommandLineRunner$FlagUsageException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.489795918367347" filename="com/google/javascript/jscomp/AbstractCommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.AbstractCommandLineRunner$RunTimeStats">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.489795918367347" filename="com/google/javascript/jscomp/AbstractCommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.AbstractCommandLineRunner$WarningGuardSpec">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.489795918367347" filename="com/google/javascript/jscomp/AbstractCommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.AbstractCommandLineRunner$WarningGuardSpec$Entry">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.02" filename="com/google/javascript/jscomp/AbstractCompiler.java" line-rate="0.0" name="com.google.javascript.jscomp.AbstractCompiler">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.02" filename="com/google/javascript/jscomp/AbstractCompiler.java" line-rate="0.0" name="com.google.javascript.jscomp.AbstractCompiler$LifeCycleStage">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.75" filename="com/google/javascript/jscomp/AbstractMessageFormatter.java" line-rate="0.0" name="com.google.javascript.jscomp.AbstractMessageFormatter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.75" filename="com/google/javascript/jscomp/AbstractMessageFormatter.java" line-rate="0.0" name="com.google.javascript.jscomp.AbstractMessageFormatter$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.75" filename="com/google/javascript/jscomp/AbstractMessageFormatter.java" line-rate="0.0" name="com.google.javascript.jscomp.AbstractMessageFormatter$Color">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/AnonymousFunctionNamingPolicy.java" line-rate="0.0" name="com.google.javascript.jscomp.AnonymousFunctionNamingPolicy">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.923076923076923" filename="com/google/javascript/jscomp/BasicErrorManager.java" line-rate="0.0" name="com.google.javascript.jscomp.BasicErrorManager">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.923076923076923" filename="com/google/javascript/jscomp/BasicErrorManager.java" line-rate="0.0" name="com.google.javascript.jscomp.BasicErrorManager$ErrorWithLevel">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.923076923076923" filename="com/google/javascript/jscomp/BasicErrorManager.java" line-rate="0.0" name="com.google.javascript.jscomp.BasicErrorManager$LeveledJSErrorComparator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.956521739130435" filename="com/google/javascript/jscomp/CheckAccessControls.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckAccessControls">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="com/google/javascript/jscomp/CheckDebuggerStatement.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckDebuggerStatement">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.7777777777777777" filename="com/google/javascript/jscomp/CheckGlobalNames.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckGlobalNames">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="9.2" filename="com/google/javascript/jscomp/CheckGlobalThis.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckGlobalThis">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0" filename="com/google/javascript/jscomp/CheckLevel.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckLevel">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.4285714285714284" filename="com/google/javascript/jscomp/CheckProvides.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckProvides">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4285714285714284" filename="com/google/javascript/jscomp/CheckProvides.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckProvides$CheckProvidesCallback">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.0" filename="com/google/javascript/jscomp/CheckRegExp.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckRegExp">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.666666666666667" filename="com/google/javascript/jscomp/CheckSideEffects.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckSideEffects">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.666666666666667" filename="com/google/javascript/jscomp/CheckSideEffects.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckSideEffects$StripProtection">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5714285714285716" filename="com/google/javascript/jscomp/CheckUnreachableCode.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckUnreachableCode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.5714285714285716" filename="com/google/javascript/jscomp/CheckUnreachableCode.java" line-rate="1.0" name="com.google.javascript.jscomp.CheckUnreachableCode$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5714285714285716" filename="com/google/javascript/jscomp/CheckUnreachableCode.java" line-rate="0.0" name="com.google.javascript.jscomp.CheckUnreachableCode$ReachablePredicate">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.4545454545454546" filename="com/google/javascript/jscomp/CleanupPasses.java" line-rate="0.0" name="com.google.javascript.jscomp.CleanupPasses">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.4545454545454546" filename="com/google/javascript/jscomp/CleanupPasses.java" line-rate="0.0" name="com.google.javascript.jscomp.CleanupPasses$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.4545454545454546" filename="com/google/javascript/jscomp/CleanupPasses.java" line-rate="0.0" name="com.google.javascript.jscomp.CleanupPasses$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.4545454545454546" filename="com/google/javascript/jscomp/CleanupPasses.java" line-rate="0.0" name="com.google.javascript.jscomp.CleanupPasses$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4545454545454546" filename="com/google/javascript/jscomp/CleanupPasses.java" line-rate="0.0" name="com.google.javascript.jscomp.CleanupPasses$MemoizedScopeCleanupPass">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6" filename="com/google/javascript/jscomp/ClosureCodingConvention.java" line-rate="0.0" name="com.google.javascript.jscomp.ClosureCodingConvention">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2" filename="com/google/javascript/jscomp/CodeChangeHandler.java" line-rate="1.0" name="com.google.javascript.jscomp.CodeChangeHandler">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2" filename="com/google/javascript/jscomp/CodeChangeHandler.java" line-rate="0.0" name="com.google.javascript.jscomp.CodeChangeHandler$ForbiddenChange">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.2" filename="com/google/javascript/jscomp/CodeChangeHandler.java" line-rate="0.0" name="com.google.javascript.jscomp.CodeChangeHandler$RecentChange">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.9696969696969697" filename="com/google/javascript/jscomp/CodeConsumer.java" line-rate="0.0" name="com.google.javascript.jscomp.CodeConsumer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.823529411764706" filename="com/google/javascript/jscomp/CodeGenerator.java" line-rate="0.0" name="com.google.javascript.jscomp.CodeGenerator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.823529411764706" filename="com/google/javascript/jscomp/CodeGenerator.java" line-rate="0.0" name="com.google.javascript.jscomp.CodeGenerator$Context">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.391304347826087" filename="com/google/javascript/jscomp/CodePrinter.java" line-rate="0.0" name="com.google.javascript.jscomp.CodePrinter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.391304347826087" filename="com/google/javascript/jscomp/CodePrinter.java" line-rate="1.0" name="com.google.javascript.jscomp.CodePrinter$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.391304347826087" filename="com/google/javascript/jscomp/CodePrinter.java" line-rate="0.0" name="com.google.javascript.jscomp.CodePrinter$Builder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.391304347826087" filename="com/google/javascript/jscomp/CodePrinter.java" line-rate="0.0" name="com.google.javascript.jscomp.CodePrinter$CompactCodePrinter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.391304347826087" filename="com/google/javascript/jscomp/CodePrinter.java" line-rate="0.0" name="com.google.javascript.jscomp.CodePrinter$Format">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.391304347826087" filename="com/google/javascript/jscomp/CodePrinter.java" line-rate="0.0" name="com.google.javascript.jscomp.CodePrinter$MappedCodePrinter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.391304347826087" filename="com/google/javascript/jscomp/CodePrinter.java" line-rate="0.0" name="com.google.javascript.jscomp.CodePrinter$MappedCodePrinter$Mapping">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.391304347826087" filename="com/google/javascript/jscomp/CodePrinter.java" line-rate="0.0" name="com.google.javascript.jscomp.CodePrinter$PrettyCodePrinter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/CodingConvention.java" line-rate="1.0" name="com.google.javascript.jscomp.CodingConvention">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/CodingConvention.java" line-rate="0.0" name="com.google.javascript.jscomp.CodingConvention$AssertionFunctionSpec">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/CodingConvention.java" line-rate="0.0" name="com.google.javascript.jscomp.CodingConvention$Bind">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/CodingConvention.java" line-rate="0.0" name="com.google.javascript.jscomp.CodingConvention$DelegateRelationship">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/CodingConvention.java" line-rate="0.0" name="com.google.javascript.jscomp.CodingConvention$ObjectLiteralCast">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/CodingConvention.java" line-rate="0.0" name="com.google.javascript.jscomp.CodingConvention$SubclassRelationship">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/CodingConvention.java" line-rate="0.0" name="com.google.javascript.jscomp.CodingConvention$SubclassType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.296875" filename="com/google/javascript/jscomp/CodingConventions.java" line-rate="0.0" name="com.google.javascript.jscomp.CodingConventions">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.296875" filename="com/google/javascript/jscomp/CodingConventions.java" line-rate="1.0" name="com.google.javascript.jscomp.CodingConventions$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.296875" filename="com/google/javascript/jscomp/CodingConventions.java" line-rate="0.0" name="com.google.javascript.jscomp.CodingConventions$DefaultCodingConvention">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.296875" filename="com/google/javascript/jscomp/CodingConventions.java" line-rate="0.0" name="com.google.javascript.jscomp.CodingConventions$Proxy">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.652173913043478" filename="com/google/javascript/jscomp/CommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.CommandLineRunner">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.652173913043478" filename="com/google/javascript/jscomp/CommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.CommandLineRunner$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.652173913043478" filename="com/google/javascript/jscomp/CommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.CommandLineRunner$Flags">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.652173913043478" filename="com/google/javascript/jscomp/CommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.CommandLineRunner$Flags$BooleanOptionHandler">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.652173913043478" filename="com/google/javascript/jscomp/CommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.CommandLineRunner$Flags$WarningGuardErrorOptionHandler">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.652173913043478" filename="com/google/javascript/jscomp/CommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.CommandLineRunner$Flags$WarningGuardOffOptionHandler">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.652173913043478" filename="com/google/javascript/jscomp/CommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.CommandLineRunner$Flags$WarningGuardSetter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.652173913043478" filename="com/google/javascript/jscomp/CommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.CommandLineRunner$Flags$WarningGuardWarningOptionHandler">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.652173913043478" filename="com/google/javascript/jscomp/CommandLineRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.CommandLineRunner$FormattingOption">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6666666666666667" filename="com/google/javascript/jscomp/CompilationLevel.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilationLevel">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.6666666666666667" filename="com/google/javascript/jscomp/CompilationLevel.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilationLevel$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$10">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$6">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$7">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$8">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$9">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$CodeBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.4319526627218937" filename="com/google/javascript/jscomp/Compiler.java" line-rate="0.0" name="com.google.javascript.jscomp.Compiler$IntermediateState">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8055555555555556" filename="com/google/javascript/jscomp/CompilerInput.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilerInput">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.8055555555555556" filename="com/google/javascript/jscomp/CompilerInput.java" line-rate="1.0" name="com.google.javascript.jscomp.CompilerInput$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8055555555555556" filename="com/google/javascript/jscomp/CompilerInput.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilerInput$DepsFinder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0878048780487806" filename="com/google/javascript/jscomp/CompilerOptions.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilerOptions">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0878048780487806" filename="com/google/javascript/jscomp/CompilerOptions.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilerOptions$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0878048780487806" filename="com/google/javascript/jscomp/CompilerOptions.java" line-rate="1.0" name="com.google.javascript.jscomp.CompilerOptions$AliasTransformation">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0878048780487806" filename="com/google/javascript/jscomp/CompilerOptions.java" line-rate="1.0" name="com.google.javascript.jscomp.CompilerOptions$AliasTransformationHandler">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0878048780487806" filename="com/google/javascript/jscomp/CompilerOptions.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilerOptions$DevMode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0878048780487806" filename="com/google/javascript/jscomp/CompilerOptions.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilerOptions$LanguageMode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0878048780487806" filename="com/google/javascript/jscomp/CompilerOptions.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilerOptions$NullAliasTransformationHandler">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0878048780487806" filename="com/google/javascript/jscomp/CompilerOptions.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilerOptions$NullAliasTransformationHandler$NullAliasTransformation">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0878048780487806" filename="com/google/javascript/jscomp/CompilerOptions.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilerOptions$Reach">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0878048780487806" filename="com/google/javascript/jscomp/CompilerOptions.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilerOptions$TracerMode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0878048780487806" filename="com/google/javascript/jscomp/CompilerOptions.java" line-rate="0.0" name="com.google.javascript.jscomp.CompilerOptions$TweakProcessing">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/CompilerPass.java" line-rate="1.0" name="com.google.javascript.jscomp.CompilerPass">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.9166666666666665" filename="com/google/javascript/jscomp/ComposeWarningsGuard.java" line-rate="0.0" name="com.google.javascript.jscomp.ComposeWarningsGuard">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.9166666666666665" filename="com/google/javascript/jscomp/ComposeWarningsGuard.java" line-rate="1.0" name="com.google.javascript.jscomp.ComposeWarningsGuard$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.9166666666666665" filename="com/google/javascript/jscomp/ComposeWarningsGuard.java" line-rate="0.0" name="com.google.javascript.jscomp.ComposeWarningsGuard$GuardComparator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.2" filename="com/google/javascript/jscomp/ConstCheck.java" line-rate="0.0" name="com.google.javascript.jscomp.ConstCheck">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4444444444444446" filename="com/google/javascript/jscomp/ControlFlowGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.ControlFlowGraph">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4444444444444446" filename="com/google/javascript/jscomp/ControlFlowGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.ControlFlowGraph$AbstractCfgNodeTraversalCallback">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4444444444444446" filename="com/google/javascript/jscomp/ControlFlowGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.ControlFlowGraph$Branch">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8" filename="com/google/javascript/jscomp/ControlStructureCheck.java" line-rate="0.0" name="com.google.javascript.jscomp.ControlStructureCheck">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.2" filename="com/google/javascript/jscomp/CrossModuleMethodMotion.java" line-rate="0.0" name="com.google.javascript.jscomp.CrossModuleMethodMotion">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.2" filename="com/google/javascript/jscomp/CrossModuleMethodMotion.java" line-rate="0.0" name="com.google.javascript.jscomp.CrossModuleMethodMotion$IdGenerator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$10">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$10$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$11">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$12">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$13">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$14">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$15">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$15$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$16">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$17">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$18">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$19">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$20">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$20$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$21">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$22">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$23">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$24">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$24$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$25">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$25$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$26">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$26$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$27">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$28">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$29">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$29$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$30">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$31">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$31$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$32">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$32$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$33">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$33$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$34">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$35">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$36">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$37">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$38">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$38$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$39">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$39$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$40">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$41">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$42">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$43">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$44">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$45">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$46">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$47">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$48">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$49">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$50">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$51">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$52">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$53">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$54">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$55">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$56">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$57">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$58">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$59">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$59$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$6">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$60">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$60$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$61">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$62">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$63">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$64">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$65">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$66">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$67">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$68">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$69">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$7">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$70">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$71">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$72">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$73">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$74">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$75">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$76">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$77">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$78">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$78$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$79">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$8">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$80">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$81">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$82">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$83">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$84">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$84$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$85">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$86">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$87">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$87$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$88">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$88$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$89">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$9">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$9$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$90">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$91">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$92">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$93">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$93$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$94">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$95">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$96">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$97">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$97$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$98">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$98$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$99">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$GlobalTypeResolver">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.25" filename="com/google/javascript/jscomp/DefaultPassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.DefaultPassConfig$HotSwapPassFactory">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.2222222222222223" filename="com/google/javascript/jscomp/DependencyOptions.java" line-rate="0.0" name="com.google.javascript.jscomp.DependencyOptions">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5454545454545454" filename="com/google/javascript/jscomp/DiagnosticGroup.java" line-rate="0.0" name="com.google.javascript.jscomp.DiagnosticGroup">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2" filename="com/google/javascript/jscomp/DiagnosticGroupWarningsGuard.java" line-rate="0.0" name="com.google.javascript.jscomp.DiagnosticGroupWarningsGuard">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/DiagnosticGroups.java" line-rate="0.0" name="com.google.javascript.jscomp.DiagnosticGroups">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1" filename="com/google/javascript/jscomp/DiagnosticType.java" line-rate="0.0" name="com.google.javascript.jscomp.DiagnosticType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6056338028169015" filename="com/google/javascript/jscomp/DisambiguateProperties.java" line-rate="0.0" name="com.google.javascript.jscomp.DisambiguateProperties">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.6056338028169015" filename="com/google/javascript/jscomp/DisambiguateProperties.java" line-rate="1.0" name="com.google.javascript.jscomp.DisambiguateProperties$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6056338028169015" filename="com/google/javascript/jscomp/DisambiguateProperties.java" line-rate="0.0" name="com.google.javascript.jscomp.DisambiguateProperties$AbstractScopingCallback">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6056338028169015" filename="com/google/javascript/jscomp/DisambiguateProperties.java" line-rate="0.0" name="com.google.javascript.jscomp.DisambiguateProperties$ConcreteTypeSystem">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6056338028169015" filename="com/google/javascript/jscomp/DisambiguateProperties.java" line-rate="0.0" name="com.google.javascript.jscomp.DisambiguateProperties$FindExternProperties">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6056338028169015" filename="com/google/javascript/jscomp/DisambiguateProperties.java" line-rate="0.0" name="com.google.javascript.jscomp.DisambiguateProperties$FindRenameableProperties">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6056338028169015" filename="com/google/javascript/jscomp/DisambiguateProperties.java" line-rate="0.0" name="com.google.javascript.jscomp.DisambiguateProperties$JSTypeSystem">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6056338028169015" filename="com/google/javascript/jscomp/DisambiguateProperties.java" line-rate="0.0" name="com.google.javascript.jscomp.DisambiguateProperties$Property">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.6056338028169015" filename="com/google/javascript/jscomp/DisambiguateProperties.java" line-rate="1.0" name="com.google.javascript.jscomp.DisambiguateProperties$TypeSystem">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.6056338028169015" filename="com/google/javascript/jscomp/DisambiguateProperties.java" line-rate="0.0" name="com.google.javascript.jscomp.DisambiguateProperties$Warnings">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/ErrorFormat.java" line-rate="0.0" name="com.google.javascript.jscomp.ErrorFormat">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/ErrorFormat.java" line-rate="0.0" name="com.google.javascript.jscomp.ErrorFormat$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/ErrorFormat.java" line-rate="0.0" name="com.google.javascript.jscomp.ErrorFormat$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/ErrorFormat.java" line-rate="0.0" name="com.google.javascript.jscomp.ErrorFormat$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/ErrorFormat.java" line-rate="0.0" name="com.google.javascript.jscomp.ErrorFormat$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/ErrorHandler.java" line-rate="1.0" name="com.google.javascript.jscomp.ErrorHandler">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/ErrorManager.java" line-rate="1.0" name="com.google.javascript.jscomp.ErrorManager">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.042553191489362" filename="com/google/javascript/jscomp/FunctionTypeBuilder.java" line-rate="0.0" name="com.google.javascript.jscomp.FunctionTypeBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.042553191489362" filename="com/google/javascript/jscomp/FunctionTypeBuilder.java" line-rate="1.0" name="com.google.javascript.jscomp.FunctionTypeBuilder$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.042553191489362" filename="com/google/javascript/jscomp/FunctionTypeBuilder.java" line-rate="0.0" name="com.google.javascript.jscomp.FunctionTypeBuilder$AstFunctionContents">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.042553191489362" filename="com/google/javascript/jscomp/FunctionTypeBuilder.java" line-rate="0.0" name="com.google.javascript.jscomp.FunctionTypeBuilder$ExtendedTypeValidator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.042553191489362" filename="com/google/javascript/jscomp/FunctionTypeBuilder.java" line-rate="1.0" name="com.google.javascript.jscomp.FunctionTypeBuilder$FunctionContents">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.042553191489362" filename="com/google/javascript/jscomp/FunctionTypeBuilder.java" line-rate="0.0" name="com.google.javascript.jscomp.FunctionTypeBuilder$ImplementedTypeValidator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.042553191489362" filename="com/google/javascript/jscomp/FunctionTypeBuilder.java" line-rate="0.0" name="com.google.javascript.jscomp.FunctionTypeBuilder$ThisTypeValidator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.042553191489362" filename="com/google/javascript/jscomp/FunctionTypeBuilder.java" line-rate="0.0" name="com.google.javascript.jscomp.FunctionTypeBuilder$UnknownFunctionContents">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/HotSwapCompilerPass.java" line-rate="1.0" name="com.google.javascript.jscomp.HotSwapCompilerPass">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0625" filename="com/google/javascript/jscomp/JSError.java" line-rate="0.0" name="com.google.javascript.jscomp.JSError">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.0625" filename="com/google/javascript/jscomp/JSError.java" line-rate="0.0" name="com.google.javascript.jscomp.JSError$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5555555555555556" filename="com/google/javascript/jscomp/JSModule.java" line-rate="0.0" name="com.google.javascript.jscomp.JSModule">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.0952380952380953" filename="com/google/javascript/jscomp/JSModuleGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.JSModuleGraph">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.0952380952380953" filename="com/google/javascript/jscomp/JSModuleGraph.java" line-rate="1.0" name="com.google.javascript.jscomp.JSModuleGraph$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.0952380952380953" filename="com/google/javascript/jscomp/JSModuleGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.JSModuleGraph$DepthComparator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.0952380952380953" filename="com/google/javascript/jscomp/JSModuleGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.JSModuleGraph$InverseDepthComparator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.0952380952380953" filename="com/google/javascript/jscomp/JSModuleGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.JSModuleGraph$ModuleDependenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5714285714285714" filename="com/google/javascript/jscomp/JsAst.java" line-rate="0.0" name="com.google.javascript.jscomp.JsAst">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.130434782608695" filename="com/google/javascript/jscomp/JsMessageVisitor.java" line-rate="0.0" name="com.google.javascript.jscomp.JsMessageVisitor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="6.130434782608695" filename="com/google/javascript/jscomp/JsMessageVisitor.java" line-rate="1.0" name="com.google.javascript.jscomp.JsMessageVisitor$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="6.130434782608695" filename="com/google/javascript/jscomp/JsMessageVisitor.java" line-rate="0.0" name="com.google.javascript.jscomp.JsMessageVisitor$MalformedException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="6.130434782608695" filename="com/google/javascript/jscomp/JsMessageVisitor.java" line-rate="0.0" name="com.google.javascript.jscomp.JsMessageVisitor$MessageLocation">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.111111111111111" filename="com/google/javascript/jscomp/LightweightMessageFormatter.java" line-rate="0.0" name="com.google.javascript.jscomp.LightweightMessageFormatter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.111111111111111" filename="com/google/javascript/jscomp/LightweightMessageFormatter.java" line-rate="0.0" name="com.google.javascript.jscomp.LightweightMessageFormatter$LineNumberingFormatter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/MessageBundle.java" line-rate="1.0" name="com.google.javascript.jscomp.MessageBundle">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/MessageFormatter.java" line-rate="1.0" name="com.google.javascript.jscomp.MessageFormatter">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.02" filename="com/google/javascript/jscomp/NodeTraversal.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeTraversal">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.02" filename="com/google/javascript/jscomp/NodeTraversal.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeTraversal$AbstractNodeTypePruningCallback">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.02" filename="com/google/javascript/jscomp/NodeTraversal.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeTraversal$AbstractPostOrderCallback">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.02" filename="com/google/javascript/jscomp/NodeTraversal.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeTraversal$AbstractScopedCallback">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.02" filename="com/google/javascript/jscomp/NodeTraversal.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeTraversal$AbstractShallowCallback">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.02" filename="com/google/javascript/jscomp/NodeTraversal.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeTraversal$AbstractShallowStatementCallback">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.02" filename="com/google/javascript/jscomp/NodeTraversal.java" line-rate="1.0" name="com.google.javascript.jscomp.NodeTraversal$Callback">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.02" filename="com/google/javascript/jscomp/NodeTraversal.java" line-rate="1.0" name="com.google.javascript.jscomp.NodeTraversal$ScopedCallback">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeUtil">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="1.0" name="com.google.javascript.jscomp.NodeUtil$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeUtil$BooleanResultPredicate">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeUtil$MatchDeclaration">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeUtil$MatchNameNode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeUtil$MatchNodeType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeUtil$MatchNotFunction">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeUtil$MatchShallowStatement">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeUtil$MayBeStringResultPredicate">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeUtil$NumbericResultPredicate">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="0.0" name="com.google.javascript.jscomp.NodeUtil$VarCollector">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.254545454545455" filename="com/google/javascript/jscomp/NodeUtil.java" line-rate="1.0" name="com.google.javascript.jscomp.NodeUtil$Visitor">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="com/google/javascript/jscomp/OptimizeCalls.java" line-rate="0.0" name="com.google.javascript.jscomp.OptimizeCalls">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.5" filename="com/google/javascript/jscomp/OptimizeCalls.java" line-rate="1.0" name="com.google.javascript.jscomp.OptimizeCalls$CallGraphCompilerPass">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.48" filename="com/google/javascript/jscomp/PassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.PassConfig">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.48" filename="com/google/javascript/jscomp/PassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.PassConfig$PassConfigDelegate">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.48" filename="com/google/javascript/jscomp/PassConfig.java" line-rate="0.0" name="com.google.javascript.jscomp.PassConfig$State">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="com/google/javascript/jscomp/PassFactory.java" line-rate="0.0" name="com.google.javascript.jscomp.PassFactory">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.3333333333333333" filename="com/google/javascript/jscomp/PassFactory.java" line-rate="0.0" name="com.google.javascript.jscomp.PassFactory$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.037037037037037" filename="com/google/javascript/jscomp/PhaseOptimizer.java" line-rate="0.0" name="com.google.javascript.jscomp.PhaseOptimizer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.037037037037037" filename="com/google/javascript/jscomp/PhaseOptimizer.java" line-rate="1.0" name="com.google.javascript.jscomp.PhaseOptimizer$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.037037037037037" filename="com/google/javascript/jscomp/PhaseOptimizer.java" line-rate="0.0" name="com.google.javascript.jscomp.PhaseOptimizer$Loop">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.037037037037037" filename="com/google/javascript/jscomp/PhaseOptimizer.java" line-rate="0.0" name="com.google.javascript.jscomp.PhaseOptimizer$LoopInternal">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.037037037037037" filename="com/google/javascript/jscomp/PhaseOptimizer.java" line-rate="0.0" name="com.google.javascript.jscomp.PhaseOptimizer$NamedPass">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.037037037037037" filename="com/google/javascript/jscomp/PhaseOptimizer.java" line-rate="0.0" name="com.google.javascript.jscomp.PhaseOptimizer$PassFactoryDelegate">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.037037037037037" filename="com/google/javascript/jscomp/PhaseOptimizer.java" line-rate="0.0" name="com.google.javascript.jscomp.PhaseOptimizer$ProgressRange">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.2857142857142856" filename="com/google/javascript/jscomp/PrepareAst.java" line-rate="0.0" name="com.google.javascript.jscomp.PrepareAst">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.2857142857142856" filename="com/google/javascript/jscomp/PrepareAst.java" line-rate="0.0" name="com.google.javascript.jscomp.PrepareAst$PrepareAnnotations">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2" filename="com/google/javascript/jscomp/PrintStreamErrorManager.java" line-rate="0.0" name="com.google.javascript.jscomp.PrintStreamErrorManager">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.375" complexity="2.5" filename="com/google/javascript/jscomp/ProcessCommonJSModules.java" line-rate="0.52" name="com.google.javascript.jscomp.ProcessCommonJSModules">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="38" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/jscomp/AbstractCompiler;Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="48" />
+								<line branch="false" hits="1" number="49" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/jscomp/AbstractCompiler;Ljava/lang/String;Z)V">
+							<lines>
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="54">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="56" />
+								<line branch="false" hits="1" number="57" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="guessCJSModuleName" signature="(Ljava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="2" number="66" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="normalizeSourceName" signature="(Ljava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="100% (2/2)" hits="2" number="111">
+									<conditions>
+										<condition coverage="100%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="112" />
+								<line branch="false" hits="2" number="114" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="toModuleName" signature="(Ljava/lang/String;)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="2" number="83" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.5" filename="com/google/javascript/jscomp/ProcessCommonJSModules.java" line-rate="1.0" name="com.google.javascript.jscomp.ProcessCommonJSModules$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5" filename="com/google/javascript/jscomp/ProcessCommonJSModules.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessCommonJSModules$ProcessCommonJsModulesCallback">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.5" filename="com/google/javascript/jscomp/ProcessCommonJSModules.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessCommonJSModules$SuffixVarsCallback">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6818181818181817" filename="com/google/javascript/jscomp/ProcessDefines.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessDefines">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.6818181818181817" filename="com/google/javascript/jscomp/ProcessDefines.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessDefines$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.6818181818181817" filename="com/google/javascript/jscomp/ProcessDefines.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessDefines$CollectDefines">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.6818181818181817" filename="com/google/javascript/jscomp/ProcessDefines.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessDefines$CollectDefines$RefInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.6818181818181817" filename="com/google/javascript/jscomp/ProcessDefines.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessDefines$DefineInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.65625" filename="com/google/javascript/jscomp/ProcessTweaks.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessTweaks">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.65625" filename="com/google/javascript/jscomp/ProcessTweaks.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessTweaks$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.65625" filename="com/google/javascript/jscomp/ProcessTweaks.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessTweaks$CollectTweaks">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.65625" filename="com/google/javascript/jscomp/ProcessTweaks.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessTweaks$CollectTweaksResult">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.65625" filename="com/google/javascript/jscomp/ProcessTweaks.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessTweaks$TweakFunction">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.65625" filename="com/google/javascript/jscomp/ProcessTweaks.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessTweaks$TweakFunctionCall">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.65625" filename="com/google/javascript/jscomp/ProcessTweaks.java" line-rate="0.0" name="com.google.javascript.jscomp.ProcessTweaks$TweakInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="com/google/javascript/jscomp/PropertyRenamingPolicy.java" line-rate="0.0" name="com.google.javascript.jscomp.PropertyRenamingPolicy">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.690909090909091" filename="com/google/javascript/jscomp/ReferenceCollectingCallback.java" line-rate="0.0" name="com.google.javascript.jscomp.ReferenceCollectingCallback">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.690909090909091" filename="com/google/javascript/jscomp/ReferenceCollectingCallback.java" line-rate="0.0" name="com.google.javascript.jscomp.ReferenceCollectingCallback$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.690909090909091" filename="com/google/javascript/jscomp/ReferenceCollectingCallback.java" line-rate="0.0" name="com.google.javascript.jscomp.ReferenceCollectingCallback$BasicBlock">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.690909090909091" filename="com/google/javascript/jscomp/ReferenceCollectingCallback.java" line-rate="1.0" name="com.google.javascript.jscomp.ReferenceCollectingCallback$Behavior">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.690909090909091" filename="com/google/javascript/jscomp/ReferenceCollectingCallback.java" line-rate="0.0" name="com.google.javascript.jscomp.ReferenceCollectingCallback$Reference">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.690909090909091" filename="com/google/javascript/jscomp/ReferenceCollectingCallback.java" line-rate="0.0" name="com.google.javascript.jscomp.ReferenceCollectingCallback$ReferenceCollection">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.690909090909091" filename="com/google/javascript/jscomp/ReferenceCollectingCallback.java" line-rate="1.0" name="com.google.javascript.jscomp.ReferenceCollectingCallback$ReferenceMap">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.690909090909091" filename="com/google/javascript/jscomp/ReferenceCollectingCallback.java" line-rate="0.0" name="com.google.javascript.jscomp.ReferenceCollectingCallback$ReferenceMapWrapper">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/Region.java" line-rate="1.0" name="com.google.javascript.jscomp.Region">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0" filename="com/google/javascript/jscomp/Result.java" line-rate="0.0" name="com.google.javascript.jscomp.Result">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.25" filename="com/google/javascript/jscomp/RhinoErrorReporter.java" line-rate="0.0" name="com.google.javascript.jscomp.RhinoErrorReporter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.25" filename="com/google/javascript/jscomp/RhinoErrorReporter.java" line-rate="1.0" name="com.google.javascript.jscomp.RhinoErrorReporter$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.25" filename="com/google/javascript/jscomp/RhinoErrorReporter.java" line-rate="0.0" name="com.google.javascript.jscomp.RhinoErrorReporter$NewRhinoErrorReporter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.25" filename="com/google/javascript/jscomp/RhinoErrorReporter.java" line-rate="0.0" name="com.google.javascript.jscomp.RhinoErrorReporter$OldRhinoErrorReporter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/ScopeCreator.java" line-rate="1.0" name="com.google.javascript.jscomp.ScopeCreator">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8333333333333333" filename="com/google/javascript/jscomp/ShowByPathWarningsGuard.java" line-rate="0.0" name="com.google.javascript.jscomp.ShowByPathWarningsGuard">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.8333333333333333" filename="com/google/javascript/jscomp/ShowByPathWarningsGuard.java" line-rate="0.0" name="com.google.javascript.jscomp.ShowByPathWarningsGuard$ShowType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceAst.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceAst">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceExcerptProvider">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceExcerptProvider$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceExcerptProvider$ExcerptFormatter">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceExcerptProvider$SourceExcerpt">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceExcerptProvider$SourceExcerpt$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceExcerptProvider$SourceExcerpt$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.047619047619047616" complexity="1.7755102040816326" filename="com/google/javascript/jscomp/SourceFile.java" line-rate="0.16346153846153846" name="com.google.javascript.jscomp.SourceFile">
+					<methods>
+						<method branch-rate="0.5" line-rate="0.9090909090909091" name="&lt;init&gt;" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="59" />
+								<line branch="false" hits="1" number="66" />
+								<line branch="false" hits="1" number="69" />
+								<line branch="false" hits="1" number="77" />
+								<line branch="false" hits="1" number="86" />
+								<line branch="true" condition-coverage="50% (2/4)" hits="1" number="87">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="90" />
+								<line branch="false" hits="1" number="92" />
+								<line branch="false" hits="1" number="93" />
+								<line branch="false" hits="1" number="94" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="access$000" signature="(Lcom/google/javascript/jscomp/SourceFile;Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="42" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="builder" signature="()Lcom/google/javascript/jscomp/SourceFile$Builder;">
+							<lines>
+								<line branch="false" hits="1" number="357" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="fromCode" signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/google/javascript/jscomp/SourceFile;">
+							<lines>
+								<line branch="false" hits="1" number="325" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setCode" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="156" />
+								<line branch="false" hits="1" number="157" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="setOriginalPath" signature="(Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="164" />
+								<line branch="false" hits="1" number="165" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.7755102040816326" filename="com/google/javascript/jscomp/SourceFile.java" line-rate="0.3076923076923077" name="com.google.javascript.jscomp.SourceFile$Builder">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="367" />
+								<line branch="false" hits="1" number="368" />
+								<line branch="false" hits="2" number="370" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="buildFromCode" signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/google/javascript/jscomp/SourceFile;">
+							<lines>
+								<line branch="false" hits="1" number="393" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7755102040816326" filename="com/google/javascript/jscomp/SourceFile.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceFile$Generated">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.7755102040816326" filename="com/google/javascript/jscomp/SourceFile.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceFile$Generator">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7755102040816326" filename="com/google/javascript/jscomp/SourceFile.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceFile$OnDisk">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.7755102040816326" filename="com/google/javascript/jscomp/SourceFile.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceFile$Preloaded">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="424" />
+								<line branch="false" hits="1" number="425" />
+								<line branch="false" hits="1" number="426" />
+								<line branch="false" hits="1" number="427" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.1176470588235294" filename="com/google/javascript/jscomp/SourceMap.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1176470588235294" filename="com/google/javascript/jscomp/SourceMap.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceMap$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1176470588235294" filename="com/google/javascript/jscomp/SourceMap.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceMap$DetailLevel">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1176470588235294" filename="com/google/javascript/jscomp/SourceMap.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceMap$DetailLevel$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.1176470588235294" filename="com/google/javascript/jscomp/SourceMap.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceMap$DetailLevel$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1176470588235294" filename="com/google/javascript/jscomp/SourceMap.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceMap$Format">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1176470588235294" filename="com/google/javascript/jscomp/SourceMap.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceMap$Format$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1176470588235294" filename="com/google/javascript/jscomp/SourceMap.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceMap$Format$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1176470588235294" filename="com/google/javascript/jscomp/SourceMap.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceMap$Format$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1176470588235294" filename="com/google/javascript/jscomp/SourceMap.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceMap$Format$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1176470588235294" filename="com/google/javascript/jscomp/SourceMap.java" line-rate="0.0" name="com.google.javascript.jscomp.SourceMap$LocationMapping">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.153846153846154" filename="com/google/javascript/jscomp/StrictModeCheck.java" line-rate="0.0" name="com.google.javascript.jscomp.StrictModeCheck">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.153846153846154" filename="com/google/javascript/jscomp/StrictModeCheck.java" line-rate="1.0" name="com.google.javascript.jscomp.StrictModeCheck$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.153846153846154" filename="com/google/javascript/jscomp/StrictModeCheck.java" line-rate="0.0" name="com.google.javascript.jscomp.StrictModeCheck$NonExternChecks">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.0" filename="com/google/javascript/jscomp/SuppressDocWarningsGuard.java" line-rate="0.0" name="com.google.javascript.jscomp.SuppressDocWarningsGuard">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.8" filename="com/google/javascript/jscomp/SyntacticScopeCreator.java" line-rate="0.0" name="com.google.javascript.jscomp.SyntacticScopeCreator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.8" filename="com/google/javascript/jscomp/SyntacticScopeCreator.java" line-rate="1.0" name="com.google.javascript.jscomp.SyntacticScopeCreator$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.8" filename="com/google/javascript/jscomp/SyntacticScopeCreator.java" line-rate="0.0" name="com.google.javascript.jscomp.SyntacticScopeCreator$DefaultRedeclarationHandler">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.8" filename="com/google/javascript/jscomp/SyntacticScopeCreator.java" line-rate="1.0" name="com.google.javascript.jscomp.SyntacticScopeCreator$RedeclarationHandler">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6153846153846154" filename="com/google/javascript/jscomp/Tracer.java" line-rate="0.0" name="com.google.javascript.jscomp.Tracer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6153846153846154" filename="com/google/javascript/jscomp/Tracer.java" line-rate="0.0" name="com.google.javascript.jscomp.Tracer$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6153846153846154" filename="com/google/javascript/jscomp/Tracer.java" line-rate="0.0" name="com.google.javascript.jscomp.Tracer$AtomicTracerStatMap">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6153846153846154" filename="com/google/javascript/jscomp/Tracer.java" line-rate="0.0" name="com.google.javascript.jscomp.Tracer$Event">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6153846153846154" filename="com/google/javascript/jscomp/Tracer.java" line-rate="1.0" name="com.google.javascript.jscomp.Tracer$InternalClock">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6153846153846154" filename="com/google/javascript/jscomp/Tracer.java" line-rate="0.0" name="com.google.javascript.jscomp.Tracer$Stat">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.6153846153846154" filename="com/google/javascript/jscomp/Tracer.java" line-rate="0.0" name="com.google.javascript.jscomp.Tracer$ThreadTrace">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.6153846153846154" filename="com/google/javascript/jscomp/Tracer.java" line-rate="1.0" name="com.google.javascript.jscomp.Tracer$TracingStatistic">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="10.025641025641026" filename="com/google/javascript/jscomp/TypeCheck.java" line-rate="0.0" name="com.google.javascript.jscomp.TypeCheck">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.026315789473684" filename="com/google/javascript/jscomp/TypeValidator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypeValidator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.026315789473684" filename="com/google/javascript/jscomp/TypeValidator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypeValidator$TypeMismatch">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="8.666666666666666" filename="com/google/javascript/jscomp/TypedCodeGenerator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypedCodeGenerator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.546875" filename="com/google/javascript/jscomp/TypedScopeCreator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypedScopeCreator">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="6.546875" filename="com/google/javascript/jscomp/TypedScopeCreator.java" line-rate="1.0" name="com.google.javascript.jscomp.TypedScopeCreator$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.546875" filename="com/google/javascript/jscomp/TypedScopeCreator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.546875" filename="com/google/javascript/jscomp/TypedScopeCreator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder$CollectProperties">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="6.546875" filename="com/google/javascript/jscomp/TypedScopeCreator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypedScopeCreator$DeferredSetType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.546875" filename="com/google/javascript/jscomp/TypedScopeCreator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypedScopeCreator$DiscoverEnumsAndTypedefs">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.546875" filename="com/google/javascript/jscomp/TypedScopeCreator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypedScopeCreator$FirstOrderFunctionAnalyzer">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.546875" filename="com/google/javascript/jscomp/TypedScopeCreator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypedScopeCreator$GlobalScopeBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.546875" filename="com/google/javascript/jscomp/TypedScopeCreator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypedScopeCreator$LocalScopeBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="6.546875" filename="com/google/javascript/jscomp/TypedScopeCreator.java" line-rate="0.0" name="com.google.javascript.jscomp.TypedScopeCreator$StubDeclaration">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.111111111111111" filename="com/google/javascript/jscomp/VarCheck.java" line-rate="0.0" name="com.google.javascript.jscomp.VarCheck">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="5.111111111111111" filename="com/google/javascript/jscomp/VarCheck.java" line-rate="1.0" name="com.google.javascript.jscomp.VarCheck$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.111111111111111" filename="com/google/javascript/jscomp/VarCheck.java" line-rate="0.0" name="com.google.javascript.jscomp.VarCheck$NameRefInExternsCheck">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="5.4" filename="com/google/javascript/jscomp/VariableReferenceCheck.java" line-rate="0.0" name="com.google.javascript.jscomp.VariableReferenceCheck">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="5.4" filename="com/google/javascript/jscomp/VariableReferenceCheck.java" line-rate="1.0" name="com.google.javascript.jscomp.VariableReferenceCheck$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.4" filename="com/google/javascript/jscomp/VariableReferenceCheck.java" line-rate="0.0" name="com.google.javascript.jscomp.VariableReferenceCheck$ReferenceCheckingBehavior">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="com/google/javascript/jscomp/VariableRenamingPolicy.java" line-rate="0.0" name="com.google.javascript.jscomp.VariableRenamingPolicy">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="com/google/javascript/jscomp/WarningLevel.java" line-rate="0.0" name="com.google.javascript.jscomp.WarningLevel">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0" filename="com/google/javascript/jscomp/WarningLevel.java" line-rate="0.0" name="com.google.javascript.jscomp.WarningLevel$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/WarningsGuard.java" line-rate="0.0" name="com.google.javascript.jscomp.WarningsGuard">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/WarningsGuard.java" line-rate="0.0" name="com.google.javascript.jscomp.WarningsGuard$Priority">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.0256410256410255" line-rate="0.0" name="com.google.javascript.jscomp.deps">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/deps/DependencyInfo.java" line-rate="1.0" name="com.google.javascript.jscomp.deps.DependencyInfo">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.555555555555555" filename="com/google/javascript/jscomp/deps/JsFileLineParser.java" line-rate="0.0" name="com.google.javascript.jscomp.deps.JsFileLineParser">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.555555555555555" filename="com/google/javascript/jscomp/deps/JsFileLineParser.java" line-rate="0.0" name="com.google.javascript.jscomp.deps.JsFileLineParser$ParseException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4" filename="com/google/javascript/jscomp/deps/JsFileParser.java" line-rate="0.0" name="com.google.javascript.jscomp.deps.JsFileParser">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7142857142857142" filename="com/google/javascript/jscomp/deps/SimpleDependencyInfo.java" line-rate="0.0" name="com.google.javascript.jscomp.deps.SimpleDependencyInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.5" filename="com/google/javascript/jscomp/deps/SortedDependencies.java" line-rate="0.0" name="com.google.javascript.jscomp.deps.SortedDependencies">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.5" filename="com/google/javascript/jscomp/deps/SortedDependencies.java" line-rate="0.0" name="com.google.javascript.jscomp.deps.SortedDependencies$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.5" filename="com/google/javascript/jscomp/deps/SortedDependencies.java" line-rate="0.0" name="com.google.javascript.jscomp.deps.SortedDependencies$CircularDependencyException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.5" filename="com/google/javascript/jscomp/deps/SortedDependencies.java" line-rate="0.0" name="com.google.javascript.jscomp.deps.SortedDependencies$MissingProvideException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.3714285714285714" line-rate="0.0" name="com.google.javascript.jscomp.graph">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/graph/AdjacencyGraph.java" line-rate="1.0" name="com.google.javascript.jscomp.graph.AdjacencyGraph">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0952380952380953" filename="com/google/javascript/jscomp/graph/DiGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.graph.DiGraph">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0952380952380953" filename="com/google/javascript/jscomp/graph/DiGraph.java" line-rate="1.0" name="com.google.javascript.jscomp.graph.DiGraph$DiGraphEdge">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0952380952380953" filename="com/google/javascript/jscomp/graph/DiGraph.java" line-rate="1.0" name="com.google.javascript.jscomp.graph.DiGraph$DiGraphNode">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.375" filename="com/google/javascript/jscomp/graph/Graph.java" line-rate="0.0" name="com.google.javascript.jscomp.graph.Graph">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.375" filename="com/google/javascript/jscomp/graph/Graph.java" line-rate="0.0" name="com.google.javascript.jscomp.graph.Graph$AnnotationState">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.375" filename="com/google/javascript/jscomp/graph/Graph.java" line-rate="0.0" name="com.google.javascript.jscomp.graph.Graph$GraphAnnotationState">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.375" filename="com/google/javascript/jscomp/graph/Graph.java" line-rate="1.0" name="com.google.javascript.jscomp.graph.Graph$GraphEdge">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.375" filename="com/google/javascript/jscomp/graph/Graph.java" line-rate="0.0" name="com.google.javascript.jscomp.graph.Graph$SimpleSubGraph">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/graph/GraphvizGraph.java" line-rate="1.0" name="com.google.javascript.jscomp.graph.GraphvizGraph">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/graph/GraphvizGraph.java" line-rate="1.0" name="com.google.javascript.jscomp.graph.GraphvizGraph$GraphvizEdge">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/graph/GraphvizGraph.java" line-rate="1.0" name="com.google.javascript.jscomp.graph.GraphvizGraph$GraphvizNode">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5352112676056338" filename="com/google/javascript/jscomp/graph/LinkedDirectedGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.graph.LinkedDirectedGraph">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.5352112676056338" filename="com/google/javascript/jscomp/graph/LinkedDirectedGraph.java" line-rate="1.0" name="com.google.javascript.jscomp.graph.LinkedDirectedGraph$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.5352112676056338" filename="com/google/javascript/jscomp/graph/LinkedDirectedGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.graph.LinkedDirectedGraph$AnnotatedLinkedDirectedGraphEdge">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.5352112676056338" filename="com/google/javascript/jscomp/graph/LinkedDirectedGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.graph.LinkedDirectedGraph$AnnotatedLinkedDirectedGraphNode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5352112676056338" filename="com/google/javascript/jscomp/graph/LinkedDirectedGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.graph.LinkedDirectedGraph$LinkedDirectedGraphEdge">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5352112676056338" filename="com/google/javascript/jscomp/graph/LinkedDirectedGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.graph.LinkedDirectedGraph$LinkedDirectedGraphNode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5352112676056338" filename="com/google/javascript/jscomp/graph/LinkedDirectedGraph.java" line-rate="0.0" name="com.google.javascript.jscomp.graph.LinkedDirectedGraph$LinkedDirectedGraphNode$NeighborIterator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="5.394618834080718" line-rate="0.0" name="com.google.javascript.jscomp.parsing">
+			<classes>
+				<class branch-rate="1.0" complexity="0.0" filename="com/google/javascript/jscomp/parsing/Annotation.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.Annotation">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="com/google/javascript/jscomp/parsing/Config.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.Config">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0" filename="com/google/javascript/jscomp/parsing/Config.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.Config$LanguageMode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.5" filename="com/google/javascript/jscomp/parsing/IRFactory.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.IRFactory">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.5" filename="com/google/javascript/jscomp/parsing/IRFactory.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.IRFactory$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.5" filename="com/google/javascript/jscomp/parsing/IRFactory.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.492307692307692" filename="com/google/javascript/jscomp/parsing/JsDocInfoParser.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.JsDocInfoParser">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.492307692307692" filename="com/google/javascript/jscomp/parsing/JsDocInfoParser.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.JsDocInfoParser$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.492307692307692" filename="com/google/javascript/jscomp/parsing/JsDocInfoParser.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.JsDocInfoParser$ErrorReporterParser">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.492307692307692" filename="com/google/javascript/jscomp/parsing/JsDocInfoParser.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.JsDocInfoParser$ExtendedTypeInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.492307692307692" filename="com/google/javascript/jscomp/parsing/JsDocInfoParser.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.JsDocInfoParser$ExtractionInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.492307692307692" filename="com/google/javascript/jscomp/parsing/JsDocInfoParser.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.JsDocInfoParser$State">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="7.492307692307692" filename="com/google/javascript/jscomp/parsing/JsDocInfoParser.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.JsDocInfoParser$WhitespaceOption">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="com/google/javascript/jscomp/parsing/JsDocToken.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.JsDocToken">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.304347826086956" filename="com/google/javascript/jscomp/parsing/JsDocTokenStream.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.JsDocTokenStream">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="com/google/javascript/jscomp/parsing/ParserRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.ParserRunner">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.181818181818182" filename="com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.TypeSafeDispatcher">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.0606060606060606" line-rate="0.0" name="com.google.javascript.jscomp.type">
+			<classes>
+				<class branch-rate="0.0" complexity="1.8472222222222223" filename="com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8472222222222223" filename="com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8472222222222223" filename="com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.8472222222222223" filename="com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByFalseTypeOfResultVisitor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8472222222222223" filename="com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByOneTypeOfResultVisitor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.8472222222222223" filename="com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByTrueTypeOfResultVisitor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.8472222222222223" filename="com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByTypeOfResultVisitor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/type/ReverseAbstractInterpreter.java" line-rate="1.0" name="com.google.javascript.jscomp.type.ReverseAbstractInterpreter">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.5" filename="com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.5" filename="com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.5" filename="com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.5" filename="com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter$3">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.5" filename="com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter$4">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="6.5" filename="com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter$5">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.5" filename="com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter$RestrictByFalseInstanceOfResultVisitor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.5" filename="com/google/javascript/jscomp/type/SemanticReverseAbstractInterpreter.java" line-rate="0.0" name="com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter$RestrictByTrueInstanceOfResultVisitor">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.3327464788732395" line-rate="0.0" name="com.google.javascript.rhino">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/ErrorReporter.java" line-rate="1.0" name="com.google.javascript.rhino.ErrorReporter">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4571428571428573" filename="com/google/javascript/rhino/IR.java" line-rate="0.0" name="com.google.javascript.rhino.IR">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2" filename="com/google/javascript/rhino/InputId.java" line-rate="0.0" name="com.google.javascript.rhino.InputId">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0140845070422535" filename="com/google/javascript/rhino/JSDocInfo.java" line-rate="0.0" name="com.google.javascript.rhino.JSDocInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0140845070422535" filename="com/google/javascript/rhino/JSDocInfo.java" line-rate="1.0" name="com.google.javascript.rhino.JSDocInfo$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0140845070422535" filename="com/google/javascript/rhino/JSDocInfo.java" line-rate="0.0" name="com.google.javascript.rhino.JSDocInfo$LazilyInitializedDocumentation">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0140845070422535" filename="com/google/javascript/rhino/JSDocInfo.java" line-rate="0.0" name="com.google.javascript.rhino.JSDocInfo$LazilyInitializedInfo">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0140845070422535" filename="com/google/javascript/rhino/JSDocInfo.java" line-rate="0.0" name="com.google.javascript.rhino.JSDocInfo$Marker">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0140845070422535" filename="com/google/javascript/rhino/JSDocInfo.java" line-rate="0.0" name="com.google.javascript.rhino.JSDocInfo$NamePosition">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0140845070422535" filename="com/google/javascript/rhino/JSDocInfo.java" line-rate="0.0" name="com.google.javascript.rhino.JSDocInfo$StringPosition">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0140845070422535" filename="com/google/javascript/rhino/JSDocInfo.java" line-rate="0.0" name="com.google.javascript.rhino.JSDocInfo$TrimmedStringPosition">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0140845070422535" filename="com/google/javascript/rhino/JSDocInfo.java" line-rate="0.0" name="com.google.javascript.rhino.JSDocInfo$TypePosition">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0140845070422535" filename="com/google/javascript/rhino/JSDocInfo.java" line-rate="0.0" name="com.google.javascript.rhino.JSDocInfo$Visibility">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.015151515151515" filename="com/google/javascript/rhino/JSDocInfoBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.JSDocInfoBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="com/google/javascript/rhino/JSTypeExpression.java" line-rate="0.0" name="com.google.javascript.rhino.JSTypeExpression">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$AbstractPropListItem">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$AncestorIterable">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$AncestorIterable$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$FileLevelJsDocBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$IntPropListItem">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$NodeMismatch">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$NumberNode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$ObjectPropListItem">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="1.0" name="com.google.javascript.rhino.Node$PropListItem">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$SiblingNodeIterable">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$SideEffectFlags">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0389105058365757" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$StringNode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="9.727272727272727" filename="com/google/javascript/rhino/ScriptRuntime.java" line-rate="0.0" name="com.google.javascript.rhino.ScriptRuntime">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7142857142857142" filename="com/google/javascript/rhino/SourcePosition.java" line-rate="0.0" name="com.google.javascript.rhino.SourcePosition">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.3217270194986073" line-rate="0.0" name="com.google.javascript.rhino.jstype">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/AllType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.AllType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="5.214285714285714" filename="com/google/javascript/rhino/jstype/ArrowType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ArrowType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="com/google/javascript/rhino/jstype/BooleanType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.BooleanType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/ErrorFunctionType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ErrorFunctionType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/FunctionBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.FunctionBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.4" filename="com/google/javascript/rhino/jstype/FunctionParamBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.FunctionParamBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.876923076923077" filename="com/google/javascript/rhino/jstype/FunctionType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.FunctionType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.876923076923077" filename="com/google/javascript/rhino/jstype/FunctionType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.FunctionType$Kind">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/IndexedType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.IndexedType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.9523809523809523" filename="com/google/javascript/rhino/jstype/InstanceObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.InstanceObjectType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3137254901960786" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3137254901960786" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSType$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3137254901960786" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSType$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3137254901960786" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSType$TypePair">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="com/google/javascript/rhino/jstype/JSTypeNative.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSTypeNative">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3333333333333335" filename="com/google/javascript/rhino/jstype/JSTypeRegistry.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSTypeRegistry">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3333333333333335" filename="com/google/javascript/rhino/jstype/JSTypeRegistry.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSTypeRegistry$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3333333333333335" filename="com/google/javascript/rhino/jstype/JSTypeRegistry.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSTypeRegistry$ResolveMode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.4782608695652173" filename="com/google/javascript/rhino/jstype/NamedType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NamedType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.4782608695652173" filename="com/google/javascript/rhino/jstype/NamedType.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.NamedType$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.4782608695652173" filename="com/google/javascript/rhino/jstype/NamedType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NamedType$PropertyContinuation">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.2173913043478262" filename="com/google/javascript/rhino/jstype/NoObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NoObjectType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="com/google/javascript/rhino/jstype/NoResolvedType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NoResolvedType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0909090909090908" filename="com/google/javascript/rhino/jstype/NoType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NoType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6666666666666667" filename="com/google/javascript/rhino/jstype/NullType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NullType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4166666666666667" filename="com/google/javascript/rhino/jstype/NumberType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NumberType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5076923076923077" filename="com/google/javascript/rhino/jstype/ObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ObjectType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5076923076923077" filename="com/google/javascript/rhino/jstype/ObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ObjectType$Property">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="com/google/javascript/rhino/jstype/ParameterizedType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ParameterizedType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.682926829268293" filename="com/google/javascript/rhino/jstype/PrototypeObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.PrototypeObjectType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.515625" filename="com/google/javascript/rhino/jstype/ProxyObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ProxyObjectType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/StaticReference.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.StaticReference">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/StaticScope.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.StaticScope">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/StaticSlot.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.StaticSlot">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/StaticSourceFile.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.StaticSourceFile">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/StaticSymbolTable.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.StaticSymbolTable">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4545454545454546" filename="com/google/javascript/rhino/jstype/StringType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.StringType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/TemplateType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.TemplateType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.0285714285714285" filename="com/google/javascript/rhino/jstype/UnionType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.UnionType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="7.285714285714286" filename="com/google/javascript/rhino/jstype/UnionTypeBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.UnionTypeBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0357142857142858" filename="com/google/javascript/rhino/jstype/UnknownType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.UnknownType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/UnresolvedTypeExpression.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.UnresolvedTypeExpression">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/ValueType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ValueType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4545454545454546" filename="com/google/javascript/rhino/jstype/VoidType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.VoidType">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

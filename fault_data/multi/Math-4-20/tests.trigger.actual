@@ -1,0 +1,5 @@
+org.apache.commons.math3.geometry.euclidean.threed.SubLineTest::testIntersectionNotIntersecting
+org.apache.commons.math3.geometry.euclidean.twod.SubLineTest::testIntersectionParallel
+org.apache.commons.math3.linear.UnmodifiableArrayRealVectorTest::testAllButExcluded
+org.apache.commons.math3.linear.UnmodifiableOpenMapRealVectorTest::testAllButExcluded
+org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testMath864

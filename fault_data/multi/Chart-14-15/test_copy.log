@@ -1,0 +1,24 @@
+--- Insert: testRemoveRangeMarker
+762a763,766
+>     public void testRemoveRangeMarker() {
+>     	CategoryPlot plot = new CategoryPlot();
+>     	assertFalse(plot.removeRangeMarker(new ValueMarker(0.5)));
+>     }
+--- Insert: testRemoveDomainMarker
+766a767,770
+>     public void testRemoveDomainMarker() {
+>     	CategoryPlot plot = new CategoryPlot();
+>     	assertFalse(plot.removeDomainMarker(new CategoryMarker("Category 1")));
+>     }
+--- Insert: testRemoveRangeMarker
+964a965,968
+>     public void testRemoveRangeMarker() {
+>     	XYPlot plot = new XYPlot();
+>     	assertFalse(plot.removeRangeMarker(new ValueMarker(0.5)));
+>     }
+--- Insert: testRemoveDomainMarker
+968a969,972
+>     public void testRemoveDomainMarker() {
+>     	XYPlot plot = new XYPlot();
+>     	assertFalse(plot.removeDomainMarker(new ValueMarker(0.5)));
+>     }

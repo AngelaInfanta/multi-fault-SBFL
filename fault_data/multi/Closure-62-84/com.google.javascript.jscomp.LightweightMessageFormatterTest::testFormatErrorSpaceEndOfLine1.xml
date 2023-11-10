@@ -1,0 +1,611 @@
+<coverage branch-rate="0.0039034776437189495" branches-covered="11" branches-valid="2818" complexity="3.0076726342710995" line-rate="0.015346329323931979" lines-covered="74" lines-valid="4822" timestamp="1624332321666" version="2.0.3">
+	<sources>
+		<source>src</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.1375" complexity="2.0784313725490198" line-rate="0.4378698224852071" name="com.google.javascript.jscomp">
+			<classes>
+				<class branch-rate="0.4" complexity="1.75" filename="com/google/javascript/jscomp/AbstractMessageFormatter.java" line-rate="0.5714285714285714" name="com.google.javascript.jscomp.AbstractMessageFormatter">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="47" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/jscomp/SourceExcerptProvider;)V">
+							<lines>
+								<line branch="false" hits="1" number="32" />
+								<line branch="false" hits="1" number="33" />
+								<line branch="false" hits="1" number="34" />
+							</lines>
+						</method>
+						<method branch-rate="0.3333333333333333" line-rate="0.5" name="getLevelName" signature="(Lcom/google/javascript/jscomp/CheckLevel;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="33% (1/3)" hits="1" number="74">
+									<conditions>
+										<condition coverage="33%" number="0" type="switch" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="75" />
+								</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getSource" signature="()Lcom/google/javascript/jscomp/SourceExcerptProvider;">
+							<lines>
+								<line branch="false" hits="1" number="44" />
+							</lines>
+						</method>
+						<method branch-rate="0.5" line-rate="0.5" name="maybeColorize" signature="(Ljava/lang/String;Lcom/google/javascript/jscomp/AbstractMessageFormatter$Color;)Ljava/lang/String;">
+							<lines>
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="82">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.75" filename="com/google/javascript/jscomp/AbstractMessageFormatter.java" line-rate="1.0" name="com.google.javascript.jscomp.AbstractMessageFormatter$1">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="74" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.75" filename="com/google/javascript/jscomp/AbstractMessageFormatter.java" line-rate="0.875" name="com.google.javascript.jscomp.AbstractMessageFormatter$Color">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="57" />
+								<line branch="false" hits="1" number="58" />
+								<line branch="false" hits="1" number="59" />
+								<line branch="false" hits="1" number="60" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;ILjava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="3" number="64" />
+								<line branch="false" hits="3" number="65" />
+								<line branch="false" hits="3" number="66" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0" filename="com/google/javascript/jscomp/CheckLevel.java" line-rate="0.8" name="com.google.javascript.jscomp.CheckLevel">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="6" number="24" />
+								<line branch="false" hits="1" number="25" />
+								<line branch="false" hits="1" number="26" />
+								<line branch="false" hits="1" number="27" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/DiagnosticType.java" line-rate="0.5714285714285714" name="com.google.javascript.jscomp.DiagnosticType">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;Lcom/google/javascript/jscomp/CheckLevel;Ljava/text/MessageFormat;)V">
+							<lines>
+								<line branch="false" hits="1" number="93" />
+								<line branch="false" hits="1" number="94" />
+								<line branch="false" hits="1" number="95" />
+								<line branch="false" hits="1" number="96" />
+								<line branch="false" hits="1" number="98" />
+								<line branch="false" hits="1" number="99" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="error" signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/google/javascript/jscomp/DiagnosticType;">
+							<lines>
+								<line branch="false" hits="1" number="50" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="make" signature="(Ljava/lang/String;Lcom/google/javascript/jscomp/CheckLevel;Ljava/lang/String;)Lcom/google/javascript/jscomp/DiagnosticType;">
+							<lines>
+								<line branch="false" hits="1" number="86" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.024390243902439025" complexity="3.3076923076923075" filename="com/google/javascript/jscomp/JSError.java" line-rate="0.22916666666666666" name="com.google.javascript.jscomp.JSError">
+					<methods>
+						<method branch-rate="0.5" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;Lcom/google/javascript/rhino/Node;IILcom/google/javascript/jscomp/DiagnosticType;Lcom/google/javascript/jscomp/CheckLevel;[Ljava/lang/String;)V">
+							<lines>
+								<line branch="false" hits="1" number="141" />
+								<line branch="false" hits="1" number="142" />
+								<line branch="false" hits="1" number="143" />
+								<line branch="false" hits="1" number="144" />
+								<line branch="false" hits="1" number="145" />
+								<line branch="false" hits="1" number="146" />
+								<line branch="false" hits="1" number="147" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="148">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="149" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="getCharno" signature="()I">
+							<lines>
+								<line branch="false" hits="1" number="200" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="make" signature="(Ljava/lang/String;IILcom/google/javascript/jscomp/DiagnosticType;[Ljava/lang/String;)Lcom/google/javascript/jscomp/JSError;">
+							<lines>
+								<line branch="false" hits="1" number="85" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.3076923076923075" filename="com/google/javascript/jscomp/JSError.java" line-rate="0.0" name="com.google.javascript.jscomp.JSError$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.4" complexity="3.111111111111111" filename="com/google/javascript/jscomp/LightweightMessageFormatter.java" line-rate="0.7105263157894737" name="com.google.javascript.jscomp.LightweightMessageFormatter">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="32" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/jscomp/SourceExcerptProvider;)V">
+							<lines>
+								<line branch="false" hits="1" number="44" />
+								<line branch="false" hits="1" number="45" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Lcom/google/javascript/jscomp/SourceExcerptProvider;Lcom/google/javascript/jscomp/SourceExcerptProvider$SourceExcerpt;)V">
+							<lines>
+								<line branch="false" hits="1" number="49" />
+								<line branch="false" hits="1" number="50" />
+								<line branch="false" hits="1" number="51" />
+								<line branch="false" hits="1" number="52" />
+							</lines>
+						</method>
+						<method branch-rate="0.4" line-rate="0.76" name="format" signature="(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="68" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="69">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="74" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="75">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="76" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="77">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="78" />
+								<line branch="false" hits="1" number="79" />
+								<line branch="false" hits="1" number="81" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="84">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="85" />
+								<line branch="false" hits="1" number="87" />
+								<line branch="false" hits="1" number="88" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="89">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="90" />
+								<line branch="false" hits="1" number="91" />
+								<line branch="false" hits="1" number="92" />
+								<line branch="true" condition-coverage="50% (3/6)" hits="1" number="95">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+										<condition coverage="50%" number="1" type="jump" />
+										<condition coverage="50%" number="2" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="108" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="formatError" signature="(Lcom/google/javascript/jscomp/JSError;)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="59" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.111111111111111" filename="com/google/javascript/jscomp/LightweightMessageFormatter.java" line-rate="0.06060606060606061" name="com.google.javascript.jscomp.LightweightMessageFormatter$LineNumberingFormatter">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="118" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="formatLine" signature="(Ljava/lang/String;I)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="120" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/MessageFormatter.java" line-rate="1.0" name="com.google.javascript.jscomp.MessageFormatter">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/Region.java" line-rate="1.0" name="com.google.javascript.jscomp.Region">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceExcerptProvider">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceExcerptProvider$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceExcerptProvider$ExcerptFormatter">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceExcerptProvider$SourceExcerpt">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;clinit&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="5" number="28" />
+								<line branch="false" hits="1" number="32" />
+								<line branch="false" hits="1" number="43" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="1.0" name="com.google.javascript.jscomp.SourceExcerptProvider$SourceExcerpt$1">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;I)V">
+							<lines>
+								<line branch="false" hits="1" number="32" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="1.0" name="get" signature="(Lcom/google/javascript/jscomp/SourceExcerptProvider;Ljava/lang/String;ILcom/google/javascript/jscomp/SourceExcerptProvider$ExcerptFormatter;)Ljava/lang/String;">
+							<lines>
+								<line branch="false" hits="1" number="36" />
+							</lines>
+						</method>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/jscomp/SourceExcerptProvider.java" line-rate="0.5" name="com.google.javascript.jscomp.SourceExcerptProvider$SourceExcerpt$2">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="(Ljava/lang/String;I)V">
+							<lines>
+								<line branch="false" hits="1" number="43" />
+							</lines>
+						</method>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="5.391666666666667" line-rate="0.0" name="com.google.javascript.jscomp.parsing">
+			<classes>
+				<class branch-rate="1.0" complexity="0.0" filename="com/google/javascript/jscomp/parsing/Annotation.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.Annotation">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="com/google/javascript/jscomp/parsing/Config.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.Config">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.507246376811594" filename="com/google/javascript/jscomp/parsing/IRFactory.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.IRFactory">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="6.507246376811594" filename="com/google/javascript/jscomp/parsing/IRFactory.java" line-rate="1.0" name="com.google.javascript.jscomp.parsing.IRFactory$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.507246376811594" filename="com/google/javascript/jscomp/parsing/IRFactory.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="com/google/javascript/jscomp/parsing/ParserRunner.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.ParserRunner">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.232558139534884" filename="com/google/javascript/jscomp/parsing/TypeSafeDispatcher.java" line-rate="0.0" name="com.google.javascript.jscomp.parsing.TypeSafeDispatcher">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.0" line-rate="0.0" name="com.google.javascript.jscomp.testing">
+			<classes>
+				<class branch-rate="0.0" complexity="2.0" filename="com/google/javascript/jscomp/testing/TestErrorReporter.java" line-rate="0.0" name="com.google.javascript.jscomp.testing.TestErrorReporter">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="4.0646258503401365" line-rate="0.0" name="com.google.javascript.rhino">
+			<classes>
+				<class branch-rate="0.0" complexity="3.125" filename="com/google/javascript/rhino/Context.java" line-rate="0.0" name="com.google.javascript.rhino.Context">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/EcmaError.java" line-rate="0.0" name="com.google.javascript.rhino.EcmaError">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/ErrorReporter.java" line-rate="1.0" name="com.google.javascript.rhino.ErrorReporter">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/EvaluatorException.java" line-rate="0.0" name="com.google.javascript.rhino.EvaluatorException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="com/google/javascript/rhino/JSTypeExpression.java" line-rate="0.0" name="com.google.javascript.rhino.JSTypeExpression">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$AncestorIterable">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$AncestorIterable$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$FileLevelJsDocBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$NodeMismatch">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$NumberNode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$PropListItem">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$SiblingNodeIterable">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$SideEffectFlags">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.7926829268292686" filename="com/google/javascript/rhino/Node.java" line-rate="0.0" name="com.google.javascript.rhino.Node$StringNode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.473684210526316" filename="com/google/javascript/rhino/RhinoException.java" line-rate="0.0" name="com.google.javascript.rhino.RhinoException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.473684210526316" filename="com/google/javascript/rhino/RhinoException.java" line-rate="0.0" name="com.google.javascript.rhino.RhinoException$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.878787878787879" filename="com/google/javascript/rhino/ScriptRuntime.java" line-rate="0.0" name="com.google.javascript.rhino.ScriptRuntime">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.2595307917888565" line-rate="0.0" name="com.google.javascript.rhino.jstype">
+			<classes>
+				<class branch-rate="0.0" complexity="1.1333333333333333" filename="com/google/javascript/rhino/jstype/AllType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.AllType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.538461538461538" filename="com/google/javascript/rhino/jstype/ArrowType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ArrowType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="com/google/javascript/rhino/jstype/BooleanType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.BooleanType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/ErrorFunctionType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ErrorFunctionType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/FunctionBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.FunctionBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3333333333333335" filename="com/google/javascript/rhino/jstype/FunctionParamBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.FunctionParamBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4285714285714286" filename="com/google/javascript/rhino/jstype/FunctionPrototypeType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.FunctionPrototypeType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.890909090909091" filename="com/google/javascript/rhino/jstype/FunctionType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.FunctionType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.890909090909091" filename="com/google/javascript/rhino/jstype/FunctionType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.FunctionType$Kind">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/IndexedType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.IndexedType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="com/google/javascript/rhino/jstype/InstanceObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.InstanceObjectType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.1149425287356323" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1149425287356323" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSType$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1149425287356323" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSType$2">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.1149425287356323" filename="com/google/javascript/rhino/jstype/JSType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSType$TypePair">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="0.0" filename="com/google/javascript/rhino/jstype/JSTypeNative.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSTypeNative">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.3" filename="com/google/javascript/rhino/jstype/JSTypeRegistry.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSTypeRegistry">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3" filename="com/google/javascript/rhino/jstype/JSTypeRegistry.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSTypeRegistry$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.3" filename="com/google/javascript/rhino/jstype/JSTypeRegistry.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.JSTypeRegistry$ResolveMode">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.35" filename="com/google/javascript/rhino/jstype/NamedType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NamedType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1764705882352942" filename="com/google/javascript/rhino/jstype/NoObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NoObjectType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.1764705882352942" filename="com/google/javascript/rhino/jstype/NoObjectType.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.NoObjectType$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1764705882352942" filename="com/google/javascript/rhino/jstype/NoObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NoObjectType$GreatestSupertypeVisitor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1764705882352942" filename="com/google/javascript/rhino/jstype/NoObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NoObjectType$LeastSupertypeVisitor">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.1538461538461537" filename="com/google/javascript/rhino/jstype/NoType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NoType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6666666666666667" filename="com/google/javascript/rhino/jstype/NullType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NullType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4166666666666667" filename="com/google/javascript/rhino/jstype/NumberType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.NumberType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6341463414634145" filename="com/google/javascript/rhino/jstype/ObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ObjectType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/ParameterizedType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ParameterizedType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.657142857142857" filename="com/google/javascript/rhino/jstype/PrototypeObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.PrototypeObjectType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.657142857142857" filename="com/google/javascript/rhino/jstype/PrototypeObjectType.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.PrototypeObjectType$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.657142857142857" filename="com/google/javascript/rhino/jstype/PrototypeObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.PrototypeObjectType$Property">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.48" filename="com/google/javascript/rhino/jstype/ProxyObjectType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ProxyObjectType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.090909090909091" filename="com/google/javascript/rhino/jstype/RecordType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.RecordType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="com/google/javascript/rhino/jstype/RecordTypeBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.RecordTypeBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.3333333333333333" filename="com/google/javascript/rhino/jstype/RecordTypeBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.RecordTypeBuilder$RecordProperty">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4545454545454546" filename="com/google/javascript/rhino/jstype/StringType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.StringType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/TemplateType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.TemplateType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.84375" filename="com/google/javascript/rhino/jstype/UnionType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.UnionType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="6.142857142857143" filename="com/google/javascript/rhino/jstype/UnionTypeBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.UnionTypeBuilder">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="6.142857142857143" filename="com/google/javascript/rhino/jstype/UnionTypeBuilder.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.UnionTypeBuilder$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.0344827586206897" filename="com/google/javascript/rhino/jstype/UnknownType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.UnknownType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/UnresolvedTypeExpression.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.UnresolvedTypeExpression">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/ValueType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.ValueType">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/jstype/Visitor.java" line-rate="1.0" name="com.google.javascript.rhino.jstype.Visitor">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.4545454545454546" filename="com/google/javascript/rhino/jstype/VoidType.java" line-rate="0.0" name="com.google.javascript.rhino.jstype.VoidType">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.35" line-rate="0.0" name="com.google.javascript.rhino.testing">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="com/google/javascript/rhino/testing/BaseJSTypeTestCase.java" line-rate="0.0" name="com.google.javascript.rhino.testing.BaseJSTypeTestCase">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7777777777777777" filename="com/google/javascript/rhino/testing/TestErrorReporter.java" line-rate="0.0" name="com.google.javascript.rhino.testing.TestErrorReporter">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

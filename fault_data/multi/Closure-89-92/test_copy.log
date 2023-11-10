@@ -1,0 +1,70 @@
+--- Overwrite: testAddPropertyToChildOfUncollapsibleFunctionInLocalScope
+529,532c529,531
+<     test("function a() {} a.b = {x: 0}; var c = a;" +
+<          "(function() {a.b.y = 0;})(); a.b.y;",
+<          "function a() {} var a$b$x = 0; var a$b$y; var c = a;" +
+<          "(function() {a$b$y = 0;})(); a$b$y;");
+---
+>     testSame(
+>         "function a() {} a.b = {x: 0}; var c = a;" +
+>         "(function() {a.b.y = 0;})(); a.b.y;");
+--- Overwrite: testAliasCreatedForFunctionDepth1_1
+249,256c249
+<     // A function's properties *are* collapsed even if the function is
+<     // referenced in a such a way that an alias is created for it,
+<     // since a function with custom properties is considered a class and its
+<     // non-prototype properties are considered static methods and variables.
+<     // People don't typically iterate through static members of a class or
+<     // refer to them using an alias for the class name.
+<     test("var a = function(){}; a.b = 1; var c = a; c.b = 2; a.b != c.b;",
+<          "var a = function(){}; var a$b = 1; var c = a; c.b = 2; a$b != c.b;");
+---
+>     testSame("var a = function(){}; a.b = 1; var c = a; c.b = 2; a.b != c.b;");
+--- Overwrite: testAliasCreatedForFunctionDepth1_2
+253,254c253
+<     test("var a = function(){}; a.b = 1; f(a); a.b;",
+<          "var a = function(){}; var a$b = 1; f(a); a$b;");
+---
+>     testSame("var a = function(){}; a.b = 1; f(a); a.b;");
+--- Overwrite: testAliasCreatedForFunctionDepth1_3
+257,258c257
+<     test("var a = function(){}; a.b = 1; new f(a); a.b;",
+<          "var a = function(){}; var a$b = 1; new f(a); a$b;");
+---
+>     testSame("var a = function(){}; a.b = 1; new f(a); a.b;");
+--- Insert: testAddPropertyToUncollapsibleNamedCtorInLocalScopeDepth1
+1132a1133,1141
+>   public void testAddPropertyToUncollapsibleNamedCtorInLocalScopeDepth1() {
+>     // This technically should be collapsed, according to the rules.
+>     // We don't collapse named constructors for legacy reasons
+>     // (this pass has been around too long, and we don't know who's
+>     // depending on this behavior).
+>     testSame(
+>           "/** @constructor */ function a() {} var c = a; " +
+>           "(function() {a.b = 0;})(); a.b;");
+>   }
+--- Overwrite: testAddPropertyToUncollapsibleFunctionInLocalScopeDepth1
+477,478c477
+<     test("function a() {} var c = a; (function() {a.b = 0;})(); a.b;",
+<          "function a() {} var a$b; var c = a; (function() {a$b = 0;})(); a$b;");
+---
+>     testSame("function a() {} var c = a; (function() {a.b = 0;})(); a.b;");
+--- Overwrite: testAddPropertyToUncollapsibleFunctionInLocalScopeDepth2
+490,491c490,491
+<          "var a$b = function (){}; var a$b$c; var d = a$b;" +
+<          "(function() {a$b$c = 0;})(); a$b$c;");
+---
+>          "var a$b = function (){}; var d = a$b;" +
+>          "(function() {a$b.c = 0;})(); a$b.c;");
+--- Overwrite: testAliasCreatedForFunctionDepth2
+261,264c261,265
+<     test("var a = {}; a.b = function() {}; a.b.c = 1; var d = a.b;" +
+<          "a.b.c != d.c;",
+<          "var a$b = function() {}; var a$b$c = 1; var d = a$b;" +
+<          "a$b$c != d.c;");
+---
+>     test(
+>         "var a = {}; a.b = function() {}; a.b.c = 1; var d = a.b;" +
+>         "a.b.c != d.c;",
+>         "var a$b = function() {}; a$b.c = 1; var d = a$b;" +
+>         "a$b.c != d.c;");

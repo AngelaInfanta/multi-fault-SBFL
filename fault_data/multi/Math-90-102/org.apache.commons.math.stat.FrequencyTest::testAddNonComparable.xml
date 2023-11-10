@@ -1,0 +1,252 @@
+<coverage branch-rate="0.002066115702479339" branches-covered="1" branches-valid="484" complexity="1.9027777777777777" line-rate="0.008704061895551257" lines-covered="9" lines-valid="1034" timestamp="1624317230818" version="2.0.3">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package branch-rate="0.0" complexity="1.375" line-rate="0.0" name="org.apache.commons.math">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.0" name="org.apache.commons.math.ConvergenceException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6" filename="org/apache/commons/math/MathException.java" line-rate="0.0" name="org.apache.commons.math.MathException">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/MaxIterationsExceededException.java" line-rate="0.0" name="org.apache.commons.math.MaxIterationsExceededException">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="1.0" complexity="1.0" line-rate="1.0" name="org.apache.commons.math.analysis">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/analysis/UnivariateRealFunction.java" line-rate="1.0" name="org.apache.commons.math.analysis.UnivariateRealFunction">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.8125" line-rate="0.0" name="org.apache.commons.math.distribution">
+			<classes>
+				<class branch-rate="0.0" complexity="3.0" filename="org/apache/commons/math/distribution/AbstractContinuousDistribution.java" line-rate="0.0" name="org.apache.commons.math.distribution.AbstractContinuousDistribution">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.0" filename="org/apache/commons/math/distribution/AbstractContinuousDistribution.java" line-rate="0.0" name="org.apache.commons.math.distribution.AbstractContinuousDistribution$1">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/math/distribution/AbstractDistribution.java" line-rate="0.0" name="org.apache.commons.math.distribution.AbstractDistribution">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/ChiSquaredDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.ChiSquaredDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5454545454545454" filename="org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java" line-rate="0.0" name="org.apache.commons.math.distribution.ChiSquaredDistributionImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/ContinuousDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.ContinuousDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/Distribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.Distribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/GammaDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.GammaDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.1" filename="org/apache/commons/math/distribution/GammaDistributionImpl.java" line-rate="0.0" name="org.apache.commons.math.distribution.GammaDistributionImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/distribution/TDistribution.java" line-rate="1.0" name="org.apache.commons.math.distribution.TDistribution">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/math/distribution/TDistributionImpl.java" line-rate="0.0" name="org.apache.commons.math.distribution.TDistributionImpl">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="3.625" line-rate="0.0" name="org.apache.commons.math.special">
+			<classes>
+				<class branch-rate="0.0" complexity="3.625" filename="org/apache/commons/math/special/Gamma.java" line-rate="0.0" name="org.apache.commons.math.special.Gamma">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="3.625" filename="org/apache/commons/math/special/Gamma.java" line-rate="0.0" name="org.apache.commons.math.special.Gamma$1">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.03125" complexity="2.0357142857142856" line-rate="0.08571428571428572" name="org.apache.commons.math.stat">
+			<classes>
+				<class branch-rate="0.03125" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="0.08737864077669903" name="org.apache.commons.math.stat.Frequency">
+					<methods>
+						<method branch-rate="1.0" line-rate="1.0" name="&lt;init&gt;" signature="()V">
+							<lines>
+								<line branch="false" hits="1" number="52" />
+								<line branch="false" hits="1" number="53" />
+								<line branch="false" hits="1" number="54" />
+							</lines>
+						</method>
+						<method branch-rate="1.0" line-rate="0.25" name="&lt;init&gt;" signature="(Ljava/util/Comparator;)V">
+							<lines>
+								<line branch="false" hits="1" number="47" />
+								</lines>
+						</method>
+						<method branch-rate="0.25" line-rate="0.45454545454545453" name="addValue" signature="(Ljava/lang/Object;)V">
+							<lines>
+								<line branch="false" hits="1" number="97" />
+								<line branch="true" condition-coverage="50% (1/2)" hits="1" number="98">
+									<conditions>
+										<condition coverage="50%" number="0" type="jump" />
+									</conditions>
+								</line>
+								<line branch="false" hits="1" number="102" />
+								<line branch="false" hits="1" number="108" />
+								<line branch="false" hits="1" number="110" />
+								</lines>
+						</method>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="1.0" name="org.apache.commons.math.stat.Frequency$1">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="2.0357142857142856" filename="org/apache/commons/math/stat/Frequency.java" line-rate="0.0" name="org.apache.commons.math.stat.Frequency$NaturalComparator">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.734375" line-rate="0.0" name="org.apache.commons.math.stat.descriptive">
+			<classes>
+				<class branch-rate="0.0" complexity="2.3333333333333335" filename="org/apache/commons/math/stat/descriptive/AbstractStorelessUnivariateStatistic.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.333333333333333" filename="org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/stat/descriptive/StatisticalSummary.java" line-rate="1.0" name="org.apache.commons.math.stat.descriptive.StatisticalSummary">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic.java" line-rate="1.0" name="org.apache.commons.math.stat.descriptive.StorelessUnivariateStatistic">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7142857142857142" filename="org/apache/commons/math/stat/descriptive/SummaryStatistics.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.SummaryStatistics">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/stat/descriptive/SummaryStatisticsImpl.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.SummaryStatisticsImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/stat/descriptive/UnivariateStatistic.java" line-rate="1.0" name="org.apache.commons.math.stat.descriptive.UnivariateStatistic">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.75" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.moment">
+			<classes>
+				<class branch-rate="0.0" complexity="1.2" filename="org/apache/commons/math/stat/descriptive/moment/FirstMoment.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.moment.FirstMoment">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.3333333333333333" filename="org/apache/commons/math/stat/descriptive/moment/GeometricMean.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.moment.GeometricMean">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.7142857142857142" filename="org/apache/commons/math/stat/descriptive/moment/Mean.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.moment.Mean">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.25" filename="org/apache/commons/math/stat/descriptive/moment/SecondMoment.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.moment.SecondMoment">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.2857142857142856" filename="org/apache/commons/math/stat/descriptive/moment/Variance.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.moment.Variance">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.0" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.rank">
+			<classes>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/math/stat/descriptive/rank/Max.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.rank.Max">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="2.0" filename="org/apache/commons/math/stat/descriptive/rank/Min.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.rank.Min">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="1.5555555555555556" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.summary">
+			<classes>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math/stat/descriptive/summary/Sum.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.summary.Sum">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.6666666666666667" filename="org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.summary.SumOfLogs">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="0.0" complexity="1.5" filename="org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java" line-rate="0.0" name="org.apache.commons.math.stat.descriptive.summary.SumOfSquares">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.0701754385964914" line-rate="0.0" name="org.apache.commons.math.stat.inference">
+			<classes>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/stat/inference/ChiSquareTest.java" line-rate="1.0" name="org.apache.commons.math.stat.inference.ChiSquareTest">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="4.111111111111111" filename="org/apache/commons/math/stat/inference/ChiSquareTestImpl.java" line-rate="0.0" name="org.apache.commons.math.stat.inference.ChiSquareTestImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/stat/inference/TTest.java" line-rate="1.0" name="org.apache.commons.math.stat.inference.TTest">
+					<methods>
+					</methods>
+					</class>
+				<class branch-rate="0.0" complexity="3.129032258064516" filename="org/apache/commons/math/stat/inference/TTestImpl.java" line-rate="0.0" name="org.apache.commons.math.stat.inference.TTestImpl">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/stat/inference/TestUtils.java" line-rate="0.0" name="org.apache.commons.math.stat.inference.TestUtils">
+					<methods>
+						</methods>
+					</class>
+				<class branch-rate="1.0" complexity="1.0" filename="org/apache/commons/math/stat/inference/UnknownDistributionChiSquareTest.java" line-rate="1.0" name="org.apache.commons.math.stat.inference.UnknownDistributionChiSquareTest">
+					<methods>
+					</methods>
+					</class>
+			</classes>
+		</package>
+		<package branch-rate="0.0" complexity="2.2857142857142856" line-rate="0.0" name="org.apache.commons.math.util">
+			<classes>
+				<class branch-rate="0.0" complexity="2.2857142857142856" filename="org/apache/commons/math/util/ContinuedFraction.java" line-rate="0.0" name="org.apache.commons.math.util.ContinuedFraction">
+					<methods>
+						</methods>
+					</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

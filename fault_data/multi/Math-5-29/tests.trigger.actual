@@ -1,0 +1,5 @@
+org.apache.commons.math3.complex.ComplexTest::testReciprocalZero
+org.apache.commons.math3.linear.SparseRealVectorTest::testEbeDivideMixedTypes
+org.apache.commons.math3.linear.SparseRealVectorTest::testEbeMultiplyMixedTypes
+org.apache.commons.math3.linear.SparseRealVectorTest::testEbeMultiplySameType
+org.apache.commons.math3.linear.UnmodifiableArrayRealVectorTest::testAllButExcluded

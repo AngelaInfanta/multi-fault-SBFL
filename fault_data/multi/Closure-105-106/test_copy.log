@@ -1,0 +1,16 @@
+--- Overwrite: testStringJoinAdd
+643a644,657
+>     
+>     // TODO(user): Its possible to fold this better.
+>     foldSame("x = ['', foo].join(',')");
+>     foldSame("x = ['', foo, ''].join(',')");
+>     
+>     fold("x = ['', '', foo, ''].join(',')", "x = [',', foo, ''].join(',')");
+>     fold("x = ['', '', foo, '', ''].join(',')",
+>          "x = [',', foo, ','].join(',')");
+>     
+>     fold("x = ['', '', foo, '', '', bar].join(',')",
+>          "x = [',', foo, ',', bar].join(',')");
+>     
+>     fold("x = [1,2,3].join('abcdef')",
+>          "x = '1abcdef2abcdef3'");

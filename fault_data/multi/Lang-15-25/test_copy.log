@@ -1,0 +1,95 @@
+--- Overwrite: testGetTypeArguments
+500a501,505
+> 
+>         typeVarAssigns = TypeUtils.getTypeArguments(Other.class, This.class);
+>         Assert.assertEquals(2, typeVarAssigns.size());
+>         Assert.assertEquals(String.class, typeVarAssigns.get(This.class.getTypeParameters()[0]));
+>         Assert.assertEquals(Other.class.getTypeParameters()[0], typeVarAssigns.get(This.class.getTypeParameters()[1]));
+--- Overwrite: testIsAssignable
+106a107
+>     @SuppressWarnings("boxing") // deliberately used here
+129c130
+<         list0 = list0;
+---
+> //        list0 = list0;
+155c156
+<         list1 = list1;
+---
+> //        list1 = list1;
+177c178
+<         list2 = list2;
+---
+> //        list2 = list2;
+193c194
+<         list3 = list3;
+---
+> //        list3 = list3;
+209c210
+<         list4 = list4;
+---
+> //        list4 = list4;
+219c220
+<         list5 = list5;
+---
+> //        list5 = list5;
+225c226
+<         list6 = list6;
+---
+> //        list6 = list6;
+228c229
+<         list7 = list7;
+---
+> //        list7 = list7;
+254c255
+<         list8 = list8;
+---
+> //        list8 = list8;
+262c263
+<         list8 = (List<Object>[]) list10;
+---
+>         list8 = (List<Object>[]) list10; // NOTE cast is required by Sun Java, but not by Eclipse
+276c277
+<         list9 = list9;
+---
+> //        list9 = list9;
+294c295
+<         list10 = list10;
+---
+> //        list10 = list10;
+308c309
+<         list11 = list11;
+---
+> //        list11 = list11;
+318c319
+<         list12 = list12;
+---
+> //        list12 = list12;
+324c325
+<         list13 = list13;
+---
+> //        list13 = list13;
+344c345,346
+<         Assert.assertTrue("WRONG!", TypeUtils.isAssignable(dingType, disType));
+---
+>         Assert.assertFalse(String.format("type %s not assignable to %s!", dingType, disType),
+>                 TypeUtils.isAssignable(dingType, disType));
+375c377
+<         // du = bo;
+---
+>         lo = in;
+377c379
+<         lo = new Integer(0);
+---
+>         lo = Integer.valueOf(0);
+381c383
+<         // lngW = new Integer( 0 );
+---
+>         // lngW = Integer.valueOf( 0 );
+383c385
+<         in = new Integer(0);
+---
+>         in = Integer.valueOf(0);
+398c400
+<         // longComparable = new Integer( 0 );
+---
+>         // longComparable = Integer.valueOf( 0 );

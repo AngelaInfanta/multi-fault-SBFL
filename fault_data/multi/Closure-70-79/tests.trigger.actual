@@ -1,0 +1,10 @@
+com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl
+com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13
+com.google.javascript.jscomp.NormalizeTest::testIssue
+com.google.javascript.jscomp.TypeCheckTest::testScoping12
+com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl
+com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13
+com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1
+com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3
+com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns
+com.google.javascript.jscomp.VarCheckTest::testCallInExterns

@@ -1,0 +1,18 @@
+--- Overwrite: testMean
+136c136
+<         PoissonDistribution dist = new PoissonDistributionImpl(DEFAULT_TEST_POISSON_PARAMETER);
+---
+>         PoissonDistribution dist;
+138,140c138,141
+<             dist.setMean(-1);
+<             fail("negative mean.  IllegalArgumentException expected");
+<         } catch(IllegalArgumentException ex) {
+---
+>             dist = new PoissonDistributionImpl(-1);
+>             fail("negative mean: NotStrictlyPositiveException expected");
+>         } catch(NotStrictlyPositiveException ex) {
+>             // Expected.
+143c144
+<         dist.setMean(10.0);
+---
+>         dist = new PoissonDistributionImpl(10.0);

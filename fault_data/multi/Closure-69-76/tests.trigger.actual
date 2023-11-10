@@ -1,0 +1,7 @@
+com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2
+com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b
+com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c
+com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3
+com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4
